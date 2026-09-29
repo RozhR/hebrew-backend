@@ -1,0 +1,19 @@
+{
+  "name": "hebrew-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Hebrew Learning",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "hebrew",
+    "learning",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Roman Rozhdestvenskiy",
+  "license": "ISC",
+  "type": "module"
+}
