@@ -15,10 +15,7 @@ app.get("/api/health", (request, response) => {
     });
 });
 
-app.use(
-    "/api/words",
-    wordsRouter,
-);
+app.use("/api/words", wordsRouter);
 
 app.use((request, response) => {
     response.status(404).json({
@@ -27,7 +24,5 @@ app.use((request, response) => {
 });
 
 app.listen(PORT, () => {
-    console.log(
-        `Server is running on http://localhost:${PORT}`,
-    );
+    console.log(`Server is running on http://localhost:${PORT}`);
 });

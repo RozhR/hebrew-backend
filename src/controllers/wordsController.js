@@ -10,9 +10,7 @@ export function getWords(request, response) {
 export function getWordById(request, response) {
     const id = Number(request.params.id);
 
-    const word = words.find(
-        (item) => item.id === id,
-    );
+    const word = words.find((item) => item.id === id);
 
     if (!word) {
         return response.status(404).json({
@@ -26,28 +24,15 @@ export function getWordById(request, response) {
 }
 
 export function createWord(request, response) {
-    const {
-        hebrew,
-        translation,
-        category,
-    } = request.body;
+    const { hebrew, translation, category } = request.body;
 
-    if (
-        !hebrew ||
-        !translation ||
-        !category
-    ) {
+    if (!hebrew || !translation || !category) {
         return response.status(400).json({
             message: "Missing required fields",
         });
     }
 
-    const newId =
-        words.length === 0
-            ? 1
-            : Math.max(
-            ...words.map((word) => word.id),
-        ) + 1;
+    const newId = words.length === 0 ? 1 : Math.max(...words.map((word) => word.id)) + 1;
 
     const newWord = {
         id: newId,
@@ -67,9 +52,7 @@ export function createWord(request, response) {
 export function updateWord(request, response) {
     const id = Number(request.params.id);
 
-    const word = words.find(
-        (item) => item.id === id,
-    );
+    const word = words.find((item) => item.id === id);
 
     if (!word) {
         return response.status(404).json({
@@ -77,17 +60,9 @@ export function updateWord(request, response) {
         });
     }
 
-    const {
-        hebrew,
-        translation,
-        category,
-    } = request.body;
+    const { hebrew, translation, category } = request.body;
 
-    if (
-        !hebrew ||
-        !translation ||
-        !category
-    ) {
+    if (!hebrew || !translation || !category) {
         return response.status(400).json({
             message: "Missing required fields",
         });
@@ -106,9 +81,7 @@ export function updateWord(request, response) {
 export function deleteWord(request, response) {
     const id = Number(request.params.id);
 
-    const wordIndex = words.findIndex(
-        (item) => item.id === id,
-    );
+    const wordIndex = words.findIndex((item) => item.id === id);
 
     if (wordIndex === -1) {
         return response.status(404).json({
@@ -116,10 +89,7 @@ export function deleteWord(request, response) {
         });
     }
 
-    const deletedWord = words.splice(
-        wordIndex,
-        1,
-    )[0];
+    const deletedWord = words.splice(wordIndex, 1)[0];
 
     response.status(200).json({
         message: "Word deleted",
