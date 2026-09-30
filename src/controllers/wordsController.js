@@ -1,98 +1,148 @@
-import words from "../data/words.js";
+import pool from "../db.js";
 
-export function getWords(request, response) {
-    response.status(200).json({
-        count: words.length,
-        data: words,
-    });
+export async function getWords(request, response) {
+    try {
+        const result = await pool.query(
+            "SELECT id, hebrew, translation, category FROM words ORDER BY id",
+        );
+
+        response.status(200).json({
+            count: result.rows.length,
+            data: result.rows,
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: "Database error",
+            error: error.message,
+        });
+    }
 }
 
-export function getWordById(request, response) {
-    const id = Number(request.params.id);
+export async function getWordById(request, response) {
+    try {
+        const id = Number(request.params.id);
 
-    const word = words.find((item) => item.id === id);
+        const result = await pool.query(
+            "SELECT id, hebrew, translation, category FROM words WHERE id = $1",
+            [id],
+        );
 
-    if (!word) {
-        return response.status(404).json({
-            message: "Word not found",
+        if (result.rows.length === 0) {
+            return response.status(404).json({
+                message: "Word not found",
+            });
+        }
+
+        response.status(200).json({
+            data: result.rows[0],
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: "Database error",
+            error: error.message,
         });
     }
-
-    response.status(200).json({
-        data: word,
-    });
 }
 
-export function createWord(request, response) {
-    const { hebrew, translation, category } = request.body;
+export async function createWord(request, response) {
+    try {
+        const { hebrew, translation, category } = request.body;
 
-    if (!hebrew || !translation || !category) {
-        return response.status(400).json({
-            message: "Missing required fields",
+        if (!hebrew || !translation || !category) {
+            return response.status(400).json({
+                message: "Missing required fields",
+            });
+        }
+
+        const result = await pool.query(
+            `
+                INSERT INTO words (hebrew, translation, category)
+                VALUES ($1, $2, $3)
+                RETURNING id, hebrew, translation, category
+            `,
+            [hebrew, translation, category],
+        );
+
+        response.status(201).json({
+            message: "Word created",
+            data: result.rows[0],
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: "Database error",
+            error: error.message,
         });
     }
-
-    const newId = words.length === 0 ? 1 : Math.max(...words.map((word) => word.id)) + 1;
-
-    const newWord = {
-        id: newId,
-        hebrew,
-        translation,
-        category,
-    };
-
-    words.push(newWord);
-
-    response.status(201).json({
-        message: "Word created",
-        data: newWord,
-    });
 }
 
-export function updateWord(request, response) {
-    const id = Number(request.params.id);
+export async function updateWord(request, response) {
+    try {
+        const id = Number(request.params.id);
+        const { hebrew, translation, category } = request.body;
 
-    const word = words.find((item) => item.id === id);
+        if (!hebrew || !translation || !category) {
+            return response.status(400).json({
+                message: "Missing required fields",
+            });
+        }
 
-    if (!word) {
-        return response.status(404).json({
-            message: "Word not found",
+        const result = await pool.query(
+            `
+                UPDATE words
+                SET hebrew = $1,
+                    translation = $2,
+                    category = $3
+                WHERE id = $4
+                RETURNING id, hebrew, translation, category
+            `,
+            [hebrew, translation, category, id],
+        );
+
+        if (result.rows.length === 0) {
+            return response.status(404).json({
+                message: "Word not found",
+            });
+        }
+
+        response.status(200).json({
+            message: "Word updated",
+            data: result.rows[0],
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: "Database error",
+            error: error.message,
         });
     }
-
-    const { hebrew, translation, category } = request.body;
-
-    if (!hebrew || !translation || !category) {
-        return response.status(400).json({
-            message: "Missing required fields",
-        });
-    }
-
-    word.hebrew = hebrew;
-    word.translation = translation;
-    word.category = category;
-
-    response.status(200).json({
-        message: "Word updated",
-        data: word,
-    });
 }
 
-export function deleteWord(request, response) {
-    const id = Number(request.params.id);
+export async function deleteWord(request, response) {
+    try {
+        const id = Number(request.params.id);
 
-    const wordIndex = words.findIndex((item) => item.id === id);
+        const result = await pool.query(
+            `
+                DELETE FROM words
+                WHERE id = $1
+                RETURNING id, hebrew, translation, category
+            `,
+            [id],
+        );
 
-    if (wordIndex === -1) {
-        return response.status(404).json({
-            message: "Word not found",
+        if (result.rows.length === 0) {
+            return response.status(404).json({
+                message: "Word not found",
+            });
+        }
+
+        response.status(200).json({
+            message: "Word deleted",
+            data: result.rows[0],
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: "Database error",
+            error: error.message,
         });
     }
-
-    const deletedWord = words.splice(wordIndex, 1)[0];
-
-    response.status(200).json({
-        message: "Word deleted",
-        data: deletedWord,
-    });
 }

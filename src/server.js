@@ -1,28 +1,21 @@
-import express from "express";
-
-import wordsRouter from "./routes/wordsRoutes.js";
-
-const app = express();
+import app from "./app.js";
+import pool from "./db.js";
 
 const PORT = 3000;
 
-app.use(express.json());
+async function startServer() {
+    try {
+        const result = await pool.query("SELECT NOW()");
 
-app.get("/api/health", (request, response) => {
-    response.status(200).json({
-        status: "ok",
-        message: "Hebrew Learning API is running",
-    });
-});
+        console.log("PostgreSQL connected:", result.rows[0].now);
 
-app.use("/api/words", wordsRouter);
+        app.listen(PORT, () => {
+            console.log(`Server is running on http://localhost:${PORT}`);
+        });
+    } catch (error) {
+        console.error("PostgreSQL connection error:", error.message);
+        process.exit(1);
+    }
+}
 
-app.use((request, response) => {
-    response.status(404).json({
-        message: "Route not found",
-    });
-});
-
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+startServer();
