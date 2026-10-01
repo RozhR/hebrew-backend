@@ -8,7 +8,11 @@
     "dev": "node --watch src/server.js",
     "lint": "eslint .",
     "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format:check": "prettier . --check",
+    "seed:vocabulary": "node scripts/seedVocabulary.js",
+    "seed:verb-grammar": "node scripts/seedVerbGrammar.js",
+    "seed:adjective-grammar": "node scripts/seedAdjectiveGrammar.js",
+    "seed:adverb-grammar": "node scripts/seedAdverbGrammar.js"
   },
   "keywords": [
     "hebrew",

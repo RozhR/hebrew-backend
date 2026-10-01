@@ -1,6 +1,7 @@
 import express from "express";
 
-import wordsRouter from "./routes/wordsRoutes.js";
+import grammarRouter from "./routes/grammarRoutes.js";
+import vocabularyRouter from "./routes/vocabularyRoutes.js";
 
 const app = express();
 
@@ -13,7 +14,9 @@ app.get("/api/health", (request, response) => {
     });
 });
 
-app.use("/api/words", wordsRouter);
+app.use("/api", vocabularyRouter);
+
+app.use("/api/grammar", grammarRouter);
 
 app.use((request, response) => {
     response.status(404).json({
