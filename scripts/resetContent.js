@@ -5,6 +5,10 @@ import { createInterface } from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 import { fileURLToPath } from "node:url";
 
+import pg from "pg";
+
+const { Pool } = pg;
+
 function runNodeScript(filename) {
     return new Promise((resolve, reject) => {
         const scriptPath = fileURLToPath(new URL(`./${filename}`, import.meta.url));
@@ -23,6 +27,37 @@ function runNodeScript(filename) {
             }
         });
     });
+}
+
+async function clearContent() {
+    const pool = new Pool({
+        host: process.env.DB_HOST,
+        port: Number(process.env.DB_PORT),
+        database: process.env.DB_NAME,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+    });
+
+    const client = await pool.connect();
+
+    try {
+        await client.query("BEGIN");
+
+        await client.query("DELETE FROM content.verbs");
+        await client.query("DELETE FROM content.adjectives");
+        await client.query("DELETE FROM content.adverbs");
+
+        await client.query("COMMIT");
+
+        console.log("Existing content cleared successfully.");
+    } catch (error) {
+        await client.query("ROLLBACK");
+
+        throw error;
+    } finally {
+        client.release();
+        await pool.end();
+    }
 }
 
 async function resetContent() {
@@ -72,6 +107,10 @@ async function resetContent() {
     console.log("");
     console.log("Creating/checking database schema...");
     await runNodeScript("createSchema.js");
+
+    console.log("");
+    console.log("Clearing existing content...");
+    await clearContent();
 
     console.log("");
     console.log("Importing vocabulary...");

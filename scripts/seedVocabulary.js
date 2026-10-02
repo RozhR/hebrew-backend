@@ -36,10 +36,6 @@ async function seedVocabulary() {
 
         await client.query("BEGIN");
 
-        await client.query("DELETE FROM content.verbs");
-        await client.query("DELETE FROM content.adjectives");
-        await client.query("DELETE FROM content.adverbs");
-
         for (const verb of verbs) {
             await client.query(
                 `
@@ -50,6 +46,12 @@ async function seedVocabulary() {
                         level
                     )
                     VALUES ($1, $2, $3, $4)
+
+                        ON CONFLICT (id)
+                    DO UPDATE SET
+                        hebrew = EXCLUDED.hebrew,
+                                                   translation = EXCLUDED.translation,
+                                                   level = EXCLUDED.level
                 `,
                 [verb.id, verb.infinitive, verb.translation, verb.level],
             );
@@ -65,6 +67,12 @@ async function seedVocabulary() {
                         level
                     )
                     VALUES ($1, $2, $3, $4)
+
+                        ON CONFLICT (id)
+                    DO UPDATE SET
+                        hebrew = EXCLUDED.hebrew,
+                                                   translation = EXCLUDED.translation,
+                                                   level = EXCLUDED.level
                 `,
                 [
                     adjective.id,
@@ -85,6 +93,12 @@ async function seedVocabulary() {
                         level
                     )
                     VALUES ($1, $2, $3, $4)
+
+                        ON CONFLICT (id)
+                    DO UPDATE SET
+                        hebrew = EXCLUDED.hebrew,
+                                                   translation = EXCLUDED.translation,
+                                                   level = EXCLUDED.level
                 `,
                 [adverb.id, adverb.adverb, adverb.translation, adverb.level],
             );
@@ -92,14 +106,14 @@ async function seedVocabulary() {
 
         await client.query("COMMIT");
 
-        console.log(`Verbs imported: ${verbs.length}`);
-        console.log(`Adjectives imported: ${adjectives.length}`);
-        console.log(`Adverbs imported: ${adverbs.length}`);
-        console.log(`Total imported: ${verbs.length + adjectives.length + adverbs.length}`);
+        console.log(`Verbs synchronized: ${verbs.length}`);
+        console.log(`Adjectives synchronized: ${adjectives.length}`);
+        console.log(`Adverbs synchronized: ${adverbs.length}`);
+        console.log(`Total synchronized: ${verbs.length + adjectives.length + adverbs.length}`);
     } catch (error) {
         await client.query("ROLLBACK");
 
-        console.error("Seed error:", error);
+        console.error("Vocabulary seed error:", error);
 
         process.exitCode = 1;
     } finally {
