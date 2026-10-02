@@ -36,12 +36,14 @@ async function seedVocabulary() {
 
         await client.query("BEGIN");
 
-        await client.query("TRUNCATE TABLE verbs, adjectives, adverbs");
+        await client.query("DELETE FROM content.verbs");
+        await client.query("DELETE FROM content.adjectives");
+        await client.query("DELETE FROM content.adverbs");
 
         for (const verb of verbs) {
             await client.query(
                 `
-                    INSERT INTO verbs (
+                    INSERT INTO content.verbs (
                         id,
                         hebrew,
                         translation,
@@ -56,7 +58,7 @@ async function seedVocabulary() {
         for (const adjective of adjectives) {
             await client.query(
                 `
-                    INSERT INTO adjectives (
+                    INSERT INTO content.adjectives (
                         id,
                         hebrew,
                         translation,
@@ -76,7 +78,7 @@ async function seedVocabulary() {
         for (const adverb of adverbs) {
             await client.query(
                 `
-                    INSERT INTO adverbs (
+                    INSERT INTO content.adverbs (
                         id,
                         hebrew,
                         translation,

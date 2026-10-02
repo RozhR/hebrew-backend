@@ -40,15 +40,15 @@ async function seedAdverbGrammar() {
 
         await client.query(`
             TRUNCATE TABLE
-                adverb_examples,
-                adverb_relations,
-                adverb_usage
+                content.adverb_examples,
+                content.adverb_relations,
+                content.adverb_usage
         `);
 
         for (const adverb of usage) {
             await client.query(
                 `
-                    INSERT INTO adverb_usage (
+                    INSERT INTO content.adverb_usage (
                         adverb_id,
                         main_meaning,
                         semantic_category,
@@ -64,7 +64,7 @@ async function seedAdverbGrammar() {
         for (const adverb of relations) {
             await client.query(
                 `
-                    INSERT INTO adverb_relations (
+                    INSERT INTO content.adverb_relations (
                         adverb_id,
                         synonym,
                         antonym,
@@ -86,7 +86,7 @@ async function seedAdverbGrammar() {
         for (const adverb of examples) {
             await client.query(
                 `
-                    INSERT INTO adverb_examples (
+                    INSERT INTO content.adverb_examples (
                         adverb_id,
                         example1,
                         translation1,

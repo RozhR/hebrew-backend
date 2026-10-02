@@ -10,7 +10,7 @@ async function findAdjective(id) {
     const result = await pool.query(
         `
             SELECT id, hebrew, translation, level
-            FROM adjectives
+            FROM content.adjectives
             WHERE id = $1
         `,
         [id],
@@ -44,7 +44,7 @@ export async function getAdjectiveForms(request, response) {
                     feminine_singular,
                     masculine_plural,
                     feminine_plural
-                FROM adjective_forms
+                FROM content.adjective_forms
                 WHERE adjective_id = $1
             `,
             [id],
@@ -91,7 +91,7 @@ export async function getAdjectiveConstruction(request, response) {
                 SELECT
                     construction,
                     meaning
-                FROM adjective_constructions
+                FROM content.adjective_constructions
                 WHERE adjective_id = $1
             `,
             [id],
@@ -136,7 +136,7 @@ export async function getAdjectiveExamples(request, response) {
                     translation2,
                     example3,
                     translation3
-                FROM adjective_examples
+                FROM content.adjective_examples
                 WHERE adjective_id = $1
             `,
             [id],

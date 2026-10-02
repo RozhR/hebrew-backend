@@ -10,7 +10,7 @@ async function findVerb(id) {
     const result = await pool.query(
         `
             SELECT id, hebrew, translation, level
-            FROM verbs
+            FROM content.verbs
             WHERE id = $1
         `,
         [id],
@@ -38,9 +38,9 @@ export async function getVerbGrammarBase(request, response) {
                     v.level,
                     g.government,
                     g.binyan
-                FROM verbs v
-                JOIN verb_grammar g
-                    ON g.verb_id = v.id
+                FROM content.verbs v
+                         JOIN content.verb_grammar g
+                              ON g.verb_id = v.id
                 WHERE v.id = $1
             `,
             [id],
@@ -88,7 +88,7 @@ export async function getVerbPresent(request, response) {
                     feminine_singular,
                     masculine_plural,
                     feminine_plural
-                FROM verb_present
+                FROM content.verb_present
                 WHERE verb_id = $1
             `,
             [id],
@@ -142,7 +142,7 @@ export async function getVerbPast(request, response) {
                     second_person_masculine_plural,
                     second_person_feminine_plural,
                     third_person_plural
-                FROM verb_past
+                FROM content.verb_past
                 WHERE verb_id = $1
             `,
             [id],
@@ -196,7 +196,7 @@ export async function getVerbFuture(request, response) {
                     second_person_masculine_plural,
                     second_person_feminine_plural,
                     third_person_plural
-                FROM verb_future_imperative
+                FROM content.verb_future_imperative
                 WHERE verb_id = $1
             `,
             [id],
@@ -244,7 +244,7 @@ export async function getVerbImperative(request, response) {
                     imperative_masculine,
                     imperative_feminine,
                     imperative_plural
-                FROM verb_future_imperative
+                FROM content.verb_future_imperative
                 WHERE verb_id = $1
             `,
             [id],
@@ -295,7 +295,7 @@ export async function getVerbExamples(request, response) {
                     past_translation,
                     future_example,
                     future_translation
-                FROM verb_examples
+                FROM content.verb_examples
                 WHERE verb_id = $1
             `,
             [id],

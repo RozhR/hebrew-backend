@@ -46,11 +46,11 @@ async function seedVerbGrammar() {
 
         await client.query(`
             TRUNCATE TABLE
-                verb_examples,
-                verb_future_imperative,
-                verb_past,
-                verb_present,
-                verb_grammar
+                content.verb_examples,
+                content.verb_future_imperative,
+                content.verb_past,
+                content.verb_present,
+                content.verb_grammar
         `);
 
         for (const verb of base) {
@@ -62,7 +62,7 @@ async function seedVerbGrammar() {
 
             await client.query(
                 `
-                    INSERT INTO verb_grammar (
+                    INSERT INTO content.verb_grammar (
                         verb_id,
                         government,
                         binyan
@@ -76,7 +76,7 @@ async function seedVerbGrammar() {
         for (const verb of present) {
             await client.query(
                 `
-                    INSERT INTO verb_present (
+                    INSERT INTO content.verb_present (
                         verb_id,
                         masculine_singular,
                         feminine_singular,
@@ -98,7 +98,7 @@ async function seedVerbGrammar() {
         for (const verb of past) {
             await client.query(
                 `
-                    INSERT INTO verb_past (
+                    INSERT INTO content.verb_past (
                         verb_id,
                         first_person_singular,
                         second_person_masculine_singular,
@@ -111,9 +111,9 @@ async function seedVerbGrammar() {
                         third_person_plural
                     )
                     VALUES (
-                        $1, $2, $3, $4, $5,
-                        $6, $7, $8, $9, $10
-                    )
+                               $1, $2, $3, $4, $5,
+                               $6, $7, $8, $9, $10
+                           )
                 `,
                 [
                     verb.id,
@@ -133,7 +133,7 @@ async function seedVerbGrammar() {
         for (const verb of futureImperative) {
             await client.query(
                 `
-                    INSERT INTO verb_future_imperative (
+                    INSERT INTO content.verb_future_imperative (
                         verb_id,
                         first_person_singular,
                         second_person_masculine_singular,
@@ -149,10 +149,10 @@ async function seedVerbGrammar() {
                         imperative_plural
                     )
                     VALUES (
-                        $1, $2, $3, $4, $5,
-                        $6, $7, $8, $9, $10,
-                        $11, $12, $13
-                    )
+                               $1, $2, $3, $4, $5,
+                               $6, $7, $8, $9, $10,
+                               $11, $12, $13
+                           )
                 `,
                 [
                     verb.id,
@@ -175,7 +175,7 @@ async function seedVerbGrammar() {
         for (const verb of examples) {
             await client.query(
                 `
-                    INSERT INTO verb_examples (
+                    INSERT INTO content.verb_examples (
                         verb_id,
                         present_example,
                         present_translation,

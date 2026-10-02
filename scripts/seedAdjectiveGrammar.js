@@ -40,15 +40,15 @@ async function seedAdjectiveGrammar() {
 
         await client.query(`
             TRUNCATE TABLE
-                adjective_examples,
-                adjective_constructions,
-                adjective_forms
+                content.adjective_examples,
+                content.adjective_constructions,
+                content.adjective_forms
         `);
 
         for (const adjective of base) {
             await client.query(
                 `
-                    INSERT INTO adjective_forms (
+                    INSERT INTO content.adjective_forms (
                         adjective_id,
                         masculine_singular,
                         feminine_singular,
@@ -70,7 +70,7 @@ async function seedAdjectiveGrammar() {
         for (const adjective of constructions) {
             await client.query(
                 `
-                    INSERT INTO adjective_constructions (
+                    INSERT INTO content.adjective_constructions (
                         adjective_id,
                         construction,
                         meaning
@@ -84,7 +84,7 @@ async function seedAdjectiveGrammar() {
         for (const adjective of examples) {
             await client.query(
                 `
-                    INSERT INTO adjective_examples (
+                    INSERT INTO content.adjective_examples (
                         adjective_id,
                         example1,
                         translation1,

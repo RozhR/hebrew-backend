@@ -24,18 +24,18 @@ async function getItems(request, response, table, maxLevel) {
             level === null
                 ? await pool.query(
                       `
-                          SELECT id, hebrew, translation, level
-                          FROM ${table}
-                          ORDER BY id
-                      `,
+                        SELECT id, hebrew, translation, level
+                        FROM ${table}
+                        ORDER BY id
+                    `,
                   )
                 : await pool.query(
                       `
-                          SELECT id, hebrew, translation, level
-                          FROM ${table}
-                          WHERE level = $1
-                          ORDER BY id
-                      `,
+                        SELECT id, hebrew, translation, level
+                        FROM ${table}
+                        WHERE level = $1
+                        ORDER BY id
+                    `,
                       [level],
                   );
 
@@ -88,25 +88,25 @@ async function getItemById(request, response, table, itemName) {
 }
 
 export function getVerbs(request, response) {
-    return getItems(request, response, "verbs", 25);
+    return getItems(request, response, "content.verbs", 25);
 }
 
 export function getVerbById(request, response) {
-    return getItemById(request, response, "verbs", "Verb");
+    return getItemById(request, response, "content.verbs", "Verb");
 }
 
 export function getAdjectives(request, response) {
-    return getItems(request, response, "adjectives", 25);
+    return getItems(request, response, "content.adjectives", 25);
 }
 
 export function getAdjectiveById(request, response) {
-    return getItemById(request, response, "adjectives", "Adjective");
+    return getItemById(request, response, "content.adjectives", "Adjective");
 }
 
 export function getAdverbs(request, response) {
-    return getItems(request, response, "adverbs", 15);
+    return getItems(request, response, "content.adverbs", 15);
 }
 
 export function getAdverbById(request, response) {
-    return getItemById(request, response, "adverbs", "Adverb");
+    return getItemById(request, response, "content.adverbs", "Adverb");
 }

@@ -10,7 +10,7 @@ async function findAdverb(id) {
     const result = await pool.query(
         `
             SELECT id, hebrew, translation, level
-            FROM adverbs
+            FROM content.adverbs
             WHERE id = $1
         `,
         [id],
@@ -44,7 +44,7 @@ export async function getAdverbUsage(request, response) {
                     semantic_category,
                     register,
                     usage
-                FROM adverb_usage
+                FROM content.adverb_usage
                 WHERE adverb_id = $1
             `,
             [id],
@@ -93,7 +93,7 @@ export async function getAdverbRelations(request, response) {
                     antonym,
                     related_expression,
                     comment
-                FROM adverb_relations
+                FROM content.adverb_relations
                 WHERE adverb_id = $1
             `,
             [id],
@@ -138,7 +138,7 @@ export async function getAdverbExamples(request, response) {
                     translation2,
                     example3,
                     translation3
-                FROM adverb_examples
+                FROM content.adverb_examples
                 WHERE adverb_id = $1
             `,
             [id],
