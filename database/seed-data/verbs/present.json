@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "infinitive": "להיות",
+    "binyan": "פעל",
+    "masculine_singular": "—",
+    "feminine_singular": "—",
+    "masculine_plural": "—",
+    "feminine_plural": "—"
+  },
+  {
+    "id": 2,
+    "infinitive": "לעשות",
+    "binyan": "פעל",
+    "masculine_singular": "עושה",
+    "feminine_singular": "עושה",
+    "masculine_plural": "עושים",
+    "feminine_plural": "עושות"
+  },
+  {
+    "id": 3,
+    "infinitive": "להגיד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגיד",
+    "feminine_singular": "מגידה",
+    "masculine_plural": "מגידים",
+    "feminine_plural": "מגידות"
+  },
+  {
+    "id": 4,
+    "infinitive": "לדעת",
+    "binyan": "פעל",
+    "masculine_singular": "יודע",
+    "feminine_singular": "יודעת",
+    "masculine_plural": "יודעים",
+    "feminine_plural": "יודעות"
+  },
+  {
+    "id": 5,
+    "infinitive": "לרצות",
+    "binyan": "פעל",
+    "masculine_singular": "רוצה",
+    "feminine_singular": "רוצה",
+    "masculine_plural": "רוצים",
+    "feminine_plural": "רוצות"
+  },
+  {
+    "id": 6,
+    "infinitive": "לחשוב",
+    "binyan": "פעל",
+    "masculine_singular": "חושב",
+    "feminine_singular": "חושבת",
+    "masculine_plural": "חושבים",
+    "feminine_plural": "חושבות"
+  },
+  {
+    "id": 7,
+    "infinitive": "לראות",
+    "binyan": "פעל",
+    "masculine_singular": "רואה",
+    "feminine_singular": "רואה",
+    "masculine_plural": "רואים",
+    "feminine_plural": "רואות"
+  },
+  {
+    "id": 8,
+    "infinitive": "לתת",
+    "binyan": "פעל",
+    "masculine_singular": "נותן",
+    "feminine_singular": "נותנת",
+    "masculine_plural": "נותנים",
+    "feminine_plural": "נותנות"
+  },
+  {
+    "id": 9,
+    "infinitive": "ללכת",
+    "binyan": "פעל",
+    "masculine_singular": "הולך",
+    "feminine_singular": "הולכת",
+    "masculine_plural": "הולכים",
+    "feminine_plural": "הולכות"
+  },
+  {
+    "id": 10,
+    "infinitive": "לבוא",
+    "binyan": "פעל",
+    "masculine_singular": "בא",
+    "feminine_singular": "באה",
+    "masculine_plural": "באים",
+    "feminine_plural": "באות"
+  },
+  {
+    "id": 11,
+    "infinitive": "לדבר",
+    "binyan": "פיעל",
+    "masculine_singular": "מדבר",
+    "feminine_singular": "מדברת",
+    "masculine_plural": "מדברים",
+    "feminine_plural": "מדברות"
+  },
+  {
+    "id": 12,
+    "infinitive": "לקחת",
+    "binyan": "פעל",
+    "masculine_singular": "לוקח",
+    "feminine_singular": "לוקחת",
+    "masculine_plural": "לוקחים",
+    "feminine_plural": "לוקחות"
+  },
+  {
+    "id": 13,
+    "infinitive": "להבין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מבין",
+    "feminine_singular": "מבינה",
+    "masculine_plural": "מבינים",
+    "feminine_plural": "מבינות"
+  },
+  {
+    "id": 14,
+    "infinitive": "לעבוד",
+    "binyan": "פעל",
+    "masculine_singular": "עובד",
+    "feminine_singular": "עובדת",
+    "masculine_plural": "עובדים",
+    "feminine_plural": "עובדות"
+  },
+  {
+    "id": 15,
+    "infinitive": "למצוא",
+    "binyan": "פעל",
+    "masculine_singular": "מוצא",
+    "feminine_singular": "מוצאת",
+    "masculine_plural": "מוצאים",
+    "feminine_plural": "מוצאות"
+  },
+  {
+    "id": 16,
+    "infinitive": "לקרוא",
+    "binyan": "פעל",
+    "masculine_singular": "קורא",
+    "feminine_singular": "קוראת",
+    "masculine_plural": "קוראים",
+    "feminine_plural": "קוראות"
+  },
+  {
+    "id": 17,
+    "infinitive": "לכתוב",
+    "binyan": "פעל",
+    "masculine_singular": "כותב",
+    "feminine_singular": "כותבת",
+    "masculine_plural": "כותבים",
+    "feminine_plural": "כותבות"
+  },
+  {
+    "id": 18,
+    "infinitive": "לשמוע",
+    "binyan": "פעל",
+    "masculine_singular": "שומע",
+    "feminine_singular": "שומעת",
+    "masculine_plural": "שומעים",
+    "feminine_plural": "שומעות"
+  },
+  {
+    "id": 19,
+    "infinitive": "לאכול",
+    "binyan": "פעל",
+    "masculine_singular": "אוכל",
+    "feminine_singular": "אוכלת",
+    "masculine_plural": "אוכלים",
+    "feminine_plural": "אוכלות"
+  },
+  {
+    "id": 20,
+    "infinitive": "לשאול",
+    "binyan": "פעל",
+    "masculine_singular": "שואל",
+    "feminine_singular": "שואלת",
+    "masculine_plural": "שואלים",
+    "feminine_plural": "שואלות"
+  },
+  {
+    "id": 21,
+    "infinitive": "להגיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגיע",
+    "feminine_singular": "מגיעה",
+    "masculine_plural": "מגיעים",
+    "feminine_plural": "מגיעות"
+  },
+  {
+    "id": 22,
+    "infinitive": "לקבל",
+    "binyan": "פיעל",
+    "masculine_singular": "מקבל",
+    "feminine_singular": "מקבלת",
+    "masculine_plural": "מקבלים",
+    "feminine_plural": "מקבלות"
+  },
+  {
+    "id": 23,
+    "infinitive": "לצאת",
+    "binyan": "פעל",
+    "masculine_singular": "יוצא",
+    "feminine_singular": "יוצאת",
+    "masculine_plural": "יוצאים",
+    "feminine_plural": "יוצאות"
+  },
+  {
+    "id": 24,
+    "infinitive": "לחזור",
+    "binyan": "פעל",
+    "masculine_singular": "חוזר",
+    "feminine_singular": "חוזרת",
+    "masculine_plural": "חוזרים",
+    "feminine_plural": "חוזרות"
+  },
+  {
+    "id": 25,
+    "infinitive": "להתחיל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מתחיל",
+    "feminine_singular": "מתחילה",
+    "masculine_plural": "מתחילים",
+    "feminine_plural": "מתחילות"
+  },
+  {
+    "id": 26,
+    "infinitive": "להמשיך",
+    "binyan": "הפעיל",
+    "masculine_singular": "ממשיך",
+    "feminine_singular": "ממשיכה",
+    "masculine_plural": "ממשיכים",
+    "feminine_plural": "ממשיכות"
+  },
+  {
+    "id": 27,
+    "infinitive": "להביא",
+    "binyan": "הפעיל",
+    "masculine_singular": "מביא",
+    "feminine_singular": "מביאה",
+    "masculine_plural": "מביאים",
+    "feminine_plural": "מביאות"
+  },
+  {
+    "id": 28,
+    "infinitive": "לשים",
+    "binyan": "פעל",
+    "masculine_singular": "שם",
+    "feminine_singular": "שמה",
+    "masculine_plural": "שמים",
+    "feminine_plural": "שמות"
+  },
+  {
+    "id": 29,
+    "infinitive": "להישאר",
+    "binyan": "נפעל",
+    "masculine_singular": "נשאר",
+    "feminine_singular": "נשארת",
+    "masculine_plural": "נשארים",
+    "feminine_plural": "נשארות"
+  },
+  {
+    "id": 30,
+    "infinitive": "לעבור",
+    "binyan": "פעל",
+    "masculine_singular": "עובר",
+    "feminine_singular": "עוברת",
+    "masculine_plural": "עוברים",
+    "feminine_plural": "עוברות"
+  },
+  {
+    "id": 31,
+    "infinitive": "להכיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכיר",
+    "feminine_singular": "מכירה",
+    "masculine_plural": "מכירים",
+    "feminine_plural": "מכירות"
+  },
+  {
+    "id": 32,
+    "infinitive": "לבקש",
+    "binyan": "פיעל",
+    "masculine_singular": "מבקש",
+    "feminine_singular": "מבקשת",
+    "masculine_plural": "מבקשים",
+    "feminine_plural": "מבקשות"
+  },
+  {
+    "id": 33,
+    "infinitive": "לספר",
+    "binyan": "פיעל",
+    "masculine_singular": "מספר",
+    "feminine_singular": "מספרת",
+    "masculine_plural": "מספרים",
+    "feminine_plural": "מספרות"
+  },
+  {
+    "id": 34,
+    "infinitive": "לענות",
+    "binyan": "פעל",
+    "masculine_singular": "עונה",
+    "feminine_singular": "עונה",
+    "masculine_plural": "עונים",
+    "feminine_plural": "עונות"
+  },
+  {
+    "id": 35,
+    "infinitive": "לעזור",
+    "binyan": "פעל",
+    "masculine_singular": "עוזר",
+    "feminine_singular": "עוזרת",
+    "masculine_plural": "עוזרים",
+    "feminine_plural": "עוזרות"
+  },
+  {
+    "id": 36,
+    "infinitive": "לקרות",
+    "binyan": "פעל",
+    "masculine_singular": "קורה",
+    "feminine_singular": "קורה",
+    "masculine_plural": "קורים",
+    "feminine_plural": "קורות"
+  },
+  {
+    "id": 37,
+    "infinitive": "להרגיש",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרגיש",
+    "feminine_singular": "מרגישה",
+    "masculine_plural": "מרגישים",
+    "feminine_plural": "מרגישות"
+  },
+  {
+    "id": 38,
+    "infinitive": "לאהוב",
+    "binyan": "פעל",
+    "masculine_singular": "אוהב",
+    "feminine_singular": "אוהבת",
+    "masculine_plural": "אוהבים",
+    "feminine_plural": "אוהבות"
+  },
+  {
+    "id": 39,
+    "infinitive": "לשבת",
+    "binyan": "פעל",
+    "masculine_singular": "יושב",
+    "feminine_singular": "יושבת",
+    "masculine_plural": "יושבים",
+    "feminine_plural": "יושבות"
+  },
+  {
+    "id": 40,
+    "infinitive": "לעמוד",
+    "binyan": "פעל",
+    "masculine_singular": "עומד",
+    "feminine_singular": "עומדת",
+    "masculine_plural": "עומדים",
+    "feminine_plural": "עומדות"
+  },
+  {
+    "id": 41,
+    "infinitive": "לנסות",
+    "binyan": "פיעל",
+    "masculine_singular": "מנסה",
+    "feminine_singular": "מנסה",
+    "masculine_plural": "מנסים",
+    "feminine_plural": "מנסות"
+  },
+  {
+    "id": 42,
+    "infinitive": "לפתוח",
+    "binyan": "פעל",
+    "masculine_singular": "פותח",
+    "feminine_singular": "פותחת",
+    "masculine_plural": "פותחים",
+    "feminine_plural": "פותחות"
+  },
+  {
+    "id": 43,
+    "infinitive": "לסגור",
+    "binyan": "פעל",
+    "masculine_singular": "סוגר",
+    "feminine_singular": "סוגרת",
+    "masculine_plural": "סוגרים",
+    "feminine_plural": "סוגרות"
+  },
+  {
+    "id": 44,
+    "infinitive": "לקנות",
+    "binyan": "פעל",
+    "masculine_singular": "קונה",
+    "feminine_singular": "קונה",
+    "masculine_plural": "קונים",
+    "feminine_plural": "קונות"
+  },
+  {
+    "id": 45,
+    "infinitive": "לשמור",
+    "binyan": "פעל",
+    "masculine_singular": "שומר",
+    "feminine_singular": "שומרת",
+    "masculine_plural": "שומרים",
+    "feminine_plural": "שומרות"
+  },
+  {
+    "id": 46,
+    "infinitive": "לחפש",
+    "binyan": "פיעל",
+    "masculine_singular": "מחפש",
+    "feminine_singular": "מחפשת",
+    "masculine_plural": "מחפשים",
+    "feminine_plural": "מחפשות"
+  },
+  {
+    "id": 47,
+    "infinitive": "לבחור",
+    "binyan": "פעל",
+    "masculine_singular": "בוחר",
+    "feminine_singular": "בוחרת",
+    "masculine_plural": "בוחרים",
+    "feminine_plural": "בוחרות"
+  },
+  {
+    "id": 48,
+    "infinitive": "לשנות",
+    "binyan": "פיעל",
+    "masculine_singular": "משנה",
+    "feminine_singular": "משנה",
+    "masculine_plural": "משנים",
+    "feminine_plural": "משנות"
+  },
+  {
+    "id": 49,
+    "infinitive": "להפסיק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפסיק",
+    "feminine_singular": "מפסיקה",
+    "masculine_plural": "מפסיקים",
+    "feminine_plural": "מפסיקות"
+  },
+  {
+    "id": 50,
+    "infinitive": "להוציא",
+    "binyan": "הפעיל",
+    "masculine_singular": "מוציא",
+    "feminine_singular": "מוציאה",
+    "masculine_plural": "מוציאים",
+    "feminine_plural": "מוציאות"
+  },
+  {
+    "id": 51,
+    "infinitive": "להכניס",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכניס",
+    "feminine_singular": "מכניסה",
+    "masculine_plural": "מכניסים",
+    "feminine_plural": "מכניסות"
+  },
+  {
+    "id": 52,
+    "infinitive": "לשלוח",
+    "binyan": "פעל",
+    "masculine_singular": "שולח",
+    "feminine_singular": "שולחת",
+    "masculine_plural": "שולחים",
+    "feminine_plural": "שולחות"
+  },
+  {
+    "id": 53,
+    "infinitive": "לשלם",
+    "binyan": "פיעל",
+    "masculine_singular": "משלם",
+    "feminine_singular": "משלמת",
+    "masculine_plural": "משלמים",
+    "feminine_plural": "משלמות"
+  },
+  {
+    "id": 54,
+    "infinitive": "להראות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מראה",
+    "feminine_singular": "מראה",
+    "masculine_plural": "מראים",
+    "feminine_plural": "מראות"
+  },
+  {
+    "id": 55,
+    "infinitive": "להוסיף",
+    "binyan": "הפעיל",
+    "masculine_singular": "מוסיף",
+    "feminine_singular": "מוסיפה",
+    "masculine_plural": "מוסיפים",
+    "feminine_plural": "מוסיפות"
+  },
+  {
+    "id": 56,
+    "infinitive": "להוריד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מוריד",
+    "feminine_singular": "מורידת",
+    "masculine_plural": "מורידים",
+    "feminine_plural": "מורידות"
+  },
+  {
+    "id": 57,
+    "infinitive": "להעלות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעלה",
+    "feminine_singular": "מעלה",
+    "masculine_plural": "מעלים",
+    "feminine_plural": "מעלות"
+  },
+  {
+    "id": 58,
+    "infinitive": "להשתמש",
+    "binyan": "התפעל",
+    "masculine_singular": "משתמש",
+    "feminine_singular": "משתמשת",
+    "masculine_plural": "משתמשים",
+    "feminine_plural": "משתמשות"
+  },
+  {
+    "id": 59,
+    "infinitive": "לפגוש",
+    "binyan": "פעל",
+    "masculine_singular": "פוגש",
+    "feminine_singular": "פוגשת",
+    "masculine_plural": "פוגשים",
+    "feminine_plural": "פוגשות"
+  },
+  {
+    "id": 60,
+    "infinitive": "להיפגש",
+    "binyan": "נפעל",
+    "masculine_singular": "נפגש",
+    "feminine_singular": "נפגשת",
+    "masculine_plural": "נפגשים",
+    "feminine_plural": "נפגשות"
+  },
+  {
+    "id": 61,
+    "infinitive": "לסיים",
+    "binyan": "פיעל",
+    "masculine_singular": "מסיים",
+    "feminine_singular": "מסיימת",
+    "masculine_plural": "מסיימים",
+    "feminine_plural": "מסיימות"
+  },
+  {
+    "id": 62,
+    "infinitive": "לשחק",
+    "binyan": "פיעל",
+    "masculine_singular": "משחק",
+    "feminine_singular": "משחקת",
+    "masculine_plural": "משחקים",
+    "feminine_plural": "משחקות"
+  },
+  {
+    "id": 63,
+    "infinitive": "לישון",
+    "binyan": "פעל",
+    "masculine_singular": "ישן",
+    "feminine_singular": "ישנה",
+    "masculine_plural": "ישנים",
+    "feminine_plural": "ישנות"
+  },
+  {
+    "id": 64,
+    "infinitive": "לקום",
+    "binyan": "פעל",
+    "masculine_singular": "קם",
+    "feminine_singular": "קמה",
+    "masculine_plural": "קמים",
+    "feminine_plural": "קמות"
+  },
+  {
+    "id": 65,
+    "infinitive": "לחיות",
+    "binyan": "פעל",
+    "masculine_singular": "חי",
+    "feminine_singular": "חיה",
+    "masculine_plural": "חיים",
+    "feminine_plural": "חיות"
+  },
+  {
+    "id": 66,
+    "infinitive": "לנסוע",
+    "binyan": "פעל",
+    "masculine_singular": "נוסע",
+    "feminine_singular": "נוסעת",
+    "masculine_plural": "נוסעים",
+    "feminine_plural": "נוסעות"
+  },
+  {
+    "id": 67,
+    "infinitive": "לעצור",
+    "binyan": "פעל",
+    "masculine_singular": "עוצר",
+    "feminine_singular": "עוצרת",
+    "masculine_plural": "עוצרים",
+    "feminine_plural": "עוצרות"
+  },
+  {
+    "id": 68,
+    "infinitive": "להכין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכין",
+    "feminine_singular": "מכינה",
+    "masculine_plural": "מכינים",
+    "feminine_plural": "מכינות"
+  },
+  {
+    "id": 69,
+    "infinitive": "לשתות",
+    "binyan": "פעל",
+    "masculine_singular": "שותה",
+    "feminine_singular": "שותה",
+    "masculine_plural": "שותים",
+    "feminine_plural": "שותות"
+  },
+  {
+    "id": 70,
+    "infinitive": "להזמין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מזמין",
+    "feminine_singular": "מזמינה",
+    "masculine_plural": "מזמינים",
+    "feminine_plural": "מזמינות"
+  },
+  {
+    "id": 71,
+    "infinitive": "לבדוק",
+    "binyan": "פעל",
+    "masculine_singular": "בודק",
+    "feminine_singular": "בודקת",
+    "masculine_plural": "בודקים",
+    "feminine_plural": "בודקות"
+  },
+  {
+    "id": 72,
+    "infinitive": "להסביר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מסביר",
+    "feminine_singular": "מסבירה",
+    "masculine_plural": "מסבירים",
+    "feminine_plural": "מסבירות"
+  },
+  {
+    "id": 73,
+    "infinitive": "להאמין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מאמין",
+    "feminine_singular": "מאמינה",
+    "masculine_plural": "מאמינים",
+    "feminine_plural": "מאמינות"
+  },
+  {
+    "id": 74,
+    "infinitive": "לדאוג",
+    "binyan": "פעל",
+    "masculine_singular": "דואג",
+    "feminine_singular": "דואגת",
+    "masculine_plural": "דואגים",
+    "feminine_plural": "דואגות"
+  },
+  {
+    "id": 75,
+    "infinitive": "לטפל",
+    "binyan": "פיעל",
+    "masculine_singular": "מטפל",
+    "feminine_singular": "מטפלת",
+    "masculine_plural": "מטפלים",
+    "feminine_plural": "מטפלות"
+  },
+  {
+    "id": 76,
+    "infinitive": "להתקשר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקשר",
+    "feminine_singular": "מתקשרת",
+    "masculine_plural": "מתקשרים",
+    "feminine_plural": "מתקשרות"
+  },
+  {
+    "id": 77,
+    "infinitive": "להסתדר",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתדר",
+    "feminine_singular": "מסתדרת",
+    "masculine_plural": "מסתדרים",
+    "feminine_plural": "מסתדרות"
+  },
+  {
+    "id": 78,
+    "infinitive": "להצליח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מצליח",
+    "feminine_singular": "מצליחה",
+    "masculine_plural": "מצליחים",
+    "feminine_plural": "מצליחות"
+  },
+  {
+    "id": 79,
+    "infinitive": "להציע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מציע",
+    "feminine_singular": "מציעה",
+    "masculine_plural": "מציעים",
+    "feminine_plural": "מציעות"
+  },
+  {
+    "id": 80,
+    "infinitive": "להסכים",
+    "binyan": "הפעיל",
+    "masculine_singular": "מסכים",
+    "feminine_singular": "מסכימה",
+    "masculine_plural": "מסכימים",
+    "feminine_plural": "מסכימות"
+  },
+  {
+    "id": 81,
+    "infinitive": "להעדיף",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעדיף",
+    "feminine_singular": "מעדיפה",
+    "masculine_plural": "מעדיפים",
+    "feminine_plural": "מעדיפות"
+  },
+  {
+    "id": 82,
+    "infinitive": "לגדול",
+    "binyan": "פעל",
+    "masculine_singular": "גדל",
+    "feminine_singular": "גדלה",
+    "masculine_plural": "גדלים",
+    "feminine_plural": "גדלות"
+  },
+  {
+    "id": 83,
+    "infinitive": "ליצור",
+    "binyan": "פעל",
+    "masculine_singular": "יוצר",
+    "feminine_singular": "יוצרת",
+    "masculine_plural": "יוצרים",
+    "feminine_plural": "יוצרות"
+  },
+  {
+    "id": 84,
+    "infinitive": "לבנות",
+    "binyan": "פעל",
+    "masculine_singular": "בונה",
+    "feminine_singular": "בונה",
+    "masculine_plural": "בונים",
+    "feminine_plural": "בונות"
+  },
+  {
+    "id": 85,
+    "infinitive": "לתקן",
+    "binyan": "פיעל",
+    "masculine_singular": "מתקן",
+    "feminine_singular": "מתקנת",
+    "masculine_plural": "מתקנים",
+    "feminine_plural": "מתקנות"
+  },
+  {
+    "id": 86,
+    "infinitive": "לפתח",
+    "binyan": "פיעל",
+    "masculine_singular": "מפתח",
+    "feminine_singular": "מפתחת",
+    "masculine_plural": "מפתחים",
+    "feminine_plural": "מפתחות"
+  },
+  {
+    "id": 87,
+    "infinitive": "לתכנן",
+    "binyan": "פיעל",
+    "masculine_singular": "מתכנן",
+    "feminine_singular": "מתכננת",
+    "masculine_plural": "מתכננים",
+    "feminine_plural": "מתכננות"
+  },
+  {
+    "id": 88,
+    "infinitive": "לנהל",
+    "binyan": "פיעל",
+    "masculine_singular": "מנהל",
+    "feminine_singular": "מנהלת",
+    "masculine_plural": "מנהלים",
+    "feminine_plural": "מנהלות"
+  },
+  {
+    "id": 89,
+    "infinitive": "להשתתף",
+    "binyan": "התפעל",
+    "masculine_singular": "משתתף",
+    "feminine_singular": "משתתפת",
+    "masculine_plural": "משתתפים",
+    "feminine_plural": "משתתפות"
+  },
+  {
+    "id": 90,
+    "infinitive": "להצטרף",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטרף",
+    "feminine_singular": "מצטרפת",
+    "masculine_plural": "מצטרפים",
+    "feminine_plural": "מצטרפות"
+  },
+  {
+    "id": 91,
+    "infinitive": "לעזוב",
+    "binyan": "פעל",
+    "masculine_singular": "עוזב",
+    "feminine_singular": "עוזבת",
+    "masculine_plural": "עוזבים",
+    "feminine_plural": "עוזבות"
+  },
+  {
+    "id": 92,
+    "infinitive": "לברוח",
+    "binyan": "פעל",
+    "masculine_singular": "בורח",
+    "feminine_singular": "בורחת",
+    "masculine_plural": "בורחים",
+    "feminine_plural": "בורחות"
+  },
+  {
+    "id": 93,
+    "infinitive": "להיעלם",
+    "binyan": "נפעל",
+    "masculine_singular": "נעלם",
+    "feminine_singular": "נעלמת",
+    "masculine_plural": "נעלמים",
+    "feminine_plural": "נעלמות"
+  },
+  {
+    "id": 94,
+    "infinitive": "להופיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מופיע",
+    "feminine_singular": "מופיעה",
+    "masculine_plural": "מופיעים",
+    "feminine_plural": "מופיעות"
+  },
+  {
+    "id": 95,
+    "infinitive": "לגלות",
+    "binyan": "פיעל",
+    "masculine_singular": "מגלה",
+    "feminine_singular": "מגלה",
+    "masculine_plural": "מגלים",
+    "feminine_plural": "מגלות"
+  },
+  {
+    "id": 96,
+    "infinitive": "להודיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מודיע",
+    "feminine_singular": "מודיעה",
+    "masculine_plural": "מודיעים",
+    "feminine_plural": "מודיעות"
+  },
+  {
+    "id": 97,
+    "infinitive": "להודות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מודה",
+    "feminine_singular": "מודה",
+    "masculine_plural": "מודים",
+    "feminine_plural": "מודות"
+  },
+  {
+    "id": 98,
+    "infinitive": "להבטיח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מבטיח",
+    "feminine_singular": "מבטיחה",
+    "masculine_plural": "מבטיחים",
+    "feminine_plural": "מבטיחות"
+  },
+  {
+    "id": 99,
+    "infinitive": "לדרוש",
+    "binyan": "פעל",
+    "masculine_singular": "דורש",
+    "feminine_singular": "דורשת",
+    "masculine_plural": "דורשים",
+    "feminine_plural": "דורשות"
+  },
+  {
+    "id": 100,
+    "infinitive": "לאפשר",
+    "binyan": "פיעל",
+    "masculine_singular": "מאפשר",
+    "feminine_singular": "מאפשרת",
+    "masculine_plural": "מאפשרים",
+    "feminine_plural": "מאפשרות"
+  },
+  {
+    "id": 101,
+    "infinitive": "להרשות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרשה",
+    "feminine_singular": "מרשה",
+    "masculine_plural": "מרשים",
+    "feminine_plural": "מרשות"
+  },
+  {
+    "id": 102,
+    "infinitive": "למנוע",
+    "binyan": "פעל",
+    "masculine_singular": "מונע",
+    "feminine_singular": "מונעת",
+    "masculine_plural": "מונעים",
+    "feminine_plural": "מונעות"
+  },
+  {
+    "id": 103,
+    "infinitive": "לסרב",
+    "binyan": "פיעל",
+    "masculine_singular": "מסרב",
+    "feminine_singular": "מסרבת",
+    "masculine_plural": "מסרבים",
+    "feminine_plural": "מסרבות"
+  },
+  {
+    "id": 104,
+    "infinitive": "לדחות",
+    "binyan": "פעל",
+    "masculine_singular": "דוחה",
+    "feminine_singular": "דוחה",
+    "masculine_plural": "דוחים",
+    "feminine_plural": "דוחות"
+  },
+  {
+    "id": 105,
+    "infinitive": "לאשר",
+    "binyan": "פיעל",
+    "masculine_singular": "מאשר",
+    "feminine_singular": "מאשרת",
+    "masculine_plural": "מאשרים",
+    "feminine_plural": "מאשרות"
+  },
+  {
+    "id": 106,
+    "infinitive": "לבטל",
+    "binyan": "פיעל",
+    "masculine_singular": "מבטל",
+    "feminine_singular": "מבטלת",
+    "masculine_plural": "מבטלים",
+    "feminine_plural": "מבטלות"
+  },
+  {
+    "id": 107,
+    "infinitive": "לקבוע",
+    "binyan": "פעל",
+    "masculine_singular": "קובע",
+    "feminine_singular": "קובעת",
+    "masculine_plural": "קובעים",
+    "feminine_plural": "קובעות"
+  },
+  {
+    "id": 108,
+    "infinitive": "להתאים",
+    "binyan": "הפעיל",
+    "masculine_singular": "מתאים",
+    "feminine_singular": "מתאימה",
+    "masculine_plural": "מתאימים",
+    "feminine_plural": "מתאימות"
+  },
+  {
+    "id": 109,
+    "infinitive": "להחליף",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחליף",
+    "feminine_singular": "מחליפה",
+    "masculine_plural": "מחליפים",
+    "feminine_plural": "מחליפות"
+  },
+  {
+    "id": 110,
+    "infinitive": "להזיז",
+    "binyan": "הפעיל",
+    "masculine_singular": "מזיז",
+    "feminine_singular": "מזיזת",
+    "masculine_plural": "מזיזים",
+    "feminine_plural": "מזיזות"
+  },
+  {
+    "id": 111,
+    "infinitive": "לזוז",
+    "binyan": "פעל",
+    "masculine_singular": "זז",
+    "feminine_singular": "זזה",
+    "masculine_plural": "זזים",
+    "feminine_plural": "זזות"
+  },
+  {
+    "id": 112,
+    "infinitive": "להרים",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרים",
+    "feminine_singular": "מרימה",
+    "masculine_plural": "מרימים",
+    "feminine_plural": "מרימות"
+  },
+  {
+    "id": 113,
+    "infinitive": "לזרוק",
+    "binyan": "פעל",
+    "masculine_singular": "זורק",
+    "feminine_singular": "זורקת",
+    "masculine_plural": "זורקים",
+    "feminine_plural": "זורקות"
+  },
+  {
+    "id": 114,
+    "infinitive": "לתפוס",
+    "binyan": "פעל",
+    "masculine_singular": "תופס",
+    "feminine_singular": "תופסת",
+    "masculine_plural": "תופסים",
+    "feminine_plural": "תופסות"
+  },
+  {
+    "id": 115,
+    "infinitive": "לגעת",
+    "binyan": "פעל",
+    "masculine_singular": "נוגע",
+    "feminine_singular": "נוגעת",
+    "masculine_plural": "נוגעים",
+    "feminine_plural": "נוגעות"
+  },
+  {
+    "id": 116,
+    "infinitive": "ללחוץ",
+    "binyan": "פעל",
+    "masculine_singular": "לוחץ",
+    "feminine_singular": "לוחצת",
+    "masculine_plural": "לוחצים",
+    "feminine_plural": "לוחצות"
+  },
+  {
+    "id": 117,
+    "infinitive": "למשוך",
+    "binyan": "פעל",
+    "masculine_singular": "מושך",
+    "feminine_singular": "מושכת",
+    "masculine_plural": "מושכים",
+    "feminine_plural": "מושכות"
+  },
+  {
+    "id": 118,
+    "infinitive": "לדחוף",
+    "binyan": "פעל",
+    "masculine_singular": "דוחף",
+    "feminine_singular": "דוחפת",
+    "masculine_plural": "דוחפים",
+    "feminine_plural": "דוחפות"
+  },
+  {
+    "id": 119,
+    "infinitive": "לחתוך",
+    "binyan": "פעל",
+    "masculine_singular": "חותך",
+    "feminine_singular": "חותכת",
+    "masculine_plural": "חותכים",
+    "feminine_plural": "חותכות"
+  },
+  {
+    "id": 120,
+    "infinitive": "לשבור",
+    "binyan": "פעל",
+    "masculine_singular": "שובר",
+    "feminine_singular": "שוברת",
+    "masculine_plural": "שוברים",
+    "feminine_plural": "שוברות"
+  },
+  {
+    "id": 121,
+    "infinitive": "ליפול",
+    "binyan": "פעל",
+    "masculine_singular": "נופל",
+    "feminine_singular": "נופלת",
+    "masculine_plural": "נופלים",
+    "feminine_plural": "נופלות"
+  },
+  {
+    "id": 122,
+    "infinitive": "לקפוץ",
+    "binyan": "פעל",
+    "masculine_singular": "קופץ",
+    "feminine_singular": "קופצת",
+    "masculine_plural": "קופצים",
+    "feminine_plural": "קופצות"
+  },
+  {
+    "id": 123,
+    "infinitive": "לעלות",
+    "binyan": "פעל",
+    "masculine_singular": "עולה",
+    "feminine_singular": "עולה",
+    "masculine_plural": "עולים",
+    "feminine_plural": "עולות"
+  },
+  {
+    "id": 124,
+    "infinitive": "לרדת",
+    "binyan": "פעל",
+    "masculine_singular": "יורד",
+    "feminine_singular": "יורדת",
+    "masculine_plural": "יורדים",
+    "feminine_plural": "יורדות"
+  },
+  {
+    "id": 125,
+    "infinitive": "להתקדם",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקדם",
+    "feminine_singular": "מתקדמת",
+    "masculine_plural": "מתקדמים",
+    "feminine_plural": "מתקדמות"
+  },
+  {
+    "id": 126,
+    "infinitive": "להתקרב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקרב",
+    "feminine_singular": "מתקרבת",
+    "masculine_plural": "מתקרבים",
+    "feminine_plural": "מתקרבות"
+  },
+  {
+    "id": 127,
+    "infinitive": "להתרחק",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרחק",
+    "feminine_singular": "מתרחקת",
+    "masculine_plural": "מתרחקים",
+    "feminine_plural": "מתרחקות"
+  },
+  {
+    "id": 128,
+    "infinitive": "להסתובב",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתובב",
+    "feminine_singular": "מסתובבת",
+    "masculine_plural": "מסתובבים",
+    "feminine_plural": "מסתובבות"
+  },
+  {
+    "id": 129,
+    "infinitive": "לטייל",
+    "binyan": "פיעל",
+    "masculine_singular": "מטייל",
+    "feminine_singular": "מטיילת",
+    "masculine_plural": "מטיילים",
+    "feminine_plural": "מטיילות"
+  },
+  {
+    "id": 130,
+    "infinitive": "לטוס",
+    "binyan": "פעל",
+    "masculine_singular": "טס",
+    "feminine_singular": "טסה",
+    "masculine_plural": "טסים",
+    "feminine_plural": "טסות"
+  },
+  {
+    "id": 131,
+    "infinitive": "לשחות",
+    "binyan": "פעל",
+    "masculine_singular": "שוחה",
+    "feminine_singular": "שוחה",
+    "masculine_plural": "שוחים",
+    "feminine_plural": "שוחות"
+  },
+  {
+    "id": 132,
+    "infinitive": "לרקוד",
+    "binyan": "פעל",
+    "masculine_singular": "רוקד",
+    "feminine_singular": "רוקדת",
+    "masculine_plural": "רוקדים",
+    "feminine_plural": "רוקדות"
+  },
+  {
+    "id": 133,
+    "infinitive": "לשיר",
+    "binyan": "פעל",
+    "masculine_singular": "שר",
+    "feminine_singular": "שרה",
+    "masculine_plural": "שרים",
+    "feminine_plural": "שרות"
+  },
+  {
+    "id": 134,
+    "infinitive": "לצחוק",
+    "binyan": "פעל",
+    "masculine_singular": "צוחק",
+    "feminine_singular": "צוחקת",
+    "masculine_plural": "צוחקים",
+    "feminine_plural": "צוחקות"
+  },
+  {
+    "id": 135,
+    "infinitive": "לבכות",
+    "binyan": "פעל",
+    "masculine_singular": "בוכה",
+    "feminine_singular": "בוכה",
+    "masculine_plural": "בוכים",
+    "feminine_plural": "בוכות"
+  },
+  {
+    "id": 136,
+    "infinitive": "לחייך",
+    "binyan": "פיעל",
+    "masculine_singular": "מחייך",
+    "feminine_singular": "מחייכת",
+    "masculine_plural": "מחייכים",
+    "feminine_plural": "מחייכות"
+  },
+  {
+    "id": 137,
+    "infinitive": "לכעוס",
+    "binyan": "פעל",
+    "masculine_singular": "כועס",
+    "feminine_singular": "כועסת",
+    "masculine_plural": "כועסים",
+    "feminine_plural": "כועסות"
+  },
+  {
+    "id": 138,
+    "infinitive": "להירגע",
+    "binyan": "נפעל",
+    "masculine_singular": "נרגע",
+    "feminine_singular": "נרגעת",
+    "masculine_plural": "נרגעים",
+    "feminine_plural": "נרגעות"
+  },
+  {
+    "id": 139,
+    "infinitive": "לשמוח",
+    "binyan": "פעל",
+    "masculine_singular": "שמח",
+    "feminine_singular": "שמחה",
+    "masculine_plural": "שמחים",
+    "feminine_plural": "שמחות"
+  },
+  {
+    "id": 140,
+    "infinitive": "להתרגש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרגש",
+    "feminine_singular": "מתרגשת",
+    "masculine_plural": "מתרגשים",
+    "feminine_plural": "מתרגשות"
+  },
+  {
+    "id": 141,
+    "infinitive": "לשנוא",
+    "binyan": "פעל",
+    "masculine_singular": "שונא",
+    "feminine_singular": "שונאת",
+    "masculine_plural": "שונאים",
+    "feminine_plural": "שונאות"
+  },
+  {
+    "id": 142,
+    "infinitive": "להצטער",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטער",
+    "feminine_singular": "מצטערת",
+    "masculine_plural": "מצטערים",
+    "feminine_plural": "מצטערות"
+  },
+  {
+    "id": 143,
+    "infinitive": "להתנצל",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנצל",
+    "feminine_singular": "מתנצלת",
+    "masculine_plural": "מתנצלים",
+    "feminine_plural": "מתנצלות"
+  },
+  {
+    "id": 144,
+    "infinitive": "לסלוח",
+    "binyan": "פעל",
+    "masculine_singular": "סולח",
+    "feminine_singular": "סולחת",
+    "masculine_plural": "סולחים",
+    "feminine_plural": "סולחות"
+  },
+  {
+    "id": 145,
+    "infinitive": "לכבד",
+    "binyan": "פיעל",
+    "masculine_singular": "מכבד",
+    "feminine_singular": "מכבדת",
+    "masculine_plural": "מכבדים",
+    "feminine_plural": "מכבדות"
+  },
+  {
+    "id": 146,
+    "infinitive": "לסמוך",
+    "binyan": "פעל",
+    "masculine_singular": "סומך",
+    "feminine_singular": "סומכת",
+    "masculine_plural": "סומכים",
+    "feminine_plural": "סומכות"
+  },
+  {
+    "id": 147,
+    "infinitive": "להתחתן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחתן",
+    "feminine_singular": "מתחתנת",
+    "masculine_plural": "מתחתנים",
+    "feminine_plural": "מתחתנות"
+  },
+  {
+    "id": 148,
+    "infinitive": "להיפרד",
+    "binyan": "נפעל",
+    "masculine_singular": "נפרד",
+    "feminine_singular": "נפרדת",
+    "masculine_plural": "נפרדים",
+    "feminine_plural": "נפרדות"
+  },
+  {
+    "id": 149,
+    "infinitive": "להציג",
+    "binyan": "הפעיל",
+    "masculine_singular": "מציג",
+    "feminine_singular": "מציגה",
+    "masculine_plural": "מציגים",
+    "feminine_plural": "מציגות"
+  },
+  {
+    "id": 150,
+    "infinitive": "לתאר",
+    "binyan": "פיעל",
+    "masculine_singular": "מתאר",
+    "feminine_singular": "מתארת",
+    "masculine_plural": "מתארים",
+    "feminine_plural": "מתארות"
+  },
+  {
+    "id": 151,
+    "infinitive": "להזכיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מזכיר",
+    "feminine_singular": "מזכירה",
+    "masculine_plural": "מזכירים",
+    "feminine_plural": "מזכירות"
+  },
+  {
+    "id": 152,
+    "infinitive": "לשתף",
+    "binyan": "פיעל",
+    "masculine_singular": "משתף",
+    "feminine_singular": "משתפת",
+    "masculine_plural": "משתפים",
+    "feminine_plural": "משתפות"
+  },
+  {
+    "id": 153,
+    "infinitive": "להמליץ",
+    "binyan": "הפעיל",
+    "masculine_singular": "ממליץ",
+    "feminine_singular": "ממליצה",
+    "masculine_plural": "ממליצים",
+    "feminine_plural": "ממליצות"
+  },
+  {
+    "id": 154,
+    "infinitive": "לשכנע",
+    "binyan": "פיעל",
+    "masculine_singular": "משכנע",
+    "feminine_singular": "משכנעת",
+    "masculine_plural": "משכנעים",
+    "feminine_plural": "משכנעות"
+  },
+  {
+    "id": 155,
+    "infinitive": "להתווכח",
+    "binyan": "התפעל",
+    "masculine_singular": "מתווכח",
+    "feminine_singular": "מתווכחת",
+    "masculine_plural": "מתווכחים",
+    "feminine_plural": "מתווכחות"
+  },
+  {
+    "id": 156,
+    "infinitive": "להתלונן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתלונן",
+    "feminine_singular": "מתלוננת",
+    "masculine_plural": "מתלוננים",
+    "feminine_plural": "מתלוננות"
+  },
+  {
+    "id": 157,
+    "infinitive": "לשקר",
+    "binyan": "פיעל",
+    "masculine_singular": "משקר",
+    "feminine_singular": "משקרת",
+    "masculine_plural": "משקרים",
+    "feminine_plural": "משקרות"
+  },
+  {
+    "id": 158,
+    "infinitive": "להזהיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מזהיר",
+    "feminine_singular": "מזהירה",
+    "masculine_plural": "מזהירים",
+    "feminine_plural": "מזהירות"
+  },
+  {
+    "id": 159,
+    "infinitive": "לפרסם",
+    "binyan": "פיעל",
+    "masculine_singular": "מפרסם",
+    "feminine_singular": "מפרסמת",
+    "masculine_plural": "מפרסמים",
+    "feminine_plural": "מפרסמות"
+  },
+  {
+    "id": 160,
+    "infinitive": "לצלם",
+    "binyan": "פיעל",
+    "masculine_singular": "מצלם",
+    "feminine_singular": "מצלמת",
+    "masculine_plural": "מצלמים",
+    "feminine_plural": "מצלמות"
+  },
+  {
+    "id": 161,
+    "infinitive": "למחוק",
+    "binyan": "פעל",
+    "masculine_singular": "מוחק",
+    "feminine_singular": "מוחקת",
+    "masculine_plural": "מוחקים",
+    "feminine_plural": "מוחקות"
+  },
+  {
+    "id": 162,
+    "infinitive": "להעתיק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעתיק",
+    "feminine_singular": "מעתיקה",
+    "masculine_plural": "מעתיקים",
+    "feminine_plural": "מעתיקות"
+  },
+  {
+    "id": 163,
+    "infinitive": "להתחבר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחבר",
+    "feminine_singular": "מתחברת",
+    "masculine_plural": "מתחברים",
+    "feminine_plural": "מתחברות"
+  },
+  {
+    "id": 164,
+    "infinitive": "להתנתק",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנתק",
+    "feminine_singular": "מתנתקת",
+    "masculine_plural": "מתנתקים",
+    "feminine_plural": "מתנתקות"
+  },
+  {
+    "id": 165,
+    "infinitive": "להפעיל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפעיל",
+    "feminine_singular": "מפעילה",
+    "masculine_plural": "מפעילים",
+    "feminine_plural": "מפעילות"
+  },
+  {
+    "id": 166,
+    "infinitive": "לכבות",
+    "binyan": "פיעל",
+    "masculine_singular": "מכבה",
+    "feminine_singular": "מכבה",
+    "masculine_plural": "מכבים",
+    "feminine_plural": "מכבות"
+  },
+  {
+    "id": 167,
+    "infinitive": "להדליק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מדליק",
+    "feminine_singular": "מדליקה",
+    "masculine_plural": "מדליקים",
+    "feminine_plural": "מדליקות"
+  },
+  {
+    "id": 168,
+    "infinitive": "להתקין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מתקין",
+    "feminine_singular": "מתקינה",
+    "masculine_plural": "מתקינים",
+    "feminine_plural": "מתקינות"
+  },
+  {
+    "id": 169,
+    "infinitive": "להירשם",
+    "binyan": "נפעל",
+    "masculine_singular": "נרשם",
+    "feminine_singular": "נרשמת",
+    "masculine_plural": "נרשמים",
+    "feminine_plural": "נרשמות"
+  },
+  {
+    "id": 170,
+    "infinitive": "לחתום",
+    "binyan": "פעל",
+    "masculine_singular": "חותם",
+    "feminine_singular": "חותמת",
+    "masculine_plural": "חותמים",
+    "feminine_plural": "חותמות"
+  },
+  {
+    "id": 171,
+    "infinitive": "למלא",
+    "binyan": "פיעל",
+    "masculine_singular": "ממלא",
+    "feminine_singular": "ממלאת",
+    "masculine_plural": "ממלאים",
+    "feminine_plural": "ממלאות"
+  },
+  {
+    "id": 172,
+    "infinitive": "לרשום",
+    "binyan": "פעל",
+    "masculine_singular": "רושם",
+    "feminine_singular": "רושמת",
+    "masculine_plural": "רושמים",
+    "feminine_plural": "רושמות"
+  },
+  {
+    "id": 173,
+    "infinitive": "לסמן",
+    "binyan": "פיעל",
+    "masculine_singular": "מסמן",
+    "feminine_singular": "מסמנת",
+    "masculine_plural": "מסמנים",
+    "feminine_plural": "מסמנות"
+  },
+  {
+    "id": 174,
+    "infinitive": "לספור",
+    "binyan": "פעל",
+    "masculine_singular": "סופר",
+    "feminine_singular": "סופרת",
+    "masculine_plural": "סופרים",
+    "feminine_plural": "סופרות"
+  },
+  {
+    "id": 175,
+    "infinitive": "למדוד",
+    "binyan": "פעל",
+    "masculine_singular": "מודד",
+    "feminine_singular": "מודדת",
+    "masculine_plural": "מודדים",
+    "feminine_plural": "מודדות"
+  },
+  {
+    "id": 176,
+    "infinitive": "לשקול",
+    "binyan": "פעל",
+    "masculine_singular": "שוקל",
+    "feminine_singular": "שוקלת",
+    "masculine_plural": "שוקלים",
+    "feminine_plural": "שוקלות"
+  },
+  {
+    "id": 177,
+    "infinitive": "לחשב",
+    "binyan": "פיעל",
+    "masculine_singular": "מחשב",
+    "feminine_singular": "מחשבת",
+    "masculine_plural": "מחשבים",
+    "feminine_plural": "מחשבות"
+  },
+  {
+    "id": 178,
+    "infinitive": "להעריך",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעריך",
+    "feminine_singular": "מעריכה",
+    "masculine_plural": "מעריכים",
+    "feminine_plural": "מעריכות"
+  },
+  {
+    "id": 179,
+    "infinitive": "לחקור",
+    "binyan": "פעל",
+    "masculine_singular": "חוקר",
+    "feminine_singular": "חוקרת",
+    "masculine_plural": "חוקרים",
+    "feminine_plural": "חוקרות"
+  },
+  {
+    "id": 180,
+    "infinitive": "להוכיח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מוכיח",
+    "feminine_singular": "מוכיחה",
+    "masculine_plural": "מוכיחים",
+    "feminine_plural": "מוכיחות"
+  },
+  {
+    "id": 181,
+    "infinitive": "להניח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מניח",
+    "feminine_singular": "מניחה",
+    "masculine_plural": "מניחים",
+    "feminine_plural": "מניחות"
+  },
+  {
+    "id": 182,
+    "infinitive": "לדמיין",
+    "binyan": "פיעל",
+    "masculine_singular": "מדמיין",
+    "feminine_singular": "מדמיינת",
+    "masculine_plural": "מדמיינים",
+    "feminine_plural": "מדמיינות"
+  },
+  {
+    "id": 183,
+    "infinitive": "לחלום",
+    "binyan": "פעל",
+    "masculine_singular": "חולם",
+    "feminine_singular": "חולמת",
+    "masculine_plural": "חולמים",
+    "feminine_plural": "חולמות"
+  },
+  {
+    "id": 184,
+    "infinitive": "להתכוון",
+    "binyan": "התפעל",
+    "masculine_singular": "מתכוון",
+    "feminine_singular": "מתכוונת",
+    "masculine_plural": "מתכוונים",
+    "feminine_plural": "מתכוונות"
+  },
+  {
+    "id": 185,
+    "infinitive": "להימנע",
+    "binyan": "נפעל",
+    "masculine_singular": "נמנע",
+    "feminine_singular": "נמנעת",
+    "masculine_plural": "נמנעים",
+    "feminine_plural": "נמנעות"
+  },
+  {
+    "id": 186,
+    "infinitive": "להתמודד",
+    "binyan": "התפעל",
+    "masculine_singular": "מתמודד",
+    "feminine_singular": "מתמודדת",
+    "masculine_plural": "מתמודדים",
+    "feminine_plural": "מתמודדות"
+  },
+  {
+    "id": 187,
+    "infinitive": "להתגבר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתגבר",
+    "feminine_singular": "מתגברת",
+    "masculine_plural": "מתגברים",
+    "feminine_plural": "מתגברות"
+  },
+  {
+    "id": 188,
+    "infinitive": "להילחם",
+    "binyan": "נפעל",
+    "masculine_singular": "נלחם",
+    "feminine_singular": "נלחמת",
+    "masculine_plural": "נלחמים",
+    "feminine_plural": "נלחמות"
+  },
+  {
+    "id": 189,
+    "infinitive": "להגן",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגן",
+    "feminine_singular": "מגנה",
+    "masculine_plural": "מגנים",
+    "feminine_plural": "מגנות"
+  },
+  {
+    "id": 190,
+    "infinitive": "לפגוע",
+    "binyan": "פעל",
+    "masculine_singular": "פוגע",
+    "feminine_singular": "פוגעת",
+    "masculine_plural": "פוגעים",
+    "feminine_plural": "פוגעות"
+  },
+  {
+    "id": 191,
+    "infinitive": "להציל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מציל",
+    "feminine_singular": "מצילה",
+    "masculine_plural": "מצילים",
+    "feminine_plural": "מצילות"
+  },
+  {
+    "id": 192,
+    "infinitive": "להרוג",
+    "binyan": "פעל",
+    "masculine_singular": "הורג",
+    "feminine_singular": "הורגת",
+    "masculine_plural": "הורגים",
+    "feminine_plural": "הורגות"
+  },
+  {
+    "id": 193,
+    "infinitive": "להיוולד",
+    "binyan": "נפעל",
+    "masculine_singular": "נוולד",
+    "feminine_singular": "נוולדת",
+    "masculine_plural": "נוולדים",
+    "feminine_plural": "נוולדות"
+  },
+  {
+    "id": 194,
+    "infinitive": "לסבול",
+    "binyan": "פעל",
+    "masculine_singular": "סובל",
+    "feminine_singular": "סובלת",
+    "masculine_plural": "סובלים",
+    "feminine_plural": "סובלות"
+  },
+  {
+    "id": 195,
+    "infinitive": "לכאוב",
+    "binyan": "פעל",
+    "masculine_singular": "כואב",
+    "feminine_singular": "כואבת",
+    "masculine_plural": "כואבים",
+    "feminine_plural": "כואבות"
+  },
+  {
+    "id": 196,
+    "infinitive": "לנשום",
+    "binyan": "פעל",
+    "masculine_singular": "נושם",
+    "feminine_singular": "נושמת",
+    "masculine_plural": "נושמים",
+    "feminine_plural": "נושמות"
+  },
+  {
+    "id": 197,
+    "infinitive": "לנוח",
+    "binyan": "פעל",
+    "masculine_singular": "נח",
+    "feminine_singular": "נחה",
+    "masculine_plural": "נחים",
+    "feminine_plural": "נחות"
+  },
+  {
+    "id": 198,
+    "infinitive": "להתאמן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתאמן",
+    "feminine_singular": "מתאמנת",
+    "masculine_plural": "מתאמנים",
+    "feminine_plural": "מתאמנות"
+  },
+  {
+    "id": 199,
+    "infinitive": "להתקלח",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקלח",
+    "feminine_singular": "מתקלחת",
+    "masculine_plural": "מתקלחים",
+    "feminine_plural": "מתקלחות"
+  },
+  {
+    "id": 200,
+    "infinitive": "להתלבש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתלבש",
+    "feminine_singular": "מתלבשת",
+    "masculine_plural": "מתלבשים",
+    "feminine_plural": "מתלבשות"
+  },
+  {
+    "id": 201,
+    "infinitive": "ללבוש",
+    "binyan": "פעל",
+    "masculine_singular": "לובש",
+    "feminine_singular": "לובשת",
+    "masculine_plural": "לובשים",
+    "feminine_plural": "לובשות"
+  },
+  {
+    "id": 202,
+    "infinitive": "לנעול",
+    "binyan": "פעל",
+    "masculine_singular": "נועל",
+    "feminine_singular": "נועלת",
+    "masculine_plural": "נועלים",
+    "feminine_plural": "נועלות"
+  },
+  {
+    "id": 203,
+    "infinitive": "למהר",
+    "binyan": "פיעל",
+    "masculine_singular": "ממהר",
+    "feminine_singular": "ממהרת",
+    "masculine_plural": "ממהרים",
+    "feminine_plural": "ממהרות"
+  },
+  {
+    "id": 204,
+    "infinitive": "לאחר",
+    "binyan": "פיעל",
+    "masculine_singular": "מאחר",
+    "feminine_singular": "מאחרת",
+    "masculine_plural": "מאחרים",
+    "feminine_plural": "מאחרות"
+  },
+  {
+    "id": 205,
+    "infinitive": "להשפיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "משפיע",
+    "feminine_singular": "משפיעה",
+    "masculine_plural": "משפיעים",
+    "feminine_plural": "משפיעות"
+  },
+  {
+    "id": 206,
+    "infinitive": "להשתפר",
+    "binyan": "התפעל",
+    "masculine_singular": "משתפר",
+    "feminine_singular": "משתפרת",
+    "masculine_plural": "משתפרים",
+    "feminine_plural": "משתפרות"
+  },
+  {
+    "id": 207,
+    "infinitive": "להתרחש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרחש",
+    "feminine_singular": "מתרחשת",
+    "masculine_plural": "מתרחשים",
+    "feminine_plural": "מתרחשות"
+  },
+  {
+    "id": 208,
+    "infinitive": "להתקיים",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקיים",
+    "feminine_singular": "מתקיימת",
+    "masculine_plural": "מתקיימים",
+    "feminine_plural": "מתקיימות"
+  },
+  {
+    "id": 209,
+    "infinitive": "להסתבר",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתבר",
+    "feminine_singular": "מסתברת",
+    "masculine_plural": "מסתברים",
+    "feminine_plural": "מסתברות"
+  },
+  {
+    "id": 210,
+    "infinitive": "להיראות",
+    "binyan": "נפעל",
+    "masculine_singular": "נראה",
+    "feminine_singular": "נראית",
+    "masculine_plural": "נראים",
+    "feminine_plural": "נראות"
+  },
+  {
+    "id": 211,
+    "infinitive": "להישמע",
+    "binyan": "נפעל",
+    "masculine_singular": "נשמע",
+    "feminine_singular": "נשמעת",
+    "masculine_plural": "נשמעים",
+    "feminine_plural": "נשמעות"
+  },
+  {
+    "id": 212,
+    "infinitive": "ליהנות",
+    "binyan": "נפעל",
+    "masculine_singular": "נהנה",
+    "feminine_singular": "נהנית",
+    "masculine_plural": "נהנים",
+    "feminine_plural": "נהנות"
+  },
+  {
+    "id": 213,
+    "infinitive": "להירדם",
+    "binyan": "נפעל",
+    "masculine_singular": "נרדם",
+    "feminine_singular": "נרדמת",
+    "masculine_plural": "נרדמים",
+    "feminine_plural": "נרדמות"
+  },
+  {
+    "id": 214,
+    "infinitive": "להעיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעיר",
+    "feminine_singular": "מעירה",
+    "masculine_plural": "מעירים",
+    "feminine_plural": "מעירות"
+  },
+  {
+    "id": 215,
+    "infinitive": "לחלוק",
+    "binyan": "פעל",
+    "masculine_singular": "חולק",
+    "feminine_singular": "חולקת",
+    "masculine_plural": "חולקים",
+    "feminine_plural": "חולקות"
+  },
+  {
+    "id": 216,
+    "infinitive": "לריב",
+    "binyan": "פעל",
+    "masculine_singular": "רב",
+    "feminine_singular": "רבה",
+    "masculine_plural": "רבים",
+    "feminine_plural": "רבות"
+  },
+  {
+    "id": 217,
+    "infinitive": "להשלים",
+    "binyan": "הפעיל",
+    "masculine_singular": "משלים",
+    "feminine_singular": "משלימה",
+    "masculine_plural": "משלימים",
+    "feminine_plural": "משלימות"
+  },
+  {
+    "id": 218,
+    "infinitive": "לחבק",
+    "binyan": "פיעל",
+    "masculine_singular": "מחבק",
+    "feminine_singular": "מחבקת",
+    "masculine_plural": "מחבקים",
+    "feminine_plural": "מחבקות"
+  },
+  {
+    "id": 219,
+    "infinitive": "לנשק",
+    "binyan": "פיעל",
+    "masculine_singular": "מנשק",
+    "feminine_singular": "מנשקת",
+    "masculine_plural": "מנשקים",
+    "feminine_plural": "מנשקות"
+  },
+  {
+    "id": 220,
+    "infinitive": "לתמוך",
+    "binyan": "פעל",
+    "masculine_singular": "תומך",
+    "feminine_singular": "תומכת",
+    "masculine_plural": "תומכים",
+    "feminine_plural": "תומכות"
+  },
+  {
+    "id": 221,
+    "infinitive": "לעודד",
+    "binyan": "פיעל",
+    "masculine_singular": "מעודד",
+    "feminine_singular": "מעודדת",
+    "masculine_plural": "מעודדים",
+    "feminine_plural": "מעודדות"
+  },
+  {
+    "id": 222,
+    "infinitive": "להפריע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפריע",
+    "feminine_singular": "מפריעה",
+    "masculine_plural": "מפריעים",
+    "feminine_plural": "מפריעות"
+  },
+  {
+    "id": 223,
+    "infinitive": "להתעלם",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעלם",
+    "feminine_singular": "מתעלמת",
+    "masculine_plural": "מתעלמים",
+    "feminine_plural": "מתעלמות"
+  },
+  {
+    "id": 224,
+    "infinitive": "להוביל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מוביל",
+    "feminine_singular": "מובילה",
+    "masculine_plural": "מובילים",
+    "feminine_plural": "מובילות"
+  },
+  {
+    "id": 225,
+    "infinitive": "לעקוב",
+    "binyan": "פעל",
+    "masculine_singular": "עוקב",
+    "feminine_singular": "עוקבת",
+    "masculine_plural": "עוקבים",
+    "feminine_plural": "עוקבות"
+  },
+  {
+    "id": 226,
+    "infinitive": "לאבד",
+    "binyan": "פיעל",
+    "masculine_singular": "מאבד",
+    "feminine_singular": "מאבדת",
+    "masculine_plural": "מאבדים",
+    "feminine_plural": "מאבדות"
+  },
+  {
+    "id": 227,
+    "infinitive": "להרוויח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרוויח",
+    "feminine_singular": "מרוויחת",
+    "masculine_plural": "מרוויחים",
+    "feminine_plural": "מרוויחות"
+  },
+  {
+    "id": 228,
+    "infinitive": "לחסוך",
+    "binyan": "פעל",
+    "masculine_singular": "חוסך",
+    "feminine_singular": "חוסכת",
+    "masculine_plural": "חוסכים",
+    "feminine_plural": "חוסכות"
+  },
+  {
+    "id": 229,
+    "infinitive": "להשקיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "משקיע",
+    "feminine_singular": "משקיעה",
+    "masculine_plural": "משקיעים",
+    "feminine_plural": "משקיעות"
+  },
+  {
+    "id": 230,
+    "infinitive": "לשכור",
+    "binyan": "פעל",
+    "masculine_singular": "שוכר",
+    "feminine_singular": "שוכרת",
+    "masculine_plural": "שוכרים",
+    "feminine_plural": "שוכרות"
+  },
+  {
+    "id": 231,
+    "infinitive": "להזדקק",
+    "binyan": "נפעל",
+    "masculine_singular": "נזקק",
+    "feminine_singular": "נזקקת",
+    "masculine_plural": "נזקקים",
+    "feminine_plural": "נזקקות"
+  },
+  {
+    "id": 232,
+    "infinitive": "לספק",
+    "binyan": "פיעל",
+    "masculine_singular": "מספק",
+    "feminine_singular": "מספקת",
+    "masculine_plural": "מספקים",
+    "feminine_plural": "מספקות"
+  },
+  {
+    "id": 233,
+    "infinitive": "להעביר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעביר",
+    "feminine_singular": "מעבירה",
+    "masculine_plural": "מעבירים",
+    "feminine_plural": "מעבירות"
+  },
+  {
+    "id": 234,
+    "infinitive": "לסחוב",
+    "binyan": "פעל",
+    "masculine_singular": "סוחב",
+    "feminine_singular": "סוחבת",
+    "masculine_plural": "סוחבים",
+    "feminine_plural": "סוחבות"
+  },
+  {
+    "id": 235,
+    "infinitive": "לשפוך",
+    "binyan": "פעל",
+    "masculine_singular": "שופך",
+    "feminine_singular": "שופכת",
+    "masculine_plural": "שופכים",
+    "feminine_plural": "שופכות"
+  },
+  {
+    "id": 236,
+    "infinitive": "למזוג",
+    "binyan": "פעל",
+    "masculine_singular": "מוזג",
+    "feminine_singular": "מוזגת",
+    "masculine_plural": "מוזגים",
+    "feminine_plural": "מוזגות"
+  },
+  {
+    "id": 237,
+    "infinitive": "לערבב",
+    "binyan": "פיעל",
+    "masculine_singular": "מערבב",
+    "feminine_singular": "מערבבת",
+    "masculine_plural": "מערבבים",
+    "feminine_plural": "מערבבות"
+  },
+  {
+    "id": 238,
+    "infinitive": "לחמם",
+    "binyan": "פיעל",
+    "masculine_singular": "מחמם",
+    "feminine_singular": "מחממת",
+    "masculine_plural": "מחממים",
+    "feminine_plural": "מחממות"
+  },
+  {
+    "id": 239,
+    "infinitive": "לקרר",
+    "binyan": "פיעל",
+    "masculine_singular": "מקרר",
+    "feminine_singular": "מקררת",
+    "masculine_plural": "מקררים",
+    "feminine_plural": "מקררות"
+  },
+  {
+    "id": 240,
+    "infinitive": "לאפות",
+    "binyan": "פעל",
+    "masculine_singular": "אופה",
+    "feminine_singular": "אופה",
+    "masculine_plural": "אופים",
+    "feminine_plural": "אופות"
+  },
+  {
+    "id": 241,
+    "infinitive": "לטגן",
+    "binyan": "פיעל",
+    "masculine_singular": "מטגן",
+    "feminine_singular": "מטגנת",
+    "masculine_plural": "מטגנים",
+    "feminine_plural": "מטגנות"
+  },
+  {
+    "id": 242,
+    "infinitive": "לשטוף",
+    "binyan": "פעל",
+    "masculine_singular": "שוטף",
+    "feminine_singular": "שוטפת",
+    "masculine_plural": "שוטפים",
+    "feminine_plural": "שוטפות"
+  },
+  {
+    "id": 243,
+    "infinitive": "לנקות",
+    "binyan": "פיעל",
+    "masculine_singular": "מנקה",
+    "feminine_singular": "מנקה",
+    "masculine_plural": "מנקים",
+    "feminine_plural": "מנקות"
+  },
+  {
+    "id": 244,
+    "infinitive": "לכבס",
+    "binyan": "פיעל",
+    "masculine_singular": "מכבס",
+    "feminine_singular": "מכבסת",
+    "masculine_plural": "מכבסים",
+    "feminine_plural": "מכבסות"
+  },
+  {
+    "id": 245,
+    "infinitive": "לייבש",
+    "binyan": "פיעל",
+    "masculine_singular": "מייבש",
+    "feminine_singular": "מייבשת",
+    "masculine_plural": "מייבשים",
+    "feminine_plural": "מייבשות"
+  },
+  {
+    "id": 246,
+    "infinitive": "לקפל",
+    "binyan": "פיעל",
+    "masculine_singular": "מקפל",
+    "feminine_singular": "מקפלת",
+    "masculine_plural": "מקפלים",
+    "feminine_plural": "מקפלות"
+  },
+  {
+    "id": 247,
+    "infinitive": "לתלות",
+    "binyan": "פעל",
+    "masculine_singular": "תולה",
+    "feminine_singular": "תולה",
+    "masculine_plural": "תולים",
+    "feminine_plural": "תולות"
+  },
+  {
+    "id": 248,
+    "infinitive": "לסדר",
+    "binyan": "פיעל",
+    "masculine_singular": "מסדר",
+    "feminine_singular": "מסדרת",
+    "masculine_plural": "מסדרים",
+    "feminine_plural": "מסדרות"
+  },
+  {
+    "id": 249,
+    "infinitive": "לאסוף",
+    "binyan": "פעל",
+    "masculine_singular": "אוסף",
+    "feminine_singular": "אוספת",
+    "masculine_plural": "אוספים",
+    "feminine_plural": "אוספות"
+  },
+  {
+    "id": 250,
+    "infinitive": "לארוז",
+    "binyan": "פעל",
+    "masculine_singular": "אורז",
+    "feminine_singular": "אורזת",
+    "masculine_plural": "אורזים",
+    "feminine_plural": "אורזות"
+  },
+  {
+    "id": 251,
+    "infinitive": "לפרוק",
+    "binyan": "פעל",
+    "masculine_singular": "פורק",
+    "feminine_singular": "פורקת",
+    "masculine_plural": "פורקים",
+    "feminine_plural": "פורקות"
+  },
+  {
+    "id": 252,
+    "infinitive": "לחבר",
+    "binyan": "פיעל",
+    "masculine_singular": "מחבר",
+    "feminine_singular": "מחברת",
+    "masculine_plural": "מחברים",
+    "feminine_plural": "מחברות"
+  },
+  {
+    "id": 253,
+    "infinitive": "לנתק",
+    "binyan": "פיעל",
+    "masculine_singular": "מנתק",
+    "feminine_singular": "מנתקת",
+    "masculine_plural": "מנתקים",
+    "feminine_plural": "מנתקות"
+  },
+  {
+    "id": 254,
+    "infinitive": "לשחרר",
+    "binyan": "פיעל",
+    "masculine_singular": "משחרר",
+    "feminine_singular": "משחררת",
+    "masculine_plural": "משחררים",
+    "feminine_plural": "משחררות"
+  },
+  {
+    "id": 255,
+    "infinitive": "לצבוע",
+    "binyan": "פעל",
+    "masculine_singular": "צובע",
+    "feminine_singular": "צובעת",
+    "masculine_plural": "צובעים",
+    "feminine_plural": "צובעות"
+  },
+  {
+    "id": 256,
+    "infinitive": "לצייר",
+    "binyan": "פיעל",
+    "masculine_singular": "מצייר",
+    "feminine_singular": "מציירת",
+    "masculine_plural": "מציירים",
+    "feminine_plural": "מציירות"
+  },
+  {
+    "id": 257,
+    "infinitive": "לעצב",
+    "binyan": "פיעל",
+    "masculine_singular": "מעצב",
+    "feminine_singular": "מעצבת",
+    "masculine_plural": "מעצבים",
+    "feminine_plural": "מעצבות"
+  },
+  {
+    "id": 258,
+    "infinitive": "לתרגם",
+    "binyan": "פיעל",
+    "masculine_singular": "מתרגם",
+    "feminine_singular": "מתרגמת",
+    "masculine_plural": "מתרגמים",
+    "feminine_plural": "מתרגמות"
+  },
+  {
+    "id": 259,
+    "infinitive": "ללמד",
+    "binyan": "פיעל",
+    "masculine_singular": "מלמד",
+    "feminine_singular": "מלמדת",
+    "masculine_plural": "מלמדים",
+    "feminine_plural": "מלמדות"
+  },
+  {
+    "id": 260,
+    "infinitive": "לתרגל",
+    "binyan": "פיעל",
+    "masculine_singular": "מתרגל",
+    "feminine_singular": "מתרגלת",
+    "masculine_plural": "מתרגלים",
+    "feminine_plural": "מתרגלות"
+  },
+  {
+    "id": 261,
+    "infinitive": "לבחון",
+    "binyan": "פעל",
+    "masculine_singular": "בוחן",
+    "feminine_singular": "בוחנת",
+    "masculine_plural": "בוחנים",
+    "feminine_plural": "בוחנות"
+  },
+  {
+    "id": 262,
+    "infinitive": "להתמקד",
+    "binyan": "התפעל",
+    "masculine_singular": "מתמקד",
+    "feminine_singular": "מתמקדת",
+    "masculine_plural": "מתמקדים",
+    "feminine_plural": "מתמקדות"
+  },
+  {
+    "id": 263,
+    "infinitive": "להתבלבל",
+    "binyan": "התפעל",
+    "masculine_singular": "מתבלבל",
+    "feminine_singular": "מתבלבלת",
+    "masculine_plural": "מתבלבלים",
+    "feminine_plural": "מתבלבלות"
+  },
+  {
+    "id": 264,
+    "infinitive": "להסתבך",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתבך",
+    "feminine_singular": "מסתבכת",
+    "masculine_plural": "מסתבכים",
+    "feminine_plural": "מסתבכות"
+  },
+  {
+    "id": 265,
+    "infinitive": "לפתור",
+    "binyan": "פעל",
+    "masculine_singular": "פותר",
+    "feminine_singular": "פותרת",
+    "masculine_plural": "פותרים",
+    "feminine_plural": "פותרות"
+  },
+  {
+    "id": 266,
+    "infinitive": "להבחין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מבחין",
+    "feminine_singular": "מבחינה",
+    "masculine_plural": "מבחינים",
+    "feminine_plural": "מבחינות"
+  },
+  {
+    "id": 267,
+    "infinitive": "להביט",
+    "binyan": "הפעיל",
+    "masculine_singular": "מביט",
+    "feminine_singular": "מביטה",
+    "masculine_plural": "מביטים",
+    "feminine_plural": "מביטות"
+  },
+  {
+    "id": 268,
+    "infinitive": "לצפות",
+    "binyan": "פעל",
+    "masculine_singular": "צופה",
+    "feminine_singular": "צופה",
+    "masculine_plural": "צופים",
+    "feminine_plural": "צופות"
+  },
+  {
+    "id": 269,
+    "infinitive": "להתחשב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחשב",
+    "feminine_singular": "מתחשבת",
+    "masculine_plural": "מתחשבים",
+    "feminine_plural": "מתחשבות"
+  },
+  {
+    "id": 270,
+    "infinitive": "לבטא",
+    "binyan": "פיעל",
+    "masculine_singular": "מבטא",
+    "feminine_singular": "מבטאת",
+    "masculine_plural": "מבטאים",
+    "feminine_plural": "מבטאות"
+  },
+  {
+    "id": 271,
+    "infinitive": "להדגיש",
+    "binyan": "הפעיל",
+    "masculine_singular": "מדגיש",
+    "feminine_singular": "מדגישה",
+    "masculine_plural": "מדגישים",
+    "feminine_plural": "מדגישות"
+  },
+  {
+    "id": 272,
+    "infinitive": "לציין",
+    "binyan": "פיעל",
+    "masculine_singular": "מציין",
+    "feminine_singular": "מציינת",
+    "masculine_plural": "מציינים",
+    "feminine_plural": "מציינות"
+  },
+  {
+    "id": 273,
+    "infinitive": "לסכם",
+    "binyan": "פיעל",
+    "masculine_singular": "מסכם",
+    "feminine_singular": "מסכמת",
+    "masculine_plural": "מסכמים",
+    "feminine_plural": "מסכמות"
+  },
+  {
+    "id": 274,
+    "infinitive": "להגדיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגדיר",
+    "feminine_singular": "מגדירה",
+    "masculine_plural": "מגדירים",
+    "feminine_plural": "מגדירות"
+  },
+  {
+    "id": 275,
+    "infinitive": "לנתח",
+    "binyan": "פיעל",
+    "masculine_singular": "מנתח",
+    "feminine_singular": "מנתחת",
+    "masculine_plural": "מנתחים",
+    "feminine_plural": "מנתחות"
+  },
+  {
+    "id": 276,
+    "infinitive": "לשלב",
+    "binyan": "פיעל",
+    "masculine_singular": "משלב",
+    "feminine_singular": "משלבת",
+    "masculine_plural": "משלבים",
+    "feminine_plural": "משלבות"
+  },
+  {
+    "id": 277,
+    "infinitive": "לבצע",
+    "binyan": "פיעל",
+    "masculine_singular": "מבצע",
+    "feminine_singular": "מבצעת",
+    "masculine_plural": "מבצעים",
+    "feminine_plural": "מבצעות"
+  },
+  {
+    "id": 278,
+    "infinitive": "להשיג",
+    "binyan": "הפעיל",
+    "masculine_singular": "משיג",
+    "feminine_singular": "משיגה",
+    "masculine_plural": "משיגים",
+    "feminine_plural": "משיגות"
+  },
+  {
+    "id": 279,
+    "infinitive": "לוותר",
+    "binyan": "פיעל",
+    "masculine_singular": "מוותר",
+    "feminine_singular": "מוותרת",
+    "masculine_plural": "מוותרים",
+    "feminine_plural": "מוותרות"
+  },
+  {
+    "id": 280,
+    "infinitive": "להתחייב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחייב",
+    "feminine_singular": "מתחייבת",
+    "masculine_plural": "מתחייבים",
+    "feminine_plural": "מתחייבות"
+  },
+  {
+    "id": 281,
+    "infinitive": "לקיים",
+    "binyan": "פיעל",
+    "masculine_singular": "מקיים",
+    "feminine_singular": "מקיימת",
+    "masculine_plural": "מקיימים",
+    "feminine_plural": "מקיימות"
+  },
+  {
+    "id": 282,
+    "infinitive": "לאסור",
+    "binyan": "פעל",
+    "masculine_singular": "אוסר",
+    "feminine_singular": "אוסרת",
+    "masculine_plural": "אוסרים",
+    "feminine_plural": "אוסרות"
+  },
+  {
+    "id": 283,
+    "infinitive": "לשתוק",
+    "binyan": "פעל",
+    "masculine_singular": "שותק",
+    "feminine_singular": "שותקת",
+    "masculine_plural": "שותקים",
+    "feminine_plural": "שותקות"
+  },
+  {
+    "id": 284,
+    "infinitive": "לצעוק",
+    "binyan": "פעל",
+    "masculine_singular": "צועק",
+    "feminine_singular": "צועקת",
+    "masculine_plural": "צועקים",
+    "feminine_plural": "צועקות"
+  },
+  {
+    "id": 285,
+    "infinitive": "לשוחח",
+    "binyan": "פיעל",
+    "masculine_singular": "משוחח",
+    "feminine_singular": "משוחחת",
+    "masculine_plural": "משוחחים",
+    "feminine_plural": "משוחחות"
+  },
+  {
+    "id": 286,
+    "infinitive": "לתקשר",
+    "binyan": "פיעל",
+    "masculine_singular": "מתקשר",
+    "feminine_singular": "מתקשרת",
+    "masculine_plural": "מתקשרים",
+    "feminine_plural": "מתקשרות"
+  },
+  {
+    "id": 287,
+    "infinitive": "לארח",
+    "binyan": "פיעל",
+    "masculine_singular": "מארח",
+    "feminine_singular": "מארחת",
+    "masculine_plural": "מארחים",
+    "feminine_plural": "מארחות"
+  },
+  {
+    "id": 288,
+    "infinitive": "לבקר",
+    "binyan": "פיעל",
+    "masculine_singular": "מבקר",
+    "feminine_singular": "מבקרת",
+    "masculine_plural": "מבקרים",
+    "feminine_plural": "מבקרות"
+  },
+  {
+    "id": 289,
+    "infinitive": "לחגוג",
+    "binyan": "פעל",
+    "masculine_singular": "חוגג",
+    "feminine_singular": "חוגגת",
+    "masculine_plural": "חוגגים",
+    "feminine_plural": "חוגגות"
+  },
+  {
+    "id": 290,
+    "infinitive": "לברך",
+    "binyan": "פיעל",
+    "masculine_singular": "מברך",
+    "feminine_singular": "מברכת",
+    "masculine_plural": "מברכים",
+    "feminine_plural": "מברכות"
+  },
+  {
+    "id": 291,
+    "infinitive": "לאחל",
+    "binyan": "פיעל",
+    "masculine_singular": "מאחל",
+    "feminine_singular": "מאחלת",
+    "masculine_plural": "מאחלים",
+    "feminine_plural": "מאחלות"
+  },
+  {
+    "id": 292,
+    "infinitive": "לתרום",
+    "binyan": "פעל",
+    "masculine_singular": "תורם",
+    "feminine_singular": "תורמת",
+    "masculine_plural": "תורמים",
+    "feminine_plural": "תורמות"
+  },
+  {
+    "id": 293,
+    "infinitive": "להתנדב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנדב",
+    "feminine_singular": "מתנדבת",
+    "masculine_plural": "מתנדבים",
+    "feminine_plural": "מתנדבות"
+  },
+  {
+    "id": 294,
+    "infinitive": "להעסיק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעסיק",
+    "feminine_singular": "מעסיקה",
+    "masculine_plural": "מעסיקים",
+    "feminine_plural": "מעסיקות"
+  },
+  {
+    "id": 295,
+    "infinitive": "להתפטר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפטר",
+    "feminine_singular": "מתפטרת",
+    "masculine_plural": "מתפטרים",
+    "feminine_plural": "מתפטרות"
+  },
+  {
+    "id": 296,
+    "infinitive": "לפטר",
+    "binyan": "פיעל",
+    "masculine_singular": "מפטר",
+    "feminine_singular": "מפטרת",
+    "masculine_plural": "מפטרים",
+    "feminine_plural": "מפטרות"
+  },
+  {
+    "id": 297,
+    "infinitive": "להתקבל",
+    "binyan": "התפעל",
+    "masculine_singular": "מתקבל",
+    "feminine_singular": "מתקבלת",
+    "masculine_plural": "מתקבלים",
+    "feminine_plural": "מתקבלות"
+  },
+  {
+    "id": 298,
+    "infinitive": "לקדם",
+    "binyan": "פיעל",
+    "masculine_singular": "מקדם",
+    "feminine_singular": "מקדמת",
+    "masculine_plural": "מקדמים",
+    "feminine_plural": "מקדמות"
+  },
+  {
+    "id": 299,
+    "infinitive": "להגיש",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגיש",
+    "feminine_singular": "מגישה",
+    "masculine_plural": "מגישים",
+    "feminine_plural": "מגישות"
+  },
+  {
+    "id": 300,
+    "infinitive": "לראיין",
+    "binyan": "פיעל",
+    "masculine_singular": "מראיין",
+    "feminine_singular": "מראיינת",
+    "masculine_plural": "מראיינים",
+    "feminine_plural": "מראיינות"
+  },
+  {
+    "id": 301,
+    "infinitive": "להתפרנס",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפרנס",
+    "feminine_singular": "מתפרנסת",
+    "masculine_plural": "מתפרנסים",
+    "feminine_plural": "מתפרנסות"
+  },
+  {
+    "id": 302,
+    "infinitive": "לפרוש",
+    "binyan": "פעל",
+    "masculine_singular": "פורש",
+    "feminine_singular": "פורשת",
+    "masculine_plural": "פורשים",
+    "feminine_plural": "פורשות"
+  },
+  {
+    "id": 303,
+    "infinitive": "להיעדר",
+    "binyan": "נפעל",
+    "masculine_singular": "נעדר",
+    "feminine_singular": "נעדרת",
+    "masculine_plural": "נעדרים",
+    "feminine_plural": "נעדרות"
+  },
+  {
+    "id": 304,
+    "infinitive": "להצטיין",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטיין",
+    "feminine_singular": "מצטיינת",
+    "masculine_plural": "מצטיינים",
+    "feminine_plural": "מצטיינות"
+  },
+  {
+    "id": 305,
+    "infinitive": "להמציא",
+    "binyan": "הפעיל",
+    "masculine_singular": "ממציא",
+    "feminine_singular": "ממציאה",
+    "masculine_plural": "ממציאים",
+    "feminine_plural": "ממציאות"
+  },
+  {
+    "id": 306,
+    "infinitive": "לחדש",
+    "binyan": "פיעל",
+    "masculine_singular": "מחדש",
+    "feminine_singular": "מחדשת",
+    "masculine_plural": "מחדשים",
+    "feminine_plural": "מחדשות"
+  },
+  {
+    "id": 307,
+    "infinitive": "להרחיב",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרחיב",
+    "feminine_singular": "מרחיבה",
+    "masculine_plural": "מרחיבים",
+    "feminine_plural": "מרחיבות"
+  },
+  {
+    "id": 308,
+    "infinitive": "לצמצם",
+    "binyan": "פיעל",
+    "masculine_singular": "מצמצם",
+    "feminine_singular": "מצמצמת",
+    "masculine_plural": "מצמצמים",
+    "feminine_plural": "מצמצמות"
+  },
+  {
+    "id": 309,
+    "infinitive": "להגביר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגביר",
+    "feminine_singular": "מגבירה",
+    "masculine_plural": "מגבירים",
+    "feminine_plural": "מגבירות"
+  },
+  {
+    "id": 310,
+    "infinitive": "להפחית",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפחית",
+    "feminine_singular": "מפחיתה",
+    "masculine_plural": "מפחיתים",
+    "feminine_plural": "מפחיתות"
+  },
+  {
+    "id": 311,
+    "infinitive": "להגדיל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגדיל",
+    "feminine_singular": "מגדילה",
+    "masculine_plural": "מגדילים",
+    "feminine_plural": "מגדילות"
+  },
+  {
+    "id": 312,
+    "infinitive": "להקטין",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקטין",
+    "feminine_singular": "מקטינה",
+    "masculine_plural": "מקטינים",
+    "feminine_plural": "מקטינות"
+  },
+  {
+    "id": 313,
+    "infinitive": "להאט",
+    "binyan": "הפעיל",
+    "masculine_singular": "מאט",
+    "feminine_singular": "מאטת",
+    "masculine_plural": "מאטים",
+    "feminine_plural": "מאטות"
+  },
+  {
+    "id": 314,
+    "infinitive": "להשתחרר",
+    "binyan": "התפעל",
+    "masculine_singular": "משתחרר",
+    "feminine_singular": "משתחררת",
+    "masculine_plural": "משתחררים",
+    "feminine_plural": "משתחררות"
+  },
+  {
+    "id": 315,
+    "infinitive": "להשתלב",
+    "binyan": "התפעל",
+    "masculine_singular": "משתלב",
+    "feminine_singular": "משתלבת",
+    "masculine_plural": "משתלבים",
+    "feminine_plural": "משתלבות"
+  },
+  {
+    "id": 316,
+    "infinitive": "לגור",
+    "binyan": "פעל",
+    "masculine_singular": "גר",
+    "feminine_singular": "גרה",
+    "masculine_plural": "גרים",
+    "feminine_plural": "גרות"
+  },
+  {
+    "id": 317,
+    "infinitive": "ללמוד",
+    "binyan": "פעל",
+    "masculine_singular": "לומד",
+    "feminine_singular": "לומדת",
+    "masculine_plural": "לומדים",
+    "feminine_plural": "לומדות"
+  },
+  {
+    "id": 318,
+    "infinitive": "להיכנס",
+    "binyan": "נפעל",
+    "masculine_singular": "נכנס",
+    "feminine_singular": "נכנסת",
+    "masculine_plural": "נכנסים",
+    "feminine_plural": "נכנסות"
+  },
+  {
+    "id": 319,
+    "infinitive": "להסתכל",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתכל",
+    "feminine_singular": "מסתכלת",
+    "masculine_plural": "מסתכלים",
+    "feminine_plural": "מסתכלות"
+  },
+  {
+    "id": 320,
+    "infinitive": "לחכות",
+    "binyan": "פיעל",
+    "masculine_singular": "מחכה",
+    "feminine_singular": "מחכה",
+    "masculine_plural": "מחכים",
+    "feminine_plural": "מחכות"
+  },
+  {
+    "id": 321,
+    "infinitive": "לזכור",
+    "binyan": "פעל",
+    "masculine_singular": "זוכר",
+    "feminine_singular": "זוכרת",
+    "masculine_plural": "זוכרים",
+    "feminine_plural": "זוכרות"
+  },
+  {
+    "id": 322,
+    "infinitive": "לשכוח",
+    "binyan": "פעל",
+    "masculine_singular": "שוכח",
+    "feminine_singular": "שוכחת",
+    "masculine_plural": "שוכחים",
+    "feminine_plural": "שוכחות"
+  },
+  {
+    "id": 323,
+    "infinitive": "להחליט",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחליט",
+    "feminine_singular": "מחליטת",
+    "masculine_plural": "מחליטים",
+    "feminine_plural": "מחליטות"
+  },
+  {
+    "id": 324,
+    "infinitive": "להשאיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "משאיר",
+    "feminine_singular": "משאירה",
+    "masculine_plural": "משאירים",
+    "feminine_plural": "משאירות"
+  },
+  {
+    "id": 325,
+    "infinitive": "להקשיב",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקשיב",
+    "feminine_singular": "מקשיבה",
+    "masculine_plural": "מקשיבים",
+    "feminine_plural": "מקשיבות"
+  },
+  {
+    "id": 326,
+    "infinitive": "למות",
+    "binyan": "פעל",
+    "masculine_singular": "מת",
+    "feminine_singular": "מתה",
+    "masculine_plural": "מתים",
+    "feminine_plural": "מתות"
+  },
+  {
+    "id": 327,
+    "infinitive": "לרוץ",
+    "binyan": "פעל",
+    "masculine_singular": "רץ",
+    "feminine_singular": "רצה",
+    "masculine_plural": "רצים",
+    "feminine_plural": "רצות"
+  },
+  {
+    "id": 328,
+    "infinitive": "לנהוג",
+    "binyan": "פעל",
+    "masculine_singular": "נוהג",
+    "feminine_singular": "נוהגת",
+    "masculine_plural": "נוהגים",
+    "feminine_plural": "נוהגות"
+  },
+  {
+    "id": 329,
+    "infinitive": "לפנות",
+    "binyan": "פעל",
+    "masculine_singular": "פונה",
+    "feminine_singular": "פונה",
+    "masculine_plural": "פונים",
+    "feminine_plural": "פונות"
+  },
+  {
+    "id": 330,
+    "infinitive": "להחזיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחזיר",
+    "feminine_singular": "מחזירה",
+    "masculine_plural": "מחזירים",
+    "feminine_plural": "מחזירות"
+  },
+  {
+    "id": 331,
+    "infinitive": "לבשל",
+    "binyan": "פיעל",
+    "masculine_singular": "מבשל",
+    "feminine_singular": "מבשלת",
+    "masculine_plural": "מבשלים",
+    "feminine_plural": "מבשלות"
+  },
+  {
+    "id": 332,
+    "infinitive": "למכור",
+    "binyan": "פעל",
+    "masculine_singular": "מוכר",
+    "feminine_singular": "מוכרת",
+    "masculine_plural": "מוכרים",
+    "feminine_plural": "מוכרות"
+  },
+  {
+    "id": 333,
+    "infinitive": "לקוות",
+    "binyan": "פיעל",
+    "masculine_singular": "מקווה",
+    "feminine_singular": "מקווה",
+    "masculine_plural": "מקווים",
+    "feminine_plural": "מקוות"
+  },
+  {
+    "id": 334,
+    "infinitive": "לפחד",
+    "binyan": "פעל",
+    "masculine_singular": "פוחד",
+    "feminine_singular": "פוחדת",
+    "masculine_plural": "פוחדים",
+    "feminine_plural": "פוחדות"
+  },
+  {
+    "id": 335,
+    "infinitive": "להתעניין",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעניין",
+    "feminine_singular": "מתעניינת",
+    "masculine_plural": "מתעניינים",
+    "feminine_plural": "מתעניינות"
+  },
+  {
+    "id": 336,
+    "infinitive": "להתגעגע",
+    "binyan": "התפעל",
+    "masculine_singular": "מתגעגע",
+    "feminine_singular": "מתגעגעת",
+    "masculine_plural": "מתגעגעים",
+    "feminine_plural": "מתגעגעות"
+  },
+  {
+    "id": 337,
+    "infinitive": "להתעורר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעורר",
+    "feminine_singular": "מתעוררת",
+    "masculine_plural": "מתעוררים",
+    "feminine_plural": "מתעוררות"
+  },
+  {
+    "id": 338,
+    "infinitive": "להפוך",
+    "binyan": "פעל",
+    "masculine_singular": "הופך",
+    "feminine_singular": "הופכת",
+    "masculine_plural": "הופכים",
+    "feminine_plural": "הופכות"
+  },
+  {
+    "id": 339,
+    "infinitive": "להחזיק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחזיק",
+    "feminine_singular": "מחזיקה",
+    "masculine_plural": "מחזיקים",
+    "feminine_plural": "מחזיקות"
+  },
+  {
+    "id": 340,
+    "infinitive": "להפסיד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפסיד",
+    "feminine_singular": "מפסידה",
+    "masculine_plural": "מפסידים",
+    "feminine_plural": "מפסידות"
+  },
+  {
+    "id": 341,
+    "infinitive": "לנצח",
+    "binyan": "פיעל",
+    "masculine_singular": "מנצח",
+    "feminine_singular": "מנצחת",
+    "masculine_plural": "מנצחים",
+    "feminine_plural": "מנצחות"
+  },
+  {
+    "id": 342,
+    "infinitive": "להתנגד",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנגד",
+    "feminine_singular": "מתנגדת",
+    "masculine_plural": "מתנגדים",
+    "feminine_plural": "מתנגדות"
+  },
+  {
+    "id": 343,
+    "infinitive": "להתרגל",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרגל",
+    "feminine_singular": "מתרגלת",
+    "masculine_plural": "מתרגלים",
+    "feminine_plural": "מתרגלות"
+  },
+  {
+    "id": 344,
+    "infinitive": "לזכות",
+    "binyan": "פעל",
+    "masculine_singular": "זוכה",
+    "feminine_singular": "זוכה",
+    "masculine_plural": "זוכים",
+    "feminine_plural": "זוכות"
+  },
+  {
+    "id": 345,
+    "infinitive": "להתרכז",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרכז",
+    "feminine_singular": "מתרכזת",
+    "masculine_plural": "מתרכזים",
+    "feminine_plural": "מתרכזות"
+  },
+  {
+    "id": 346,
+    "infinitive": "להתכונן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתכונן",
+    "feminine_singular": "מתכוננת",
+    "masculine_plural": "מתכוננים",
+    "feminine_plural": "מתכוננות"
+  },
+  {
+    "id": 347,
+    "infinitive": "להשתנות",
+    "binyan": "התפעל",
+    "masculine_singular": "משתנה",
+    "feminine_singular": "משתנה",
+    "masculine_plural": "משתנים",
+    "feminine_plural": "משתנות"
+  },
+  {
+    "id": 348,
+    "infinitive": "לגדל",
+    "binyan": "פיעל",
+    "masculine_singular": "מגדל",
+    "feminine_singular": "מגדלת",
+    "masculine_plural": "מגדלים",
+    "feminine_plural": "מגדלות"
+  },
+  {
+    "id": 349,
+    "infinitive": "להרוס",
+    "binyan": "פעל",
+    "masculine_singular": "הורס",
+    "feminine_singular": "הורסת",
+    "masculine_plural": "הורסים",
+    "feminine_plural": "הורסות"
+  },
+  {
+    "id": 350,
+    "infinitive": "לשפר",
+    "binyan": "פיעל",
+    "masculine_singular": "משפר",
+    "feminine_singular": "משפרת",
+    "masculine_plural": "משפרים",
+    "feminine_plural": "משפרות"
+  },
+  {
+    "id": 351,
+    "infinitive": "להתפתח",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפתח",
+    "feminine_singular": "מתפתחת",
+    "masculine_plural": "מתפתחים",
+    "feminine_plural": "מתפתחות"
+  },
+  {
+    "id": 352,
+    "infinitive": "לארגן",
+    "binyan": "פיעל",
+    "masculine_singular": "מארגן",
+    "feminine_singular": "מארגנת",
+    "masculine_plural": "מארגנים",
+    "feminine_plural": "מארגנות"
+  },
+  {
+    "id": 353,
+    "infinitive": "להתארגן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתארגן",
+    "feminine_singular": "מתארגנת",
+    "masculine_plural": "מתארגנים",
+    "feminine_plural": "מתארגנות"
+  },
+  {
+    "id": 354,
+    "infinitive": "להיעזר",
+    "binyan": "נפעל",
+    "masculine_singular": "נעזר",
+    "feminine_singular": "נעזרת",
+    "masculine_plural": "נעזרים",
+    "feminine_plural": "נעזרות"
+  },
+  {
+    "id": 355,
+    "infinitive": "להסתיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מסתיר",
+    "feminine_singular": "מסתירה",
+    "masculine_plural": "מסתירים",
+    "feminine_plural": "מסתירות"
+  },
+  {
+    "id": 356,
+    "infinitive": "להתחבא",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחבא",
+    "feminine_singular": "מתחבאת",
+    "masculine_plural": "מתחבאים",
+    "feminine_plural": "מתחבאות"
+  },
+  {
+    "id": 357,
+    "infinitive": "להתייחס",
+    "binyan": "התפעל",
+    "masculine_singular": "מתייחס",
+    "feminine_singular": "מתייחסת",
+    "masculine_plural": "מתייחסים",
+    "feminine_plural": "מתייחסות"
+  },
+  {
+    "id": 358,
+    "infinitive": "להסתפק",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתפק",
+    "feminine_singular": "מסתפקת",
+    "masculine_plural": "מסתפקים",
+    "feminine_plural": "מסתפקות"
+  },
+  {
+    "id": 359,
+    "infinitive": "להשוות",
+    "binyan": "הפעיל",
+    "masculine_singular": "משווה",
+    "feminine_singular": "משווה",
+    "masculine_plural": "משווים",
+    "feminine_plural": "משוות"
+  },
+  {
+    "id": 360,
+    "infinitive": "להסתיים",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתיים",
+    "feminine_singular": "מסתיימת",
+    "masculine_plural": "מסתיימים",
+    "feminine_plural": "מסתיימות"
+  },
+  {
+    "id": 361,
+    "infinitive": "להתנהג",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנהג",
+    "feminine_singular": "מתנהגת",
+    "masculine_plural": "מתנהגים",
+    "feminine_plural": "מתנהגות"
+  },
+  {
+    "id": 362,
+    "infinitive": "להיכשל",
+    "binyan": "נפעל",
+    "masculine_singular": "נכשל",
+    "feminine_singular": "נכשלת",
+    "masculine_plural": "נכשלים",
+    "feminine_plural": "נכשלות"
+  },
+  {
+    "id": 363,
+    "infinitive": "לנחות",
+    "binyan": "פעל",
+    "masculine_singular": "נוחת",
+    "feminine_singular": "נוחתת",
+    "masculine_plural": "נוחתים",
+    "feminine_plural": "נוחתות"
+  },
+  {
+    "id": 364,
+    "infinitive": "לרכוב",
+    "binyan": "פעל",
+    "masculine_singular": "רוכב",
+    "feminine_singular": "רוכבת",
+    "masculine_plural": "רוכבים",
+    "feminine_plural": "רוכבות"
+  },
+  {
+    "id": 365,
+    "infinitive": "להרגיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרגיע",
+    "feminine_singular": "מרגיעה",
+    "masculine_plural": "מרגיעים",
+    "feminine_plural": "מרגיעות"
+  },
+  {
+    "id": 366,
+    "infinitive": "להתעצבן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעצבן",
+    "feminine_singular": "מתעצבנת",
+    "masculine_plural": "מתעצבנים",
+    "feminine_plural": "מתעצבנות"
+  },
+  {
+    "id": 367,
+    "infinitive": "להתאהב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתאהב",
+    "feminine_singular": "מתאהבת",
+    "masculine_plural": "מתאהבים",
+    "feminine_plural": "מתאהבות"
+  },
+  {
+    "id": 368,
+    "infinitive": "להתבייש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתבייש",
+    "feminine_singular": "מתביישת",
+    "masculine_plural": "מתביישים",
+    "feminine_plural": "מתביישות"
+  },
+  {
+    "id": 369,
+    "infinitive": "להסתמך",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתמך",
+    "feminine_singular": "מסתמכת",
+    "masculine_plural": "מסתמכים",
+    "feminine_plural": "מסתמכות"
+  },
+  {
+    "id": 370,
+    "infinitive": "להתייעץ",
+    "binyan": "התפעל",
+    "masculine_singular": "מתייעץ",
+    "feminine_singular": "מתייעצת",
+    "masculine_plural": "מתייעצים",
+    "feminine_plural": "מתייעצות"
+  },
+  {
+    "id": 371,
+    "infinitive": "להתעקש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעקש",
+    "feminine_singular": "מתעקשת",
+    "masculine_plural": "מתעקשים",
+    "feminine_plural": "מתעקשות"
+  },
+  {
+    "id": 372,
+    "infinitive": "להכחיש",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכחיש",
+    "feminine_singular": "מכחישה",
+    "masculine_plural": "מכחישים",
+    "feminine_plural": "מכחישות"
+  },
+  {
+    "id": 373,
+    "infinitive": "להקליט",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקליט",
+    "feminine_singular": "מקליטה",
+    "masculine_plural": "מקליטים",
+    "feminine_plural": "מקליטות"
+  },
+  {
+    "id": 374,
+    "infinitive": "להצטלם",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטלם",
+    "feminine_singular": "מצטלמת",
+    "masculine_plural": "מצטלמים",
+    "feminine_plural": "מצטלמות"
+  },
+  {
+    "id": 375,
+    "infinitive": "להדפיס",
+    "binyan": "הפעיל",
+    "masculine_singular": "מדפיס",
+    "feminine_singular": "מדפיסה",
+    "masculine_plural": "מדפיסים",
+    "feminine_plural": "מדפיסות"
+  },
+  {
+    "id": 376,
+    "infinitive": "להדביק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מדביק",
+    "feminine_singular": "מדביקה",
+    "masculine_plural": "מדביקים",
+    "feminine_plural": "מדביקות"
+  },
+  {
+    "id": 377,
+    "infinitive": "לטעון",
+    "binyan": "פעל",
+    "masculine_singular": "טוען",
+    "feminine_singular": "טוענת",
+    "masculine_plural": "טוענים",
+    "feminine_plural": "טוענות"
+  },
+  {
+    "id": 378,
+    "infinitive": "להסיק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מסיק",
+    "feminine_singular": "מסיקה",
+    "masculine_plural": "מסיקים",
+    "feminine_plural": "מסיקות"
+  },
+  {
+    "id": 379,
+    "infinitive": "לשער",
+    "binyan": "פיעל",
+    "masculine_singular": "משער",
+    "feminine_singular": "משערת",
+    "masculine_plural": "משערים",
+    "feminine_plural": "משערות"
+  },
+  {
+    "id": 380,
+    "infinitive": "להעז",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעז",
+    "feminine_singular": "מעזת",
+    "masculine_plural": "מעזים",
+    "feminine_plural": "מעזות"
+  },
+  {
+    "id": 381,
+    "infinitive": "להסתכן",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתכן",
+    "feminine_singular": "מסתכנת",
+    "masculine_plural": "מסתכנים",
+    "feminine_plural": "מסתכנות"
+  },
+  {
+    "id": 382,
+    "infinitive": "להיכנע",
+    "binyan": "נפעל",
+    "masculine_singular": "נכנע",
+    "feminine_singular": "נכנעת",
+    "masculine_plural": "נכנעים",
+    "feminine_plural": "נכנעות"
+  },
+  {
+    "id": 383,
+    "infinitive": "לתקוף",
+    "binyan": "פעל",
+    "masculine_singular": "תוקף",
+    "feminine_singular": "תוקפת",
+    "masculine_plural": "תוקפים",
+    "feminine_plural": "תוקפות"
+  },
+  {
+    "id": 384,
+    "infinitive": "להיפגע",
+    "binyan": "נפעל",
+    "masculine_singular": "נפגע",
+    "feminine_singular": "נפגעת",
+    "masculine_plural": "נפגעים",
+    "feminine_plural": "נפגעות"
+  },
+  {
+    "id": 385,
+    "infinitive": "לשרוד",
+    "binyan": "פעל",
+    "masculine_singular": "שורד",
+    "feminine_singular": "שורדת",
+    "masculine_plural": "שורדים",
+    "feminine_plural": "שורדות"
+  },
+  {
+    "id": 386,
+    "infinitive": "להזדקן",
+    "binyan": "התפעל",
+    "masculine_singular": "מזדקן",
+    "feminine_singular": "מזדקנת",
+    "masculine_plural": "מזדקנים",
+    "feminine_plural": "מזדקנות"
+  },
+  {
+    "id": 387,
+    "infinitive": "לחלות",
+    "binyan": "פעל",
+    "masculine_singular": "חולה",
+    "feminine_singular": "חולה",
+    "masculine_plural": "חולים",
+    "feminine_plural": "חולות"
+  },
+  {
+    "id": 388,
+    "infinitive": "להחלים",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחלים",
+    "feminine_singular": "מחלימה",
+    "masculine_plural": "מחלימים",
+    "feminine_plural": "מחלימות"
+  },
+  {
+    "id": 389,
+    "infinitive": "לרפא",
+    "binyan": "פיעל",
+    "masculine_singular": "מרפא",
+    "feminine_singular": "מרפאה",
+    "masculine_plural": "מרפאים",
+    "feminine_plural": "מרפאות"
+  },
+  {
+    "id": 390,
+    "infinitive": "להשתעל",
+    "binyan": "התפעל",
+    "masculine_singular": "משתעל",
+    "feminine_singular": "משתעלת",
+    "masculine_plural": "משתעלים",
+    "feminine_plural": "משתעלות"
+  },
+  {
+    "id": 391,
+    "infinitive": "להתעטש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעטש",
+    "feminine_singular": "מתעטשת",
+    "masculine_plural": "מתעטשים",
+    "feminine_plural": "מתעטשות"
+  },
+  {
+    "id": 392,
+    "infinitive": "להקיא",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקיא",
+    "feminine_singular": "מקיאה",
+    "masculine_plural": "מקיאים",
+    "feminine_plural": "מקיאות"
+  },
+  {
+    "id": 393,
+    "infinitive": "להתעלף",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעלף",
+    "feminine_singular": "מתעלפת",
+    "masculine_plural": "מתעלפים",
+    "feminine_plural": "מתעלפות"
+  },
+  {
+    "id": 394,
+    "infinitive": "להתעייף",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעייף",
+    "feminine_singular": "מתעייפת",
+    "masculine_plural": "מתעייפים",
+    "feminine_plural": "מתעייפות"
+  },
+  {
+    "id": 395,
+    "infinitive": "להתעמל",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעמל",
+    "feminine_singular": "מתעמלת",
+    "masculine_plural": "מתעמלים",
+    "feminine_plural": "מתעמלות"
+  },
+  {
+    "id": 396,
+    "infinitive": "להתרחץ",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרחץ",
+    "feminine_singular": "מתרחצת",
+    "masculine_plural": "מתרחצים",
+    "feminine_plural": "מתרחצות"
+  },
+  {
+    "id": 397,
+    "infinitive": "להתפשט",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפשט",
+    "feminine_singular": "מתפשטת",
+    "masculine_plural": "מתפשטים",
+    "feminine_plural": "מתפשטות"
+  },
+  {
+    "id": 398,
+    "infinitive": "להתעכב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעכב",
+    "feminine_singular": "מתעכבת",
+    "masculine_plural": "מתעכבים",
+    "feminine_plural": "מתעכבות"
+  },
+  {
+    "id": 399,
+    "infinitive": "להקדים",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקדים",
+    "feminine_singular": "מקדימה",
+    "masculine_plural": "מקדימים",
+    "feminine_plural": "מקדימות"
+  },
+  {
+    "id": 400,
+    "infinitive": "להתעמת",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעמת",
+    "feminine_singular": "מתעמתת",
+    "masculine_plural": "מתעמתים",
+    "feminine_plural": "מתעמתות"
+  },
+  {
+    "id": 401,
+    "infinitive": "להתערב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתערב",
+    "feminine_singular": "מתערבת",
+    "masculine_plural": "מתערבים",
+    "feminine_plural": "מתערבות"
+  },
+  {
+    "id": 402,
+    "infinitive": "להחמיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מחמיר",
+    "feminine_singular": "מחמירה",
+    "masculine_plural": "מחמירים",
+    "feminine_plural": "מחמירות"
+  },
+  {
+    "id": 403,
+    "infinitive": "להקל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקל",
+    "feminine_singular": "מקלה",
+    "masculine_plural": "מקלים",
+    "feminine_plural": "מקלות"
+  },
+  {
+    "id": 404,
+    "infinitive": "להתריע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מתריע",
+    "feminine_singular": "מתריעה",
+    "masculine_plural": "מתריעים",
+    "feminine_plural": "מתריעות"
+  },
+  {
+    "id": 405,
+    "infinitive": "להתרשם",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרשם",
+    "feminine_singular": "מתרשמת",
+    "masculine_plural": "מתרשמים",
+    "feminine_plural": "מתרשמות"
+  },
+  {
+    "id": 406,
+    "infinitive": "להפתיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפתיע",
+    "feminine_singular": "מפתיעה",
+    "masculine_plural": "מפתיעים",
+    "feminine_plural": "מפתיעות"
+  },
+  {
+    "id": 407,
+    "infinitive": "להתפלא",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפלא",
+    "feminine_singular": "מתפלאת",
+    "masculine_plural": "מתפלאים",
+    "feminine_plural": "מתפלאות"
+  },
+  {
+    "id": 408,
+    "infinitive": "להתלהב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתלהב",
+    "feminine_singular": "מתלהבת",
+    "masculine_plural": "מתלהבים",
+    "feminine_plural": "מתלהבות"
+  },
+  {
+    "id": 409,
+    "infinitive": "להשתעמם",
+    "binyan": "התפעל",
+    "masculine_singular": "משתעמם",
+    "feminine_singular": "משתעממת",
+    "masculine_plural": "משתעממים",
+    "feminine_plural": "משתעממות"
+  },
+  {
+    "id": 410,
+    "infinitive": "להתאכזב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתאכזב",
+    "feminine_singular": "מתאכזבת",
+    "masculine_plural": "מתאכזבים",
+    "feminine_plural": "מתאכזבות"
+  },
+  {
+    "id": 411,
+    "infinitive": "לאכזב",
+    "binyan": "פיעל",
+    "masculine_singular": "מאכזב",
+    "feminine_singular": "מאכזבת",
+    "masculine_plural": "מאכזבים",
+    "feminine_plural": "מאכזבות"
+  },
+  {
+    "id": 412,
+    "infinitive": "להיעלב",
+    "binyan": "נפעל",
+    "masculine_singular": "נעלב",
+    "feminine_singular": "נעלבת",
+    "masculine_plural": "נעלבים",
+    "feminine_plural": "נעלבות"
+  },
+  {
+    "id": 413,
+    "infinitive": "להעליב",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעליב",
+    "feminine_singular": "מעליבה",
+    "masculine_plural": "מעליבים",
+    "feminine_plural": "מעליבות"
+  },
+  {
+    "id": 414,
+    "infinitive": "לקנא",
+    "binyan": "פיעל",
+    "masculine_singular": "מקנא",
+    "feminine_singular": "מקנאה",
+    "masculine_plural": "מקנאים",
+    "feminine_plural": "מקנאות"
+  },
+  {
+    "id": 415,
+    "infinitive": "להתחרט",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחרט",
+    "feminine_singular": "מתחרטת",
+    "masculine_plural": "מתחרטים",
+    "feminine_plural": "מתחרטות"
+  },
+  {
+    "id": 416,
+    "infinitive": "להסתכסך",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתכסך",
+    "feminine_singular": "מסתכסכת",
+    "masculine_plural": "מסתכסכים",
+    "feminine_plural": "מסתכסכות"
+  },
+  {
+    "id": 417,
+    "infinitive": "לחשוף",
+    "binyan": "פעל",
+    "masculine_singular": "חושף",
+    "feminine_singular": "חושפת",
+    "masculine_plural": "חושפים",
+    "feminine_plural": "חושפות"
+  },
+  {
+    "id": 418,
+    "infinitive": "להיחשף",
+    "binyan": "נפעל",
+    "masculine_singular": "נחשף",
+    "feminine_singular": "נחשפת",
+    "masculine_plural": "נחשפים",
+    "feminine_plural": "נחשפות"
+  },
+  {
+    "id": 419,
+    "infinitive": "להתנשק",
+    "binyan": "התפעל",
+    "masculine_singular": "מתנשק",
+    "feminine_singular": "מתנשקת",
+    "masculine_plural": "מתנשקים",
+    "feminine_plural": "מתנשקות"
+  },
+  {
+    "id": 420,
+    "infinitive": "ללטף",
+    "binyan": "פיעל",
+    "masculine_singular": "מלטף",
+    "feminine_singular": "מלטפת",
+    "masculine_plural": "מלטפים",
+    "feminine_plural": "מלטפות"
+  },
+  {
+    "id": 421,
+    "infinitive": "להציק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מציק",
+    "feminine_singular": "מציקה",
+    "masculine_plural": "מציקים",
+    "feminine_plural": "מציקות"
+  },
+  {
+    "id": 422,
+    "infinitive": "להטריד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מטריד",
+    "feminine_singular": "מטרידה",
+    "masculine_plural": "מטרידים",
+    "feminine_plural": "מטרידות"
+  },
+  {
+    "id": 423,
+    "infinitive": "לכוון",
+    "binyan": "פיעל",
+    "masculine_singular": "מכוון",
+    "feminine_singular": "מכוונת",
+    "masculine_plural": "מכוונים",
+    "feminine_plural": "מכוונות"
+  },
+  {
+    "id": 424,
+    "infinitive": "לרדוף",
+    "binyan": "פעל",
+    "masculine_singular": "רודף",
+    "feminine_singular": "רודפת",
+    "masculine_plural": "רודפים",
+    "feminine_plural": "רודפות"
+  },
+  {
+    "id": 425,
+    "infinitive": "לסגת",
+    "binyan": "פעל",
+    "masculine_singular": "נסוג",
+    "feminine_singular": "נסוגה",
+    "masculine_plural": "נסוגים",
+    "feminine_plural": "נסוגות"
+  },
+  {
+    "id": 426,
+    "infinitive": "לחצות",
+    "binyan": "פעל",
+    "masculine_singular": "חוצה",
+    "feminine_singular": "חוצה",
+    "masculine_plural": "חוצים",
+    "feminine_plural": "חוצות"
+  },
+  {
+    "id": 427,
+    "infinitive": "לעקוף",
+    "binyan": "פעל",
+    "masculine_singular": "עוקף",
+    "feminine_singular": "עוקפת",
+    "masculine_plural": "עוקפים",
+    "feminine_plural": "עוקפות"
+  },
+  {
+    "id": 428,
+    "infinitive": "לפספס",
+    "binyan": "פיעל",
+    "masculine_singular": "מפספס",
+    "feminine_singular": "מפספסת",
+    "masculine_plural": "מפספסים",
+    "feminine_plural": "מפספסות"
+  },
+  {
+    "id": 429,
+    "infinitive": "ללוות",
+    "binyan": "פיעל",
+    "masculine_singular": "מלווה",
+    "feminine_singular": "מלווה",
+    "masculine_plural": "מלווים",
+    "feminine_plural": "מלוות"
+  },
+  {
+    "id": 430,
+    "infinitive": "להלוות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מלווה",
+    "feminine_singular": "מלווה",
+    "masculine_plural": "מלווים",
+    "feminine_plural": "מלוות"
+  },
+  {
+    "id": 431,
+    "infinitive": "להשכיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "משכיר",
+    "feminine_singular": "משכירה",
+    "masculine_plural": "משכירים",
+    "feminine_plural": "משכירות"
+  },
+  {
+    "id": 432,
+    "infinitive": "לצרוך",
+    "binyan": "פעל",
+    "masculine_singular": "צורך",
+    "feminine_singular": "צורכת",
+    "masculine_plural": "צורכים",
+    "feminine_plural": "צורכות"
+  },
+  {
+    "id": 433,
+    "infinitive": "לייצר",
+    "binyan": "פיעל",
+    "masculine_singular": "מייצר",
+    "feminine_singular": "מייצרת",
+    "masculine_plural": "מייצרים",
+    "feminine_plural": "מייצרות"
+  },
+  {
+    "id": 434,
+    "infinitive": "לגרור",
+    "binyan": "פעל",
+    "masculine_singular": "גורר",
+    "feminine_singular": "גוררת",
+    "masculine_plural": "גוררים",
+    "feminine_plural": "גוררות"
+  },
+  {
+    "id": 435,
+    "infinitive": "להקפיא",
+    "binyan": "הפעיל",
+    "masculine_singular": "מקפיא",
+    "feminine_singular": "מקפיאה",
+    "masculine_plural": "מקפיאים",
+    "feminine_plural": "מקפיאות"
+  },
+  {
+    "id": 436,
+    "infinitive": "להפשיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפשיר",
+    "feminine_singular": "מפשירה",
+    "masculine_plural": "מפשירים",
+    "feminine_plural": "מפשירות"
+  },
+  {
+    "id": 437,
+    "infinitive": "לקלף",
+    "binyan": "פיעל",
+    "masculine_singular": "מקלף",
+    "feminine_singular": "מקלפת",
+    "masculine_plural": "מקלפים",
+    "feminine_plural": "מקלפות"
+  },
+  {
+    "id": 438,
+    "infinitive": "לקצוץ",
+    "binyan": "פעל",
+    "masculine_singular": "קוצץ",
+    "feminine_singular": "קוצצת",
+    "masculine_plural": "קוצצים",
+    "feminine_plural": "קוצצות"
+  },
+  {
+    "id": 439,
+    "infinitive": "לגהץ",
+    "binyan": "פיעל",
+    "masculine_singular": "מגהץ",
+    "feminine_singular": "מגהצת",
+    "masculine_plural": "מגהצים",
+    "feminine_plural": "מגהצות"
+  },
+  {
+    "id": 440,
+    "infinitive": "לפזר",
+    "binyan": "פיעל",
+    "masculine_singular": "מפזר",
+    "feminine_singular": "מפזרת",
+    "masculine_plural": "מפזרים",
+    "feminine_plural": "מפזרות"
+  },
+  {
+    "id": 441,
+    "infinitive": "להעמיס",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעמיס",
+    "feminine_singular": "מעמיסה",
+    "masculine_plural": "מעמיסים",
+    "feminine_plural": "מעמיסות"
+  },
+  {
+    "id": 442,
+    "infinitive": "להדק",
+    "binyan": "פיעל",
+    "masculine_singular": "מהדק",
+    "feminine_singular": "מהדקת",
+    "masculine_plural": "מהדקים",
+    "feminine_plural": "מהדקות"
+  },
+  {
+    "id": 443,
+    "infinitive": "לנעוץ",
+    "binyan": "פעל",
+    "masculine_singular": "נועץ",
+    "feminine_singular": "נועצת",
+    "masculine_plural": "נועצים",
+    "feminine_plural": "נועצות"
+  },
+  {
+    "id": 444,
+    "infinitive": "לקדוח",
+    "binyan": "פעל",
+    "masculine_singular": "קודח",
+    "feminine_singular": "קודחת",
+    "masculine_plural": "קודחים",
+    "feminine_plural": "קודחות"
+  },
+  {
+    "id": 445,
+    "infinitive": "להבריג",
+    "binyan": "הפעיל",
+    "masculine_singular": "מבריג",
+    "feminine_singular": "מבריגה",
+    "masculine_plural": "מבריגים",
+    "feminine_plural": "מבריגות"
+  },
+  {
+    "id": 446,
+    "infinitive": "לשרטט",
+    "binyan": "פיעל",
+    "masculine_singular": "משרטט",
+    "feminine_singular": "משרטטת",
+    "masculine_plural": "משרטטים",
+    "feminine_plural": "משרטטות"
+  },
+  {
+    "id": 447,
+    "infinitive": "לתכנת",
+    "binyan": "פיעל",
+    "masculine_singular": "מתכנת",
+    "feminine_singular": "מתכנתת",
+    "masculine_plural": "מתכנתים",
+    "feminine_plural": "מתכנתות"
+  },
+  {
+    "id": 448,
+    "infinitive": "לשנן",
+    "binyan": "פיעל",
+    "masculine_singular": "משנן",
+    "feminine_singular": "משננת",
+    "masculine_plural": "משננים",
+    "feminine_plural": "משננות"
+  },
+  {
+    "id": 449,
+    "infinitive": "להיבחן",
+    "binyan": "נפעל",
+    "masculine_singular": "נבחן",
+    "feminine_singular": "נבחנת",
+    "masculine_plural": "נבחנים",
+    "feminine_plural": "נבחנות"
+  },
+  {
+    "id": 450,
+    "infinitive": "להתעמק",
+    "binyan": "התפעל",
+    "masculine_singular": "מתעמק",
+    "feminine_singular": "מתעמקת",
+    "masculine_plural": "מתעמקים",
+    "feminine_plural": "מתעמקות"
+  },
+  {
+    "id": 451,
+    "infinitive": "לשקוע",
+    "binyan": "פעל",
+    "masculine_singular": "שוקע",
+    "feminine_singular": "שוקעת",
+    "masculine_plural": "שוקעים",
+    "feminine_plural": "שוקעות"
+  },
+  {
+    "id": 452,
+    "infinitive": "להתבונן",
+    "binyan": "התפעל",
+    "masculine_singular": "מתבונן",
+    "feminine_singular": "מתבוננת",
+    "masculine_plural": "מתבוננים",
+    "feminine_plural": "מתבוננות"
+  },
+  {
+    "id": 453,
+    "infinitive": "להשגיח",
+    "binyan": "הפעיל",
+    "masculine_singular": "משגיח",
+    "feminine_singular": "משגיחה",
+    "masculine_plural": "משגיחים",
+    "feminine_plural": "משגיחות"
+  },
+  {
+    "id": 454,
+    "infinitive": "לפקח",
+    "binyan": "פיעל",
+    "masculine_singular": "מפקח",
+    "feminine_singular": "מפקחת",
+    "masculine_plural": "מפקחים",
+    "feminine_plural": "מפקחות"
+  },
+  {
+    "id": 455,
+    "infinitive": "לשקף",
+    "binyan": "פיעל",
+    "masculine_singular": "משקף",
+    "feminine_singular": "משקפת",
+    "masculine_plural": "משקפים",
+    "feminine_plural": "משקפות"
+  },
+  {
+    "id": 456,
+    "infinitive": "לפרט",
+    "binyan": "פיעל",
+    "masculine_singular": "מפרט",
+    "feminine_singular": "מפרטת",
+    "masculine_plural": "מפרטים",
+    "feminine_plural": "מפרטות"
+  },
+  {
+    "id": 457,
+    "infinitive": "לנסח",
+    "binyan": "פיעל",
+    "masculine_singular": "מנסח",
+    "feminine_singular": "מנסחת",
+    "masculine_plural": "מנסחים",
+    "feminine_plural": "מנסחות"
+  },
+  {
+    "id": 458,
+    "infinitive": "לפרש",
+    "binyan": "פיעל",
+    "masculine_singular": "מפרש",
+    "feminine_singular": "מפרשת",
+    "masculine_plural": "מפרשים",
+    "feminine_plural": "מפרשות"
+  },
+  {
+    "id": 459,
+    "infinitive": "למיין",
+    "binyan": "פיעל",
+    "masculine_singular": "ממיין",
+    "feminine_singular": "ממיינת",
+    "masculine_plural": "ממיינים",
+    "feminine_plural": "ממיינות"
+  },
+  {
+    "id": 460,
+    "infinitive": "לסווג",
+    "binyan": "פיעל",
+    "masculine_singular": "מסווג",
+    "feminine_singular": "מסווגת",
+    "masculine_plural": "מסווגים",
+    "feminine_plural": "מסווגות"
+  },
+  {
+    "id": 461,
+    "infinitive": "להפריד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפריד",
+    "feminine_singular": "מפרידה",
+    "masculine_plural": "מפרידים",
+    "feminine_plural": "מפרידות"
+  },
+  {
+    "id": 462,
+    "infinitive": "לאחד",
+    "binyan": "פיעל",
+    "masculine_singular": "מאחד",
+    "feminine_singular": "מאחדת",
+    "masculine_plural": "מאחדים",
+    "feminine_plural": "מאחדות"
+  },
+  {
+    "id": 463,
+    "infinitive": "להסתגל",
+    "binyan": "התפעל",
+    "masculine_singular": "מסתגל",
+    "feminine_singular": "מסתגלת",
+    "masculine_plural": "מסתגלים",
+    "feminine_plural": "מסתגלות"
+  },
+  {
+    "id": 464,
+    "infinitive": "ליישם",
+    "binyan": "פיעל",
+    "masculine_singular": "מיישם",
+    "feminine_singular": "מיישמת",
+    "masculine_plural": "מיישמים",
+    "feminine_plural": "מיישמות"
+  },
+  {
+    "id": 465,
+    "infinitive": "להתמיד",
+    "binyan": "הפעיל",
+    "masculine_singular": "מתמיד",
+    "feminine_singular": "מתמידה",
+    "masculine_plural": "מתמידים",
+    "feminine_plural": "מתמידות"
+  },
+  {
+    "id": 466,
+    "infinitive": "להתפשר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתפשר",
+    "feminine_singular": "מתפשרת",
+    "masculine_plural": "מתפשרים",
+    "feminine_plural": "מתפשרות"
+  },
+  {
+    "id": 467,
+    "infinitive": "להפר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מפר",
+    "feminine_singular": "מפרה",
+    "masculine_plural": "מפרים",
+    "feminine_plural": "מפרות"
+  },
+  {
+    "id": 468,
+    "infinitive": "לציית",
+    "binyan": "פיעל",
+    "masculine_singular": "מציית",
+    "feminine_singular": "מצייתת",
+    "masculine_plural": "מצייתים",
+    "feminine_plural": "מצייתות"
+  },
+  {
+    "id": 469,
+    "infinitive": "להבדיל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מבדיל",
+    "feminine_singular": "מבדילה",
+    "masculine_plural": "מבדילים",
+    "feminine_plural": "מבדילות"
+  },
+  {
+    "id": 470,
+    "infinitive": "להגביל",
+    "binyan": "הפעיל",
+    "masculine_singular": "מגביל",
+    "feminine_singular": "מגבילה",
+    "masculine_plural": "מגבילים",
+    "feminine_plural": "מגבילות"
+  },
+  {
+    "id": 471,
+    "infinitive": "להכריח",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכריח",
+    "feminine_singular": "מכריחה",
+    "masculine_plural": "מכריחים",
+    "feminine_plural": "מכריחות"
+  },
+  {
+    "id": 472,
+    "infinitive": "להרתיע",
+    "binyan": "הפעיל",
+    "masculine_singular": "מרתיע",
+    "feminine_singular": "מרתיעה",
+    "masculine_plural": "מרתיעים",
+    "feminine_plural": "מרתיעות"
+  },
+  {
+    "id": 473,
+    "infinitive": "לעורר",
+    "binyan": "פיעל",
+    "masculine_singular": "מעורר",
+    "feminine_singular": "מעוררת",
+    "masculine_plural": "מעוררים",
+    "feminine_plural": "מעוררות"
+  },
+  {
+    "id": 474,
+    "infinitive": "ללחוש",
+    "binyan": "פעל",
+    "masculine_singular": "לוחש",
+    "feminine_singular": "לוחשת",
+    "masculine_plural": "לוחשים",
+    "feminine_plural": "לוחשות"
+  },
+  {
+    "id": 475,
+    "infinitive": "לצרוח",
+    "binyan": "פעל",
+    "masculine_singular": "צורח",
+    "feminine_singular": "צורחת",
+    "masculine_plural": "צורחים",
+    "feminine_plural": "צורחות"
+  },
+  {
+    "id": 476,
+    "infinitive": "לנאום",
+    "binyan": "פעל",
+    "masculine_singular": "נואם",
+    "feminine_singular": "נואמת",
+    "masculine_plural": "נואמים",
+    "feminine_plural": "נואמות"
+  },
+  {
+    "id": 477,
+    "infinitive": "להתכתב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתכתב",
+    "feminine_singular": "מתכתבת",
+    "masculine_plural": "מתכתבים",
+    "feminine_plural": "מתכתבות"
+  },
+  {
+    "id": 478,
+    "infinitive": "לרכל",
+    "binyan": "פיעל",
+    "masculine_singular": "מרכל",
+    "feminine_singular": "מרכלת",
+    "masculine_plural": "מרכלים",
+    "feminine_plural": "מרכלות"
+  },
+  {
+    "id": 479,
+    "infinitive": "להתבדח",
+    "binyan": "התפעל",
+    "masculine_singular": "מתבדח",
+    "feminine_singular": "מתבדחת",
+    "masculine_plural": "מתבדחים",
+    "feminine_plural": "מתבדחות"
+  },
+  {
+    "id": 480,
+    "infinitive": "להתיידד",
+    "binyan": "התפעל",
+    "masculine_singular": "מתיידד",
+    "feminine_singular": "מתיידדת",
+    "masculine_plural": "מתיידדים",
+    "feminine_plural": "מתיידדות"
+  },
+  {
+    "id": 481,
+    "infinitive": "להתארח",
+    "binyan": "התפעל",
+    "masculine_singular": "מתארח",
+    "feminine_singular": "מתארחת",
+    "masculine_plural": "מתארחים",
+    "feminine_plural": "מתארחות"
+  },
+  {
+    "id": 482,
+    "infinitive": "להעניק",
+    "binyan": "הפעיל",
+    "masculine_singular": "מעניק",
+    "feminine_singular": "מעניקה",
+    "masculine_plural": "מעניקים",
+    "feminine_plural": "מעניקות"
+  },
+  {
+    "id": 483,
+    "infinitive": "למנות",
+    "binyan": "פעל",
+    "masculine_singular": "מונה",
+    "feminine_singular": "מונה",
+    "masculine_plural": "מונים",
+    "feminine_plural": "מונות"
+  },
+  {
+    "id": 484,
+    "infinitive": "להתמנות",
+    "binyan": "התפעל",
+    "masculine_singular": "מתמנה",
+    "feminine_singular": "מתמנה",
+    "masculine_plural": "מתמנים",
+    "feminine_plural": "מתמנות"
+  },
+  {
+    "id": 485,
+    "infinitive": "לייצג",
+    "binyan": "פיעל",
+    "masculine_singular": "מייצג",
+    "feminine_singular": "מייצגת",
+    "masculine_plural": "מייצגים",
+    "feminine_plural": "מייצגות"
+  },
+  {
+    "id": 486,
+    "infinitive": "להתייצב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתייצב",
+    "feminine_singular": "מתייצבת",
+    "masculine_plural": "מתייצבים",
+    "feminine_plural": "מתייצבות"
+  },
+  {
+    "id": 487,
+    "infinitive": "להתראיין",
+    "binyan": "התפעל",
+    "masculine_singular": "מתראיין",
+    "feminine_singular": "מתראיינת",
+    "masculine_plural": "מתראיינים",
+    "feminine_plural": "מתראיינות"
+  },
+  {
+    "id": 488,
+    "infinitive": "לנכוח",
+    "binyan": "פעל",
+    "masculine_singular": "נוכח",
+    "feminine_singular": "נוכחת",
+    "masculine_plural": "נוכחים",
+    "feminine_plural": "נוכחות"
+  },
+  {
+    "id": 489,
+    "infinitive": "להצטבר",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטבר",
+    "feminine_singular": "מצטברת",
+    "masculine_plural": "מצטברים",
+    "feminine_plural": "מצטברות"
+  },
+  {
+    "id": 490,
+    "infinitive": "להכשיר",
+    "binyan": "הפעיל",
+    "masculine_singular": "מכשיר",
+    "feminine_singular": "מכשירה",
+    "masculine_plural": "מכשירים",
+    "feminine_plural": "מכשירות"
+  },
+  {
+    "id": 491,
+    "infinitive": "להדריך",
+    "binyan": "הפעיל",
+    "masculine_singular": "מדריך",
+    "feminine_singular": "מדריכה",
+    "masculine_plural": "מדריכים",
+    "feminine_plural": "מדריכות"
+  },
+  {
+    "id": 492,
+    "infinitive": "להנחות",
+    "binyan": "הפעיל",
+    "masculine_singular": "מנחה",
+    "feminine_singular": "מנחה",
+    "masculine_plural": "מנחים",
+    "feminine_plural": "מנחות"
+  },
+  {
+    "id": 493,
+    "infinitive": "להאיץ",
+    "binyan": "הפעיל",
+    "masculine_singular": "מאיץ",
+    "feminine_singular": "מאיצה",
+    "masculine_plural": "מאיצים",
+    "feminine_plural": "מאיצות"
+  },
+  {
+    "id": 494,
+    "infinitive": "להתחדש",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחדש",
+    "feminine_singular": "מתחדשת",
+    "masculine_plural": "מתחדשים",
+    "feminine_plural": "מתחדשות"
+  },
+  {
+    "id": 495,
+    "infinitive": "להתרחב",
+    "binyan": "התפעל",
+    "masculine_singular": "מתרחב",
+    "feminine_singular": "מתרחבת",
+    "masculine_plural": "מתרחבים",
+    "feminine_plural": "מתרחבות"
+  },
+  {
+    "id": 496,
+    "infinitive": "להצטמצם",
+    "binyan": "התפעל",
+    "masculine_singular": "מצטמצם",
+    "feminine_singular": "מצטמצמת",
+    "masculine_plural": "מצטמצמים",
+    "feminine_plural": "מצטמצמות"
+  },
+  {
+    "id": 497,
+    "infinitive": "להתחזק",
+    "binyan": "התפעל",
+    "masculine_singular": "מתחזק",
+    "feminine_singular": "מתחזקת",
+    "masculine_plural": "מתחזקים",
+    "feminine_plural": "מתחזקות"
+  },
+  {
+    "id": 498,
+    "infinitive": "להיחלש",
+    "binyan": "נפעל",
+    "masculine_singular": "נחלש",
+    "feminine_singular": "נחלשת",
+    "masculine_plural": "נחלשים",
+    "feminine_plural": "נחלשות"
+  },
+  {
+    "id": 499,
+    "infinitive": "להשתקם",
+    "binyan": "התפעל",
+    "masculine_singular": "משתקם",
+    "feminine_singular": "משתקמת",
+    "masculine_plural": "משתקמים",
+    "feminine_plural": "משתקמות"
+  },
+  {
+    "id": 500,
+    "infinitive": "להתמסר",
+    "binyan": "התפעל",
+    "masculine_singular": "מתמסר",
+    "feminine_singular": "מתמסרת",
+    "masculine_plural": "מתמסרים",
+    "feminine_plural": "מתמסרות"
+  }
+]

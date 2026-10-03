@@ -24,15 +24,11 @@ async function seedVocabulary() {
     const client = await pool.connect();
 
     try {
-        const verbs = await readJson("../../hebrew-redux-toolkit/src/data/grammar/verbs/base.json");
+        const verbs = await readJson("../database/seed-data/verbs/base.json");
 
-        const adjectives = await readJson(
-            "../../hebrew-redux-toolkit/src/data/grammar/adjectives/base.json",
-        );
+        const adjectives = await readJson("../database/seed-data/adjectives/base.json");
 
-        const adverbs = await readJson(
-            "../../hebrew-redux-toolkit/src/data/grammar/adverbs/base.json",
-        );
+        const adverbs = await readJson("../database/seed-data/adverbs/base.json");
 
         await client.query("BEGIN");
 

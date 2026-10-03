@@ -1,0 +1,3502 @@
+[
+  {
+    "id": 1,
+    "infinitive": "להיות",
+    "translation": "быть",
+    "government": "—",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "infinitive": "לעשות",
+    "translation": "делать",
+    "government": "את",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "infinitive": "להגיד",
+    "translation": "говорить, сказать",
+    "government": "ל־",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "infinitive": "לדעת",
+    "translation": "знать",
+    "government": "את / על",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "infinitive": "לרצות",
+    "translation": "хотеть",
+    "government": "את / ל־",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "infinitive": "לחשוב",
+    "translation": "думать, считать",
+    "government": "על / ש־",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "infinitive": "לראות",
+    "translation": "видеть",
+    "government": "את",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "infinitive": "לתת",
+    "translation": "давать, дать",
+    "government": "ל־ / את",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "infinitive": "ללכת",
+    "translation": "идти, ходить",
+    "government": "ל־ / אל",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "infinitive": "לבוא",
+    "translation": "приходить, приезжать",
+    "government": "ל־ / אל / מ־",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "infinitive": "לדבר",
+    "translation": "говорить, разговаривать",
+    "government": "עם / על / ב־",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "infinitive": "לקחת",
+    "translation": "брать, взять",
+    "government": "את / מ־",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "infinitive": "להבין",
+    "translation": "понимать",
+    "government": "את",
+    "level": 1
+  },
+  {
+    "id": 14,
+    "infinitive": "לעבוד",
+    "translation": "работать",
+    "government": "ב־ / עם / על",
+    "level": 1
+  },
+  {
+    "id": 15,
+    "infinitive": "למצוא",
+    "translation": "находить",
+    "government": "את",
+    "level": 1
+  },
+  {
+    "id": 16,
+    "infinitive": "לקרוא",
+    "translation": "читать; называть, звать",
+    "government": "את / ל־",
+    "level": 1
+  },
+  {
+    "id": 17,
+    "infinitive": "לכתוב",
+    "translation": "писать",
+    "government": "את / ל־ / על",
+    "level": 1
+  },
+  {
+    "id": 18,
+    "infinitive": "לשמוע",
+    "translation": "слышать, слушать",
+    "government": "את / על",
+    "level": 1
+  },
+  {
+    "id": 19,
+    "infinitive": "לאכול",
+    "translation": "есть, кушать",
+    "government": "את",
+    "level": 1
+  },
+  {
+    "id": 20,
+    "infinitive": "לשאול",
+    "translation": "спрашивать",
+    "government": "את / על",
+    "level": 1
+  },
+  {
+    "id": 21,
+    "infinitive": "להגיע",
+    "translation": "прибывать, добираться",
+    "government": "ל־ / אל",
+    "level": 2
+  },
+  {
+    "id": 22,
+    "infinitive": "לקבל",
+    "translation": "получать, принимать",
+    "government": "את / מ־",
+    "level": 2
+  },
+  {
+    "id": 23,
+    "infinitive": "לצאת",
+    "translation": "выходить, уезжать",
+    "government": "מ־ / ל־",
+    "level": 2
+  },
+  {
+    "id": 24,
+    "infinitive": "לחזור",
+    "translation": "возвращаться, повторять",
+    "government": "ל־ / מ־ / על",
+    "level": 2
+  },
+  {
+    "id": 25,
+    "infinitive": "להתחיל",
+    "translation": "начинать",
+    "government": "ל־ / ב־",
+    "level": 2
+  },
+  {
+    "id": 26,
+    "infinitive": "להמשיך",
+    "translation": "продолжать",
+    "government": "ל־ / ב־",
+    "level": 2
+  },
+  {
+    "id": 27,
+    "infinitive": "להביא",
+    "translation": "приносить, приводить",
+    "government": "את / ל־",
+    "level": 2
+  },
+  {
+    "id": 28,
+    "infinitive": "לשים",
+    "translation": "класть, ставить",
+    "government": "את / על / ב־",
+    "level": 2
+  },
+  {
+    "id": 29,
+    "infinitive": "להישאר",
+    "translation": "оставаться",
+    "government": "ב־ / עם",
+    "level": 2
+  },
+  {
+    "id": 30,
+    "infinitive": "לעבור",
+    "translation": "проходить, переходить, переезжать",
+    "government": "את / על / ל־",
+    "level": 2
+  },
+  {
+    "id": 31,
+    "infinitive": "להכיר",
+    "translation": "знать, быть знакомым",
+    "government": "את",
+    "level": 2
+  },
+  {
+    "id": 32,
+    "infinitive": "לבקש",
+    "translation": "просить",
+    "government": "מ־ / את",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "infinitive": "לספר",
+    "translation": "рассказывать",
+    "government": "ל־ / על",
+    "level": 2
+  },
+  {
+    "id": 34,
+    "infinitive": "לענות",
+    "translation": "отвечать",
+    "government": "ל־ / על",
+    "level": 2
+  },
+  {
+    "id": 35,
+    "infinitive": "לעזור",
+    "translation": "помогать",
+    "government": "ל־ / ב־",
+    "level": 2
+  },
+  {
+    "id": 36,
+    "infinitive": "לקרות",
+    "translation": "происходить, случаться",
+    "government": "ל־",
+    "level": 2
+  },
+  {
+    "id": 37,
+    "infinitive": "להרגיש",
+    "translation": "чувствовать",
+    "government": "את / ב־",
+    "level": 2
+  },
+  {
+    "id": 38,
+    "infinitive": "לאהוב",
+    "translation": "любить",
+    "government": "את",
+    "level": 2
+  },
+  {
+    "id": 39,
+    "infinitive": "לשבת",
+    "translation": "сидеть",
+    "government": "על / ב־ / ליד",
+    "level": 2
+  },
+  {
+    "id": 40,
+    "infinitive": "לעמוד",
+    "translation": "стоять",
+    "government": "על / ליד / ב־",
+    "level": 2
+  },
+  {
+    "id": 41,
+    "infinitive": "לנסות",
+    "translation": "пробовать, пытаться",
+    "government": "ל־",
+    "level": 3
+  },
+  {
+    "id": 42,
+    "infinitive": "לפתוח",
+    "translation": "открывать",
+    "government": "את",
+    "level": 3
+  },
+  {
+    "id": 43,
+    "infinitive": "לסגור",
+    "translation": "закрывать",
+    "government": "את",
+    "level": 3
+  },
+  {
+    "id": 44,
+    "infinitive": "לקנות",
+    "translation": "покупать",
+    "government": "את / מ־",
+    "level": 3
+  },
+  {
+    "id": 45,
+    "infinitive": "לשמור",
+    "translation": "хранить, беречь, охранять",
+    "government": "על / את",
+    "level": 3
+  },
+  {
+    "id": 46,
+    "infinitive": "לחפש",
+    "translation": "искать",
+    "government": "את",
+    "level": 3
+  },
+  {
+    "id": 47,
+    "infinitive": "לבחור",
+    "translation": "выбирать",
+    "government": "ב־ / את",
+    "level": 3
+  },
+  {
+    "id": 48,
+    "infinitive": "לשנות",
+    "translation": "менять, изменять",
+    "government": "את",
+    "level": 3
+  },
+  {
+    "id": 49,
+    "infinitive": "להפסיק",
+    "translation": "прекращать, переставать",
+    "government": "את / ל־",
+    "level": 3
+  },
+  {
+    "id": 50,
+    "infinitive": "להוציא",
+    "translation": "вынимать, выводить, тратить",
+    "government": "את / מ־",
+    "level": 3
+  },
+  {
+    "id": 51,
+    "infinitive": "להכניס",
+    "translation": "вводить, вносить, помещать",
+    "government": "את / ל־",
+    "level": 3
+  },
+  {
+    "id": 52,
+    "infinitive": "לשלוח",
+    "translation": "отправлять",
+    "government": "את / ל־",
+    "level": 3
+  },
+  {
+    "id": 53,
+    "infinitive": "לשלם",
+    "translation": "платить",
+    "government": "ל־ / על",
+    "level": 3
+  },
+  {
+    "id": 54,
+    "infinitive": "להראות",
+    "translation": "показывать",
+    "government": "ל־ / את",
+    "level": 3
+  },
+  {
+    "id": 55,
+    "infinitive": "להוסיף",
+    "translation": "добавлять",
+    "government": "ל־ / על",
+    "level": 3
+  },
+  {
+    "id": 56,
+    "infinitive": "להוריד",
+    "translation": "опускать, снимать, скачивать",
+    "government": "את / מ־",
+    "level": 3
+  },
+  {
+    "id": 57,
+    "infinitive": "להעלות",
+    "translation": "поднимать, повышать, загружать",
+    "government": "את / ל־ / על",
+    "level": 3
+  },
+  {
+    "id": 58,
+    "infinitive": "להשתמש",
+    "translation": "использовать, пользоваться",
+    "government": "ב־",
+    "level": 3
+  },
+  {
+    "id": 59,
+    "infinitive": "לפגוש",
+    "translation": "встречать, встретить",
+    "government": "את",
+    "level": 3
+  },
+  {
+    "id": 60,
+    "infinitive": "להיפגש",
+    "translation": "встречаться",
+    "government": "עם",
+    "level": 3
+  },
+  {
+    "id": 61,
+    "infinitive": "לסיים",
+    "translation": "заканчивать",
+    "government": "את",
+    "level": 4
+  },
+  {
+    "id": 62,
+    "infinitive": "לשחק",
+    "translation": "играть",
+    "government": "ב־ / עם",
+    "level": 4
+  },
+  {
+    "id": 63,
+    "infinitive": "לישון",
+    "translation": "спать",
+    "government": "—",
+    "level": 4
+  },
+  {
+    "id": 64,
+    "infinitive": "לקום",
+    "translation": "вставать",
+    "government": "מ־",
+    "level": 4
+  },
+  {
+    "id": 65,
+    "infinitive": "לחיות",
+    "translation": "жить",
+    "government": "ב־ / עם",
+    "level": 4
+  },
+  {
+    "id": 66,
+    "infinitive": "לנסוע",
+    "translation": "ехать",
+    "government": "ל־ / ב־ / מ־",
+    "level": 4
+  },
+  {
+    "id": 67,
+    "infinitive": "לעצור",
+    "translation": "останавливать(ся)",
+    "government": "את / ב־",
+    "level": 4
+  },
+  {
+    "id": 68,
+    "infinitive": "להכין",
+    "translation": "готовить, подготавливать",
+    "government": "את / ל־",
+    "level": 4
+  },
+  {
+    "id": 69,
+    "infinitive": "לשתות",
+    "translation": "пить",
+    "government": "את",
+    "level": 4
+  },
+  {
+    "id": 70,
+    "infinitive": "להזמין",
+    "translation": "приглашать, заказывать",
+    "government": "את / ל־",
+    "level": 4
+  },
+  {
+    "id": 71,
+    "infinitive": "לבדוק",
+    "translation": "проверять",
+    "government": "את",
+    "level": 4
+  },
+  {
+    "id": 72,
+    "infinitive": "להסביר",
+    "translation": "объяснять",
+    "government": "ל־ / את",
+    "level": 4
+  },
+  {
+    "id": 73,
+    "infinitive": "להאמין",
+    "translation": "верить",
+    "government": "ל־ / ב־",
+    "level": 4
+  },
+  {
+    "id": 74,
+    "infinitive": "לדאוג",
+    "translation": "беспокоиться; заботиться",
+    "government": "ל־ / מ־",
+    "level": 4
+  },
+  {
+    "id": 75,
+    "infinitive": "לטפל",
+    "translation": "заниматься, заботиться, лечить",
+    "government": "ב־",
+    "level": 4
+  },
+  {
+    "id": 76,
+    "infinitive": "להתקשר",
+    "translation": "звонить, связываться",
+    "government": "ל־ / עם",
+    "level": 4
+  },
+  {
+    "id": 77,
+    "infinitive": "להסתדר",
+    "translation": "справляться, ладить",
+    "government": "עם / ב־",
+    "level": 4
+  },
+  {
+    "id": 78,
+    "infinitive": "להצליח",
+    "translation": "преуспевать, удаваться",
+    "government": "ב־ / ל־",
+    "level": 4
+  },
+  {
+    "id": 79,
+    "infinitive": "להציע",
+    "translation": "предлагать",
+    "government": "ל־ / את",
+    "level": 4
+  },
+  {
+    "id": 80,
+    "infinitive": "להסכים",
+    "translation": "соглашаться",
+    "government": "ל־ / עם / על",
+    "level": 4
+  },
+  {
+    "id": 81,
+    "infinitive": "להעדיף",
+    "translation": "предпочитать",
+    "government": "את / על",
+    "level": 5
+  },
+  {
+    "id": 82,
+    "infinitive": "לגדול",
+    "translation": "расти, вырастать",
+    "government": "ב־",
+    "level": 5
+  },
+  {
+    "id": 83,
+    "infinitive": "ליצור",
+    "translation": "создавать, производить",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 84,
+    "infinitive": "לבנות",
+    "translation": "строить",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 85,
+    "infinitive": "לתקן",
+    "translation": "исправлять, ремонтировать",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 86,
+    "infinitive": "לפתח",
+    "translation": "развивать, разрабатывать",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 87,
+    "infinitive": "לתכנן",
+    "translation": "планировать",
+    "government": "את / ל־",
+    "level": 5
+  },
+  {
+    "id": 88,
+    "infinitive": "לנהל",
+    "translation": "управлять, руководить",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 89,
+    "infinitive": "להשתתף",
+    "translation": "участвовать",
+    "government": "ב־",
+    "level": 5
+  },
+  {
+    "id": 90,
+    "infinitive": "להצטרף",
+    "translation": "присоединяться",
+    "government": "ל־ / אל",
+    "level": 5
+  },
+  {
+    "id": 91,
+    "infinitive": "לעזוב",
+    "translation": "покидать, оставлять",
+    "government": "את",
+    "level": 5
+  },
+  {
+    "id": 92,
+    "infinitive": "לברוח",
+    "translation": "убегать, сбегать",
+    "government": "מ־ / ל־",
+    "level": 5
+  },
+  {
+    "id": 93,
+    "infinitive": "להיעלם",
+    "translation": "исчезать",
+    "government": "מ־",
+    "level": 5
+  },
+  {
+    "id": 94,
+    "infinitive": "להופיע",
+    "translation": "появляться, выступать",
+    "government": "ב־ / מול",
+    "level": 5
+  },
+  {
+    "id": 95,
+    "infinitive": "לגלות",
+    "translation": "обнаруживать, узнавать",
+    "government": "את / על",
+    "level": 5
+  },
+  {
+    "id": 96,
+    "infinitive": "להודיע",
+    "translation": "сообщать, уведомлять",
+    "government": "ל־ / על",
+    "level": 5
+  },
+  {
+    "id": 97,
+    "infinitive": "להודות",
+    "translation": "благодарить; признавать",
+    "government": "ל־ / ב־",
+    "level": 5
+  },
+  {
+    "id": 98,
+    "infinitive": "להבטיח",
+    "translation": "обещать, гарантировать",
+    "government": "ל־ / את",
+    "level": 5
+  },
+  {
+    "id": 99,
+    "infinitive": "לדרוש",
+    "translation": "требовать",
+    "government": "מ־ / את",
+    "level": 5
+  },
+  {
+    "id": 100,
+    "infinitive": "לאפשר",
+    "translation": "позволять, давать возможность",
+    "government": "ל־",
+    "level": 5
+  },
+  {
+    "id": 101,
+    "infinitive": "להרשות",
+    "translation": "разрешать, позволять",
+    "government": "ל־",
+    "level": 6
+  },
+  {
+    "id": 102,
+    "infinitive": "למנוע",
+    "translation": "предотвращать, не позволять",
+    "government": "מ־",
+    "level": 6
+  },
+  {
+    "id": 103,
+    "infinitive": "לסרב",
+    "translation": "отказываться",
+    "government": "ל־",
+    "level": 6
+  },
+  {
+    "id": 104,
+    "infinitive": "לדחות",
+    "translation": "откладывать; отвергать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 105,
+    "infinitive": "לאשר",
+    "translation": "подтверждать, одобрять",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 106,
+    "infinitive": "לבטל",
+    "translation": "отменять",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 107,
+    "infinitive": "לקבוע",
+    "translation": "устанавливать, назначать, определять",
+    "government": "את / עם",
+    "level": 6
+  },
+  {
+    "id": 108,
+    "infinitive": "להתאים",
+    "translation": "подходить, соответствовать",
+    "government": "ל־",
+    "level": 6
+  },
+  {
+    "id": 109,
+    "infinitive": "להחליף",
+    "translation": "менять, заменять",
+    "government": "את / ב־",
+    "level": 6
+  },
+  {
+    "id": 110,
+    "infinitive": "להזיז",
+    "translation": "двигать, перемещать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 111,
+    "infinitive": "לזוז",
+    "translation": "двигаться",
+    "government": "מ־ / ל־",
+    "level": 6
+  },
+  {
+    "id": 112,
+    "infinitive": "להרים",
+    "translation": "поднимать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 113,
+    "infinitive": "לזרוק",
+    "translation": "бросать, выбрасывать",
+    "government": "את / ל־",
+    "level": 6
+  },
+  {
+    "id": 114,
+    "infinitive": "לתפוס",
+    "translation": "ловить, хватать, занимать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 115,
+    "infinitive": "לגעת",
+    "translation": "трогать, касаться",
+    "government": "ב־",
+    "level": 6
+  },
+  {
+    "id": 116,
+    "infinitive": "ללחוץ",
+    "translation": "нажимать, давить",
+    "government": "על",
+    "level": 6
+  },
+  {
+    "id": 117,
+    "infinitive": "למשוך",
+    "translation": "тянуть, привлекать",
+    "government": "את / ב־",
+    "level": 6
+  },
+  {
+    "id": 118,
+    "infinitive": "לדחוף",
+    "translation": "толкать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 119,
+    "infinitive": "לחתוך",
+    "translation": "резать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 120,
+    "infinitive": "לשבור",
+    "translation": "ломать",
+    "government": "את",
+    "level": 6
+  },
+  {
+    "id": 121,
+    "infinitive": "ליפול",
+    "translation": "падать",
+    "government": "מ־ / על",
+    "level": 7
+  },
+  {
+    "id": 122,
+    "infinitive": "לקפוץ",
+    "translation": "прыгать",
+    "government": "ל־ / מ־ / על",
+    "level": 7
+  },
+  {
+    "id": 123,
+    "infinitive": "לעלות",
+    "translation": "подниматься; стоить",
+    "government": "ל־ / על",
+    "level": 7
+  },
+  {
+    "id": 124,
+    "infinitive": "לרדת",
+    "translation": "спускаться",
+    "government": "מ־ / ל־",
+    "level": 7
+  },
+  {
+    "id": 125,
+    "infinitive": "להתקדם",
+    "translation": "продвигаться, прогрессировать",
+    "government": "ב־ / ל־",
+    "level": 7
+  },
+  {
+    "id": 126,
+    "infinitive": "להתקרב",
+    "translation": "приближаться",
+    "government": "ל־ / אל",
+    "level": 7
+  },
+  {
+    "id": 127,
+    "infinitive": "להתרחק",
+    "translation": "отдаляться",
+    "government": "מ־",
+    "level": 7
+  },
+  {
+    "id": 128,
+    "infinitive": "להסתובב",
+    "translation": "поворачиваться, ходить, гулять",
+    "government": "ב־ / עם",
+    "level": 7
+  },
+  {
+    "id": 129,
+    "infinitive": "לטייל",
+    "translation": "гулять, путешествовать",
+    "government": "ב־ / עם",
+    "level": 7
+  },
+  {
+    "id": 130,
+    "infinitive": "לטוס",
+    "translation": "лететь, летать",
+    "government": "ל־ / מ־",
+    "level": 7
+  },
+  {
+    "id": 131,
+    "infinitive": "לשחות",
+    "translation": "плавать",
+    "government": "ב־",
+    "level": 7
+  },
+  {
+    "id": 132,
+    "infinitive": "לרקוד",
+    "translation": "танцевать",
+    "government": "עם",
+    "level": 7
+  },
+  {
+    "id": 133,
+    "infinitive": "לשיר",
+    "translation": "петь",
+    "government": "את / ל־",
+    "level": 7
+  },
+  {
+    "id": 134,
+    "infinitive": "לצחוק",
+    "translation": "смеяться",
+    "government": "על / עם",
+    "level": 7
+  },
+  {
+    "id": 135,
+    "infinitive": "לבכות",
+    "translation": "плакать",
+    "government": "על",
+    "level": 7
+  },
+  {
+    "id": 136,
+    "infinitive": "לחייך",
+    "translation": "улыбаться",
+    "government": "ל־ / אל",
+    "level": 7
+  },
+  {
+    "id": 137,
+    "infinitive": "לכעוס",
+    "translation": "сердиться, злиться",
+    "government": "על",
+    "level": 7
+  },
+  {
+    "id": 138,
+    "infinitive": "להירגע",
+    "translation": "успокаиваться",
+    "government": "מ־",
+    "level": 7
+  },
+  {
+    "id": 139,
+    "infinitive": "לשמוח",
+    "translation": "радоваться",
+    "government": "ב־ / על",
+    "level": 7
+  },
+  {
+    "id": 140,
+    "infinitive": "להתרגש",
+    "translation": "волноваться, быть взволнованным",
+    "government": "מ־ / לקראת",
+    "level": 7
+  },
+  {
+    "id": 141,
+    "infinitive": "לשנוא",
+    "translation": "ненавидеть",
+    "government": "את",
+    "level": 8
+  },
+  {
+    "id": 142,
+    "infinitive": "להצטער",
+    "translation": "сожалеть",
+    "government": "על",
+    "level": 8
+  },
+  {
+    "id": 143,
+    "infinitive": "להתנצל",
+    "translation": "извиняться",
+    "government": "בפני / על",
+    "level": 8
+  },
+  {
+    "id": 144,
+    "infinitive": "לסלוח",
+    "translation": "прощать",
+    "government": "ל־ / על",
+    "level": 8
+  },
+  {
+    "id": 145,
+    "infinitive": "לכבד",
+    "translation": "уважать",
+    "government": "את",
+    "level": 8
+  },
+  {
+    "id": 146,
+    "infinitive": "לסמוך",
+    "translation": "доверять, полагаться",
+    "government": "על",
+    "level": 8
+  },
+  {
+    "id": 147,
+    "infinitive": "להתחתן",
+    "translation": "жениться, выходить замуж",
+    "government": "עם",
+    "level": 8
+  },
+  {
+    "id": 148,
+    "infinitive": "להיפרד",
+    "translation": "расставаться, прощаться",
+    "government": "מ־",
+    "level": 8
+  },
+  {
+    "id": 149,
+    "infinitive": "להציג",
+    "translation": "представлять, показывать",
+    "government": "את / ל־",
+    "level": 8
+  },
+  {
+    "id": 150,
+    "infinitive": "לתאר",
+    "translation": "описывать",
+    "government": "את",
+    "level": 8
+  },
+  {
+    "id": 151,
+    "infinitive": "להזכיר",
+    "translation": "напоминать, упоминать",
+    "government": "ל־ / את",
+    "level": 8
+  },
+  {
+    "id": 152,
+    "infinitive": "לשתף",
+    "translation": "делиться, привлекать к участию",
+    "government": "את / ב־",
+    "level": 8
+  },
+  {
+    "id": 153,
+    "infinitive": "להמליץ",
+    "translation": "рекомендовать",
+    "government": "ל־ / על",
+    "level": 8
+  },
+  {
+    "id": 154,
+    "infinitive": "לשכנע",
+    "translation": "убеждать",
+    "government": "את / ל־",
+    "level": 8
+  },
+  {
+    "id": 155,
+    "infinitive": "להתווכח",
+    "translation": "спорить",
+    "government": "עם / על",
+    "level": 8
+  },
+  {
+    "id": 156,
+    "infinitive": "להתלונן",
+    "translation": "жаловаться",
+    "government": "על / בפני",
+    "level": 8
+  },
+  {
+    "id": 157,
+    "infinitive": "לשקר",
+    "translation": "лгать",
+    "government": "ל־",
+    "level": 8
+  },
+  {
+    "id": 158,
+    "infinitive": "להזהיר",
+    "translation": "предупреждать",
+    "government": "את / מ־",
+    "level": 8
+  },
+  {
+    "id": 159,
+    "infinitive": "לפרסם",
+    "translation": "публиковать, рекламировать",
+    "government": "את",
+    "level": 8
+  },
+  {
+    "id": 160,
+    "infinitive": "לצלם",
+    "translation": "фотографировать, снимать",
+    "government": "את",
+    "level": 8
+  },
+  {
+    "id": 161,
+    "infinitive": "למחוק",
+    "translation": "удалять, стирать",
+    "government": "את / מ־",
+    "level": 9
+  },
+  {
+    "id": 162,
+    "infinitive": "להעתיק",
+    "translation": "копировать, переписывать",
+    "government": "את / מ־ / ל־",
+    "level": 9
+  },
+  {
+    "id": 163,
+    "infinitive": "להתחבר",
+    "translation": "соединяться, подключаться",
+    "government": "ל־ / עם",
+    "level": 9
+  },
+  {
+    "id": 164,
+    "infinitive": "להתנתק",
+    "translation": "отключаться, отсоединяться",
+    "government": "מ־",
+    "level": 9
+  },
+  {
+    "id": 165,
+    "infinitive": "להפעיל",
+    "translation": "включать, приводить в действие",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 166,
+    "infinitive": "לכבות",
+    "translation": "выключать, гасить",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 167,
+    "infinitive": "להדליק",
+    "translation": "включать, зажигать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 168,
+    "infinitive": "להתקין",
+    "translation": "устанавливать",
+    "government": "את / ב־ / על",
+    "level": 9
+  },
+  {
+    "id": 169,
+    "infinitive": "להירשם",
+    "translation": "регистрироваться, записываться",
+    "government": "ל־",
+    "level": 9
+  },
+  {
+    "id": 170,
+    "infinitive": "לחתום",
+    "translation": "подписывать",
+    "government": "על",
+    "level": 9
+  },
+  {
+    "id": 171,
+    "infinitive": "למלא",
+    "translation": "заполнять, наполнять",
+    "government": "את / ב־",
+    "level": 9
+  },
+  {
+    "id": 172,
+    "infinitive": "לרשום",
+    "translation": "записывать, регистрировать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 173,
+    "infinitive": "לסמן",
+    "translation": "отмечать, обозначать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 174,
+    "infinitive": "לספור",
+    "translation": "считать, подсчитывать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 175,
+    "infinitive": "למדוד",
+    "translation": "измерять, примерять",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 176,
+    "infinitive": "לשקול",
+    "translation": "взвешивать, обдумывать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 177,
+    "infinitive": "לחשב",
+    "translation": "вычислять, рассчитывать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 178,
+    "infinitive": "להעריך",
+    "translation": "оценивать, ценить",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 179,
+    "infinitive": "לחקור",
+    "translation": "исследовать, расследовать",
+    "government": "את",
+    "level": 9
+  },
+  {
+    "id": 180,
+    "infinitive": "להוכיח",
+    "translation": "доказывать",
+    "government": "את / ל־",
+    "level": 9
+  },
+  {
+    "id": 181,
+    "infinitive": "להניח",
+    "translation": "класть; предполагать",
+    "government": "את / על",
+    "level": 10
+  },
+  {
+    "id": 182,
+    "infinitive": "לדמיין",
+    "translation": "представлять, воображать",
+    "government": "את",
+    "level": 10
+  },
+  {
+    "id": 183,
+    "infinitive": "לחלום",
+    "translation": "мечтать, видеть сон",
+    "government": "על",
+    "level": 10
+  },
+  {
+    "id": 184,
+    "infinitive": "להתכוון",
+    "translation": "намереваться, иметь в виду",
+    "government": "ל־ / ש־",
+    "level": 10
+  },
+  {
+    "id": 185,
+    "infinitive": "להימנע",
+    "translation": "избегать, воздерживаться",
+    "government": "מ־",
+    "level": 10
+  },
+  {
+    "id": 186,
+    "infinitive": "להתמודד",
+    "translation": "справляться, противостоять",
+    "government": "עם",
+    "level": 10
+  },
+  {
+    "id": 187,
+    "infinitive": "להתגבר",
+    "translation": "преодолевать",
+    "government": "על",
+    "level": 10
+  },
+  {
+    "id": 188,
+    "infinitive": "להילחם",
+    "translation": "бороться, сражаться",
+    "government": "ב־ / נגד / על",
+    "level": 10
+  },
+  {
+    "id": 189,
+    "infinitive": "להגן",
+    "translation": "защищать",
+    "government": "על / מפני",
+    "level": 10
+  },
+  {
+    "id": 190,
+    "infinitive": "לפגוע",
+    "translation": "причинять вред, задевать, попадать",
+    "government": "ב־",
+    "level": 10
+  },
+  {
+    "id": 191,
+    "infinitive": "להציל",
+    "translation": "спасать",
+    "government": "את / מ־",
+    "level": 10
+  },
+  {
+    "id": 192,
+    "infinitive": "להרוג",
+    "translation": "убивать",
+    "government": "את",
+    "level": 10
+  },
+  {
+    "id": 193,
+    "infinitive": "להיוולד",
+    "translation": "рождаться",
+    "government": "ב־ / ל־",
+    "level": 10
+  },
+  {
+    "id": 194,
+    "infinitive": "לסבול",
+    "translation": "страдать, терпеть",
+    "government": "מ־ / את",
+    "level": 10
+  },
+  {
+    "id": 195,
+    "infinitive": "לכאוב",
+    "translation": "болеть, причинять боль",
+    "government": "ל־",
+    "level": 10
+  },
+  {
+    "id": 196,
+    "infinitive": "לנשום",
+    "translation": "дышать",
+    "government": "—",
+    "level": 10
+  },
+  {
+    "id": 197,
+    "infinitive": "לנוח",
+    "translation": "отдыхать",
+    "government": "מ־",
+    "level": 10
+  },
+  {
+    "id": 198,
+    "infinitive": "להתאמן",
+    "translation": "тренироваться",
+    "government": "ב־ / על",
+    "level": 10
+  },
+  {
+    "id": 199,
+    "infinitive": "להתקלח",
+    "translation": "принимать душ",
+    "government": "—",
+    "level": 10
+  },
+  {
+    "id": 200,
+    "infinitive": "להתלבש",
+    "translation": "одеваться",
+    "government": "ב־",
+    "level": 10
+  },
+  {
+    "id": 201,
+    "infinitive": "ללבוש",
+    "translation": "надевать, носить одежду",
+    "government": "את",
+    "level": 11
+  },
+  {
+    "id": 202,
+    "infinitive": "לנעול",
+    "translation": "надевать обувь; запирать",
+    "government": "את",
+    "level": 11
+  },
+  {
+    "id": 203,
+    "infinitive": "למהר",
+    "translation": "спешить",
+    "government": "ל־",
+    "level": 11
+  },
+  {
+    "id": 204,
+    "infinitive": "לאחר",
+    "translation": "опаздывать",
+    "government": "ל־",
+    "level": 11
+  },
+  {
+    "id": 205,
+    "infinitive": "להשפיע",
+    "translation": "влиять",
+    "government": "על",
+    "level": 11
+  },
+  {
+    "id": 206,
+    "infinitive": "להשתפר",
+    "translation": "улучшаться",
+    "government": "ב־",
+    "level": 11
+  },
+  {
+    "id": 207,
+    "infinitive": "להתרחש",
+    "translation": "происходить, случаться",
+    "government": "ב־",
+    "level": 11
+  },
+  {
+    "id": 208,
+    "infinitive": "להתקיים",
+    "translation": "существовать; проводиться",
+    "government": "ב־",
+    "level": 11
+  },
+  {
+    "id": 209,
+    "infinitive": "להסתבר",
+    "translation": "выясняться, оказываться",
+    "government": "ש־",
+    "level": 11
+  },
+  {
+    "id": 210,
+    "infinitive": "להיראות",
+    "translation": "выглядеть, казаться",
+    "government": "ל־ / כמו",
+    "level": 11
+  },
+  {
+    "id": 211,
+    "infinitive": "להישמע",
+    "translation": "звучать; быть услышанным",
+    "government": "ל־ / כמו",
+    "level": 11
+  },
+  {
+    "id": 212,
+    "infinitive": "ליהנות",
+    "translation": "наслаждаться, получать удовольствие",
+    "government": "מ־",
+    "level": 11
+  },
+  {
+    "id": 213,
+    "infinitive": "להירדם",
+    "translation": "засыпать",
+    "government": "—",
+    "level": 11
+  },
+  {
+    "id": 214,
+    "infinitive": "להעיר",
+    "translation": "будить; делать замечание",
+    "government": "את / ל־ / על",
+    "level": 11
+  },
+  {
+    "id": 215,
+    "infinitive": "לחלוק",
+    "translation": "делиться; не соглашаться",
+    "government": "עם / על",
+    "level": 11
+  },
+  {
+    "id": 216,
+    "infinitive": "לריב",
+    "translation": "ссориться",
+    "government": "עם / על",
+    "level": 11
+  },
+  {
+    "id": 217,
+    "infinitive": "להשלים",
+    "translation": "завершать; мириться",
+    "government": "את / עם",
+    "level": 11
+  },
+  {
+    "id": 218,
+    "infinitive": "לחבק",
+    "translation": "обнимать",
+    "government": "את",
+    "level": 11
+  },
+  {
+    "id": 219,
+    "infinitive": "לנשק",
+    "translation": "целовать",
+    "government": "את",
+    "level": 11
+  },
+  {
+    "id": 220,
+    "infinitive": "לתמוך",
+    "translation": "поддерживать",
+    "government": "ב־",
+    "level": 11
+  },
+  {
+    "id": 221,
+    "infinitive": "לעודד",
+    "translation": "подбадривать, поощрять",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 222,
+    "infinitive": "להפריע",
+    "translation": "мешать, беспокоить",
+    "government": "ל־",
+    "level": 12
+  },
+  {
+    "id": 223,
+    "infinitive": "להתעלם",
+    "translation": "игнорировать",
+    "government": "מ־",
+    "level": 12
+  },
+  {
+    "id": 224,
+    "infinitive": "להוביל",
+    "translation": "вести, приводить, перевозить",
+    "government": "את / ל־",
+    "level": 12
+  },
+  {
+    "id": 225,
+    "infinitive": "לעקוב",
+    "translation": "следить, отслеживать",
+    "government": "אחרי",
+    "level": 12
+  },
+  {
+    "id": 226,
+    "infinitive": "לאבד",
+    "translation": "терять",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 227,
+    "infinitive": "להרוויח",
+    "translation": "зарабатывать, получать прибыль",
+    "government": "מ־ / את",
+    "level": 12
+  },
+  {
+    "id": 228,
+    "infinitive": "לחסוך",
+    "translation": "экономить, сберегать",
+    "government": "ב־ / את",
+    "level": 12
+  },
+  {
+    "id": 229,
+    "infinitive": "להשקיע",
+    "translation": "вкладывать, инвестировать",
+    "government": "ב־ / את",
+    "level": 12
+  },
+  {
+    "id": 230,
+    "infinitive": "לשכור",
+    "translation": "арендовать, нанимать",
+    "government": "את / מ־",
+    "level": 12
+  },
+  {
+    "id": 231,
+    "infinitive": "להזדקק",
+    "translation": "нуждаться",
+    "government": "ל־",
+    "level": 12
+  },
+  {
+    "id": 232,
+    "infinitive": "לספק",
+    "translation": "обеспечивать, поставлять",
+    "government": "ל־ / את",
+    "level": 12
+  },
+  {
+    "id": 233,
+    "infinitive": "להעביר",
+    "translation": "передавать, переводить, перемещать",
+    "government": "את / ל־",
+    "level": 12
+  },
+  {
+    "id": 234,
+    "infinitive": "לסחוב",
+    "translation": "нести, тащить",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 235,
+    "infinitive": "לשפוך",
+    "translation": "лить, проливать",
+    "government": "את / על",
+    "level": 12
+  },
+  {
+    "id": 236,
+    "infinitive": "למזוג",
+    "translation": "наливать",
+    "government": "את / ל־",
+    "level": 12
+  },
+  {
+    "id": 237,
+    "infinitive": "לערבב",
+    "translation": "смешивать, перемешивать",
+    "government": "את / עם",
+    "level": 12
+  },
+  {
+    "id": 238,
+    "infinitive": "לחמם",
+    "translation": "нагревать, разогревать",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 239,
+    "infinitive": "לקרר",
+    "translation": "охлаждать",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 240,
+    "infinitive": "לאפות",
+    "translation": "печь, выпекать",
+    "government": "את",
+    "level": 12
+  },
+  {
+    "id": 241,
+    "infinitive": "לטגן",
+    "translation": "жарить",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 242,
+    "infinitive": "לשטוף",
+    "translation": "мыть, промывать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 243,
+    "infinitive": "לנקות",
+    "translation": "чистить, убирать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 244,
+    "infinitive": "לכבס",
+    "translation": "стирать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 245,
+    "infinitive": "לייבש",
+    "translation": "сушить",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 246,
+    "infinitive": "לקפל",
+    "translation": "складывать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 247,
+    "infinitive": "לתלות",
+    "translation": "вешать",
+    "government": "את / על",
+    "level": 13
+  },
+  {
+    "id": 248,
+    "infinitive": "לסדר",
+    "translation": "приводить в порядок, расставлять",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 249,
+    "infinitive": "לאסוף",
+    "translation": "собирать, забирать",
+    "government": "את / מ־",
+    "level": 13
+  },
+  {
+    "id": 250,
+    "infinitive": "לארוז",
+    "translation": "упаковывать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 251,
+    "infinitive": "לפרוק",
+    "translation": "разгружать, распаковывать",
+    "government": "את / מ־",
+    "level": 13
+  },
+  {
+    "id": 252,
+    "infinitive": "לחבר",
+    "translation": "соединять, подключать",
+    "government": "את / ל־",
+    "level": 13
+  },
+  {
+    "id": 253,
+    "infinitive": "לנתק",
+    "translation": "отсоединять, отключать",
+    "government": "את / מ־",
+    "level": 13
+  },
+  {
+    "id": 254,
+    "infinitive": "לשחרר",
+    "translation": "освобождать, отпускать",
+    "government": "את / מ־",
+    "level": 13
+  },
+  {
+    "id": 255,
+    "infinitive": "לצבוע",
+    "translation": "красить",
+    "government": "את / ב־",
+    "level": 13
+  },
+  {
+    "id": 256,
+    "infinitive": "לצייר",
+    "translation": "рисовать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 257,
+    "infinitive": "לעצב",
+    "translation": "проектировать, оформлять",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 258,
+    "infinitive": "לתרגם",
+    "translation": "переводить",
+    "government": "את / מ־ / ל־",
+    "level": 13
+  },
+  {
+    "id": 259,
+    "infinitive": "ללמד",
+    "translation": "преподавать, обучать",
+    "government": "את / ל־",
+    "level": 13
+  },
+  {
+    "id": 260,
+    "infinitive": "לתרגל",
+    "translation": "практиковать, отрабатывать",
+    "government": "את",
+    "level": 13
+  },
+  {
+    "id": 261,
+    "infinitive": "לבחון",
+    "translation": "проверять, исследовать, экзаменовать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 262,
+    "infinitive": "להתמקד",
+    "translation": "сосредоточиваться, фокусироваться",
+    "government": "ב־ / על",
+    "level": 14
+  },
+  {
+    "id": 263,
+    "infinitive": "להתבלבל",
+    "translation": "путаться, запутываться",
+    "government": "בין / ב־",
+    "level": 14
+  },
+  {
+    "id": 264,
+    "infinitive": "להסתבך",
+    "translation": "запутываться, попадать в затруднение",
+    "government": "ב־ / עם",
+    "level": 14
+  },
+  {
+    "id": 265,
+    "infinitive": "לפתור",
+    "translation": "решать, разрешать проблему",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 266,
+    "infinitive": "להבחין",
+    "translation": "замечать, различать",
+    "government": "ב־ / בין",
+    "level": 14
+  },
+  {
+    "id": 267,
+    "infinitive": "להביט",
+    "translation": "смотреть, глядеть",
+    "government": "ב־ / על",
+    "level": 14
+  },
+  {
+    "id": 268,
+    "infinitive": "לצפות",
+    "translation": "смотреть; ожидать",
+    "government": "ב־ / ל־",
+    "level": 14
+  },
+  {
+    "id": 269,
+    "infinitive": "להתחשב",
+    "translation": "учитывать, считаться",
+    "government": "ב־",
+    "level": 14
+  },
+  {
+    "id": 270,
+    "infinitive": "לבטא",
+    "translation": "выражать, произносить",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 271,
+    "infinitive": "להדגיש",
+    "translation": "подчёркивать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 272,
+    "infinitive": "לציין",
+    "translation": "отмечать, указывать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 273,
+    "infinitive": "לסכם",
+    "translation": "подводить итог, резюмировать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 274,
+    "infinitive": "להגדיר",
+    "translation": "определять, давать определение",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 275,
+    "infinitive": "לנתח",
+    "translation": "анализировать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 276,
+    "infinitive": "לשלב",
+    "translation": "сочетать, интегрировать",
+    "government": "את / ב־",
+    "level": 14
+  },
+  {
+    "id": 277,
+    "infinitive": "לבצע",
+    "translation": "выполнять, осуществлять",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 278,
+    "infinitive": "להשיג",
+    "translation": "достигать, получать",
+    "government": "את",
+    "level": 14
+  },
+  {
+    "id": 279,
+    "infinitive": "לוותר",
+    "translation": "отказываться, уступать",
+    "government": "על",
+    "level": 14
+  },
+  {
+    "id": 280,
+    "infinitive": "להתחייב",
+    "translation": "обязаться",
+    "government": "ל־",
+    "level": 14
+  },
+  {
+    "id": 281,
+    "infinitive": "לקיים",
+    "translation": "выполнять, проводить, поддерживать",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 282,
+    "infinitive": "לאסור",
+    "translation": "запрещать",
+    "government": "על / ל־",
+    "level": 15
+  },
+  {
+    "id": 283,
+    "infinitive": "לשתוק",
+    "translation": "молчать",
+    "government": "—",
+    "level": 15
+  },
+  {
+    "id": 284,
+    "infinitive": "לצעוק",
+    "translation": "кричать",
+    "government": "על / ל־",
+    "level": 15
+  },
+  {
+    "id": 285,
+    "infinitive": "לשוחח",
+    "translation": "беседовать",
+    "government": "עם / על",
+    "level": 15
+  },
+  {
+    "id": 286,
+    "infinitive": "לתקשר",
+    "translation": "общаться, коммуницировать",
+    "government": "עם",
+    "level": 15
+  },
+  {
+    "id": 287,
+    "infinitive": "לארח",
+    "translation": "принимать гостей",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 288,
+    "infinitive": "לבקר",
+    "translation": "посещать; критиковать",
+    "government": "את / אצל",
+    "level": 15
+  },
+  {
+    "id": 289,
+    "infinitive": "לחגוג",
+    "translation": "праздновать",
+    "government": "את / עם",
+    "level": 15
+  },
+  {
+    "id": 290,
+    "infinitive": "לברך",
+    "translation": "поздравлять, благословлять",
+    "government": "את / על",
+    "level": 15
+  },
+  {
+    "id": 291,
+    "infinitive": "לאחל",
+    "translation": "желать",
+    "government": "ל־",
+    "level": 15
+  },
+  {
+    "id": 292,
+    "infinitive": "לתרום",
+    "translation": "жертвовать, вносить вклад",
+    "government": "ל־",
+    "level": 15
+  },
+  {
+    "id": 293,
+    "infinitive": "להתנדב",
+    "translation": "быть волонтёром, вызываться добровольно",
+    "government": "ל־",
+    "level": 15
+  },
+  {
+    "id": 294,
+    "infinitive": "להעסיק",
+    "translation": "нанимать; занимать",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 295,
+    "infinitive": "להתפטר",
+    "translation": "увольняться",
+    "government": "מ־",
+    "level": 15
+  },
+  {
+    "id": 296,
+    "infinitive": "לפטר",
+    "translation": "увольнять",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 297,
+    "infinitive": "להתקבל",
+    "translation": "быть принятым, поступать",
+    "government": "ל־",
+    "level": 15
+  },
+  {
+    "id": 298,
+    "infinitive": "לקדם",
+    "translation": "продвигать",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 299,
+    "infinitive": "להגיש",
+    "translation": "подавать, представлять",
+    "government": "את / ל־",
+    "level": 15
+  },
+  {
+    "id": 300,
+    "infinitive": "לראיין",
+    "translation": "интервьюировать",
+    "government": "את",
+    "level": 15
+  },
+  {
+    "id": 301,
+    "infinitive": "להתפרנס",
+    "translation": "зарабатывать на жизнь",
+    "government": "מ־",
+    "level": 16
+  },
+  {
+    "id": 302,
+    "infinitive": "לפרוש",
+    "translation": "уходить, выходить на пенсию",
+    "government": "מ־",
+    "level": 16
+  },
+  {
+    "id": 303,
+    "infinitive": "להיעדר",
+    "translation": "отсутствовать",
+    "government": "מ־",
+    "level": 16
+  },
+  {
+    "id": 304,
+    "infinitive": "להצטיין",
+    "translation": "преуспевать, отличаться",
+    "government": "ב־",
+    "level": 16
+  },
+  {
+    "id": 305,
+    "infinitive": "להמציא",
+    "translation": "изобретать; предоставлять",
+    "government": "את / ל־",
+    "level": 16
+  },
+  {
+    "id": 306,
+    "infinitive": "לחדש",
+    "translation": "обновлять, возобновлять",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 307,
+    "infinitive": "להרחיב",
+    "translation": "расширять",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 308,
+    "infinitive": "לצמצם",
+    "translation": "сокращать, уменьшать",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 309,
+    "infinitive": "להגביר",
+    "translation": "усиливать, увеличивать",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 310,
+    "infinitive": "להפחית",
+    "translation": "уменьшать, снижать",
+    "government": "את / מ־",
+    "level": 16
+  },
+  {
+    "id": 311,
+    "infinitive": "להגדיל",
+    "translation": "увеличивать",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 312,
+    "infinitive": "להקטין",
+    "translation": "уменьшать",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 313,
+    "infinitive": "להאט",
+    "translation": "замедлять",
+    "government": "את",
+    "level": 16
+  },
+  {
+    "id": 314,
+    "infinitive": "להשתחרר",
+    "translation": "освобождаться",
+    "government": "מ־",
+    "level": 16
+  },
+  {
+    "id": 315,
+    "infinitive": "להשתלב",
+    "translation": "интегрироваться, вливаться",
+    "government": "ב־",
+    "level": 16
+  },
+  {
+    "id": 316,
+    "infinitive": "לגור",
+    "translation": "жить, проживать",
+    "government": "ב־ / אצל",
+    "level": 16
+  },
+  {
+    "id": 317,
+    "infinitive": "ללמוד",
+    "translation": "учиться, изучать",
+    "government": "את / על",
+    "level": 16
+  },
+  {
+    "id": 318,
+    "infinitive": "להיכנס",
+    "translation": "входить, заходить",
+    "government": "ל־",
+    "level": 16
+  },
+  {
+    "id": 319,
+    "infinitive": "להסתכל",
+    "translation": "смотреть",
+    "government": "על",
+    "level": 16
+  },
+  {
+    "id": 320,
+    "infinitive": "לחכות",
+    "translation": "ждать",
+    "government": "ל־",
+    "level": 16
+  },
+  {
+    "id": 321,
+    "infinitive": "לזכור",
+    "translation": "помнить",
+    "government": "את",
+    "level": 17
+  },
+  {
+    "id": 322,
+    "infinitive": "לשכוח",
+    "translation": "забывать",
+    "government": "את",
+    "level": 17
+  },
+  {
+    "id": 323,
+    "infinitive": "להחליט",
+    "translation": "решать, принимать решение",
+    "government": "על / ל־",
+    "level": 17
+  },
+  {
+    "id": 324,
+    "infinitive": "להשאיר",
+    "translation": "оставлять",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 325,
+    "infinitive": "להקשיב",
+    "translation": "слушать",
+    "government": "ל־",
+    "level": 17
+  },
+  {
+    "id": 326,
+    "infinitive": "למות",
+    "translation": "умирать",
+    "government": "מ־",
+    "level": 17
+  },
+  {
+    "id": 327,
+    "infinitive": "לרוץ",
+    "translation": "бегать, бежать",
+    "government": "ל־ / אל",
+    "level": 17
+  },
+  {
+    "id": 328,
+    "infinitive": "לנהוג",
+    "translation": "водить, управлять автомобилем",
+    "government": "ב־",
+    "level": 17
+  },
+  {
+    "id": 329,
+    "infinitive": "לפנות",
+    "translation": "обращаться; поворачивать; освобождать",
+    "government": "ל־ / אל / את",
+    "level": 17
+  },
+  {
+    "id": 330,
+    "infinitive": "להחזיר",
+    "translation": "возвращать",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 331,
+    "infinitive": "לבשל",
+    "translation": "готовить пищу",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 332,
+    "infinitive": "למכור",
+    "translation": "продавать",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 333,
+    "infinitive": "לקוות",
+    "translation": "надеяться",
+    "government": "ל־ / ש־",
+    "level": 17
+  },
+  {
+    "id": 334,
+    "infinitive": "לפחד",
+    "translation": "бояться",
+    "government": "מ־",
+    "level": 17
+  },
+  {
+    "id": 335,
+    "infinitive": "להתעניין",
+    "translation": "интересоваться",
+    "government": "ב־",
+    "level": 17
+  },
+  {
+    "id": 336,
+    "infinitive": "להתגעגע",
+    "translation": "скучать",
+    "government": "ל־",
+    "level": 17
+  },
+  {
+    "id": 337,
+    "infinitive": "להתעורר",
+    "translation": "просыпаться",
+    "government": "מ־",
+    "level": 17
+  },
+  {
+    "id": 338,
+    "infinitive": "להפוך",
+    "translation": "переворачивать; превращать(ся)",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 339,
+    "infinitive": "להחזיק",
+    "translation": "держать, владеть",
+    "government": "את / ב־",
+    "level": 17
+  },
+  {
+    "id": 340,
+    "infinitive": "להפסיד",
+    "translation": "проигрывать, терять",
+    "government": "את / ל־",
+    "level": 17
+  },
+  {
+    "id": 341,
+    "infinitive": "לנצח",
+    "translation": "побеждать",
+    "government": "את / ב־",
+    "level": 18
+  },
+  {
+    "id": 342,
+    "infinitive": "להתנגד",
+    "translation": "возражать, сопротивляться",
+    "government": "ל־",
+    "level": 18
+  },
+  {
+    "id": 343,
+    "infinitive": "להתרגל",
+    "translation": "привыкать",
+    "government": "ל־",
+    "level": 18
+  },
+  {
+    "id": 344,
+    "infinitive": "לזכות",
+    "translation": "выигрывать, удостаиваться",
+    "government": "ב־",
+    "level": 18
+  },
+  {
+    "id": 345,
+    "infinitive": "להתרכז",
+    "translation": "концентрироваться, сосредоточиваться",
+    "government": "ב־ / על",
+    "level": 18
+  },
+  {
+    "id": 346,
+    "infinitive": "להתכונן",
+    "translation": "готовиться",
+    "government": "ל־ / לקראת",
+    "level": 18
+  },
+  {
+    "id": 347,
+    "infinitive": "להשתנות",
+    "translation": "меняться, изменяться",
+    "government": "—",
+    "level": 18
+  },
+  {
+    "id": 348,
+    "infinitive": "לגדל",
+    "translation": "выращивать, растить",
+    "government": "את",
+    "level": 18
+  },
+  {
+    "id": 349,
+    "infinitive": "להרוס",
+    "translation": "разрушать, портить",
+    "government": "את",
+    "level": 18
+  },
+  {
+    "id": 350,
+    "infinitive": "לשפר",
+    "translation": "улучшать",
+    "government": "את",
+    "level": 18
+  },
+  {
+    "id": 351,
+    "infinitive": "להתפתח",
+    "translation": "развиваться",
+    "government": "ל־ / ב־",
+    "level": 18
+  },
+  {
+    "id": 352,
+    "infinitive": "לארגן",
+    "translation": "организовывать",
+    "government": "את",
+    "level": 18
+  },
+  {
+    "id": 353,
+    "infinitive": "להתארגן",
+    "translation": "организовываться, собираться",
+    "government": "ל־",
+    "level": 18
+  },
+  {
+    "id": 354,
+    "infinitive": "להיעזר",
+    "translation": "пользоваться помощью",
+    "government": "ב־",
+    "level": 18
+  },
+  {
+    "id": 355,
+    "infinitive": "להסתיר",
+    "translation": "скрывать, прятать",
+    "government": "את / מ־",
+    "level": 18
+  },
+  {
+    "id": 356,
+    "infinitive": "להתחבא",
+    "translation": "прятаться",
+    "government": "מ־ / ב־",
+    "level": 18
+  },
+  {
+    "id": 357,
+    "infinitive": "להתייחס",
+    "translation": "относиться, обращаться",
+    "government": "ל־ / אל",
+    "level": 18
+  },
+  {
+    "id": 358,
+    "infinitive": "להסתפק",
+    "translation": "довольствоваться, ограничиваться",
+    "government": "ב־",
+    "level": 18
+  },
+  {
+    "id": 359,
+    "infinitive": "להשוות",
+    "translation": "сравнивать",
+    "government": "בין / ל־",
+    "level": 18
+  },
+  {
+    "id": 360,
+    "infinitive": "להסתיים",
+    "translation": "заканчиваться",
+    "government": "ב־",
+    "level": 18
+  },
+  {
+    "id": 361,
+    "infinitive": "להתנהג",
+    "translation": "вести себя",
+    "government": "עם / כלפי",
+    "level": 19
+  },
+  {
+    "id": 362,
+    "infinitive": "להיכשל",
+    "translation": "терпеть неудачу, проваливаться",
+    "government": "ב־",
+    "level": 19
+  },
+  {
+    "id": 363,
+    "infinitive": "לנחות",
+    "translation": "приземляться",
+    "government": "ב־ / על",
+    "level": 19
+  },
+  {
+    "id": 364,
+    "infinitive": "לרכוב",
+    "translation": "ездить верхом, кататься",
+    "government": "על",
+    "level": 19
+  },
+  {
+    "id": 365,
+    "infinitive": "להרגיע",
+    "translation": "успокаивать",
+    "government": "את",
+    "level": 19
+  },
+  {
+    "id": 366,
+    "infinitive": "להתעצבן",
+    "translation": "злиться, раздражаться",
+    "government": "על",
+    "level": 19
+  },
+  {
+    "id": 367,
+    "infinitive": "להתאהב",
+    "translation": "влюбляться",
+    "government": "ב־",
+    "level": 19
+  },
+  {
+    "id": 368,
+    "infinitive": "להתבייש",
+    "translation": "стесняться, испытывать стыд",
+    "government": "ב־ / מ־",
+    "level": 19
+  },
+  {
+    "id": 369,
+    "infinitive": "להסתמך",
+    "translation": "опираться, основываться",
+    "government": "על",
+    "level": 19
+  },
+  {
+    "id": 370,
+    "infinitive": "להתייעץ",
+    "translation": "советоваться",
+    "government": "עם / לגבי",
+    "level": 19
+  },
+  {
+    "id": 371,
+    "infinitive": "להתעקש",
+    "translation": "настаивать",
+    "government": "על",
+    "level": 19
+  },
+  {
+    "id": 372,
+    "infinitive": "להכחיש",
+    "translation": "отрицать",
+    "government": "את",
+    "level": 19
+  },
+  {
+    "id": 373,
+    "infinitive": "להקליט",
+    "translation": "записывать аудио/видео",
+    "government": "את",
+    "level": 19
+  },
+  {
+    "id": 374,
+    "infinitive": "להצטלם",
+    "translation": "фотографироваться",
+    "government": "עם",
+    "level": 19
+  },
+  {
+    "id": 375,
+    "infinitive": "להדפיס",
+    "translation": "печатать, распечатывать",
+    "government": "את",
+    "level": 19
+  },
+  {
+    "id": 376,
+    "infinitive": "להדביק",
+    "translation": "приклеивать, заражать",
+    "government": "את / ל־",
+    "level": 19
+  },
+  {
+    "id": 377,
+    "infinitive": "לטעון",
+    "translation": "загружать; утверждать",
+    "government": "את / ש־",
+    "level": 19
+  },
+  {
+    "id": 378,
+    "infinitive": "להסיק",
+    "translation": "делать вывод",
+    "government": "מ־",
+    "level": 19
+  },
+  {
+    "id": 379,
+    "infinitive": "לשער",
+    "translation": "предполагать",
+    "government": "ש־",
+    "level": 19
+  },
+  {
+    "id": 380,
+    "infinitive": "להעז",
+    "translation": "осмеливаться",
+    "government": "ל־",
+    "level": 19
+  },
+  {
+    "id": 381,
+    "infinitive": "להסתכן",
+    "translation": "рисковать",
+    "government": "ב־",
+    "level": 20
+  },
+  {
+    "id": 382,
+    "infinitive": "להיכנע",
+    "translation": "сдаваться, уступать",
+    "government": "ל־",
+    "level": 20
+  },
+  {
+    "id": 383,
+    "infinitive": "לתקוף",
+    "translation": "атаковать",
+    "government": "את",
+    "level": 20
+  },
+  {
+    "id": 384,
+    "infinitive": "להיפגע",
+    "translation": "пострадать, быть задетым",
+    "government": "מ־",
+    "level": 20
+  },
+  {
+    "id": 385,
+    "infinitive": "לשרוד",
+    "translation": "выживать",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 386,
+    "infinitive": "להזדקן",
+    "translation": "стареть",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 387,
+    "infinitive": "לחלות",
+    "translation": "заболевать",
+    "government": "ב־",
+    "level": 20
+  },
+  {
+    "id": 388,
+    "infinitive": "להחלים",
+    "translation": "выздоравливать",
+    "government": "מ־",
+    "level": 20
+  },
+  {
+    "id": 389,
+    "infinitive": "לרפא",
+    "translation": "лечить, исцелять",
+    "government": "את",
+    "level": 20
+  },
+  {
+    "id": 390,
+    "infinitive": "להשתעל",
+    "translation": "кашлять",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 391,
+    "infinitive": "להתעטש",
+    "translation": "чихать",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 392,
+    "infinitive": "להקיא",
+    "translation": "рвать, испытывать рвоту",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 393,
+    "infinitive": "להתעלף",
+    "translation": "падать в обморок",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 394,
+    "infinitive": "להתעייף",
+    "translation": "уставать",
+    "government": "מ־",
+    "level": 20
+  },
+  {
+    "id": 395,
+    "infinitive": "להתעמל",
+    "translation": "заниматься физическими упражнениями",
+    "government": "—",
+    "level": 20
+  },
+  {
+    "id": 396,
+    "infinitive": "להתרחץ",
+    "translation": "мыться, купаться",
+    "government": "ב־",
+    "level": 20
+  },
+  {
+    "id": 397,
+    "infinitive": "להתפשט",
+    "translation": "раздеваться; распространяться",
+    "government": "מ־ / ב־",
+    "level": 20
+  },
+  {
+    "id": 398,
+    "infinitive": "להתעכב",
+    "translation": "задерживаться",
+    "government": "ב־ / בגלל",
+    "level": 20
+  },
+  {
+    "id": 399,
+    "infinitive": "להקדים",
+    "translation": "приходить раньше; опережать",
+    "government": "את / ל־",
+    "level": 20
+  },
+  {
+    "id": 400,
+    "infinitive": "להתעמת",
+    "translation": "противостоять, вступать в конфронтацию",
+    "government": "עם",
+    "level": 20
+  },
+  {
+    "id": 401,
+    "infinitive": "להתערב",
+    "translation": "вмешиваться",
+    "government": "ב־",
+    "level": 21
+  },
+  {
+    "id": 402,
+    "infinitive": "להחמיר",
+    "translation": "ухудшать(ся), становиться серьёзнее",
+    "government": "ב־ / עם",
+    "level": 21
+  },
+  {
+    "id": 403,
+    "infinitive": "להקל",
+    "translation": "облегчать",
+    "government": "על",
+    "level": 21
+  },
+  {
+    "id": 404,
+    "infinitive": "להתריע",
+    "translation": "предупреждать, предостерегать",
+    "government": "על / בפני",
+    "level": 21
+  },
+  {
+    "id": 405,
+    "infinitive": "להתרשם",
+    "translation": "впечатляться, получать впечатление",
+    "government": "מ־",
+    "level": 21
+  },
+  {
+    "id": 406,
+    "infinitive": "להפתיע",
+    "translation": "удивлять",
+    "government": "את",
+    "level": 21
+  },
+  {
+    "id": 407,
+    "infinitive": "להתפלא",
+    "translation": "удивляться",
+    "government": "על",
+    "level": 21
+  },
+  {
+    "id": 408,
+    "infinitive": "להתלהב",
+    "translation": "восхищаться, приходить в восторг",
+    "government": "מ־",
+    "level": 21
+  },
+  {
+    "id": 409,
+    "infinitive": "להשתעמם",
+    "translation": "скучать, испытывать скуку",
+    "government": "מ־",
+    "level": 21
+  },
+  {
+    "id": 410,
+    "infinitive": "להתאכזב",
+    "translation": "разочаровываться",
+    "government": "מ־",
+    "level": 21
+  },
+  {
+    "id": 411,
+    "infinitive": "לאכזב",
+    "translation": "разочаровывать",
+    "government": "את",
+    "level": 21
+  },
+  {
+    "id": 412,
+    "infinitive": "להיעלב",
+    "translation": "обижаться",
+    "government": "מ־ / על",
+    "level": 21
+  },
+  {
+    "id": 413,
+    "infinitive": "להעליב",
+    "translation": "обижать, оскорблять",
+    "government": "את",
+    "level": 21
+  },
+  {
+    "id": 414,
+    "infinitive": "לקנא",
+    "translation": "завидовать, ревновать",
+    "government": "ב־ / ל־",
+    "level": 21
+  },
+  {
+    "id": 415,
+    "infinitive": "להתחרט",
+    "translation": "сожалеть, раскаиваться",
+    "government": "על",
+    "level": 21
+  },
+  {
+    "id": 416,
+    "infinitive": "להסתכסך",
+    "translation": "конфликтовать, ссориться",
+    "government": "עם",
+    "level": 21
+  },
+  {
+    "id": 417,
+    "infinitive": "לחשוף",
+    "translation": "раскрывать, обнажать",
+    "government": "את / ל־",
+    "level": 21
+  },
+  {
+    "id": 418,
+    "infinitive": "להיחשף",
+    "translation": "подвергаться воздействию, раскрываться",
+    "government": "ל־",
+    "level": 21
+  },
+  {
+    "id": 419,
+    "infinitive": "להתנשק",
+    "translation": "целоваться",
+    "government": "עם",
+    "level": 21
+  },
+  {
+    "id": 420,
+    "infinitive": "ללטף",
+    "translation": "гладить, ласкать",
+    "government": "את",
+    "level": 21
+  },
+  {
+    "id": 421,
+    "infinitive": "להציק",
+    "translation": "надоедать, приставать",
+    "government": "ל־",
+    "level": 22
+  },
+  {
+    "id": 422,
+    "infinitive": "להטריד",
+    "translation": "беспокоить, тревожить",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 423,
+    "infinitive": "לכוון",
+    "translation": "направлять, настраивать",
+    "government": "את / ל־",
+    "level": 22
+  },
+  {
+    "id": 424,
+    "infinitive": "לרדוף",
+    "translation": "преследовать",
+    "government": "אחרי",
+    "level": 22
+  },
+  {
+    "id": 425,
+    "infinitive": "לסגת",
+    "translation": "отступать",
+    "government": "מ־",
+    "level": 22
+  },
+  {
+    "id": 426,
+    "infinitive": "לחצות",
+    "translation": "пересекать",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 427,
+    "infinitive": "לעקוף",
+    "translation": "обходить, обгонять",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 428,
+    "infinitive": "לפספס",
+    "translation": "пропускать, упускать",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 429,
+    "infinitive": "ללוות",
+    "translation": "сопровождать; брать взаймы",
+    "government": "את / מ־",
+    "level": 22
+  },
+  {
+    "id": 430,
+    "infinitive": "להלוות",
+    "translation": "давать взаймы",
+    "government": "ל־ / את",
+    "level": 22
+  },
+  {
+    "id": 431,
+    "infinitive": "להשכיר",
+    "translation": "сдавать в аренду",
+    "government": "ל־ / את",
+    "level": 22
+  },
+  {
+    "id": 432,
+    "infinitive": "לצרוך",
+    "translation": "потреблять",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 433,
+    "infinitive": "לייצר",
+    "translation": "производить",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 434,
+    "infinitive": "לגרור",
+    "translation": "тащить, волочить",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 435,
+    "infinitive": "להקפיא",
+    "translation": "замораживать",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 436,
+    "infinitive": "להפשיר",
+    "translation": "размораживать",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 437,
+    "infinitive": "לקלף",
+    "translation": "чистить, снимать кожуру",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 438,
+    "infinitive": "לקצוץ",
+    "translation": "нарезать, рубить",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 439,
+    "infinitive": "לגהץ",
+    "translation": "гладить утюгом",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 440,
+    "infinitive": "לפזר",
+    "translation": "разбрасывать, распределять",
+    "government": "את",
+    "level": 22
+  },
+  {
+    "id": 441,
+    "infinitive": "להעמיס",
+    "translation": "загружать, нагружать",
+    "government": "את / על",
+    "level": 23
+  },
+  {
+    "id": 442,
+    "infinitive": "להדק",
+    "translation": "затягивать, закреплять",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 443,
+    "infinitive": "לנעוץ",
+    "translation": "втыкать, вонзать",
+    "government": "את / ב־",
+    "level": 23
+  },
+  {
+    "id": 444,
+    "infinitive": "לקדוח",
+    "translation": "сверлить",
+    "government": "ב־",
+    "level": 23
+  },
+  {
+    "id": 445,
+    "infinitive": "להבריג",
+    "translation": "завинчивать",
+    "government": "את / ב־",
+    "level": 23
+  },
+  {
+    "id": 446,
+    "infinitive": "לשרטט",
+    "translation": "чертить, делать набросок",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 447,
+    "infinitive": "לתכנת",
+    "translation": "программировать",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 448,
+    "infinitive": "לשנן",
+    "translation": "заучивать, повторять",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 449,
+    "infinitive": "להיבחן",
+    "translation": "сдавать экзамен, проходить проверку",
+    "government": "ב־ / על",
+    "level": 23
+  },
+  {
+    "id": 450,
+    "infinitive": "להתעמק",
+    "translation": "углубляться, подробно изучать",
+    "government": "ב־",
+    "level": 23
+  },
+  {
+    "id": 451,
+    "infinitive": "לשקוע",
+    "translation": "погружаться, тонуть; быть поглощённым",
+    "government": "ב־",
+    "level": 23
+  },
+  {
+    "id": 452,
+    "infinitive": "להתבונן",
+    "translation": "наблюдать, всматриваться",
+    "government": "ב־",
+    "level": 23
+  },
+  {
+    "id": 453,
+    "infinitive": "להשגיח",
+    "translation": "присматривать, следить",
+    "government": "על",
+    "level": 23
+  },
+  {
+    "id": 454,
+    "infinitive": "לפקח",
+    "translation": "контролировать, надзирать",
+    "government": "על",
+    "level": 23
+  },
+  {
+    "id": 455,
+    "infinitive": "לשקף",
+    "translation": "отражать",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 456,
+    "infinitive": "לפרט",
+    "translation": "подробно излагать",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 457,
+    "infinitive": "לנסח",
+    "translation": "формулировать",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 458,
+    "infinitive": "לפרש",
+    "translation": "объяснять, толковать",
+    "government": "את",
+    "level": 23
+  },
+  {
+    "id": 459,
+    "infinitive": "למיין",
+    "translation": "сортировать, классифицировать",
+    "government": "את / לפי",
+    "level": 23
+  },
+  {
+    "id": 460,
+    "infinitive": "לסווג",
+    "translation": "классифицировать",
+    "government": "את / לפי",
+    "level": 23
+  },
+  {
+    "id": 461,
+    "infinitive": "להפריד",
+    "translation": "разделять, отделять",
+    "government": "את / בין / מ־",
+    "level": 24
+  },
+  {
+    "id": 462,
+    "infinitive": "לאחד",
+    "translation": "объединять",
+    "government": "את / עם",
+    "level": 24
+  },
+  {
+    "id": 463,
+    "infinitive": "להסתגל",
+    "translation": "приспосабливаться, адаптироваться",
+    "government": "ל־",
+    "level": 24
+  },
+  {
+    "id": 464,
+    "infinitive": "ליישם",
+    "translation": "применять, реализовывать",
+    "government": "את",
+    "level": 24
+  },
+  {
+    "id": 465,
+    "infinitive": "להתמיד",
+    "translation": "упорно продолжать, проявлять постоянство",
+    "government": "ב־",
+    "level": 24
+  },
+  {
+    "id": 466,
+    "infinitive": "להתפשר",
+    "translation": "идти на компромисс",
+    "government": "על / עם",
+    "level": 24
+  },
+  {
+    "id": 467,
+    "infinitive": "להפר",
+    "translation": "нарушать",
+    "government": "את",
+    "level": 24
+  },
+  {
+    "id": 468,
+    "infinitive": "לציית",
+    "translation": "подчиняться, соблюдать",
+    "government": "ל־",
+    "level": 24
+  },
+  {
+    "id": 469,
+    "infinitive": "להבדיל",
+    "translation": "различать, отделять",
+    "government": "בין",
+    "level": 24
+  },
+  {
+    "id": 470,
+    "infinitive": "להגביל",
+    "translation": "ограничивать",
+    "government": "את / ל־",
+    "level": 24
+  },
+  {
+    "id": 471,
+    "infinitive": "להכריח",
+    "translation": "заставлять, вынуждать",
+    "government": "את / ל־",
+    "level": 24
+  },
+  {
+    "id": 472,
+    "infinitive": "להרתיע",
+    "translation": "сдерживать, отпугивать",
+    "government": "את / מ־",
+    "level": 24
+  },
+  {
+    "id": 473,
+    "infinitive": "לעורר",
+    "translation": "пробуждать, вызывать",
+    "government": "את",
+    "level": 24
+  },
+  {
+    "id": 474,
+    "infinitive": "ללחוש",
+    "translation": "шептать",
+    "government": "ל־",
+    "level": 24
+  },
+  {
+    "id": 475,
+    "infinitive": "לצרוח",
+    "translation": "кричать, вопить",
+    "government": "על",
+    "level": 24
+  },
+  {
+    "id": 476,
+    "infinitive": "לנאום",
+    "translation": "произносить речь",
+    "government": "בפני",
+    "level": 24
+  },
+  {
+    "id": 477,
+    "infinitive": "להתכתב",
+    "translation": "переписываться",
+    "government": "עם",
+    "level": 24
+  },
+  {
+    "id": 478,
+    "infinitive": "לרכל",
+    "translation": "сплетничать",
+    "government": "על",
+    "level": 24
+  },
+  {
+    "id": 479,
+    "infinitive": "להתבדח",
+    "translation": "шутить",
+    "government": "עם / על",
+    "level": 24
+  },
+  {
+    "id": 480,
+    "infinitive": "להתיידד",
+    "translation": "подружиться",
+    "government": "עם",
+    "level": 24
+  },
+  {
+    "id": 481,
+    "infinitive": "להתארח",
+    "translation": "гостить",
+    "government": "אצל",
+    "level": 25
+  },
+  {
+    "id": 482,
+    "infinitive": "להעניק",
+    "translation": "вручать, предоставлять",
+    "government": "ל־ / את",
+    "level": 25
+  },
+  {
+    "id": 483,
+    "infinitive": "למנות",
+    "translation": "назначать; перечислять",
+    "government": "את / ל־",
+    "level": 25
+  },
+  {
+    "id": 484,
+    "infinitive": "להתמנות",
+    "translation": "быть назначенным",
+    "government": "ל־",
+    "level": 25
+  },
+  {
+    "id": 485,
+    "infinitive": "לייצג",
+    "translation": "представлять кого-либо",
+    "government": "את",
+    "level": 25
+  },
+  {
+    "id": 486,
+    "infinitive": "להתייצב",
+    "translation": "являться, становиться на место",
+    "government": "ב־ / מול",
+    "level": 25
+  },
+  {
+    "id": 487,
+    "infinitive": "להתראיין",
+    "translation": "проходить интервью",
+    "government": "ל־ / אצל",
+    "level": 25
+  },
+  {
+    "id": 488,
+    "infinitive": "לנכוח",
+    "translation": "присутствовать",
+    "government": "ב־",
+    "level": 25
+  },
+  {
+    "id": 489,
+    "infinitive": "להצטבר",
+    "translation": "накапливаться",
+    "government": "ב־",
+    "level": 25
+  },
+  {
+    "id": 490,
+    "infinitive": "להכשיר",
+    "translation": "обучать, подготавливать; делать пригодным",
+    "government": "את / ל־",
+    "level": 25
+  },
+  {
+    "id": 491,
+    "infinitive": "להדריך",
+    "translation": "инструктировать, обучать, вести",
+    "government": "את",
+    "level": 25
+  },
+  {
+    "id": 492,
+    "infinitive": "להנחות",
+    "translation": "инструктировать, направлять, вести",
+    "government": "את",
+    "level": 25
+  },
+  {
+    "id": 493,
+    "infinitive": "להאיץ",
+    "translation": "ускорять",
+    "government": "את",
+    "level": 25
+  },
+  {
+    "id": 494,
+    "infinitive": "להתחדש",
+    "translation": "обновляться, возобновляться",
+    "government": "ב־",
+    "level": 25
+  },
+  {
+    "id": 495,
+    "infinitive": "להתרחב",
+    "translation": "расширяться",
+    "government": "ל־ / ב־",
+    "level": 25
+  },
+  {
+    "id": 496,
+    "infinitive": "להצטמצם",
+    "translation": "сокращаться, уменьшаться",
+    "government": "ל־ / ב־",
+    "level": 25
+  },
+  {
+    "id": 497,
+    "infinitive": "להתחזק",
+    "translation": "становиться сильнее, укрепляться",
+    "government": "ב־",
+    "level": 25
+  },
+  {
+    "id": 498,
+    "infinitive": "להיחלש",
+    "translation": "слабеть",
+    "government": "ב־",
+    "level": 25
+  },
+  {
+    "id": 499,
+    "infinitive": "להשתקם",
+    "translation": "восстанавливаться, реабилитироваться",
+    "government": "מ־",
+    "level": 25
+  },
+  {
+    "id": 500,
+    "infinitive": "להתמסר",
+    "translation": "посвящать себя, отдаваться делу",
+    "government": "ל־",
+    "level": 25
+  }
+]

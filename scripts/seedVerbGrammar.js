@@ -24,21 +24,17 @@ async function seedVerbGrammar() {
     const client = await pool.connect();
 
     try {
-        const base = await readJson("../../hebrew-redux-toolkit/src/data/grammar/verbs/base.json");
+        const base = await readJson("../database/seed-data/verbs/base.json");
 
-        const present = await readJson(
-            "../../hebrew-redux-toolkit/src/data/grammar/verbs/present.json",
-        );
+        const present = await readJson("../database/seed-data/verbs/present.json");
 
-        const past = await readJson("../../hebrew-redux-toolkit/src/data/grammar/verbs/past.json");
+        const past = await readJson("../database/seed-data/verbs/past.json");
 
         const futureImperative = await readJson(
-            "../../hebrew-redux-toolkit/src/data/grammar/verbs/futureImperative.json",
+            "../database/seed-data/verbs/futureImperative.json",
         );
 
-        const examples = await readJson(
-            "../../hebrew-redux-toolkit/src/data/grammar/verbs/examples.json",
-        );
+        const examples = await readJson("../database/seed-data/verbs/examples.json");
 
         const presentById = new Map(present.map((item) => [item.id, item]));
 

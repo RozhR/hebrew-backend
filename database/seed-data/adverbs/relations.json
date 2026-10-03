@@ -1,0 +1,450 @@
+[
+  {
+    "id": 2,
+    "adverb": "עכשיו",
+    "synonym": "כרגע",
+    "antonym": "—",
+    "related_expression": "תכף",
+    "comment": "עכשיו универсальнее; כרגע = «в данный момент»; תכף = «вот-вот/через минуту»."
+  },
+  {
+    "id": 3,
+    "adverb": "גם",
+    "synonym": "בנוסף",
+    "antonym": "—",
+    "related_expression": "חוץ מזה",
+    "comment": "גם — короткое «тоже»; בנוסף/חוץ מזה связывают более крупные части высказывания."
+  },
+  {
+    "id": 5,
+    "adverb": "כאן",
+    "synonym": "פה",
+    "antonym": "שם",
+    "related_expression": "—",
+    "comment": "כאן нейтрально; פה очень частое разговорное «тут»."
+  },
+  {
+    "id": 7,
+    "adverb": "תמיד",
+    "synonym": "כל הזמן",
+    "antonym": "אף פעם",
+    "related_expression": "לעולם לא",
+    "comment": "תמיד = всегда; כל הזמן = всё время; отрицательная противоположность — אף פעם לא / לעולם לא."
+  },
+  {
+    "id": 8,
+    "adverb": "עוד",
+    "synonym": "—",
+    "antonym": "כבר",
+    "related_expression": "עדיין",
+    "comment": "Временные значения различаются: ещё / уже / всё ещё."
+  },
+  {
+    "id": 9,
+    "adverb": "יותר",
+    "synonym": "—",
+    "antonym": "פחות",
+    "related_expression": "יותר מדי",
+    "comment": "Базовая сравнительная пара יותר ↔ פחות."
+  },
+  {
+    "id": 15,
+    "adverb": "ממש",
+    "synonym": "באמת",
+    "antonym": "—",
+    "related_expression": "לגמרי",
+    "comment": "ממש часто усиливает; באמת чаще подтверждает истинность."
+  },
+  {
+    "id": 21,
+    "adverb": "יחד",
+    "synonym": "—",
+    "antonym": "לבד",
+    "related_expression": "בנפרד",
+    "comment": "יחד ↔ לבד; בנפרד = отдельно."
+  },
+  {
+    "id": 23,
+    "adverb": "הרבה",
+    "synonym": "—",
+    "antonym": "קצת",
+    "related_expression": "פחות",
+    "comment": "Количество: много ↔ немного."
+  },
+  {
+    "id": 28,
+    "adverb": "מהר",
+    "synonym": "—",
+    "antonym": "לאט",
+    "related_expression": "—",
+    "comment": "Прямая пара образа действия."
+  },
+  {
+    "id": 30,
+    "adverb": "טוב",
+    "synonym": "היטב",
+    "antonym": "—",
+    "related_expression": "כראוי",
+    "comment": "היטב и כראוי формальнее/точнее, чем универсальное טוב."
+  },
+  {
+    "id": 32,
+    "adverb": "בדיוק",
+    "synonym": "—",
+    "antonym": "בערך",
+    "related_expression": "פחות או יותר",
+    "comment": "Точно ↔ примерно."
+  },
+  {
+    "id": 34,
+    "adverb": "בדרך כלל",
+    "synonym": "לרוב",
+    "antonym": "—",
+    "related_expression": "מדי פעם",
+    "comment": "Обычно ↔ время от времени."
+  },
+  {
+    "id": 35,
+    "adverb": "לפעמים",
+    "synonym": "לעיתים",
+    "antonym": "—",
+    "related_expression": "מדי פעם",
+    "comment": "Близкие значения «иногда»."
+  },
+  {
+    "id": 40,
+    "adverb": "בקרוב",
+    "synonym": "תכף",
+    "antonym": "—",
+    "related_expression": "בהמשך",
+    "comment": "Разные степени близости будущего действия."
+  },
+  {
+    "id": 43,
+    "adverb": "מוקדם",
+    "synonym": "—",
+    "antonym": "מאוחר",
+    "related_expression": "באיחור",
+    "comment": "Рано ↔ поздно."
+  },
+  {
+    "id": 47,
+    "adverb": "כנראה",
+    "synonym": "מן הסתם",
+    "antonym": "—",
+    "related_expression": "אולי",
+    "comment": "אולי слабее по уверенности; מן הסתם часто ближе к «скорее всего/очевидно»."
+  },
+  {
+    "id": 62,
+    "adverb": "לגמרי",
+    "synonym": "לחלוטין",
+    "antonym": "חלקית",
+    "related_expression": "—",
+    "comment": "Полностью ↔ частично."
+  },
+  {
+    "id": 75,
+    "adverb": "בפנים",
+    "synonym": "—",
+    "antonym": "בחוץ",
+    "related_expression": "מבפנים",
+    "comment": "Внутри ↔ снаружи."
+  },
+  {
+    "id": 76,
+    "adverb": "למעלה",
+    "synonym": "—",
+    "antonym": "למטה",
+    "related_expression": "מלמעלה",
+    "comment": "Вверх/наверху ↔ вниз/внизу."
+  },
+  {
+    "id": 78,
+    "adverb": "קדימה",
+    "synonym": "—",
+    "antonym": "אחורה",
+    "related_expression": "—",
+    "comment": "Вперёд ↔ назад."
+  },
+  {
+    "id": 80,
+    "adverb": "ימינה",
+    "synonym": "—",
+    "antonym": "שמאלה",
+    "related_expression": "—",
+    "comment": "Направо ↔ налево."
+  },
+  {
+    "id": 82,
+    "adverb": "פנימה",
+    "synonym": "—",
+    "antonym": "החוצה",
+    "related_expression": "—",
+    "comment": "Внутрь ↔ наружу."
+  },
+  {
+    "id": 85,
+    "adverb": "קרוב",
+    "synonym": "—",
+    "antonym": "רחוק",
+    "related_expression": "—",
+    "comment": "Близко ↔ далеко."
+  },
+  {
+    "id": 91,
+    "adverb": "מכאן",
+    "synonym": "—",
+    "antonym": "משם",
+    "related_expression": "—",
+    "comment": "Отсюда ↔ оттуда."
+  },
+  {
+    "id": 98,
+    "adverb": "לכן",
+    "synonym": "משום כך",
+    "antonym": "—",
+    "related_expression": "כתוצאה מכך",
+    "comment": "Все выражают следствие; כתוצאה מכך формальнее."
+  },
+  {
+    "id": 99,
+    "adverb": "בכל זאת",
+    "synonym": "—",
+    "antonym": "—",
+    "related_expression": "למרות זאת",
+    "comment": "Уступительное «всё же/несмотря на это»."
+  },
+  {
+    "id": 102,
+    "adverb": "למעשה",
+    "synonym": "בפועל",
+    "antonym": "—",
+    "related_expression": "בעצם",
+    "comment": "למעשה/בפועל более нейтрально-письменные; בעצם очень частое разговорное уточнение."
+  },
+  {
+    "id": 105,
+    "adverb": "מראש",
+    "synonym": "—",
+    "antonym": "ברגע האחרון",
+    "related_expression": "—",
+    "comment": "Заранее ↔ в последний момент."
+  },
+  {
+    "id": 113,
+    "adverb": "בהתחלה",
+    "synonym": "תחילה",
+    "antonym": "בסוף",
+    "related_expression": "לבסוף",
+    "comment": "Начало ↔ конец; תחילה/לבסוף несколько книжнее."
+  },
+  {
+    "id": 114,
+    "adverb": "בסוף",
+    "synonym": "לבסוף",
+    "antonym": "בהתחלה",
+    "related_expression": "בסופו של דבר",
+    "comment": "Близкие выражения результата/конца с разными оттенками."
+  },
+  {
+    "id": 117,
+    "adverb": "בעבר",
+    "synonym": "—",
+    "antonym": "בעתיד",
+    "related_expression": "בימינו",
+    "comment": "Прошлое ↔ будущее."
+  },
+  {
+    "id": 121,
+    "adverb": "בזמן",
+    "synonym": "—",
+    "antonym": "באיחור",
+    "related_expression": "—",
+    "comment": "Вовремя ↔ с опозданием."
+  },
+  {
+    "id": 137,
+    "adverb": "מלמעלה",
+    "synonym": "—",
+    "antonym": "מלמטה",
+    "related_expression": "—",
+    "comment": "Сверху ↔ снизу."
+  },
+  {
+    "id": 140,
+    "adverb": "מבפנים",
+    "synonym": "—",
+    "antonym": "מבחוץ",
+    "related_expression": "—",
+    "comment": "Изнутри ↔ извне."
+  },
+  {
+    "id": 143,
+    "adverb": "להפך",
+    "synonym": "לעומת זאת",
+    "antonym": "—",
+    "related_expression": "בניגוד",
+    "comment": "Контраст и противопоставление."
+  },
+  {
+    "id": 151,
+    "adverb": "מצד אחד",
+    "synonym": "—",
+    "antonym": "מצד שני",
+    "related_expression": "—",
+    "comment": "Парная конструкция «с одной стороны / с другой стороны»."
+  },
+  {
+    "id": 160,
+    "adverb": "לדעתי",
+    "synonym": "מבחינתי",
+    "antonym": "—",
+    "related_expression": "—",
+    "comment": "Оба выражают позицию говорящего, но מבחינתי часто = «что касается меня»."
+  },
+  {
+    "id": 162,
+    "adverb": "לצערי",
+    "synonym": "למרבה הצער",
+    "antonym": "למזלי",
+    "related_expression": "למרבה המזל",
+    "comment": "Оценочные пары «к сожалению / к счастью»."
+  },
+  {
+    "id": 167,
+    "adverb": "ללא ספק",
+    "synonym": "בהחלט",
+    "antonym": "—",
+    "related_expression": "אולי",
+    "comment": "Высокая уверенность ↔ неопределённость."
+  },
+  {
+    "id": 171,
+    "adverb": "בקלות",
+    "synonym": "—",
+    "antonym": "בקושי",
+    "related_expression": "—",
+    "comment": "Легко ↔ с трудом."
+  },
+  {
+    "id": 175,
+    "adverb": "בכוונה",
+    "synonym": "במתכוון",
+    "antonym": "בטעות",
+    "related_expression": "בשוגג",
+    "comment": "Разговорная и более формальная пары «намеренно / случайно»."
+  },
+  {
+    "id": 205,
+    "adverb": "בקצרה",
+    "synonym": "בקיצור",
+    "antonym": "בפירוט",
+    "related_expression": "לעומק",
+    "comment": "Кратко ↔ подробно."
+  },
+  {
+    "id": 210,
+    "adverb": "רשמית",
+    "synonym": "באופן רשמי",
+    "antonym": "—",
+    "related_expression": "—",
+    "comment": "Одинаковая функция; רשמית компактнее."
+  },
+  {
+    "id": 220,
+    "adverb": "אוטומטית",
+    "synonym": "—",
+    "antonym": "ידנית",
+    "related_expression": "—",
+    "comment": "Автоматически ↔ вручную."
+  },
+  {
+    "id": 223,
+    "adverb": "בגלוי",
+    "synonym": "בפומבי",
+    "antonym": "בסתר",
+    "related_expression": "בחשאי",
+    "comment": "Открыто/публично ↔ тайно."
+  },
+  {
+    "id": 227,
+    "adverb": "מרצון",
+    "synonym": "ברצון",
+    "antonym": "בכפייה",
+    "related_expression": "—",
+    "comment": "Добровольно ↔ принудительно."
+  },
+  {
+    "id": 233,
+    "adverb": "ברצף",
+    "synonym": "ברציפות",
+    "antonym": "לסירוגין",
+    "related_expression": "ללא הרף",
+    "comment": "Непрерывность ↔ чередование/перерывы."
+  },
+  {
+    "id": 236,
+    "adverb": "פחות או יותר",
+    "synonym": "בערך",
+    "antonym": "בדיוק",
+    "related_expression": "—",
+    "comment": "Приблизительно ↔ точно."
+  },
+  {
+    "id": 239,
+    "adverb": "לכל היותר",
+    "synonym": "—",
+    "antonym": "לכל הפחות",
+    "related_expression": "—",
+    "comment": "Максимум ↔ минимум."
+  },
+  {
+    "id": 244,
+    "adverb": "חלקית",
+    "synonym": "במקצת",
+    "antonym": "לגמרי",
+    "related_expression": "לחלוטין",
+    "comment": "Частично ↔ полностью."
+  },
+  {
+    "id": 267,
+    "adverb": "במקום",
+    "synonym": "לחלופין",
+    "antonym": "—",
+    "related_expression": "—",
+    "comment": "Оба могут выражать альтернативу; לחלופין формальнее."
+  },
+  {
+    "id": 273,
+    "adverb": "צפונה",
+    "synonym": "—",
+    "antonym": "דרומה",
+    "related_expression": "—",
+    "comment": "На север ↔ на юг."
+  },
+  {
+    "id": 275,
+    "adverb": "מזרחה",
+    "synonym": "—",
+    "antonym": "מערבה",
+    "related_expression": "—",
+    "comment": "На восток ↔ на запад."
+  },
+  {
+    "id": 280,
+    "adverb": "במקרה הטוב",
+    "synonym": "—",
+    "antonym": "במקרה הרע",
+    "related_expression": "—",
+    "comment": "В лучшем случае ↔ в худшем случае."
+  },
+  {
+    "id": 292,
+    "adverb": "בהכרח",
+    "synonym": "—",
+    "antonym": "—",
+    "related_expression": "לא בהכרח",
+    "comment": "Очень частая отрицательная конструкция לא בהכרח = «не обязательно»."
+  }
+]

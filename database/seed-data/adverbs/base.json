@@ -1,0 +1,2102 @@
+[
+  {
+    "id": 1,
+    "adverb": "מאוד",
+    "translation": "очень",
+    "category": "степень",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "adverb": "עכשיו",
+    "translation": "сейчас",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "adverb": "גם",
+    "translation": "тоже, также",
+    "category": "добавление",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "adverb": "כבר",
+    "translation": "уже",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "adverb": "כאן",
+    "translation": "здесь",
+    "category": "место",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "adverb": "פה",
+    "translation": "здесь, тут",
+    "category": "разговорное / место",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "adverb": "תמיד",
+    "translation": "всегда",
+    "category": "частота",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "adverb": "עוד",
+    "translation": "ещё",
+    "category": "добавление",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "adverb": "יותר",
+    "translation": "больше, более",
+    "category": "степень",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "adverb": "רק",
+    "translation": "только",
+    "category": "ограничение",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "adverb": "היום",
+    "translation": "сегодня",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "adverb": "אולי",
+    "translation": "возможно, может быть",
+    "category": "вероятность",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "adverb": "שם",
+    "translation": "там",
+    "category": "место",
+    "level": 1
+  },
+  {
+    "id": 14,
+    "adverb": "שוב",
+    "translation": "снова",
+    "category": "частота",
+    "level": 1
+  },
+  {
+    "id": 15,
+    "adverb": "ממש",
+    "translation": "действительно, очень, прямо",
+    "category": "усиление",
+    "level": 1
+  },
+  {
+    "id": 16,
+    "adverb": "באמת",
+    "translation": "действительно, на самом деле",
+    "category": "подтверждение",
+    "level": 1
+  },
+  {
+    "id": 17,
+    "adverb": "עדיין",
+    "translation": "всё ещё",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 18,
+    "adverb": "אחר כך",
+    "translation": "потом, после этого",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 19,
+    "adverb": "קודם",
+    "translation": "сначала, раньше, прежде",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 20,
+    "adverb": "מיד",
+    "translation": "сразу, немедленно",
+    "category": "время",
+    "level": 1
+  },
+  {
+    "id": 21,
+    "adverb": "יחד",
+    "translation": "вместе",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 22,
+    "adverb": "לבד",
+    "translation": "один, самостоятельно",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 23,
+    "adverb": "הרבה",
+    "translation": "много",
+    "category": "количество",
+    "level": 2
+  },
+  {
+    "id": 24,
+    "adverb": "קצת",
+    "translation": "немного",
+    "category": "количество",
+    "level": 2
+  },
+  {
+    "id": 25,
+    "adverb": "פחות",
+    "translation": "меньше, менее",
+    "category": "степень",
+    "level": 2
+  },
+  {
+    "id": 26,
+    "adverb": "כמעט",
+    "translation": "почти",
+    "category": "степень",
+    "level": 2
+  },
+  {
+    "id": 27,
+    "adverb": "מספיק",
+    "translation": "достаточно",
+    "category": "степень",
+    "level": 2
+  },
+  {
+    "id": 28,
+    "adverb": "מהר",
+    "translation": "быстро",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 29,
+    "adverb": "לאט",
+    "translation": "медленно",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 30,
+    "adverb": "טוב",
+    "translation": "хорошо",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 31,
+    "adverb": "היטב",
+    "translation": "хорошо, как следует",
+    "category": "образ действия",
+    "level": 2
+  },
+  {
+    "id": 32,
+    "adverb": "בדיוק",
+    "translation": "точно, именно",
+    "category": "точность",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "adverb": "בכלל",
+    "translation": "вообще",
+    "category": "обобщение",
+    "level": 2
+  },
+  {
+    "id": 34,
+    "adverb": "בדרך כלל",
+    "translation": "обычно",
+    "category": "частота",
+    "level": 2
+  },
+  {
+    "id": 35,
+    "adverb": "לפעמים",
+    "translation": "иногда",
+    "category": "частота",
+    "level": 2
+  },
+  {
+    "id": 36,
+    "adverb": "אף פעם",
+    "translation": "когда-либо; никогда с отрицанием",
+    "category": "частота",
+    "level": 2
+  },
+  {
+    "id": 37,
+    "adverb": "פתאום",
+    "translation": "внезапно",
+    "category": "время",
+    "level": 2
+  },
+  {
+    "id": 38,
+    "adverb": "תכף",
+    "translation": "сейчас, вот-вот, скоро",
+    "category": "время",
+    "level": 2
+  },
+  {
+    "id": 39,
+    "adverb": "כרגע",
+    "translation": "сейчас, в данный момент",
+    "category": "время",
+    "level": 2
+  },
+  {
+    "id": 40,
+    "adverb": "בקרוב",
+    "translation": "скоро",
+    "category": "время",
+    "level": 2
+  },
+  {
+    "id": 41,
+    "adverb": "אתמול",
+    "translation": "вчера",
+    "category": "время",
+    "level": 3
+  },
+  {
+    "id": 42,
+    "adverb": "מחר",
+    "translation": "завтра",
+    "category": "время",
+    "level": 3
+  },
+  {
+    "id": 43,
+    "adverb": "מוקדם",
+    "translation": "рано",
+    "category": "время",
+    "level": 3
+  },
+  {
+    "id": 44,
+    "adverb": "מאוחר",
+    "translation": "поздно",
+    "category": "время",
+    "level": 3
+  },
+  {
+    "id": 45,
+    "adverb": "במיוחד",
+    "translation": "особенно",
+    "category": "степень",
+    "level": 3
+  },
+  {
+    "id": 46,
+    "adverb": "למשל",
+    "translation": "например",
+    "category": "пояснение",
+    "level": 3
+  },
+  {
+    "id": 47,
+    "adverb": "כנראה",
+    "translation": "вероятно, по-видимому",
+    "category": "вероятность",
+    "level": 3
+  },
+  {
+    "id": 48,
+    "adverb": "כמובן",
+    "translation": "конечно, разумеется",
+    "category": "уверенность",
+    "level": 3
+  },
+  {
+    "id": 49,
+    "adverb": "בהחלט",
+    "translation": "определённо, безусловно",
+    "category": "уверенность",
+    "level": 3
+  },
+  {
+    "id": 50,
+    "adverb": "דווקא",
+    "translation": "именно, как раз; наоборот",
+    "category": "акцент",
+    "level": 3
+  },
+  {
+    "id": 51,
+    "adverb": "סתם",
+    "translation": "просто так, без причины",
+    "category": "разговорное",
+    "level": 3
+  },
+  {
+    "id": 52,
+    "adverb": "בעצם",
+    "translation": "собственно, вообще-то, на самом деле",
+    "category": "пояснение",
+    "level": 3
+  },
+  {
+    "id": 53,
+    "adverb": "ככה",
+    "translation": "так, таким образом",
+    "category": "разговорное",
+    "level": 3
+  },
+  {
+    "id": 54,
+    "adverb": "כך",
+    "translation": "так, таким образом",
+    "category": "образ действия",
+    "level": 3
+  },
+  {
+    "id": 55,
+    "adverb": "ישר",
+    "translation": "прямо; сразу",
+    "category": "направление / время",
+    "level": 3
+  },
+  {
+    "id": 56,
+    "adverb": "כל כך",
+    "translation": "так, настолько",
+    "category": "степень",
+    "level": 3
+  },
+  {
+    "id": 57,
+    "adverb": "יותר מדי",
+    "translation": "слишком, слишком много",
+    "category": "степень",
+    "level": 3
+  },
+  {
+    "id": 58,
+    "adverb": "די",
+    "translation": "довольно, достаточно",
+    "category": "степень",
+    "level": 3
+  },
+  {
+    "id": 59,
+    "adverb": "לפחות",
+    "translation": "по крайней мере",
+    "category": "ограничение",
+    "level": 3
+  },
+  {
+    "id": 60,
+    "adverb": "בערך",
+    "translation": "примерно",
+    "category": "приблизительность",
+    "level": 3
+  },
+  {
+    "id": 61,
+    "adverb": "יחסית",
+    "translation": "относительно, сравнительно",
+    "category": "степень",
+    "level": 4
+  },
+  {
+    "id": 62,
+    "adverb": "לגמרי",
+    "translation": "полностью, совершенно",
+    "category": "степень",
+    "level": 4
+  },
+  {
+    "id": 63,
+    "adverb": "בקושי",
+    "translation": "едва, с трудом",
+    "category": "степень",
+    "level": 4
+  },
+  {
+    "id": 64,
+    "adverb": "בעיקר",
+    "translation": "главным образом",
+    "category": "выделение",
+    "level": 4
+  },
+  {
+    "id": 65,
+    "adverb": "מזמן",
+    "translation": "давно",
+    "category": "время",
+    "level": 4
+  },
+  {
+    "id": 66,
+    "adverb": "מאז",
+    "translation": "с тех пор",
+    "category": "время",
+    "level": 4
+  },
+  {
+    "id": 67,
+    "adverb": "אי פעם",
+    "translation": "когда-либо",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 68,
+    "adverb": "כל הזמן",
+    "translation": "всё время, постоянно",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 69,
+    "adverb": "מדי פעם",
+    "translation": "время от времени",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 70,
+    "adverb": "לעיתים קרובות",
+    "translation": "часто",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 71,
+    "adverb": "לעיתים רחוקות",
+    "translation": "редко",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 72,
+    "adverb": "מדי יום",
+    "translation": "ежедневно",
+    "category": "частота",
+    "level": 4
+  },
+  {
+    "id": 73,
+    "adverb": "בבית",
+    "translation": "дома",
+    "category": "место",
+    "level": 4
+  },
+  {
+    "id": 74,
+    "adverb": "בחוץ",
+    "translation": "снаружи, на улице",
+    "category": "место",
+    "level": 4
+  },
+  {
+    "id": 75,
+    "adverb": "בפנים",
+    "translation": "внутри",
+    "category": "место",
+    "level": 4
+  },
+  {
+    "id": 76,
+    "adverb": "למעלה",
+    "translation": "наверху, вверх",
+    "category": "место",
+    "level": 4
+  },
+  {
+    "id": 77,
+    "adverb": "למטה",
+    "translation": "внизу, вниз",
+    "category": "место",
+    "level": 4
+  },
+  {
+    "id": 78,
+    "adverb": "קדימה",
+    "translation": "вперёд",
+    "category": "направление",
+    "level": 4
+  },
+  {
+    "id": 79,
+    "adverb": "אחורה",
+    "translation": "назад",
+    "category": "направление",
+    "level": 4
+  },
+  {
+    "id": 80,
+    "adverb": "ימינה",
+    "translation": "направо",
+    "category": "направление",
+    "level": 4
+  },
+  {
+    "id": 81,
+    "adverb": "שמאלה",
+    "translation": "налево",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 82,
+    "adverb": "פנימה",
+    "translation": "внутрь",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 83,
+    "adverb": "החוצה",
+    "translation": "наружу",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 84,
+    "adverb": "הביתה",
+    "translation": "домой",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 85,
+    "adverb": "קרוב",
+    "translation": "близко",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 86,
+    "adverb": "רחוק",
+    "translation": "далеко",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 87,
+    "adverb": "ליד",
+    "translation": "рядом",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 88,
+    "adverb": "מסביב",
+    "translation": "вокруг",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 89,
+    "adverb": "מול",
+    "translation": "напротив",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 90,
+    "adverb": "באמצע",
+    "translation": "посередине",
+    "category": "место",
+    "level": 5
+  },
+  {
+    "id": 91,
+    "adverb": "מכאן",
+    "translation": "отсюда",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 92,
+    "adverb": "משם",
+    "translation": "оттуда",
+    "category": "направление",
+    "level": 5
+  },
+  {
+    "id": 93,
+    "adverb": "בבוקר",
+    "translation": "утром",
+    "category": "время",
+    "level": 5
+  },
+  {
+    "id": 94,
+    "adverb": "בצהריים",
+    "translation": "днём, в полдень",
+    "category": "время",
+    "level": 5
+  },
+  {
+    "id": 95,
+    "adverb": "אחר הצהריים",
+    "translation": "после полудня",
+    "category": "время",
+    "level": 5
+  },
+  {
+    "id": 96,
+    "adverb": "בערב",
+    "translation": "вечером",
+    "category": "время",
+    "level": 5
+  },
+  {
+    "id": 97,
+    "adverb": "בלילה",
+    "translation": "ночью",
+    "category": "время",
+    "level": 5
+  },
+  {
+    "id": 98,
+    "adverb": "לכן",
+    "translation": "поэтому",
+    "category": "связь",
+    "level": 5
+  },
+  {
+    "id": 99,
+    "adverb": "בכל זאת",
+    "translation": "всё же, несмотря на это",
+    "category": "связь",
+    "level": 5
+  },
+  {
+    "id": 100,
+    "adverb": "בנוסף",
+    "translation": "кроме того",
+    "category": "добавление",
+    "level": 5
+  },
+  {
+    "id": 101,
+    "adverb": "אגב",
+    "translation": "кстати",
+    "category": "связь",
+    "level": 6
+  },
+  {
+    "id": 102,
+    "adverb": "למעשה",
+    "translation": "фактически, на самом деле",
+    "category": "пояснение",
+    "level": 6
+  },
+  {
+    "id": 103,
+    "adverb": "בינתיים",
+    "translation": "пока, тем временем",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 104,
+    "adverb": "סוף סוף",
+    "translation": "наконец",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 105,
+    "adverb": "מראש",
+    "translation": "заранее",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 106,
+    "adverb": "לאחרונה",
+    "translation": "в последнее время",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 107,
+    "adverb": "בזמן האחרון",
+    "translation": "в последнее время",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 108,
+    "adverb": "לפני כן",
+    "translation": "до этого, прежде",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 109,
+    "adverb": "לאחר מכן",
+    "translation": "после этого, затем",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 110,
+    "adverb": "עד עכשיו",
+    "translation": "до сих пор",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 111,
+    "adverb": "עד כה",
+    "translation": "до сих пор, к настоящему моменту",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 112,
+    "adverb": "עד אז",
+    "translation": "до тех пор",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 113,
+    "adverb": "בהתחלה",
+    "translation": "вначале",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 114,
+    "adverb": "בסוף",
+    "translation": "в конце, в итоге",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 115,
+    "adverb": "לבסוף",
+    "translation": "наконец, в итоге",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 116,
+    "adverb": "בסופו של דבר",
+    "translation": "в конце концов",
+    "category": "результат",
+    "level": 6
+  },
+  {
+    "id": 117,
+    "adverb": "בעבר",
+    "translation": "в прошлом, раньше",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 118,
+    "adverb": "בעתיד",
+    "translation": "в будущем",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 119,
+    "adverb": "מעכשיו",
+    "translation": "отныне, с этого момента",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 120,
+    "adverb": "לעת עתה",
+    "translation": "пока, на данный момент",
+    "category": "время",
+    "level": 6
+  },
+  {
+    "id": 121,
+    "adverb": "בזמן",
+    "translation": "вовремя",
+    "category": "время",
+    "level": 7
+  },
+  {
+    "id": 122,
+    "adverb": "באיחור",
+    "translation": "с опозданием",
+    "category": "время",
+    "level": 7
+  },
+  {
+    "id": 123,
+    "adverb": "בהמשך",
+    "translation": "далее, впоследствии",
+    "category": "время",
+    "level": 7
+  },
+  {
+    "id": 124,
+    "adverb": "לרגע",
+    "translation": "на мгновение",
+    "category": "время",
+    "level": 7
+  },
+  {
+    "id": 125,
+    "adverb": "בבת אחת",
+    "translation": "разом, одновременно",
+    "category": "образ действия",
+    "level": 7
+  },
+  {
+    "id": 126,
+    "adverb": "בו־זמנית",
+    "translation": "одновременно",
+    "category": "время",
+    "level": 7
+  },
+  {
+    "id": 127,
+    "adverb": "שוב ושוב",
+    "translation": "снова и снова",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 128,
+    "adverb": "מדי שבוע",
+    "translation": "еженедельно",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 129,
+    "adverb": "מדי חודש",
+    "translation": "ежемесячно",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 130,
+    "adverb": "מדי שנה",
+    "translation": "ежегодно",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 131,
+    "adverb": "לרוב",
+    "translation": "обычно, по большей части",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 132,
+    "adverb": "פעם אחת",
+    "translation": "один раз",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 133,
+    "adverb": "פעמיים",
+    "translation": "дважды",
+    "category": "частота",
+    "level": 7
+  },
+  {
+    "id": 134,
+    "adverb": "בכל מקום",
+    "translation": "везде, повсюду",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 135,
+    "adverb": "בדרך",
+    "translation": "по дороге, в пути",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 136,
+    "adverb": "בצד",
+    "translation": "сбоку, в стороне",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 137,
+    "adverb": "מלמעלה",
+    "translation": "сверху",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 138,
+    "adverb": "מלמטה",
+    "translation": "снизу",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 139,
+    "adverb": "מאחור",
+    "translation": "сзади, позади",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 140,
+    "adverb": "מבפנים",
+    "translation": "изнутри",
+    "category": "место",
+    "level": 7
+  },
+  {
+    "id": 141,
+    "adverb": "מבחוץ",
+    "translation": "снаружи, извне",
+    "category": "место",
+    "level": 8
+  },
+  {
+    "id": 142,
+    "adverb": "אחרת",
+    "translation": "иначе, в противном случае",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 143,
+    "adverb": "להפך",
+    "translation": "наоборот",
+    "category": "противопоставление",
+    "level": 8
+  },
+  {
+    "id": 144,
+    "adverb": "לעומת זאת",
+    "translation": "напротив, в отличие от этого",
+    "category": "противопоставление",
+    "level": 8
+  },
+  {
+    "id": 145,
+    "adverb": "במקביל",
+    "translation": "параллельно, одновременно",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 146,
+    "adverb": "בהתאם",
+    "translation": "соответственно",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 147,
+    "adverb": "משום כך",
+    "translation": "поэтому, по этой причине",
+    "category": "следствие",
+    "level": 8
+  },
+  {
+    "id": 148,
+    "adverb": "כתוצאה מכך",
+    "translation": "вследствие этого",
+    "category": "следствие",
+    "level": 8
+  },
+  {
+    "id": 149,
+    "adverb": "בכל מקרה",
+    "translation": "в любом случае",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 150,
+    "adverb": "בכל אופן",
+    "translation": "во всяком случае",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 151,
+    "adverb": "מצד אחד",
+    "translation": "с одной стороны",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 152,
+    "adverb": "מצד שני",
+    "translation": "с другой стороны",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 153,
+    "adverb": "בין היתר",
+    "translation": "среди прочего",
+    "category": "добавление",
+    "level": 8
+  },
+  {
+    "id": 154,
+    "adverb": "חוץ מזה",
+    "translation": "кроме того",
+    "category": "добавление",
+    "level": 8
+  },
+  {
+    "id": 155,
+    "adverb": "כלומר",
+    "translation": "то есть",
+    "category": "пояснение",
+    "level": 8
+  },
+  {
+    "id": 156,
+    "adverb": "בקיצור",
+    "translation": "короче, вкратце",
+    "category": "пояснение",
+    "level": 8
+  },
+  {
+    "id": 157,
+    "adverb": "בעיקרון",
+    "translation": "в принципе",
+    "category": "пояснение",
+    "level": 8
+  },
+  {
+    "id": 158,
+    "adverb": "באופן כללי",
+    "translation": "в целом",
+    "category": "обобщение",
+    "level": 8
+  },
+  {
+    "id": 159,
+    "adverb": "ממילא",
+    "translation": "всё равно, в любом случае",
+    "category": "связь",
+    "level": 8
+  },
+  {
+    "id": 160,
+    "adverb": "לדעתי",
+    "translation": "по моему мнению",
+    "category": "мнение",
+    "level": 8
+  },
+  {
+    "id": 161,
+    "adverb": "מבחינתי",
+    "translation": "с моей точки зрения, что касается меня",
+    "category": "мнение",
+    "level": 9
+  },
+  {
+    "id": 162,
+    "adverb": "לצערי",
+    "translation": "к сожалению",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 163,
+    "adverb": "למזלי",
+    "translation": "к счастью для меня",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 164,
+    "adverb": "למרבה הצער",
+    "translation": "к сожалению",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 165,
+    "adverb": "למרבה המזל",
+    "translation": "к счастью",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 166,
+    "adverb": "מן הסתם",
+    "translation": "скорее всего, очевидно",
+    "category": "вероятность",
+    "level": 9
+  },
+  {
+    "id": 167,
+    "adverb": "ללא ספק",
+    "translation": "без сомнения",
+    "category": "уверенность",
+    "level": 9
+  },
+  {
+    "id": 168,
+    "adverb": "לכאורה",
+    "translation": "по-видимому, якобы",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 169,
+    "adverb": "כביכול",
+    "translation": "якобы",
+    "category": "оценка",
+    "level": 9
+  },
+  {
+    "id": 170,
+    "adverb": "בפועל",
+    "translation": "фактически, на практике",
+    "category": "пояснение",
+    "level": 9
+  },
+  {
+    "id": 171,
+    "adverb": "בקלות",
+    "translation": "легко",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 172,
+    "adverb": "בשקט",
+    "translation": "тихо",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 173,
+    "adverb": "בקול",
+    "translation": "вслух, громко",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 174,
+    "adverb": "בזהירות",
+    "translation": "осторожно",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 175,
+    "adverb": "בכוונה",
+    "translation": "намеренно, специально",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 176,
+    "adverb": "בטעות",
+    "translation": "по ошибке",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 177,
+    "adverb": "במקרה",
+    "translation": "случайно",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 178,
+    "adverb": "בחינם",
+    "translation": "бесплатно",
+    "category": "обстоятельство",
+    "level": 9
+  },
+  {
+    "id": 179,
+    "adverb": "ישירות",
+    "translation": "непосредственно, напрямую",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 180,
+    "adverb": "ברצינות",
+    "translation": "серьёзно",
+    "category": "образ действия",
+    "level": 9
+  },
+  {
+    "id": 181,
+    "adverb": "בכנות",
+    "translation": "честно, искренне",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 182,
+    "adverb": "ברצון",
+    "translation": "охотно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 183,
+    "adverb": "בשמחה",
+    "translation": "с радостью, охотно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 184,
+    "adverb": "בכיף",
+    "translation": "с удовольствием",
+    "category": "разговорное",
+    "level": 10
+  },
+  {
+    "id": 185,
+    "adverb": "בנחת",
+    "translation": "спокойно, не спеша",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 186,
+    "adverb": "בסבלנות",
+    "translation": "терпеливо",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 187,
+    "adverb": "בעדינות",
+    "translation": "нежно, деликатно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 188,
+    "adverb": "בחוזקה",
+    "translation": "сильно, крепко",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 189,
+    "adverb": "בכוח",
+    "translation": "силой, насильно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 190,
+    "adverb": "באומץ",
+    "translation": "смело",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 191,
+    "adverb": "בהתלהבות",
+    "translation": "с энтузиазмом",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 192,
+    "adverb": "באהבה",
+    "translation": "с любовью",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 193,
+    "adverb": "ברוגע",
+    "translation": "спокойно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 194,
+    "adverb": "בנוחות",
+    "translation": "удобно, комфортно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 195,
+    "adverb": "בחופשיות",
+    "translation": "свободно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 196,
+    "adverb": "בהדרגה",
+    "translation": "постепенно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 197,
+    "adverb": "לאט לאט",
+    "translation": "постепенно, понемногу",
+    "category": "разговорное",
+    "level": 10
+  },
+  {
+    "id": 198,
+    "adverb": "אחד אחד",
+    "translation": "по одному, один за другим",
+    "category": "порядок",
+    "level": 10
+  },
+  {
+    "id": 199,
+    "adverb": "בנפרד",
+    "translation": "отдельно",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 200,
+    "adverb": "לחוד",
+    "translation": "отдельно, порознь",
+    "category": "образ действия",
+    "level": 10
+  },
+  {
+    "id": 201,
+    "adverb": "איכשהו",
+    "translation": "как-то, каким-то образом",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 202,
+    "adverb": "משום מה",
+    "translation": "почему-то",
+    "category": "причина",
+    "level": 11
+  },
+  {
+    "id": 203,
+    "adverb": "לחינם",
+    "translation": "зря, напрасно",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 204,
+    "adverb": "לשווא",
+    "translation": "тщетно, напрасно",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 205,
+    "adverb": "בקצרה",
+    "translation": "кратко",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 206,
+    "adverb": "בפירוט",
+    "translation": "подробно",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 207,
+    "adverb": "לעומק",
+    "translation": "глубоко, основательно",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 208,
+    "adverb": "כראוי",
+    "translation": "как следует, должным образом",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 209,
+    "adverb": "כהלכה",
+    "translation": "надлежащим образом",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 210,
+    "adverb": "רשמית",
+    "translation": "официально",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 211,
+    "adverb": "אישית",
+    "translation": "лично",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 212,
+    "adverb": "מקצועית",
+    "translation": "профессионально",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 213,
+    "adverb": "מעשית",
+    "translation": "практически",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 214,
+    "adverb": "טכנית",
+    "translation": "технически",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 215,
+    "adverb": "תאורטית",
+    "translation": "теоретически",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 216,
+    "adverb": "פיזית",
+    "translation": "физически",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 217,
+    "adverb": "נפשית",
+    "translation": "психологически, душевно",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 218,
+    "adverb": "כלכלית",
+    "translation": "экономически",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 219,
+    "adverb": "חברתית",
+    "translation": "социально",
+    "category": "отношение",
+    "level": 11
+  },
+  {
+    "id": 220,
+    "adverb": "אוטומטית",
+    "translation": "автоматически",
+    "category": "образ действия",
+    "level": 11
+  },
+  {
+    "id": 221,
+    "adverb": "ידנית",
+    "translation": "вручную",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 222,
+    "adverb": "במפורש",
+    "translation": "явно, недвусмысленно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 223,
+    "adverb": "בגלוי",
+    "translation": "открыто, публично",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 224,
+    "adverb": "בסתר",
+    "translation": "тайно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 225,
+    "adverb": "בפומבי",
+    "translation": "публично",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 226,
+    "adverb": "בחשאי",
+    "translation": "тайно, секретно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 227,
+    "adverb": "מרצון",
+    "translation": "добровольно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 228,
+    "adverb": "בכפייה",
+    "translation": "принудительно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 229,
+    "adverb": "במתכוון",
+    "translation": "намеренно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 230,
+    "adverb": "בשוגג",
+    "translation": "непреднамеренно, по ошибке",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 231,
+    "adverb": "באקראי",
+    "translation": "случайным образом",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 232,
+    "adverb": "לסירוגין",
+    "translation": "попеременно, с перерывами",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 233,
+    "adverb": "ברצף",
+    "translation": "подряд, непрерывно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 234,
+    "adverb": "ברציפות",
+    "translation": "непрерывно",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 235,
+    "adverb": "צעד אחר צעד",
+    "translation": "шаг за шагом",
+    "category": "образ действия",
+    "level": 12
+  },
+  {
+    "id": 236,
+    "adverb": "פחות או יותר",
+    "translation": "более или менее",
+    "category": "приблизительность",
+    "level": 12
+  },
+  {
+    "id": 237,
+    "adverb": "בממוצע",
+    "translation": "в среднем",
+    "category": "количество",
+    "level": 12
+  },
+  {
+    "id": 238,
+    "adverb": "בסך הכול",
+    "translation": "всего, в общей сложности",
+    "category": "количество",
+    "level": 12
+  },
+  {
+    "id": 239,
+    "adverb": "לכל היותר",
+    "translation": "максимум, не более",
+    "category": "ограничение",
+    "level": 12
+  },
+  {
+    "id": 240,
+    "adverb": "לכל הפחות",
+    "translation": "как минимум, не менее",
+    "category": "ограничение",
+    "level": 12
+  },
+  {
+    "id": 241,
+    "adverb": "פי שניים",
+    "translation": "вдвое",
+    "category": "количество",
+    "level": 13
+  },
+  {
+    "id": 242,
+    "adverb": "פי שלושה",
+    "translation": "втрое",
+    "category": "количество",
+    "level": 13
+  },
+  {
+    "id": 243,
+    "adverb": "פי כמה",
+    "translation": "в несколько раз",
+    "category": "количество",
+    "level": 13
+  },
+  {
+    "id": 244,
+    "adverb": "חלקית",
+    "translation": "частично",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 245,
+    "adverb": "במקצת",
+    "translation": "немного, отчасти",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 246,
+    "adverb": "במידה רבה",
+    "translation": "в значительной степени",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 247,
+    "adverb": "במידה מסוימת",
+    "translation": "в некоторой степени",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 248,
+    "adverb": "למדי",
+    "translation": "довольно",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 249,
+    "adverb": "פחות מדי",
+    "translation": "слишком мало",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 250,
+    "adverb": "לא כל כך",
+    "translation": "не очень",
+    "category": "степень",
+    "level": 13
+  },
+  {
+    "id": 251,
+    "adverb": "בכלל לא",
+    "translation": "совсем не",
+    "category": "отрицание",
+    "level": 13
+  },
+  {
+    "id": 252,
+    "adverb": "ממש לא",
+    "translation": "совсем нет, вовсе не",
+    "category": "отрицание",
+    "level": 13
+  },
+  {
+    "id": 253,
+    "adverb": "כמעט לא",
+    "translation": "почти не",
+    "category": "отрицание",
+    "level": 13
+  },
+  {
+    "id": 254,
+    "adverb": "בימים אלה",
+    "translation": "в эти дни, в настоящее время",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 255,
+    "adverb": "מעתה",
+    "translation": "отныне",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 256,
+    "adverb": "בימינו",
+    "translation": "в наши дни",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 257,
+    "adverb": "מעולם",
+    "translation": "когда-либо; никогда в отрицании",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 258,
+    "adverb": "לעולם",
+    "translation": "навсегда; никогда в конструкции",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 259,
+    "adverb": "לעולם לא",
+    "translation": "никогда",
+    "category": "частота",
+    "level": 13
+  },
+  {
+    "id": 260,
+    "adverb": "תחילה",
+    "translation": "сначала, первоначально",
+    "category": "время",
+    "level": 13
+  },
+  {
+    "id": 261,
+    "adverb": "קודם לכן",
+    "translation": "ранее, до этого",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 262,
+    "adverb": "זמנית",
+    "translation": "временно",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 263,
+    "adverb": "בהקדם",
+    "translation": "как можно скорее",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 264,
+    "adverb": "ברגע האחרון",
+    "translation": "в последний момент",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 265,
+    "adverb": "לפנות בוקר",
+    "translation": "под утро",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 266,
+    "adverb": "בחצות",
+    "translation": "в полночь",
+    "category": "время",
+    "level": 14
+  },
+  {
+    "id": 267,
+    "adverb": "במקום",
+    "translation": "вместо, вместо этого",
+    "category": "замещение",
+    "level": 14
+  },
+  {
+    "id": 268,
+    "adverb": "תדיר",
+    "translation": "часто, регулярно",
+    "category": "частота",
+    "level": 14
+  },
+  {
+    "id": 269,
+    "adverb": "תכופות",
+    "translation": "часто",
+    "category": "частота",
+    "level": 14
+  },
+  {
+    "id": 270,
+    "adverb": "בדרך קבע",
+    "translation": "регулярно, постоянно",
+    "category": "частота",
+    "level": 14
+  },
+  {
+    "id": 271,
+    "adverb": "ברוב המקרים",
+    "translation": "в большинстве случаев",
+    "category": "частота",
+    "level": 14
+  },
+  {
+    "id": 272,
+    "adverb": "יום־יום",
+    "translation": "ежедневно, изо дня в день",
+    "category": "частота",
+    "level": 14
+  },
+  {
+    "id": 273,
+    "adverb": "צפונה",
+    "translation": "на север",
+    "category": "направление",
+    "level": 14
+  },
+  {
+    "id": 274,
+    "adverb": "דרומה",
+    "translation": "на юг",
+    "category": "направление",
+    "level": 14
+  },
+  {
+    "id": 275,
+    "adverb": "מזרחה",
+    "translation": "на восток",
+    "category": "направление",
+    "level": 14
+  },
+  {
+    "id": 276,
+    "adverb": "מערבה",
+    "translation": "на запад",
+    "category": "направление",
+    "level": 14
+  },
+  {
+    "id": 277,
+    "adverb": "מלפנים",
+    "translation": "спереди",
+    "category": "место",
+    "level": 14
+  },
+  {
+    "id": 278,
+    "adverb": "מעבר לכך",
+    "translation": "кроме того, сверх этого",
+    "category": "связь",
+    "level": 14
+  },
+  {
+    "id": 279,
+    "adverb": "מעבר לזה",
+    "translation": "кроме того, помимо этого",
+    "category": "разговорное / связь",
+    "level": 14
+  },
+  {
+    "id": 280,
+    "adverb": "במקרה הטוב",
+    "translation": "в лучшем случае",
+    "category": "оценка",
+    "level": 14
+  },
+  {
+    "id": 281,
+    "adverb": "במקרה הרע",
+    "translation": "в худшем случае",
+    "category": "оценка",
+    "level": 15
+  },
+  {
+    "id": 282,
+    "adverb": "לעומתו",
+    "translation": "по сравнению с ним",
+    "category": "сравнение",
+    "level": 15
+  },
+  {
+    "id": 283,
+    "adverb": "עקרונית",
+    "translation": "принципиально, в принципе",
+    "category": "отношение",
+    "level": 15
+  },
+  {
+    "id": 284,
+    "adverb": "טבעית",
+    "translation": "естественно",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 285,
+    "adverb": "חוקית",
+    "translation": "законно",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 286,
+    "adverb": "לחלופין",
+    "translation": "альтернативно, как вариант",
+    "category": "связь",
+    "level": 15
+  },
+  {
+    "id": 287,
+    "adverb": "בניגוד",
+    "translation": "в противоположность, в отличие",
+    "category": "противопоставление",
+    "level": 15
+  },
+  {
+    "id": 288,
+    "adverb": "מיידית",
+    "translation": "немедленно",
+    "category": "время",
+    "level": 15
+  },
+  {
+    "id": 289,
+    "adverb": "לרגעים",
+    "translation": "временами",
+    "category": "частота",
+    "level": 15
+  },
+  {
+    "id": 290,
+    "adverb": "מאז ומתמיד",
+    "translation": "испокон веков, всегда",
+    "category": "время",
+    "level": 15
+  },
+  {
+    "id": 291,
+    "adverb": "באופן אישי",
+    "translation": "лично",
+    "category": "выражение",
+    "level": 15
+  },
+  {
+    "id": 292,
+    "adverb": "בהכרח",
+    "translation": "обязательно, непременно",
+    "category": "модальность",
+    "level": 15
+  },
+  {
+    "id": 293,
+    "adverb": "באופן רשמי",
+    "translation": "официально",
+    "category": "выражение",
+    "level": 15
+  },
+  {
+    "id": 294,
+    "adverb": "באופן טבעי",
+    "translation": "естественно",
+    "category": "выражение",
+    "level": 15
+  },
+  {
+    "id": 295,
+    "adverb": "באותה מידה",
+    "translation": "в той же степени",
+    "category": "степень",
+    "level": 15
+  },
+  {
+    "id": 296,
+    "adverb": "בכל מחיר",
+    "translation": "любой ценой",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 297,
+    "adverb": "בכל דרך",
+    "translation": "любым способом",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 298,
+    "adverb": "בדרך אחרת",
+    "translation": "по-другому, иным способом",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 299,
+    "adverb": "ללא הרף",
+    "translation": "непрерывно, без остановки",
+    "category": "образ действия",
+    "level": 15
+  },
+  {
+    "id": 300,
+    "adverb": "אחת ולתמיד",
+    "translation": "раз и навсегда",
+    "category": "время",
+    "level": 15
+  }
+]

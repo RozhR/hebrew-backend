@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "masculine_singular": "טוב",
+    "feminine_singular": "טובה",
+    "masculine_plural": "טובים",
+    "feminine_plural": "טובות",
+    "translation": "хороший",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "masculine_singular": "גדול",
+    "feminine_singular": "גדולה",
+    "masculine_plural": "גדולים",
+    "feminine_plural": "גדולות",
+    "translation": "большой",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "masculine_singular": "חדש",
+    "feminine_singular": "חדשה",
+    "masculine_plural": "חדשים",
+    "feminine_plural": "חדשות",
+    "translation": "новый",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "masculine_singular": "קטן",
+    "feminine_singular": "קטנה",
+    "masculine_plural": "קטנים",
+    "feminine_plural": "קטנות",
+    "translation": "маленький",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "masculine_singular": "אחר",
+    "feminine_singular": "אחרת",
+    "masculine_plural": "אחרים",
+    "feminine_plural": "אחרות",
+    "translation": "другой",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "masculine_singular": "חשוב",
+    "feminine_singular": "חשובה",
+    "masculine_plural": "חשובים",
+    "feminine_plural": "חשובות",
+    "translation": "важный",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "masculine_singular": "נכון",
+    "feminine_singular": "נכונה",
+    "masculine_plural": "נכונים",
+    "feminine_plural": "נכונות",
+    "translation": "правильный, верный",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "masculine_singular": "ראשון",
+    "feminine_singular": "ראשונה",
+    "masculine_plural": "ראשונים",
+    "feminine_plural": "ראשונות",
+    "translation": "первый",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "masculine_singular": "יפה",
+    "feminine_singular": "יפה",
+    "masculine_plural": "יפים",
+    "feminine_plural": "יפות",
+    "translation": "красивый",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "masculine_singular": "קשה",
+    "feminine_singular": "קשה",
+    "masculine_plural": "קשים",
+    "feminine_plural": "קשות",
+    "translation": "трудный, тяжёлый, твёрдый",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "masculine_singular": "אחרון",
+    "feminine_singular": "אחרונה",
+    "masculine_plural": "אחרונים",
+    "feminine_plural": "אחרונות",
+    "translation": "последний",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "masculine_singular": "רע",
+    "feminine_singular": "רעה",
+    "masculine_plural": "רעים",
+    "feminine_plural": "רעות",
+    "translation": "плохой",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "masculine_singular": "קל",
+    "feminine_singular": "קלה",
+    "masculine_plural": "קלים",
+    "feminine_plural": "קלות",
+    "translation": "лёгкий, простой",
+    "level": 1
+  },
+  {
+    "id": 14,
+    "masculine_singular": "מוכן",
+    "feminine_singular": "מוכנה",
+    "masculine_plural": "מוכנים",
+    "feminine_plural": "מוכנות",
+    "translation": "готовый",
+    "level": 1
+  },
+  {
+    "id": 15,
+    "masculine_singular": "ישן",
+    "feminine_singular": "ישנה",
+    "masculine_plural": "ישנים",
+    "feminine_plural": "ישנות",
+    "translation": "старый (о предмете)",
+    "level": 1
+  },
+  {
+    "id": 16,
+    "masculine_singular": "צעיר",
+    "feminine_singular": "צעירה",
+    "masculine_plural": "צעירים",
+    "feminine_plural": "צעירות",
+    "translation": "молодой",
+    "level": 1
+  },
+  {
+    "id": 17,
+    "masculine_singular": "זקן",
+    "feminine_singular": "זקנה",
+    "masculine_plural": "זקנים",
+    "feminine_plural": "זקנות",
+    "translation": "старый, пожилой (о человеке)",
+    "level": 1
+  },
+  {
+    "id": 18,
+    "masculine_singular": "פשוט",
+    "feminine_singular": "פשוטה",
+    "masculine_plural": "פשוטים",
+    "feminine_plural": "פשוטות",
+    "translation": "простой",
+    "level": 1
+  },
+  {
+    "id": 19,
+    "masculine_singular": "אפשרי",
+    "feminine_singular": "אפשרית",
+    "masculine_plural": "אפשריים",
+    "feminine_plural": "אפשריות",
+    "translation": "возможный",
+    "level": 1
+  },
+  {
+    "id": 20,
+    "masculine_singular": "בטוח",
+    "feminine_singular": "בטוחה",
+    "masculine_plural": "בטוחים",
+    "feminine_plural": "בטוחות",
+    "translation": "уверенный; безопасный",
+    "level": 1
+  },
+  {
+    "id": 21,
+    "masculine_singular": "ברור",
+    "feminine_singular": "ברורה",
+    "masculine_plural": "ברורים",
+    "feminine_plural": "ברורות",
+    "translation": "ясный, понятный",
+    "level": 2
+  },
+  {
+    "id": 22,
+    "masculine_singular": "קרוב",
+    "feminine_singular": "קרובה",
+    "masculine_plural": "קרובים",
+    "feminine_plural": "קרובות",
+    "translation": "близкий",
+    "level": 2
+  },
+  {
+    "id": 23,
+    "masculine_singular": "רחוק",
+    "feminine_singular": "רחוקה",
+    "masculine_plural": "רחוקים",
+    "feminine_plural": "רחוקות",
+    "translation": "далёкий",
+    "level": 2
+  },
+  {
+    "id": 24,
+    "masculine_singular": "פתוח",
+    "feminine_singular": "פתוחה",
+    "masculine_plural": "פתוחים",
+    "feminine_plural": "פתוחות",
+    "translation": "открытый",
+    "level": 2
+  },
+  {
+    "id": 25,
+    "masculine_singular": "סגור",
+    "feminine_singular": "סגורה",
+    "masculine_plural": "סגורים",
+    "feminine_plural": "סגורות",
+    "translation": "закрытый",
+    "level": 2
+  },
+  {
+    "id": 26,
+    "masculine_singular": "מלא",
+    "feminine_singular": "מלאה",
+    "masculine_plural": "מלאים",
+    "feminine_plural": "מלאות",
+    "translation": "полный",
+    "level": 2
+  },
+  {
+    "id": 27,
+    "masculine_singular": "חזק",
+    "feminine_singular": "חזקה",
+    "masculine_plural": "חזקים",
+    "feminine_plural": "חזקות",
+    "translation": "сильный",
+    "level": 2
+  },
+  {
+    "id": 28,
+    "masculine_singular": "חם",
+    "feminine_singular": "חמה",
+    "masculine_plural": "חמים",
+    "feminine_plural": "חמות",
+    "translation": "горячий, тёплый",
+    "level": 2
+  },
+  {
+    "id": 29,
+    "masculine_singular": "קר",
+    "feminine_singular": "קרה",
+    "masculine_plural": "קרים",
+    "feminine_plural": "קרות",
+    "translation": "холодный",
+    "level": 2
+  },
+  {
+    "id": 30,
+    "masculine_singular": "ארוך",
+    "feminine_singular": "ארוכה",
+    "masculine_plural": "ארוכים",
+    "feminine_plural": "ארוכות",
+    "translation": "длинный",
+    "level": 2
+  },
+  {
+    "id": 31,
+    "masculine_singular": "קצר",
+    "feminine_singular": "קצרה",
+    "masculine_plural": "קצרים",
+    "feminine_plural": "קצרות",
+    "translation": "короткий",
+    "level": 2
+  },
+  {
+    "id": 32,
+    "masculine_singular": "גבוה",
+    "feminine_singular": "גבוהה",
+    "masculine_plural": "גבוהים",
+    "feminine_plural": "גבוהות",
+    "translation": "высокий",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "masculine_singular": "נמוך",
+    "feminine_singular": "נמוכה",
+    "masculine_plural": "נמוכים",
+    "feminine_plural": "נמוכות",
+    "translation": "низкий",
+    "level": 2
+  },
+  {
+    "id": 34,
+    "masculine_singular": "שמח",
+    "feminine_singular": "שמחה",
+    "masculine_plural": "שמחים",
+    "feminine_plural": "שמחות",
+    "translation": "счастливый, радостный",
+    "level": 2
+  },
+  {
+    "id": 35,
+    "masculine_singular": "מעניין",
+    "feminine_singular": "מעניינת",
+    "masculine_plural": "מעניינים",
+    "feminine_plural": "מעניינות",
+    "translation": "интересный",
+    "level": 2
+  },
+  {
+    "id": 36,
+    "masculine_singular": "מיוחד",
+    "feminine_singular": "מיוחדת",
+    "masculine_plural": "מיוחדים",
+    "feminine_plural": "מיוחדות",
+    "translation": "особенный",
+    "level": 2
+  },
+  {
+    "id": 37,
+    "masculine_singular": "שונה",
+    "feminine_singular": "שונה",
+    "masculine_plural": "שונים",
+    "feminine_plural": "שונות",
+    "translation": "отличающийся, иной",
+    "level": 2
+  },
+  {
+    "id": 38,
+    "masculine_singular": "דומה",
+    "feminine_singular": "דומה",
+    "masculine_plural": "דומים",
+    "feminine_plural": "דומות",
+    "translation": "похожий",
+    "level": 2
+  },
+  {
+    "id": 39,
+    "masculine_singular": "רגיל",
+    "feminine_singular": "רגילה",
+    "masculine_plural": "רגילים",
+    "feminine_plural": "רגילות",
+    "translation": "обычный, привычный",
+    "level": 2
+  },
+  {
+    "id": 40,
+    "masculine_singular": "אמיתי",
+    "feminine_singular": "אמיתית",
+    "masculine_plural": "אמיתיים",
+    "feminine_plural": "אמיתיות",
+    "translation": "настоящий, истинный",
+    "level": 2
+  },
+  {
+    "id": 41,
+    "masculine_singular": "מהיר",
+    "feminine_singular": "מהירה",
+    "masculine_plural": "מהירים",
+    "feminine_plural": "מהירות",
+    "translation": "быстрый",
+    "level": 3
+  },
+  {
+    "id": 42,
+    "masculine_singular": "איטי",
+    "feminine_singular": "איטית",
+    "masculine_plural": "איטיים",
+    "feminine_plural": "איטיות",
+    "translation": "медленный",
+    "level": 3
+  },
+  {
+    "id": 43,
+    "masculine_singular": "יקר",
+    "feminine_singular": "יקרה",
+    "masculine_plural": "יקרים",
+    "feminine_plural": "יקרות",
+    "translation": "дорогой",
+    "level": 3
+  },
+  {
+    "id": 44,
+    "masculine_singular": "זול",
+    "feminine_singular": "זולה",
+    "masculine_plural": "זולים",
+    "feminine_plural": "זולות",
+    "translation": "дешёвый",
+    "level": 3
+  },
+  {
+    "id": 45,
+    "masculine_singular": "נקי",
+    "feminine_singular": "נקייה",
+    "masculine_plural": "נקיים",
+    "feminine_plural": "נקיות",
+    "translation": "чистый",
+    "level": 3
+  },
+  {
+    "id": 46,
+    "masculine_singular": "נוח",
+    "feminine_singular": "נוחה",
+    "masculine_plural": "נוחים",
+    "feminine_plural": "נוחות",
+    "translation": "удобный",
+    "level": 3
+  },
+  {
+    "id": 47,
+    "masculine_singular": "פנוי",
+    "feminine_singular": "פנויה",
+    "masculine_plural": "פנויים",
+    "feminine_plural": "פנויות",
+    "translation": "свободный, незанятый",
+    "level": 3
+  },
+  {
+    "id": 48,
+    "masculine_singular": "עסוק",
+    "feminine_singular": "עסוקה",
+    "masculine_plural": "עסוקים",
+    "feminine_plural": "עסוקות",
+    "translation": "занятый",
+    "level": 3
+  },
+  {
+    "id": 49,
+    "masculine_singular": "עייף",
+    "feminine_singular": "עייפה",
+    "masculine_plural": "עייפים",
+    "feminine_plural": "עייפות",
+    "translation": "уставший",
+    "level": 3
+  },
+  {
+    "id": 50,
+    "masculine_singular": "רעב",
+    "feminine_singular": "רעבה",
+    "masculine_plural": "רעבים",
+    "feminine_plural": "רעבות",
+    "translation": "голодный",
+    "level": 3
+  },
+  {
+    "id": 51,
+    "masculine_singular": "בריא",
+    "feminine_singular": "בריאה",
+    "masculine_plural": "בריאים",
+    "feminine_plural": "בריאות",
+    "translation": "здоровый",
+    "level": 3
+  },
+  {
+    "id": 52,
+    "masculine_singular": "חולה",
+    "feminine_singular": "חולה",
+    "masculine_plural": "חולים",
+    "feminine_plural": "חולות",
+    "translation": "больной",
+    "level": 3
+  },
+  {
+    "id": 53,
+    "masculine_singular": "שמן",
+    "feminine_singular": "שמנה",
+    "masculine_plural": "שמנים",
+    "feminine_plural": "שמנות",
+    "translation": "толстый, полный",
+    "level": 3
+  },
+  {
+    "id": 54,
+    "masculine_singular": "רזה",
+    "feminine_singular": "רזה",
+    "masculine_plural": "רזים",
+    "feminine_plural": "רזות",
+    "translation": "худой",
+    "level": 3
+  },
+  {
+    "id": 55,
+    "masculine_singular": "עיקרי",
+    "feminine_singular": "עיקרית",
+    "masculine_plural": "עיקריים",
+    "feminine_plural": "עיקריות",
+    "translation": "основной, главный",
+    "level": 3
+  },
+  {
+    "id": 56,
+    "masculine_singular": "כללי",
+    "feminine_singular": "כללית",
+    "masculine_plural": "כלליים",
+    "feminine_plural": "כלליות",
+    "translation": "общий",
+    "level": 3
+  },
+  {
+    "id": 57,
+    "masculine_singular": "אישי",
+    "feminine_singular": "אישית",
+    "masculine_plural": "אישיים",
+    "feminine_plural": "אישיות",
+    "translation": "личный",
+    "level": 3
+  },
+  {
+    "id": 58,
+    "masculine_singular": "ציבורי",
+    "feminine_singular": "ציבורית",
+    "masculine_plural": "ציבוריים",
+    "feminine_plural": "ציבוריות",
+    "translation": "общественный, публичный",
+    "level": 3
+  },
+  {
+    "id": 59,
+    "masculine_singular": "פרטי",
+    "feminine_singular": "פרטית",
+    "masculine_plural": "פרטיים",
+    "feminine_plural": "פרטיות",
+    "translation": "частный, личный",
+    "level": 3
+  },
+  {
+    "id": 60,
+    "masculine_singular": "מקומי",
+    "feminine_singular": "מקומית",
+    "masculine_plural": "מקומיים",
+    "feminine_plural": "מקומיות",
+    "translation": "местный",
+    "level": 3
+  },
+  {
+    "id": 61,
+    "masculine_singular": "מרכזי",
+    "feminine_singular": "מרכזית",
+    "masculine_plural": "מרכזיים",
+    "feminine_plural": "מרכזיות",
+    "translation": "центральный, основной",
+    "level": 4
+  },
+  {
+    "id": 62,
+    "masculine_singular": "רשמי",
+    "feminine_singular": "רשמית",
+    "masculine_plural": "רשמיים",
+    "feminine_plural": "רשמיות",
+    "translation": "официальный",
+    "level": 4
+  },
+  {
+    "id": 63,
+    "masculine_singular": "מקצועי",
+    "feminine_singular": "מקצועית",
+    "masculine_plural": "מקצועיים",
+    "feminine_plural": "מקצועיות",
+    "translation": "профессиональный",
+    "level": 4
+  },
+  {
+    "id": 64,
+    "masculine_singular": "רציני",
+    "feminine_singular": "רצינית",
+    "masculine_plural": "רציניים",
+    "feminine_plural": "רציניות",
+    "translation": "серьёзный",
+    "level": 4
+  },
+  {
+    "id": 65,
+    "masculine_singular": "מצוין",
+    "feminine_singular": "מצוינת",
+    "masculine_plural": "מצוינים",
+    "feminine_plural": "מצוינות",
+    "translation": "отличный",
+    "level": 4
+  },
+  {
+    "id": 66,
+    "masculine_singular": "נחמד",
+    "feminine_singular": "נחמדה",
+    "masculine_plural": "נחמדים",
+    "feminine_plural": "נחמדות",
+    "translation": "приятный, милый",
+    "level": 4
+  },
+  {
+    "id": 67,
+    "masculine_singular": "נעים",
+    "feminine_singular": "נעימה",
+    "masculine_plural": "נעימים",
+    "feminine_plural": "נעימות",
+    "translation": "приятный",
+    "level": 4
+  },
+  {
+    "id": 68,
+    "masculine_singular": "טעים",
+    "feminine_singular": "טעימה",
+    "masculine_plural": "טעימים",
+    "feminine_plural": "טעימות",
+    "translation": "вкусный",
+    "level": 4
+  },
+  {
+    "id": 69,
+    "masculine_singular": "חופשי",
+    "feminine_singular": "חופשייה",
+    "masculine_plural": "חופשיים",
+    "feminine_plural": "חופשיות",
+    "translation": "свободный",
+    "level": 4
+  },
+  {
+    "id": 70,
+    "masculine_singular": "זמין",
+    "feminine_singular": "זמינה",
+    "masculine_plural": "זמינים",
+    "feminine_plural": "זמינות",
+    "translation": "доступный, имеющийся",
+    "level": 4
+  },
+  {
+    "id": 71,
+    "masculine_singular": "מתאים",
+    "feminine_singular": "מתאימה",
+    "masculine_plural": "מתאימים",
+    "feminine_plural": "מתאימות",
+    "translation": "подходящий",
+    "level": 4
+  },
+  {
+    "id": 72,
+    "masculine_singular": "קבוע",
+    "feminine_singular": "קבועה",
+    "masculine_plural": "קבועים",
+    "feminine_plural": "קבועות",
+    "translation": "постоянный",
+    "level": 4
+  },
+  {
+    "id": 73,
+    "masculine_singular": "זמני",
+    "feminine_singular": "זמנית",
+    "masculine_plural": "זמניים",
+    "feminine_plural": "זמניות",
+    "translation": "временный",
+    "level": 4
+  },
+  {
+    "id": 74,
+    "masculine_singular": "נוסף",
+    "feminine_singular": "נוספת",
+    "masculine_plural": "נוספים",
+    "feminine_plural": "נוספות",
+    "translation": "дополнительный",
+    "level": 4
+  },
+  {
+    "id": 75,
+    "masculine_singular": "שלם",
+    "feminine_singular": "שלמה",
+    "masculine_plural": "שלמים",
+    "feminine_plural": "שלמות",
+    "translation": "целый, полный",
+    "level": 4
+  },
+  {
+    "id": 76,
+    "masculine_singular": "ריק",
+    "feminine_singular": "ריקה",
+    "masculine_plural": "ריקים",
+    "feminine_plural": "ריקות",
+    "translation": "пустой",
+    "level": 4
+  },
+  {
+    "id": 77,
+    "masculine_singular": "מותר",
+    "feminine_singular": "מותרת",
+    "masculine_plural": "מותרים",
+    "feminine_plural": "מותרות",
+    "translation": "разрешённый",
+    "level": 4
+  },
+  {
+    "id": 78,
+    "masculine_singular": "אסור",
+    "feminine_singular": "אסורה",
+    "masculine_plural": "אסורים",
+    "feminine_plural": "אסורות",
+    "translation": "запрещённый",
+    "level": 4
+  },
+  {
+    "id": 79,
+    "masculine_singular": "מובן",
+    "feminine_singular": "מובנת",
+    "masculine_plural": "מובנים",
+    "feminine_plural": "מובנות",
+    "translation": "понятный",
+    "level": 4
+  },
+  {
+    "id": 80,
+    "masculine_singular": "מוכר",
+    "feminine_singular": "מוכרת",
+    "masculine_plural": "מוכרים",
+    "feminine_plural": "מוכרות",
+    "translation": "знакомый, известный",
+    "level": 4
+  },
+  {
+    "id": 81,
+    "masculine_singular": "חכם",
+    "feminine_singular": "חכמה",
+    "masculine_plural": "חכמים",
+    "feminine_plural": "חכמות",
+    "translation": "умный",
+    "level": 5
+  },
+  {
+    "id": 82,
+    "masculine_singular": "מבוגר",
+    "feminine_singular": "מבוגרת",
+    "masculine_plural": "מבוגרים",
+    "feminine_plural": "מבוגרות",
+    "translation": "взрослый, пожилой",
+    "level": 5
+  },
+  {
+    "id": 83,
+    "masculine_singular": "חלש",
+    "feminine_singular": "חלשה",
+    "masculine_plural": "חלשים",
+    "feminine_plural": "חלשות",
+    "translation": "слабый",
+    "level": 5
+  },
+  {
+    "id": 84,
+    "masculine_singular": "עצוב",
+    "feminine_singular": "עצובה",
+    "masculine_plural": "עצובים",
+    "feminine_plural": "עצובות",
+    "translation": "грустный",
+    "level": 5
+  },
+  {
+    "id": 85,
+    "masculine_singular": "כועס",
+    "feminine_singular": "כועסת",
+    "masculine_plural": "כועסים",
+    "feminine_plural": "כועסות",
+    "translation": "сердитый",
+    "level": 5
+  },
+  {
+    "id": 86,
+    "masculine_singular": "רגוע",
+    "feminine_singular": "רגועה",
+    "masculine_plural": "רגועים",
+    "feminine_plural": "רגועות",
+    "translation": "спокойный",
+    "level": 5
+  },
+  {
+    "id": 87,
+    "masculine_singular": "מרוצה",
+    "feminine_singular": "מרוצה",
+    "masculine_plural": "מרוצים",
+    "feminine_plural": "מרוצות",
+    "translation": "довольный",
+    "level": 5
+  },
+  {
+    "id": 88,
+    "masculine_singular": "מופתע",
+    "feminine_singular": "מופתעת",
+    "masculine_plural": "מופתעים",
+    "feminine_plural": "מופתעות",
+    "translation": "удивлённый",
+    "level": 5
+  },
+  {
+    "id": 89,
+    "masculine_singular": "מודאג",
+    "feminine_singular": "מודאגת",
+    "masculine_plural": "מודאגים",
+    "feminine_plural": "מודאגות",
+    "translation": "обеспокоенный",
+    "level": 5
+  },
+  {
+    "id": 90,
+    "masculine_singular": "מוזר",
+    "feminine_singular": "מוזרה",
+    "masculine_plural": "מוזרים",
+    "feminine_plural": "מוזרות",
+    "translation": "странный",
+    "level": 5
+  },
+  {
+    "id": 91,
+    "masculine_singular": "מצחיק",
+    "feminine_singular": "מצחיקה",
+    "masculine_plural": "מצחיקים",
+    "feminine_plural": "מצחיקות",
+    "translation": "смешной",
+    "level": 5
+  },
+  {
+    "id": 92,
+    "masculine_singular": "משעמם",
+    "feminine_singular": "משעממת",
+    "masculine_plural": "משעממים",
+    "feminine_plural": "משעממות",
+    "translation": "скучный",
+    "level": 5
+  },
+  {
+    "id": 93,
+    "masculine_singular": "מסוכן",
+    "feminine_singular": "מסוכנת",
+    "masculine_plural": "מסוכנים",
+    "feminine_plural": "מסוכנות",
+    "translation": "опасный",
+    "level": 5
+  },
+  {
+    "id": 94,
+    "masculine_singular": "אחראי",
+    "feminine_singular": "אחראית",
+    "masculine_plural": "אחראים",
+    "feminine_plural": "אחראיות",
+    "translation": "ответственный",
+    "level": 5
+  },
+  {
+    "id": 95,
+    "masculine_singular": "פעיל",
+    "feminine_singular": "פעילה",
+    "masculine_plural": "פעילים",
+    "feminine_plural": "פעילות",
+    "translation": "активный",
+    "level": 5
+  },
+  {
+    "id": 96,
+    "masculine_singular": "יעיל",
+    "feminine_singular": "יעילה",
+    "masculine_plural": "יעילים",
+    "feminine_plural": "יעילות",
+    "translation": "эффективный",
+    "level": 5
+  },
+  {
+    "id": 97,
+    "masculine_singular": "מדויק",
+    "feminine_singular": "מדויקת",
+    "masculine_plural": "מדויקים",
+    "feminine_plural": "מדויקות",
+    "translation": "точный",
+    "level": 5
+  },
+  {
+    "id": 98,
+    "masculine_singular": "מוצלח",
+    "feminine_singular": "מוצלחת",
+    "masculine_plural": "מוצלחים",
+    "feminine_plural": "מוצלחות",
+    "translation": "успешный, удачный",
+    "level": 5
+  },
+  {
+    "id": 99,
+    "masculine_singular": "גרוע",
+    "feminine_singular": "גרועה",
+    "masculine_plural": "גרועים",
+    "feminine_plural": "גרועות",
+    "translation": "плохой, ужасный",
+    "level": 5
+  },
+  {
+    "id": 100,
+    "masculine_singular": "טבעי",
+    "feminine_singular": "טבעית",
+    "masculine_plural": "טבעיים",
+    "feminine_plural": "טבעיות",
+    "translation": "естественный, натуральный",
+    "level": 5
+  },
+  {
+    "id": 101,
+    "masculine_singular": "מודרני",
+    "feminine_singular": "מודרנית",
+    "masculine_plural": "מודרניים",
+    "feminine_plural": "מודרניות",
+    "translation": "современный",
+    "level": 6
+  },
+  {
+    "id": 102,
+    "masculine_singular": "נהדר",
+    "feminine_singular": "נהדרת",
+    "masculine_plural": "נהדרים",
+    "feminine_plural": "נהדרות",
+    "translation": "замечательный",
+    "level": 6
+  },
+  {
+    "id": 103,
+    "masculine_singular": "נפלא",
+    "feminine_singular": "נפלאה",
+    "masculine_plural": "נפלאים",
+    "feminine_plural": "נפלאות",
+    "translation": "замечательный, чудесный",
+    "level": 6
+  },
+  {
+    "id": 104,
+    "masculine_singular": "מושלם",
+    "feminine_singular": "מושלמת",
+    "masculine_plural": "מושלמים",
+    "feminine_plural": "מושלמות",
+    "translation": "идеальный, совершенный",
+    "level": 6
+  },
+  {
+    "id": 105,
+    "masculine_singular": "מיותר",
+    "feminine_singular": "מיותרת",
+    "masculine_plural": "מיותרים",
+    "feminine_plural": "מיותרות",
+    "translation": "лишний, ненужный",
+    "level": 6
+  },
+  {
+    "id": 106,
+    "masculine_singular": "חסר",
+    "feminine_singular": "חסרה",
+    "masculine_plural": "חסרים",
+    "feminine_plural": "חסרות",
+    "translation": "недостающий, отсутствующий",
+    "level": 6
+  },
+  {
+    "id": 107,
+    "masculine_singular": "שווה",
+    "feminine_singular": "שווה",
+    "masculine_plural": "שווים",
+    "feminine_plural": "שוות",
+    "translation": "равный; стоящий",
+    "level": 6
+  },
+  {
+    "id": 108,
+    "masculine_singular": "יחיד",
+    "feminine_singular": "יחידה",
+    "masculine_plural": "יחידים",
+    "feminine_plural": "יחידות",
+    "translation": "единственный, единичный",
+    "level": 6
+  },
+  {
+    "id": 109,
+    "masculine_singular": "עצמאי",
+    "feminine_singular": "עצמאית",
+    "masculine_plural": "עצמאיים",
+    "feminine_plural": "עצמאיות",
+    "translation": "самостоятельный, независимый",
+    "level": 6
+  },
+  {
+    "id": 110,
+    "masculine_singular": "תלוי",
+    "feminine_singular": "תלויה",
+    "masculine_plural": "תלויים",
+    "feminine_plural": "תלויות",
+    "translation": "зависимый, зависящий",
+    "level": 6
+  },
+  {
+    "id": 111,
+    "masculine_singular": "בסיסי",
+    "feminine_singular": "בסיסית",
+    "masculine_plural": "בסיסיים",
+    "feminine_plural": "בסיסיות",
+    "translation": "базовый, основной",
+    "level": 6
+  },
+  {
+    "id": 112,
+    "masculine_singular": "מתקדם",
+    "feminine_singular": "מתקדמת",
+    "masculine_plural": "מתקדמים",
+    "feminine_plural": "מתקדמות",
+    "translation": "продвинутый, передовой",
+    "level": 6
+  },
+  {
+    "id": 113,
+    "masculine_singular": "מורכב",
+    "feminine_singular": "מורכבת",
+    "masculine_plural": "מורכבים",
+    "feminine_plural": "מורכבות",
+    "translation": "сложный, комплексный",
+    "level": 6
+  },
+  {
+    "id": 114,
+    "masculine_singular": "מסובך",
+    "feminine_singular": "מסובכת",
+    "masculine_plural": "מסובכים",
+    "feminine_plural": "מסובכות",
+    "translation": "сложный, запутанный",
+    "level": 6
+  },
+  {
+    "id": 115,
+    "masculine_singular": "הגיוני",
+    "feminine_singular": "הגיונית",
+    "masculine_plural": "הגיוניים",
+    "feminine_plural": "הגיוניות",
+    "translation": "логичный, разумный",
+    "level": 6
+  },
+  {
+    "id": 116,
+    "masculine_singular": "מעשי",
+    "feminine_singular": "מעשית",
+    "masculine_plural": "מעשיים",
+    "feminine_plural": "מעשיות",
+    "translation": "практический, практичный",
+    "level": 6
+  },
+  {
+    "id": 117,
+    "masculine_singular": "שימושי",
+    "feminine_singular": "שימושית",
+    "masculine_plural": "שימושיים",
+    "feminine_plural": "שימושיות",
+    "translation": "полезный, практичный",
+    "level": 6
+  },
+  {
+    "id": 118,
+    "masculine_singular": "רגשי",
+    "feminine_singular": "רגשית",
+    "masculine_plural": "רגשיים",
+    "feminine_plural": "רגשיות",
+    "translation": "эмоциональный",
+    "level": 6
+  },
+  {
+    "id": 119,
+    "masculine_singular": "נפשי",
+    "feminine_singular": "נפשית",
+    "masculine_plural": "נפשיים",
+    "feminine_plural": "נפשיות",
+    "translation": "психический, душевный",
+    "level": 6
+  },
+  {
+    "id": 120,
+    "masculine_singular": "פיזי",
+    "feminine_singular": "פיזית",
+    "masculine_plural": "פיזיים",
+    "feminine_plural": "פיזיות",
+    "translation": "физический",
+    "level": 6
+  },
+  {
+    "id": 121,
+    "masculine_singular": "חברתי",
+    "feminine_singular": "חברתית",
+    "masculine_plural": "חברתיים",
+    "feminine_plural": "חברתיות",
+    "translation": "социальный, общественный",
+    "level": 7
+  },
+  {
+    "id": 122,
+    "masculine_singular": "כלכלי",
+    "feminine_singular": "כלכלית",
+    "masculine_plural": "כלכליים",
+    "feminine_plural": "כלכליות",
+    "translation": "экономический",
+    "level": 7
+  },
+  {
+    "id": 123,
+    "masculine_singular": "כספי",
+    "feminine_singular": "כספית",
+    "masculine_plural": "כספיים",
+    "feminine_plural": "כספיות",
+    "translation": "финансовый, денежный",
+    "level": 7
+  },
+  {
+    "id": 124,
+    "masculine_singular": "עסקי",
+    "feminine_singular": "עסקית",
+    "masculine_plural": "עסקיים",
+    "feminine_plural": "עסקיות",
+    "translation": "деловой",
+    "level": 7
+  },
+  {
+    "id": 125,
+    "masculine_singular": "מסחרי",
+    "feminine_singular": "מסחרית",
+    "masculine_plural": "מסחריים",
+    "feminine_plural": "מסחריות",
+    "translation": "коммерческий",
+    "level": 7
+  },
+  {
+    "id": 126,
+    "masculine_singular": "טכני",
+    "feminine_singular": "טכנית",
+    "masculine_plural": "טכניים",
+    "feminine_plural": "טכניות",
+    "translation": "технический",
+    "level": 7
+  },
+  {
+    "id": 127,
+    "masculine_singular": "דיגיטלי",
+    "feminine_singular": "דיגיטלית",
+    "masculine_plural": "דיגיטליים",
+    "feminine_plural": "דיגיטליות",
+    "translation": "цифровой",
+    "level": 7
+  },
+  {
+    "id": 128,
+    "masculine_singular": "חשמלי",
+    "feminine_singular": "חשמלית",
+    "masculine_plural": "חשמליים",
+    "feminine_plural": "חשמליות",
+    "translation": "электрический",
+    "level": 7
+  },
+  {
+    "id": 129,
+    "masculine_singular": "אוטומטי",
+    "feminine_singular": "אוטומטית",
+    "masculine_plural": "אוטומטיים",
+    "feminine_plural": "אוטומטיות",
+    "translation": "автоматический",
+    "level": 7
+  },
+  {
+    "id": 130,
+    "masculine_singular": "ידני",
+    "feminine_singular": "ידנית",
+    "masculine_plural": "ידניים",
+    "feminine_plural": "ידניות",
+    "translation": "ручной",
+    "level": 7
+  },
+  {
+    "id": 131,
+    "masculine_singular": "פנימי",
+    "feminine_singular": "פנימית",
+    "masculine_plural": "פנימיים",
+    "feminine_plural": "פנימיות",
+    "translation": "внутренний",
+    "level": 7
+  },
+  {
+    "id": 132,
+    "masculine_singular": "חיצוני",
+    "feminine_singular": "חיצונית",
+    "masculine_plural": "חיצוניים",
+    "feminine_plural": "חיצוניות",
+    "translation": "внешний",
+    "level": 7
+  },
+  {
+    "id": 133,
+    "masculine_singular": "עליון",
+    "feminine_singular": "עליונה",
+    "masculine_plural": "עליונים",
+    "feminine_plural": "עליונות",
+    "translation": "верхний",
+    "level": 7
+  },
+  {
+    "id": 134,
+    "masculine_singular": "תחתון",
+    "feminine_singular": "תחתונה",
+    "masculine_plural": "תחתונים",
+    "feminine_plural": "תחתונות",
+    "translation": "нижний",
+    "level": 7
+  },
+  {
+    "id": 135,
+    "masculine_singular": "קדמי",
+    "feminine_singular": "קדמית",
+    "masculine_plural": "קדמיים",
+    "feminine_plural": "קדמיות",
+    "translation": "передний",
+    "level": 7
+  },
+  {
+    "id": 136,
+    "masculine_singular": "אחורי",
+    "feminine_singular": "אחורית",
+    "masculine_plural": "אחוריים",
+    "feminine_plural": "אחוריות",
+    "translation": "задний",
+    "level": 7
+  },
+  {
+    "id": 137,
+    "masculine_singular": "ימני",
+    "feminine_singular": "ימנית",
+    "masculine_plural": "ימניים",
+    "feminine_plural": "ימניות",
+    "translation": "правый",
+    "level": 7
+  },
+  {
+    "id": 138,
+    "masculine_singular": "שמאלי",
+    "feminine_singular": "שמאלית",
+    "masculine_plural": "שמאליים",
+    "feminine_plural": "שמאליות",
+    "translation": "левый",
+    "level": 7
+  },
+  {
+    "id": 139,
+    "masculine_singular": "רחב",
+    "feminine_singular": "רחבה",
+    "masculine_plural": "רחבים",
+    "feminine_plural": "רחבות",
+    "translation": "широкий",
+    "level": 7
+  },
+  {
+    "id": 140,
+    "masculine_singular": "צר",
+    "feminine_singular": "צרה",
+    "masculine_plural": "צרים",
+    "feminine_plural": "צרות",
+    "translation": "узкий",
+    "level": 7
+  },
+  {
+    "id": 141,
+    "masculine_singular": "עמוק",
+    "feminine_singular": "עמוקה",
+    "masculine_plural": "עמוקים",
+    "feminine_plural": "עמוקות",
+    "translation": "глубокий",
+    "level": 8
+  },
+  {
+    "id": 142,
+    "masculine_singular": "עבה",
+    "feminine_singular": "עבה",
+    "masculine_plural": "עבים",
+    "feminine_plural": "עבות",
+    "translation": "толстый",
+    "level": 8
+  },
+  {
+    "id": 143,
+    "masculine_singular": "דק",
+    "feminine_singular": "דקה",
+    "masculine_plural": "דקים",
+    "feminine_plural": "דקות",
+    "translation": "тонкий",
+    "level": 8
+  },
+  {
+    "id": 144,
+    "masculine_singular": "כבד",
+    "feminine_singular": "כבדה",
+    "masculine_plural": "כבדים",
+    "feminine_plural": "כבדות",
+    "translation": "тяжёлый",
+    "level": 8
+  },
+  {
+    "id": 145,
+    "masculine_singular": "רך",
+    "feminine_singular": "רכה",
+    "masculine_plural": "רכים",
+    "feminine_plural": "רכות",
+    "translation": "мягкий",
+    "level": 8
+  },
+  {
+    "id": 146,
+    "masculine_singular": "חד",
+    "feminine_singular": "חדה",
+    "masculine_plural": "חדים",
+    "feminine_plural": "חדות",
+    "translation": "острый",
+    "level": 8
+  },
+  {
+    "id": 147,
+    "masculine_singular": "ישר",
+    "feminine_singular": "ישרה",
+    "masculine_plural": "ישרים",
+    "feminine_plural": "ישרות",
+    "translation": "прямой; честный",
+    "level": 8
+  },
+  {
+    "id": 148,
+    "masculine_singular": "עגול",
+    "feminine_singular": "עגולה",
+    "masculine_plural": "עגולים",
+    "feminine_plural": "עגולות",
+    "translation": "круглый",
+    "level": 8
+  },
+  {
+    "id": 149,
+    "masculine_singular": "שטוח",
+    "feminine_singular": "שטוחה",
+    "masculine_plural": "שטוחים",
+    "feminine_plural": "שטוחות",
+    "translation": "плоский",
+    "level": 8
+  },
+  {
+    "id": 150,
+    "masculine_singular": "חלק",
+    "feminine_singular": "חלקה",
+    "masculine_plural": "חלקים",
+    "feminine_plural": "חלקות",
+    "translation": "гладкий",
+    "level": 8
+  },
+  {
+    "id": 151,
+    "masculine_singular": "רטוב",
+    "feminine_singular": "רטובה",
+    "masculine_plural": "רטובים",
+    "feminine_plural": "רטובות",
+    "translation": "мокрый",
+    "level": 8
+  },
+  {
+    "id": 152,
+    "masculine_singular": "יבש",
+    "feminine_singular": "יבשה",
+    "masculine_plural": "יבשים",
+    "feminine_plural": "יבשות",
+    "translation": "сухой",
+    "level": 8
+  },
+  {
+    "id": 153,
+    "masculine_singular": "מלוכלך",
+    "feminine_singular": "מלוכלכת",
+    "masculine_plural": "מלוכלכים",
+    "feminine_plural": "מלוכלכות",
+    "translation": "грязный",
+    "level": 8
+  },
+  {
+    "id": 154,
+    "masculine_singular": "טרי",
+    "feminine_singular": "טרייה",
+    "masculine_plural": "טריים",
+    "feminine_plural": "טריות",
+    "translation": "свежий",
+    "level": 8
+  },
+  {
+    "id": 155,
+    "masculine_singular": "מתוק",
+    "feminine_singular": "מתוקה",
+    "masculine_plural": "מתוקים",
+    "feminine_plural": "מתוקות",
+    "translation": "сладкий",
+    "level": 8
+  },
+  {
+    "id": 156,
+    "masculine_singular": "מלוח",
+    "feminine_singular": "מלוחה",
+    "masculine_plural": "מלוחים",
+    "feminine_plural": "מלוחות",
+    "translation": "солёный",
+    "level": 8
+  },
+  {
+    "id": 157,
+    "masculine_singular": "חריף",
+    "feminine_singular": "חריפה",
+    "masculine_plural": "חריפים",
+    "feminine_plural": "חריפות",
+    "translation": "острый (о вкусе)",
+    "level": 8
+  },
+  {
+    "id": 158,
+    "masculine_singular": "חמוץ",
+    "feminine_singular": "חמוצה",
+    "masculine_plural": "חמוצים",
+    "feminine_plural": "חמוצות",
+    "translation": "кислый",
+    "level": 8
+  },
+  {
+    "id": 159,
+    "masculine_singular": "מר",
+    "feminine_singular": "מרה",
+    "masculine_plural": "מרים",
+    "feminine_plural": "מרות",
+    "translation": "горький",
+    "level": 8
+  },
+  {
+    "id": 160,
+    "masculine_singular": "שקט",
+    "feminine_singular": "שקטה",
+    "masculine_plural": "שקטים",
+    "feminine_plural": "שקטות",
+    "translation": "тихий, спокойный",
+    "level": 8
+  },
+  {
+    "id": 161,
+    "masculine_singular": "רועש",
+    "feminine_singular": "רועשת",
+    "masculine_plural": "רועשים",
+    "feminine_plural": "רועשות",
+    "translation": "шумный",
+    "level": 9
+  },
+  {
+    "id": 162,
+    "masculine_singular": "בהיר",
+    "feminine_singular": "בהירה",
+    "masculine_plural": "בהירים",
+    "feminine_plural": "בהירות",
+    "translation": "светлый, ясный",
+    "level": 9
+  },
+  {
+    "id": 163,
+    "masculine_singular": "כהה",
+    "feminine_singular": "כהה",
+    "masculine_plural": "כהים",
+    "feminine_plural": "כהות",
+    "translation": "тёмный",
+    "level": 9
+  },
+  {
+    "id": 164,
+    "masculine_singular": "לבן",
+    "feminine_singular": "לבנה",
+    "masculine_plural": "לבנים",
+    "feminine_plural": "לבנות",
+    "translation": "белый",
+    "level": 9
+  },
+  {
+    "id": 165,
+    "masculine_singular": "שחור",
+    "feminine_singular": "שחורה",
+    "masculine_plural": "שחורים",
+    "feminine_plural": "שחורות",
+    "translation": "чёрный",
+    "level": 9
+  },
+  {
+    "id": 166,
+    "masculine_singular": "אדום",
+    "feminine_singular": "אדומה",
+    "masculine_plural": "אדומים",
+    "feminine_plural": "אדומות",
+    "translation": "красный",
+    "level": 9
+  },
+  {
+    "id": 167,
+    "masculine_singular": "כחול",
+    "feminine_singular": "כחולה",
+    "masculine_plural": "כחולים",
+    "feminine_plural": "כחולות",
+    "translation": "синий, голубой",
+    "level": 9
+  },
+  {
+    "id": 168,
+    "masculine_singular": "ירוק",
+    "feminine_singular": "ירוקה",
+    "masculine_plural": "ירוקים",
+    "feminine_plural": "ירוקות",
+    "translation": "зелёный",
+    "level": 9
+  },
+  {
+    "id": 169,
+    "masculine_singular": "צהוב",
+    "feminine_singular": "צהובה",
+    "masculine_plural": "צהובים",
+    "feminine_plural": "צהובות",
+    "translation": "жёлтый",
+    "level": 9
+  },
+  {
+    "id": 170,
+    "masculine_singular": "חום",
+    "feminine_singular": "חומה",
+    "masculine_plural": "חומים",
+    "feminine_plural": "חומות",
+    "translation": "коричневый",
+    "level": 9
+  },
+  {
+    "id": 171,
+    "masculine_singular": "אפור",
+    "feminine_singular": "אפורה",
+    "masculine_plural": "אפורים",
+    "feminine_plural": "אפורות",
+    "translation": "серый",
+    "level": 9
+  },
+  {
+    "id": 172,
+    "masculine_singular": "ורוד",
+    "feminine_singular": "ורודה",
+    "masculine_plural": "ורודים",
+    "feminine_plural": "ורודות",
+    "translation": "розовый",
+    "level": 9
+  },
+  {
+    "id": 173,
+    "masculine_singular": "כתום",
+    "feminine_singular": "כתומה",
+    "masculine_plural": "כתומים",
+    "feminine_plural": "כתומות",
+    "translation": "оранжевый",
+    "level": 9
+  },
+  {
+    "id": 174,
+    "masculine_singular": "סגול",
+    "feminine_singular": "סגולה",
+    "masculine_plural": "סגולים",
+    "feminine_plural": "סגולות",
+    "translation": "фиолетовый",
+    "level": 9
+  },
+  {
+    "id": 175,
+    "masculine_singular": "עשיר",
+    "feminine_singular": "עשירה",
+    "masculine_plural": "עשירים",
+    "feminine_plural": "עשירות",
+    "translation": "богатый",
+    "level": 9
+  },
+  {
+    "id": 176,
+    "masculine_singular": "עני",
+    "feminine_singular": "ענייה",
+    "masculine_plural": "עניים",
+    "feminine_plural": "עניות",
+    "translation": "бедный",
+    "level": 9
+  },
+  {
+    "id": 177,
+    "masculine_singular": "מפורסם",
+    "feminine_singular": "מפורסמת",
+    "masculine_plural": "מפורסמים",
+    "feminine_plural": "מפורסמות",
+    "translation": "знаменитый, известный",
+    "level": 9
+  },
+  {
+    "id": 178,
+    "masculine_singular": "פופולרי",
+    "feminine_singular": "פופולרית",
+    "masculine_plural": "פופולריים",
+    "feminine_plural": "פופולריות",
+    "translation": "популярный",
+    "level": 9
+  },
+  {
+    "id": 179,
+    "masculine_singular": "נפוץ",
+    "feminine_singular": "נפוצה",
+    "masculine_plural": "נפוצים",
+    "feminine_plural": "נפוצות",
+    "translation": "распространённый",
+    "level": 9
+  },
+  {
+    "id": 180,
+    "masculine_singular": "נדיר",
+    "feminine_singular": "נדירה",
+    "masculine_plural": "נדירים",
+    "feminine_plural": "נדירות",
+    "translation": "редкий",
+    "level": 9
+  },
+  {
+    "id": 181,
+    "masculine_singular": "מסוים",
+    "feminine_singular": "מסוימת",
+    "masculine_plural": "מסוימים",
+    "feminine_plural": "מסוימות",
+    "translation": "определённый, некоторый",
+    "level": 10
+  },
+  {
+    "id": 182,
+    "masculine_singular": "נוכחי",
+    "feminine_singular": "נוכחית",
+    "masculine_plural": "נוכחיים",
+    "feminine_plural": "נוכחיות",
+    "translation": "текущий, нынешний",
+    "level": 10
+  },
+  {
+    "id": 183,
+    "masculine_singular": "קודם",
+    "feminine_singular": "קודמת",
+    "masculine_plural": "קודמים",
+    "feminine_plural": "קודמות",
+    "translation": "предыдущий",
+    "level": 10
+  },
+  {
+    "id": 184,
+    "masculine_singular": "עתידי",
+    "feminine_singular": "עתידית",
+    "masculine_plural": "עתידיים",
+    "feminine_plural": "עתידיות",
+    "translation": "будущий",
+    "level": 10
+  },
+  {
+    "id": 185,
+    "masculine_singular": "מוקדם",
+    "feminine_singular": "מוקדמת",
+    "masculine_plural": "מוקדמים",
+    "feminine_plural": "מוקדמות",
+    "translation": "ранний",
+    "level": 10
+  },
+  {
+    "id": 186,
+    "masculine_singular": "מאוחר",
+    "feminine_singular": "מאוחרת",
+    "masculine_plural": "מאוחרים",
+    "feminine_plural": "מאוחרות",
+    "translation": "поздний",
+    "level": 10
+  },
+  {
+    "id": 187,
+    "masculine_singular": "מיידי",
+    "feminine_singular": "מיידית",
+    "masculine_plural": "מיידיים",
+    "feminine_plural": "מיידיות",
+    "translation": "немедленный",
+    "level": 10
+  },
+  {
+    "id": 188,
+    "masculine_singular": "סופי",
+    "feminine_singular": "סופית",
+    "masculine_plural": "סופיים",
+    "feminine_plural": "סופיות",
+    "translation": "окончательный",
+    "level": 10
+  },
+  {
+    "id": 189,
+    "masculine_singular": "ראשוני",
+    "feminine_singular": "ראשונית",
+    "masculine_plural": "ראשוניים",
+    "feminine_plural": "ראשוניות",
+    "translation": "первоначальный, первичный",
+    "level": 10
+  },
+  {
+    "id": 190,
+    "masculine_singular": "עכשווי",
+    "feminine_singular": "עכשווית",
+    "masculine_plural": "עכשוויים",
+    "feminine_plural": "עכשוויות",
+    "translation": "современный, актуальный",
+    "level": 10
+  },
+  {
+    "id": 191,
+    "masculine_singular": "עדכני",
+    "feminine_singular": "עדכנית",
+    "masculine_plural": "עדכניים",
+    "feminine_plural": "עדכניות",
+    "translation": "актуальный, современный",
+    "level": 10
+  },
+  {
+    "id": 192,
+    "masculine_singular": "מעודכן",
+    "feminine_singular": "מעודכנת",
+    "masculine_plural": "מעודכנים",
+    "feminine_plural": "מעודכנות",
+    "translation": "обновлённый",
+    "level": 10
+  },
+  {
+    "id": 193,
+    "masculine_singular": "רלוונטי",
+    "feminine_singular": "רלוונטית",
+    "masculine_plural": "רלוונטיים",
+    "feminine_plural": "רלוונטיות",
+    "translation": "релевантный, актуальный",
+    "level": 10
+  },
+  {
+    "id": 194,
+    "masculine_singular": "ספציפי",
+    "feminine_singular": "ספציפית",
+    "masculine_plural": "ספציפיים",
+    "feminine_plural": "ספציפיות",
+    "translation": "конкретный, специфический",
+    "level": 10
+  },
+  {
+    "id": 195,
+    "masculine_singular": "משמעותי",
+    "feminine_singular": "משמעותית",
+    "masculine_plural": "משמעותיים",
+    "feminine_plural": "משמעותיות",
+    "translation": "значительный, существенный",
+    "level": 10
+  },
+  {
+    "id": 196,
+    "masculine_singular": "עקרוני",
+    "feminine_singular": "עקרונית",
+    "masculine_plural": "עקרוניים",
+    "feminine_plural": "עקרוניות",
+    "translation": "принципиальный",
+    "level": 10
+  },
+  {
+    "id": 197,
+    "masculine_singular": "מהותי",
+    "feminine_singular": "מהותית",
+    "masculine_plural": "מהותיים",
+    "feminine_plural": "מהותיות",
+    "translation": "существенный, принципиальный",
+    "level": 10
+  },
+  {
+    "id": 198,
+    "masculine_singular": "סביר",
+    "feminine_singular": "סבירה",
+    "masculine_plural": "סבירים",
+    "feminine_plural": "סבירות",
+    "translation": "разумный, приемлемый",
+    "level": 10
+  },
+  {
+    "id": 199,
+    "masculine_singular": "רצוי",
+    "feminine_singular": "רצויה",
+    "masculine_plural": "רצויים",
+    "feminine_plural": "רצויות",
+    "translation": "желательный",
+    "level": 10
+  },
+  {
+    "id": 200,
+    "masculine_singular": "הכרחי",
+    "feminine_singular": "הכרחית",
+    "masculine_plural": "הכרחיים",
+    "feminine_plural": "הכרחיות",
+    "translation": "необходимый",
+    "level": 10
+  },
+  {
+    "id": 201,
+    "masculine_singular": "חיוני",
+    "feminine_singular": "חיונית",
+    "masculine_plural": "חיוניים",
+    "feminine_plural": "חיוניות",
+    "translation": "жизненно необходимый, существенный",
+    "level": 11
+  },
+  {
+    "id": 202,
+    "masculine_singular": "אמיץ",
+    "feminine_singular": "אמיצה",
+    "masculine_plural": "אמיצים",
+    "feminine_plural": "אמיצות",
+    "translation": "смелый",
+    "level": 11
+  },
+  {
+    "id": 203,
+    "masculine_singular": "ביישן",
+    "feminine_singular": "ביישנית",
+    "masculine_plural": "ביישנים",
+    "feminine_plural": "ביישניות",
+    "translation": "застенчивый",
+    "level": 11
+  },
+  {
+    "id": 204,
+    "masculine_singular": "סבלני",
+    "feminine_singular": "סבלנית",
+    "masculine_plural": "סבלניים",
+    "feminine_plural": "סבלניות",
+    "translation": "терпеливый",
+    "level": 11
+  },
+  {
+    "id": 205,
+    "masculine_singular": "מנומס",
+    "feminine_singular": "מנומסת",
+    "masculine_plural": "מנומסים",
+    "feminine_plural": "מנומסות",
+    "translation": "вежливый",
+    "level": 11
+  },
+  {
+    "id": 206,
+    "masculine_singular": "אדיב",
+    "feminine_singular": "אדיבה",
+    "masculine_plural": "אדיבים",
+    "feminine_plural": "אדיבות",
+    "translation": "любезный, учтивый",
+    "level": 11
+  },
+  {
+    "id": 207,
+    "masculine_singular": "ידידותי",
+    "feminine_singular": "ידידותית",
+    "masculine_plural": "ידידותיים",
+    "feminine_plural": "ידידותיות",
+    "translation": "дружелюбный",
+    "level": 11
+  },
+  {
+    "id": 208,
+    "masculine_singular": "חברותי",
+    "feminine_singular": "חברותית",
+    "masculine_plural": "חברותיים",
+    "feminine_plural": "חברותיות",
+    "translation": "общительный",
+    "level": 11
+  },
+  {
+    "id": 209,
+    "masculine_singular": "חרוץ",
+    "feminine_singular": "חרוצה",
+    "masculine_plural": "חרוצים",
+    "feminine_plural": "חרוצות",
+    "translation": "трудолюбивый, старательный",
+    "level": 11
+  },
+  {
+    "id": 210,
+    "masculine_singular": "עצלן",
+    "feminine_singular": "עצלנית",
+    "masculine_plural": "עצלנים",
+    "feminine_plural": "עצלניות",
+    "translation": "ленивый",
+    "level": 11
+  },
+  {
+    "id": 211,
+    "masculine_singular": "סקרן",
+    "feminine_singular": "סקרנית",
+    "masculine_plural": "סקרנים",
+    "feminine_plural": "סקרניות",
+    "translation": "любопытный",
+    "level": 11
+  },
+  {
+    "id": 212,
+    "masculine_singular": "יצירתי",
+    "feminine_singular": "יצירתית",
+    "masculine_plural": "יצירתיים",
+    "feminine_plural": "יצירתיות",
+    "translation": "творческий",
+    "level": 11
+  },
+  {
+    "id": 213,
+    "masculine_singular": "רגיש",
+    "feminine_singular": "רגישה",
+    "masculine_plural": "רגישים",
+    "feminine_plural": "רגישות",
+    "translation": "чувствительный",
+    "level": 11
+  },
+  {
+    "id": 214,
+    "masculine_singular": "נדיב",
+    "feminine_singular": "נדיבה",
+    "masculine_plural": "נדיבים",
+    "feminine_plural": "נדיבות",
+    "translation": "щедрый",
+    "level": 11
+  },
+  {
+    "id": 215,
+    "masculine_singular": "צנוע",
+    "feminine_singular": "צנועה",
+    "masculine_plural": "צנועים",
+    "feminine_plural": "צנועות",
+    "translation": "скромный",
+    "level": 11
+  },
+  {
+    "id": 216,
+    "masculine_singular": "גאה",
+    "feminine_singular": "גאה",
+    "masculine_plural": "גאים",
+    "feminine_plural": "גאות",
+    "translation": "гордый",
+    "level": 11
+  },
+  {
+    "id": 217,
+    "masculine_singular": "נאמן",
+    "feminine_singular": "נאמנה",
+    "masculine_plural": "נאמנים",
+    "feminine_plural": "נאמנות",
+    "translation": "верный, преданный",
+    "level": 11
+  },
+  {
+    "id": 218,
+    "masculine_singular": "כנה",
+    "feminine_singular": "כנה",
+    "masculine_plural": "כנים",
+    "feminine_plural": "כנות",
+    "translation": "искренний, честный",
+    "level": 11
+  },
+  {
+    "id": 219,
+    "masculine_singular": "נחוש",
+    "feminine_singular": "נחושה",
+    "masculine_plural": "נחושים",
+    "feminine_plural": "נחושות",
+    "translation": "решительный",
+    "level": 11
+  },
+  {
+    "id": 220,
+    "masculine_singular": "עקשן",
+    "feminine_singular": "עקשנית",
+    "masculine_plural": "עקשנים",
+    "feminine_plural": "עקשניות",
+    "translation": "упрямый",
+    "level": 11
+  },
+  {
+    "id": 221,
+    "masculine_singular": "קנאי",
+    "feminine_singular": "קנאית",
+    "masculine_plural": "קנאים",
+    "feminine_plural": "קנאיות",
+    "translation": "ревнивый; фанатичный",
+    "level": 12
+  },
+  {
+    "id": 222,
+    "masculine_singular": "עצבני",
+    "feminine_singular": "עצבנית",
+    "masculine_plural": "עצבניים",
+    "feminine_plural": "עצבניות",
+    "translation": "нервный, раздражённый",
+    "level": 12
+  },
+  {
+    "id": 223,
+    "masculine_singular": "נרגש",
+    "feminine_singular": "נרגשת",
+    "masculine_plural": "נרגשים",
+    "feminine_plural": "נרגשות",
+    "translation": "взволнованный",
+    "level": 12
+  },
+  {
+    "id": 224,
+    "masculine_singular": "נלהב",
+    "feminine_singular": "נלהבת",
+    "masculine_plural": "נלהבים",
+    "feminine_plural": "נלהבות",
+    "translation": "воодушевлённый",
+    "level": 12
+  },
+  {
+    "id": 225,
+    "masculine_singular": "מאושר",
+    "feminine_singular": "מאושרת",
+    "masculine_plural": "מאושרים",
+    "feminine_plural": "מאושרות",
+    "translation": "счастливый",
+    "level": 12
+  },
+  {
+    "id": 226,
+    "masculine_singular": "מאוכזב",
+    "feminine_singular": "מאוכזבת",
+    "masculine_plural": "מאוכזבים",
+    "feminine_plural": "מאוכזבות",
+    "translation": "разочарованный",
+    "level": 12
+  },
+  {
+    "id": 227,
+    "masculine_singular": "מפוחד",
+    "feminine_singular": "מפוחדת",
+    "masculine_plural": "מפוחדים",
+    "feminine_plural": "מפוחדות",
+    "translation": "испуганный",
+    "level": 12
+  },
+  {
+    "id": 228,
+    "masculine_singular": "לחוץ",
+    "feminine_singular": "לחוצה",
+    "masculine_plural": "לחוצים",
+    "feminine_plural": "לחוצות",
+    "translation": "напряжённый, испытывающий стресс",
+    "level": 12
+  },
+  {
+    "id": 229,
+    "masculine_singular": "מתוח",
+    "feminine_singular": "מתוחה",
+    "masculine_plural": "מתוחים",
+    "feminine_plural": "מתוחות",
+    "translation": "напряжённый",
+    "level": 12
+  },
+  {
+    "id": 230,
+    "masculine_singular": "מבולבל",
+    "feminine_singular": "מבולבלת",
+    "masculine_plural": "מבולבלים",
+    "feminine_plural": "מבולבלות",
+    "translation": "растерянный, запутавшийся",
+    "level": 12
+  },
+  {
+    "id": 231,
+    "masculine_singular": "מרוכז",
+    "feminine_singular": "מרוכזת",
+    "masculine_plural": "מרוכזים",
+    "feminine_plural": "מרוכזות",
+    "translation": "сосредоточенный",
+    "level": 12
+  },
+  {
+    "id": 232,
+    "masculine_singular": "ער",
+    "feminine_singular": "ערה",
+    "masculine_plural": "ערים",
+    "feminine_plural": "ערות",
+    "translation": "бодрствующий",
+    "level": 12
+  },
+  {
+    "id": 233,
+    "masculine_singular": "ערני",
+    "feminine_singular": "ערנית",
+    "masculine_plural": "ערניים",
+    "feminine_plural": "ערניות",
+    "translation": "бодрый, бдительный",
+    "level": 12
+  },
+  {
+    "id": 234,
+    "masculine_singular": "ישנוני",
+    "feminine_singular": "ישנונית",
+    "masculine_plural": "ישנוניים",
+    "feminine_plural": "ישנוניות",
+    "translation": "сонный",
+    "level": 12
+  },
+  {
+    "id": 235,
+    "masculine_singular": "מותש",
+    "feminine_singular": "מותשת",
+    "masculine_plural": "מותשים",
+    "feminine_plural": "מותשות",
+    "translation": "изнурённый",
+    "level": 12
+  },
+  {
+    "id": 236,
+    "masculine_singular": "רענן",
+    "feminine_singular": "רעננה",
+    "masculine_plural": "רעננים",
+    "feminine_plural": "רעננות",
+    "translation": "свежий, бодрый",
+    "level": 12
+  },
+  {
+    "id": 237,
+    "masculine_singular": "חי",
+    "feminine_singular": "חיה",
+    "masculine_plural": "חיים",
+    "feminine_plural": "חיות",
+    "translation": "живой",
+    "level": 12
+  },
+  {
+    "id": 238,
+    "masculine_singular": "מת",
+    "feminine_singular": "מתה",
+    "masculine_plural": "מתים",
+    "feminine_plural": "מתות",
+    "translation": "мёртвый",
+    "level": 12
+  },
+  {
+    "id": 239,
+    "masculine_singular": "חיובי",
+    "feminine_singular": "חיובית",
+    "masculine_plural": "חיוביים",
+    "feminine_plural": "חיוביות",
+    "translation": "положительный",
+    "level": 12
+  },
+  {
+    "id": 240,
+    "masculine_singular": "שלילי",
+    "feminine_singular": "שלילית",
+    "masculine_plural": "שליליים",
+    "feminine_plural": "שליליות",
+    "translation": "отрицательный",
+    "level": 12
+  },
+  {
+    "id": 241,
+    "masculine_singular": "הוגן",
+    "feminine_singular": "הוגנת",
+    "masculine_plural": "הוגנים",
+    "feminine_plural": "הוגנות",
+    "translation": "справедливый, честный",
+    "level": 13
+  },
+  {
+    "id": 242,
+    "masculine_singular": "צודק",
+    "feminine_singular": "צודקת",
+    "masculine_plural": "צודקים",
+    "feminine_plural": "צודקות",
+    "translation": "правый, справедливый",
+    "level": 13
+  },
+  {
+    "id": 243,
+    "masculine_singular": "אמין",
+    "feminine_singular": "אמינה",
+    "masculine_plural": "אמינים",
+    "feminine_plural": "אמינות",
+    "translation": "надёжный, достоверный",
+    "level": 13
+  },
+  {
+    "id": 244,
+    "masculine_singular": "זהיר",
+    "feminine_singular": "זהירה",
+    "masculine_plural": "זהירים",
+    "feminine_plural": "זהירות",
+    "translation": "осторожный",
+    "level": 13
+  },
+  {
+    "id": 245,
+    "masculine_singular": "יציב",
+    "feminine_singular": "יציבה",
+    "masculine_plural": "יציבים",
+    "feminine_plural": "יציבות",
+    "translation": "стабильный, устойчивый",
+    "level": 13
+  },
+  {
+    "id": 246,
+    "masculine_singular": "גמיש",
+    "feminine_singular": "גמישה",
+    "masculine_plural": "גמישים",
+    "feminine_plural": "גמישות",
+    "translation": "гибкий",
+    "level": 13
+  },
+  {
+    "id": 247,
+    "masculine_singular": "מוגבל",
+    "feminine_singular": "מוגבלת",
+    "masculine_plural": "מוגבלים",
+    "feminine_plural": "מוגבלות",
+    "translation": "ограниченный",
+    "level": 13
+  },
+  {
+    "id": 248,
+    "masculine_singular": "נגיש",
+    "feminine_singular": "נגישה",
+    "masculine_plural": "נגישים",
+    "feminine_plural": "נגישות",
+    "translation": "доступный",
+    "level": 13
+  },
+  {
+    "id": 249,
+    "masculine_singular": "תקין",
+    "feminine_singular": "תקינה",
+    "masculine_plural": "תקינים",
+    "feminine_plural": "תקינות",
+    "translation": "исправный, нормальный",
+    "level": 13
+  },
+  {
+    "id": 250,
+    "masculine_singular": "מקולקל",
+    "feminine_singular": "מקולקלת",
+    "masculine_plural": "מקולקלים",
+    "feminine_plural": "מקולקלות",
+    "translation": "сломанный, испорченный",
+    "level": 13
+  },
+  {
+    "id": 251,
+    "masculine_singular": "כפול",
+    "feminine_singular": "כפולה",
+    "masculine_plural": "כפולים",
+    "feminine_plural": "כפולות",
+    "translation": "двойной",
+    "level": 13
+  },
+  {
+    "id": 252,
+    "masculine_singular": "ממוצע",
+    "feminine_singular": "ממוצעת",
+    "masculine_plural": "ממוצעים",
+    "feminine_plural": "ממוצעות",
+    "translation": "средний",
+    "level": 13
+  },
+  {
+    "id": 253,
+    "masculine_singular": "מרבי",
+    "feminine_singular": "מרבית",
+    "masculine_plural": "מרביים",
+    "feminine_plural": "מרביות",
+    "translation": "максимальный",
+    "level": 13
+  },
+  {
+    "id": 254,
+    "masculine_singular": "מזערי",
+    "feminine_singular": "מזערית",
+    "masculine_plural": "מזעריים",
+    "feminine_plural": "מזעריות",
+    "translation": "минимальный, незначительный",
+    "level": 13
+  },
+  {
+    "id": 255,
+    "masculine_singular": "ענק",
+    "feminine_singular": "ענקית",
+    "masculine_plural": "ענקים",
+    "feminine_plural": "ענקיות",
+    "translation": "огромный, гигантский",
+    "level": 13
+  },
+  {
+    "id": 256,
+    "masculine_singular": "זעיר",
+    "feminine_singular": "זעירה",
+    "masculine_plural": "זעירים",
+    "feminine_plural": "זעירות",
+    "translation": "крошечный",
+    "level": 13
+  },
+  {
+    "id": 257,
+    "masculine_singular": "צפוף",
+    "feminine_singular": "צפופה",
+    "masculine_plural": "צפופים",
+    "feminine_plural": "צפופות",
+    "translation": "тесный, плотный, переполненный",
+    "level": 13
+  },
+  {
+    "id": 258,
+    "masculine_singular": "בולט",
+    "feminine_singular": "בולטת",
+    "masculine_plural": "בולטים",
+    "feminine_plural": "בולטות",
+    "translation": "заметный, выделяющийся",
+    "level": 13
+  },
+  {
+    "id": 259,
+    "masculine_singular": "עדין",
+    "feminine_singular": "עדינה",
+    "masculine_plural": "עדינים",
+    "feminine_plural": "עדינות",
+    "translation": "нежный, деликатный",
+    "level": 13
+  },
+  {
+    "id": 260,
+    "masculine_singular": "מוצק",
+    "feminine_singular": "מוצקה",
+    "masculine_plural": "מוצקים",
+    "feminine_plural": "מוצקות",
+    "translation": "твёрдый",
+    "level": 13
+  },
+  {
+    "id": 261,
+    "masculine_singular": "שביר",
+    "feminine_singular": "שבירה",
+    "masculine_plural": "שבירים",
+    "feminine_plural": "שבירות",
+    "translation": "хрупкий",
+    "level": 14
+  },
+  {
+    "id": 262,
+    "masculine_singular": "שקוף",
+    "feminine_singular": "שקופה",
+    "masculine_plural": "שקופים",
+    "feminine_plural": "שקופות",
+    "translation": "прозрачный",
+    "level": 14
+  },
+  {
+    "id": 263,
+    "masculine_singular": "אטום",
+    "feminine_singular": "אטומה",
+    "masculine_plural": "אטומים",
+    "feminine_plural": "אטומות",
+    "translation": "непрозрачный; герметичный",
+    "level": 14
+  },
+  {
+    "id": 264,
+    "masculine_singular": "מבריק",
+    "feminine_singular": "מבריקה",
+    "masculine_plural": "מבריקים",
+    "feminine_plural": "מבריקות",
+    "translation": "блестящий",
+    "level": 14
+  },
+  {
+    "id": 265,
+    "masculine_singular": "דביק",
+    "feminine_singular": "דביקה",
+    "masculine_plural": "דביקים",
+    "feminine_plural": "דביקות",
+    "translation": "липкий",
+    "level": 14
+  },
+  {
+    "id": 266,
+    "masculine_singular": "חלקלק",
+    "feminine_singular": "חלקלקה",
+    "masculine_plural": "חלקלקים",
+    "feminine_plural": "חלקלקות",
+    "translation": "скользкий",
+    "level": 14
+  },
+  {
+    "id": 267,
+    "masculine_singular": "מחוספס",
+    "feminine_singular": "מחוספסת",
+    "masculine_plural": "מחוספסים",
+    "feminine_plural": "מחוספסות",
+    "translation": "шероховатый",
+    "level": 14
+  },
+  {
+    "id": 268,
+    "masculine_singular": "חיוור",
+    "feminine_singular": "חיוורת",
+    "masculine_plural": "חיוורים",
+    "feminine_plural": "חיוורות",
+    "translation": "бледный",
+    "level": 14
+  },
+  {
+    "id": 269,
+    "masculine_singular": "זהוב",
+    "feminine_singular": "זהובה",
+    "masculine_plural": "זהובים",
+    "feminine_plural": "זהובות",
+    "translation": "золотистый",
+    "level": 14
+  },
+  {
+    "id": 270,
+    "masculine_singular": "כסוף",
+    "feminine_singular": "כסופה",
+    "masculine_plural": "כסופים",
+    "feminine_plural": "כסופות",
+    "translation": "серебристый",
+    "level": 14
+  },
+  {
+    "id": 271,
+    "masculine_singular": "פראי",
+    "feminine_singular": "פראית",
+    "masculine_plural": "פראיים",
+    "feminine_plural": "פראיות",
+    "translation": "дикий",
+    "level": 14
+  },
+  {
+    "id": 272,
+    "masculine_singular": "ישראלי",
+    "feminine_singular": "ישראלית",
+    "masculine_plural": "ישראלים",
+    "feminine_plural": "ישראליות",
+    "translation": "израильский; израильтянин",
+    "level": 14
+  },
+  {
+    "id": 273,
+    "masculine_singular": "יהודי",
+    "feminine_singular": "יהודייה",
+    "masculine_plural": "יהודים",
+    "feminine_plural": "יהודיות",
+    "translation": "еврейский; еврей",
+    "level": 14
+  },
+  {
+    "id": 274,
+    "masculine_singular": "ערבי",
+    "feminine_singular": "ערבייה",
+    "masculine_plural": "ערבים",
+    "feminine_plural": "ערביות",
+    "translation": "арабский; араб",
+    "level": 14
+  },
+  {
+    "id": 275,
+    "masculine_singular": "זר",
+    "feminine_singular": "זרה",
+    "masculine_plural": "זרים",
+    "feminine_plural": "זרות",
+    "translation": "иностранный, чужой",
+    "level": 14
+  },
+  {
+    "id": 276,
+    "masculine_singular": "לאומי",
+    "feminine_singular": "לאומית",
+    "masculine_plural": "לאומיים",
+    "feminine_plural": "לאומיות",
+    "translation": "национальный",
+    "level": 14
+  },
+  {
+    "id": 277,
+    "masculine_singular": "בינלאומי",
+    "feminine_singular": "בינלאומית",
+    "masculine_plural": "בינלאומיים",
+    "feminine_plural": "בינלאומיות",
+    "translation": "международный",
+    "level": 14
+  },
+  {
+    "id": 278,
+    "masculine_singular": "עולמי",
+    "feminine_singular": "עולמית",
+    "masculine_plural": "עולמיים",
+    "feminine_plural": "עולמיות",
+    "translation": "мировой, глобальный",
+    "level": 14
+  },
+  {
+    "id": 279,
+    "masculine_singular": "עירוני",
+    "feminine_singular": "עירונית",
+    "masculine_plural": "עירוניים",
+    "feminine_plural": "עירוניות",
+    "translation": "городской",
+    "level": 14
+  },
+  {
+    "id": 280,
+    "masculine_singular": "כפרי",
+    "feminine_singular": "כפרית",
+    "masculine_plural": "כפריים",
+    "feminine_plural": "כפריות",
+    "translation": "сельский",
+    "level": 14
+  },
+  {
+    "id": 281,
+    "masculine_singular": "ביתי",
+    "feminine_singular": "ביתית",
+    "masculine_plural": "ביתיים",
+    "feminine_plural": "ביתיות",
+    "translation": "домашний",
+    "level": 15
+  },
+  {
+    "id": 282,
+    "masculine_singular": "משפחתי",
+    "feminine_singular": "משפחתית",
+    "masculine_plural": "משפחתיים",
+    "feminine_plural": "משפחתיות",
+    "translation": "семейный",
+    "level": 15
+  },
+  {
+    "id": 283,
+    "masculine_singular": "תרבותי",
+    "feminine_singular": "תרבותית",
+    "masculine_plural": "תרבותיים",
+    "feminine_plural": "תרבותיות",
+    "translation": "культурный",
+    "level": 15
+  },
+  {
+    "id": 284,
+    "masculine_singular": "דתי",
+    "feminine_singular": "דתית",
+    "masculine_plural": "דתיים",
+    "feminine_plural": "דתיות",
+    "translation": "религиозный",
+    "level": 15
+  },
+  {
+    "id": 285,
+    "masculine_singular": "חילוני",
+    "feminine_singular": "חילונית",
+    "masculine_plural": "חילוניים",
+    "feminine_plural": "חילוניות",
+    "translation": "светский",
+    "level": 15
+  },
+  {
+    "id": 286,
+    "masculine_singular": "פוליטי",
+    "feminine_singular": "פוליטית",
+    "masculine_plural": "פוליטיים",
+    "feminine_plural": "פוליטיות",
+    "translation": "политический",
+    "level": 15
+  },
+  {
+    "id": 287,
+    "masculine_singular": "מדיני",
+    "feminine_singular": "מדינית",
+    "masculine_plural": "מדיניים",
+    "feminine_plural": "מדיניות",
+    "translation": "государственный, политический",
+    "level": 15
+  },
+  {
+    "id": 288,
+    "masculine_singular": "אזרחי",
+    "feminine_singular": "אזרחית",
+    "masculine_plural": "אזרחיים",
+    "feminine_plural": "אזרחיות",
+    "translation": "гражданский",
+    "level": 15
+  },
+  {
+    "id": 289,
+    "masculine_singular": "צבאי",
+    "feminine_singular": "צבאית",
+    "masculine_plural": "צבאיים",
+    "feminine_plural": "צבאיות",
+    "translation": "военный",
+    "level": 15
+  },
+  {
+    "id": 290,
+    "masculine_singular": "משפטי",
+    "feminine_singular": "משפטית",
+    "masculine_plural": "משפטיים",
+    "feminine_plural": "משפטיות",
+    "translation": "юридический, правовой",
+    "level": 15
+  },
+  {
+    "id": 291,
+    "masculine_singular": "רפואי",
+    "feminine_singular": "רפואית",
+    "masculine_plural": "רפואיים",
+    "feminine_plural": "רפואיות",
+    "translation": "медицинский",
+    "level": 15
+  },
+  {
+    "id": 292,
+    "masculine_singular": "מדעי",
+    "feminine_singular": "מדעית",
+    "masculine_plural": "מדעיים",
+    "feminine_plural": "מדעיות",
+    "translation": "научный",
+    "level": 15
+  },
+  {
+    "id": 293,
+    "masculine_singular": "אקדמי",
+    "feminine_singular": "אקדמית",
+    "masculine_plural": "אקדמיים",
+    "feminine_plural": "אקדמיות",
+    "translation": "академический",
+    "level": 15
+  },
+  {
+    "id": 294,
+    "masculine_singular": "חינוכי",
+    "feminine_singular": "חינוכית",
+    "masculine_plural": "חינוכיים",
+    "feminine_plural": "חינוכיות",
+    "translation": "образовательный, воспитательный",
+    "level": 15
+  },
+  {
+    "id": 295,
+    "masculine_singular": "לימודי",
+    "feminine_singular": "לימודית",
+    "masculine_plural": "לימודיים",
+    "feminine_plural": "לימודיות",
+    "translation": "учебный",
+    "level": 15
+  },
+  {
+    "id": 296,
+    "masculine_singular": "טכנולוגי",
+    "feminine_singular": "טכנולוגית",
+    "masculine_plural": "טכנולוגיים",
+    "feminine_plural": "טכנולוגיות",
+    "translation": "технологический",
+    "level": 15
+  },
+  {
+    "id": 297,
+    "masculine_singular": "אלקטרוני",
+    "feminine_singular": "אלקטרונית",
+    "masculine_plural": "אלקטרוניים",
+    "feminine_plural": "אלקטרוניות",
+    "translation": "электронный",
+    "level": 15
+  },
+  {
+    "id": 298,
+    "masculine_singular": "תעשייתי",
+    "feminine_singular": "תעשייתית",
+    "masculine_plural": "תעשייתיים",
+    "feminine_plural": "תעשייתיות",
+    "translation": "промышленный",
+    "level": 15
+  },
+  {
+    "id": 299,
+    "masculine_singular": "מקורי",
+    "feminine_singular": "מקורית",
+    "masculine_plural": "מקוריים",
+    "feminine_plural": "מקוריות",
+    "translation": "оригинальный",
+    "level": 15
+  },
+  {
+    "id": 300,
+    "masculine_singular": "מסורתי",
+    "feminine_singular": "מסורתית",
+    "masculine_plural": "מסורתיים",
+    "feminine_plural": "מסורתיות",
+    "translation": "традиционный",
+    "level": 15
+  },
+  {
+    "id": 301,
+    "masculine_singular": "חדשני",
+    "feminine_singular": "חדשנית",
+    "masculine_plural": "חדשניים",
+    "feminine_plural": "חדשניות",
+    "translation": "инновационный",
+    "level": 16
+  },
+  {
+    "id": 302,
+    "masculine_singular": "יומי",
+    "feminine_singular": "יומית",
+    "masculine_plural": "יומיים",
+    "feminine_plural": "יומיות",
+    "translation": "ежедневный",
+    "level": 16
+  },
+  {
+    "id": 303,
+    "masculine_singular": "שבועי",
+    "feminine_singular": "שבועית",
+    "masculine_plural": "שבועיים",
+    "feminine_plural": "שבועיות",
+    "translation": "еженедельный",
+    "level": 16
+  },
+  {
+    "id": 304,
+    "masculine_singular": "חודשי",
+    "feminine_singular": "חודשית",
+    "masculine_plural": "חודשיים",
+    "feminine_plural": "חודשיות",
+    "translation": "ежемесячный",
+    "level": 16
+  },
+  {
+    "id": 305,
+    "masculine_singular": "שנתי",
+    "feminine_singular": "שנתית",
+    "masculine_plural": "שנתיים",
+    "feminine_plural": "שנתיות",
+    "translation": "ежегодный, годовой",
+    "level": 16
+  },
+  {
+    "id": 306,
+    "masculine_singular": "איכותי",
+    "feminine_singular": "איכותית",
+    "masculine_plural": "איכותיים",
+    "feminine_plural": "איכותיות",
+    "translation": "качественный",
+    "level": 16
+  },
+  {
+    "id": 307,
+    "masculine_singular": "חוקי",
+    "feminine_singular": "חוקית",
+    "masculine_plural": "חוקיים",
+    "feminine_plural": "חוקיות",
+    "translation": "законный",
+    "level": 16
+  },
+  {
+    "id": 308,
+    "masculine_singular": "בלתי־חוקי",
+    "feminine_singular": "בלתי־חוקית",
+    "masculine_plural": "בלתי־חוקיים",
+    "feminine_plural": "בלתי־חוקיות",
+    "translation": "незаконный",
+    "level": 16
+  },
+  {
+    "id": 309,
+    "masculine_singular": "תקף",
+    "feminine_singular": "תקפה",
+    "masculine_plural": "תקפים",
+    "feminine_plural": "תקפות",
+    "translation": "действительный, имеющий силу",
+    "level": 16
+  },
+  {
+    "id": 310,
+    "masculine_singular": "מקובל",
+    "feminine_singular": "מקובלת",
+    "masculine_plural": "מקובלים",
+    "feminine_plural": "מקובלות",
+    "translation": "принятый, общепринятый",
+    "level": 16
+  },
+  {
+    "id": 311,
+    "masculine_singular": "טיפוסי",
+    "feminine_singular": "טיפוסית",
+    "masculine_plural": "טיפוסיים",
+    "feminine_plural": "טיפוסיות",
+    "translation": "типичный",
+    "level": 16
+  },
+  {
+    "id": 312,
+    "masculine_singular": "חריג",
+    "feminine_singular": "חריגה",
+    "masculine_plural": "חריגים",
+    "feminine_plural": "חריגות",
+    "translation": "исключительный, необычный",
+    "level": 16
+  },
+  {
+    "id": 313,
+    "masculine_singular": "יוצא־דופן",
+    "feminine_singular": "יוצאת־דופן",
+    "masculine_plural": "יוצאי־דופן",
+    "feminine_plural": "יוצאות־דופן",
+    "translation": "необычный, исключительный",
+    "level": 16
+  },
+  {
+    "id": 314,
+    "masculine_singular": "צפוי",
+    "feminine_singular": "צפויה",
+    "masculine_plural": "צפויים",
+    "feminine_plural": "צפויות",
+    "translation": "ожидаемый, предсказуемый",
+    "level": 16
+  },
+  {
+    "id": 315,
+    "masculine_singular": "בלתי־צפוי",
+    "feminine_singular": "בלתי־צפויה",
+    "masculine_plural": "בלתי־צפויים",
+    "feminine_plural": "בלתי־צפויות",
+    "translation": "неожиданный, непредсказуемый",
+    "level": 16
+  },
+  {
+    "id": 316,
+    "masculine_singular": "ודאי",
+    "feminine_singular": "ודאית",
+    "masculine_plural": "ודאיים",
+    "feminine_plural": "ודאיות",
+    "translation": "определённый, несомненный",
+    "level": 16
+  },
+  {
+    "id": 317,
+    "masculine_singular": "ממשי",
+    "feminine_singular": "ממשית",
+    "masculine_plural": "ממשיים",
+    "feminine_plural": "ממשיות",
+    "translation": "реальный, фактический",
+    "level": 16
+  },
+  {
+    "id": 318,
+    "masculine_singular": "חלופי",
+    "feminine_singular": "חלופית",
+    "masculine_plural": "חלופיים",
+    "feminine_plural": "חלופיות",
+    "translation": "альтернативный",
+    "level": 16
+  },
+  {
+    "id": 319,
+    "masculine_singular": "הדדי",
+    "feminine_singular": "הדדית",
+    "masculine_plural": "הדדיים",
+    "feminine_plural": "הדדיות",
+    "translation": "взаимный",
+    "level": 16
+  },
+  {
+    "id": 320,
+    "masculine_singular": "משותף",
+    "feminine_singular": "משותפת",
+    "masculine_plural": "משותפים",
+    "feminine_plural": "משותפות",
+    "translation": "общий, совместный",
+    "level": 16
+  },
+  {
+    "id": 321,
+    "masculine_singular": "נפרד",
+    "feminine_singular": "נפרדת",
+    "masculine_plural": "נפרדים",
+    "feminine_plural": "נפרדות",
+    "translation": "отдельный",
+    "level": 17
+  },
+  {
+    "id": 322,
+    "masculine_singular": "קשור",
+    "feminine_singular": "קשורה",
+    "masculine_plural": "קשורים",
+    "feminine_plural": "קשורות",
+    "translation": "связанный",
+    "level": 17
+  },
+  {
+    "id": 323,
+    "masculine_singular": "ישיר",
+    "feminine_singular": "ישירה",
+    "masculine_plural": "ישירים",
+    "feminine_plural": "ישירות",
+    "translation": "прямой, непосредственный",
+    "level": 17
+  },
+  {
+    "id": 324,
+    "masculine_singular": "עקיף",
+    "feminine_singular": "עקיפה",
+    "masculine_plural": "עקיפים",
+    "feminine_plural": "עקיפות",
+    "translation": "косвенный",
+    "level": 17
+  },
+  {
+    "id": 325,
+    "masculine_singular": "רציף",
+    "feminine_singular": "רציפה",
+    "masculine_plural": "רציפים",
+    "feminine_plural": "רציפות",
+    "translation": "непрерывный, последовательный",
+    "level": 17
+  },
+  {
+    "id": 326,
+    "masculine_singular": "מקרי",
+    "feminine_singular": "מקרית",
+    "masculine_plural": "מקריים",
+    "feminine_plural": "מקריות",
+    "translation": "случайный",
+    "level": 17
+  },
+  {
+    "id": 327,
+    "masculine_singular": "מכוון",
+    "feminine_singular": "מכוונת",
+    "masculine_plural": "מכוונים",
+    "feminine_plural": "מכוונות",
+    "translation": "намеренный, направленный",
+    "level": 17
+  },
+  {
+    "id": 328,
+    "masculine_singular": "גלוי",
+    "feminine_singular": "גלויה",
+    "masculine_plural": "גלויים",
+    "feminine_plural": "גלויות",
+    "translation": "явный, открытый",
+    "level": 17
+  },
+  {
+    "id": 329,
+    "masculine_singular": "סמוי",
+    "feminine_singular": "סמויה",
+    "masculine_plural": "סמויים",
+    "feminine_plural": "סמויות",
+    "translation": "скрытый",
+    "level": 17
+  },
+  {
+    "id": 330,
+    "masculine_singular": "נסתר",
+    "feminine_singular": "נסתרת",
+    "masculine_plural": "נסתרים",
+    "feminine_plural": "נסתרות",
+    "translation": "скрытый, тайный",
+    "level": 17
+  },
+  {
+    "id": 331,
+    "masculine_singular": "סודי",
+    "feminine_singular": "סודית",
+    "masculine_plural": "סודיים",
+    "feminine_plural": "סודיות",
+    "translation": "секретный",
+    "level": 17
+  },
+  {
+    "id": 332,
+    "masculine_singular": "מוגן",
+    "feminine_singular": "מוגנת",
+    "masculine_plural": "מוגנים",
+    "feminine_plural": "מוגנות",
+    "translation": "защищённый",
+    "level": 17
+  },
+  {
+    "id": 333,
+    "masculine_singular": "פגיע",
+    "feminine_singular": "פגיעה",
+    "masculine_plural": "פגיעים",
+    "feminine_plural": "פגיעות",
+    "translation": "уязвимый",
+    "level": 17
+  },
+  {
+    "id": 334,
+    "masculine_singular": "עמיד",
+    "feminine_singular": "עמידה",
+    "masculine_plural": "עמידים",
+    "feminine_plural": "עמידות",
+    "translation": "прочный, устойчивый",
+    "level": 17
+  },
+  {
+    "id": 335,
+    "masculine_singular": "רעיל",
+    "feminine_singular": "רעילה",
+    "masculine_plural": "רעילים",
+    "feminine_plural": "רעילות",
+    "translation": "ядовитый, токсичный",
+    "level": 17
+  },
+  {
+    "id": 336,
+    "masculine_singular": "מזיק",
+    "feminine_singular": "מזיקה",
+    "masculine_plural": "מזיקים",
+    "feminine_plural": "מזיקות",
+    "translation": "вредный",
+    "level": 17
+  },
+  {
+    "id": 337,
+    "masculine_singular": "מועיל",
+    "feminine_singular": "מועילה",
+    "masculine_plural": "מועילים",
+    "feminine_plural": "מועילות",
+    "translation": "полезный",
+    "level": 17
+  },
+  {
+    "id": 338,
+    "masculine_singular": "חסכוני",
+    "feminine_singular": "חסכונית",
+    "masculine_plural": "חסכוניים",
+    "feminine_plural": "חסכוניות",
+    "translation": "экономичный",
+    "level": 17
+  },
+  {
+    "id": 339,
+    "masculine_singular": "יוקרתי",
+    "feminine_singular": "יוקרתית",
+    "masculine_plural": "יוקרתיים",
+    "feminine_plural": "יוקרתיות",
+    "translation": "престижный, роскошный",
+    "level": 17
+  },
+  {
+    "id": 340,
+    "masculine_singular": "מפואר",
+    "feminine_singular": "מפוארת",
+    "masculine_plural": "מפוארים",
+    "feminine_plural": "מפוארות",
+    "translation": "роскошный, великолепный",
+    "level": 17
+  },
+  {
+    "id": 341,
+    "masculine_singular": "מפורט",
+    "feminine_singular": "מפורטת",
+    "masculine_plural": "מפורטים",
+    "feminine_plural": "מפורטות",
+    "translation": "подробный",
+    "level": 18
+  },
+  {
+    "id": 342,
+    "masculine_singular": "תמציתי",
+    "feminine_singular": "תמציתית",
+    "masculine_plural": "תמציתיים",
+    "feminine_plural": "תמציתיות",
+    "translation": "краткий, лаконичный",
+    "level": 18
+  },
+  {
+    "id": 343,
+    "masculine_singular": "רשום",
+    "feminine_singular": "רשומה",
+    "masculine_plural": "רשומים",
+    "feminine_plural": "רשומות",
+    "translation": "зарегистрированный, записанный",
+    "level": 18
+  },
+  {
+    "id": 344,
+    "masculine_singular": "כתוב",
+    "feminine_singular": "כתובה",
+    "masculine_plural": "כתובים",
+    "feminine_plural": "כתובות",
+    "translation": "написанный, письменный",
+    "level": 18
+  },
+  {
+    "id": 345,
+    "masculine_singular": "מקוון",
+    "feminine_singular": "מקוונת",
+    "masculine_plural": "מקוונים",
+    "feminine_plural": "מקוונות",
+    "translation": "сетевой, онлайн",
+    "level": 18
+  },
+  {
+    "id": 346,
+    "masculine_singular": "וירטואלי",
+    "feminine_singular": "וירטואלית",
+    "masculine_plural": "וירטואליים",
+    "feminine_plural": "וירטואליות",
+    "translation": "виртуальный",
+    "level": 18
+  },
+  {
+    "id": 347,
+    "masculine_singular": "נייד",
+    "feminine_singular": "ניידת",
+    "masculine_plural": "ניידים",
+    "feminine_plural": "ניידות",
+    "translation": "мобильный, переносной",
+    "level": 18
+  },
+  {
+    "id": 348,
+    "masculine_singular": "חזותי",
+    "feminine_singular": "חזותית",
+    "masculine_plural": "חזותיים",
+    "feminine_plural": "חזותיות",
+    "translation": "визуальный",
+    "level": 18
+  },
+  {
+    "id": 349,
+    "masculine_singular": "מילולי",
+    "feminine_singular": "מילולית",
+    "masculine_plural": "מילוליים",
+    "feminine_plural": "מילוליות",
+    "translation": "словесный, буквальный",
+    "level": 18
+  },
+  {
+    "id": 350,
+    "masculine_singular": "קולי",
+    "feminine_singular": "קולית",
+    "masculine_plural": "קוליים",
+    "feminine_plural": "קוליות",
+    "translation": "голосовой, звуковой",
+    "level": 18
+  },
+  {
+    "id": 351,
+    "masculine_singular": "דו־לשוני",
+    "feminine_singular": "דו־לשונית",
+    "masculine_plural": "דו־לשוניים",
+    "feminine_plural": "דו־לשוניות",
+    "translation": "двуязычный",
+    "level": 18
+  },
+  {
+    "id": 352,
+    "masculine_singular": "מוסרי",
+    "feminine_singular": "מוסרית",
+    "masculine_plural": "מוסריים",
+    "feminine_plural": "מוסריות",
+    "translation": "моральный, нравственный",
+    "level": 18
+  },
+  {
+    "id": 353,
+    "masculine_singular": "גופני",
+    "feminine_singular": "גופנית",
+    "masculine_plural": "גופניים",
+    "feminine_plural": "גופניות",
+    "translation": "телесный, физический",
+    "level": 18
+  },
+  {
+    "id": 354,
+    "masculine_singular": "אנושי",
+    "feminine_singular": "אנושית",
+    "masculine_plural": "אנושיים",
+    "feminine_plural": "אנושיות",
+    "translation": "человеческий, гуманный",
+    "level": 18
+  },
+  {
+    "id": 355,
+    "masculine_singular": "צמחוני",
+    "feminine_singular": "צמחונית",
+    "masculine_plural": "צמחונים",
+    "feminine_plural": "צמחוניות",
+    "translation": "вегетарианский; вегетарианец",
+    "level": 18
+  },
+  {
+    "id": 356,
+    "masculine_singular": "טבעוני",
+    "feminine_singular": "טבעונית",
+    "masculine_plural": "טבעונים",
+    "feminine_plural": "טבעוניות",
+    "translation": "веганский; веган",
+    "level": 18
+  },
+  {
+    "id": 357,
+    "masculine_singular": "אזורי",
+    "feminine_singular": "אזורית",
+    "masculine_plural": "אזוריים",
+    "feminine_plural": "אזוריות",
+    "translation": "региональный",
+    "level": 18
+  },
+  {
+    "id": 358,
+    "masculine_singular": "סביבתי",
+    "feminine_singular": "סביבתית",
+    "masculine_plural": "סביבתיים",
+    "feminine_plural": "סביבתיות",
+    "translation": "экологический, относящийся к окружающей среде",
+    "level": 18
+  },
+  {
+    "id": 359,
+    "masculine_singular": "גלובלי",
+    "feminine_singular": "גלובלית",
+    "masculine_plural": "גלובליים",
+    "feminine_plural": "גלובליות",
+    "translation": "глобальный",
+    "level": 18
+  },
+  {
+    "id": 360,
+    "masculine_singular": "קהילתי",
+    "feminine_singular": "קהילתית",
+    "masculine_plural": "קהילתיים",
+    "feminine_plural": "קהילתיות",
+    "translation": "общинный, общественный",
+    "level": 18
+  },
+  {
+    "id": 361,
+    "masculine_singular": "ארגוני",
+    "feminine_singular": "ארגונית",
+    "masculine_plural": "ארגוניים",
+    "feminine_plural": "ארגוניות",
+    "translation": "организационный",
+    "level": 19
+  },
+  {
+    "id": 362,
+    "masculine_singular": "ממשלתי",
+    "feminine_singular": "ממשלתית",
+    "masculine_plural": "ממשלתיים",
+    "feminine_plural": "ממשלתיות",
+    "translation": "правительственный",
+    "level": 19
+  },
+  {
+    "id": 363,
+    "masculine_singular": "מוסדי",
+    "feminine_singular": "מוסדית",
+    "masculine_plural": "מוסדיים",
+    "feminine_plural": "מוסדיות",
+    "translation": "институциональный",
+    "level": 19
+  },
+  {
+    "id": 364,
+    "masculine_singular": "מנהלי",
+    "feminine_singular": "מנהלית",
+    "masculine_plural": "מנהליים",
+    "feminine_plural": "מנהליות",
+    "translation": "административный",
+    "level": 19
+  },
+  {
+    "id": 365,
+    "masculine_singular": "ניהולי",
+    "feminine_singular": "ניהולית",
+    "masculine_plural": "ניהוליים",
+    "feminine_plural": "ניהוליות",
+    "translation": "управленческий",
+    "level": 19
+  },
+  {
+    "id": 366,
+    "masculine_singular": "תפעולי",
+    "feminine_singular": "תפעולית",
+    "masculine_plural": "תפעוליים",
+    "feminine_plural": "תפעוליות",
+    "translation": "операционный, эксплуатационный",
+    "level": 19
+  },
+  {
+    "id": 367,
+    "masculine_singular": "אסטרטגי",
+    "feminine_singular": "אסטרטגית",
+    "masculine_plural": "אסטרטגיים",
+    "feminine_plural": "אסטרטגיות",
+    "translation": "стратегический",
+    "level": 19
+  },
+  {
+    "id": 368,
+    "masculine_singular": "תחרותי",
+    "feminine_singular": "תחרותית",
+    "masculine_plural": "תחרותיים",
+    "feminine_plural": "תחרותיות",
+    "translation": "конкурентный",
+    "level": 19
+  },
+  {
+    "id": 369,
+    "masculine_singular": "רווחי",
+    "feminine_singular": "רווחית",
+    "masculine_plural": "רווחיים",
+    "feminine_plural": "רווחיות",
+    "translation": "прибыльный",
+    "level": 19
+  },
+  {
+    "id": 370,
+    "masculine_singular": "דינמי",
+    "feminine_singular": "דינמית",
+    "masculine_plural": "דינמיים",
+    "feminine_plural": "דינמיות",
+    "translation": "динамичный",
+    "level": 19
+  },
+  {
+    "id": 371,
+    "masculine_singular": "תנודתי",
+    "feminine_singular": "תנודתית",
+    "masculine_plural": "תנודתיים",
+    "feminine_plural": "תנודתיות",
+    "translation": "колеблющийся, нестабильный",
+    "level": 19
+  },
+  {
+    "id": 372,
+    "masculine_singular": "פרקטי",
+    "feminine_singular": "פרקטית",
+    "masculine_plural": "פרקטיים",
+    "feminine_plural": "פרקטיות",
+    "translation": "практичный",
+    "level": 19
+  },
+  {
+    "id": 373,
+    "masculine_singular": "תאורטי",
+    "feminine_singular": "תאורטית",
+    "masculine_plural": "תאורטיים",
+    "feminine_plural": "תאורטיות",
+    "translation": "теоретический",
+    "level": 19
+  },
+  {
+    "id": 374,
+    "masculine_singular": "עיוני",
+    "feminine_singular": "עיונית",
+    "masculine_plural": "עיוניים",
+    "feminine_plural": "עיוניות",
+    "translation": "теоретический, академический",
+    "level": 19
+  },
+  {
+    "id": 375,
+    "masculine_singular": "ניסיוני",
+    "feminine_singular": "ניסיונית",
+    "masculine_plural": "ניסיוניים",
+    "feminine_plural": "ניסיוניות",
+    "translation": "экспериментальный",
+    "level": 19
+  },
+  {
+    "id": 376,
+    "masculine_singular": "מחקרי",
+    "feminine_singular": "מחקרית",
+    "masculine_plural": "מחקריים",
+    "feminine_plural": "מחקריות",
+    "translation": "исследовательский",
+    "level": 19
+  },
+  {
+    "id": 377,
+    "masculine_singular": "כמותי",
+    "feminine_singular": "כמותית",
+    "masculine_plural": "כמותיים",
+    "feminine_plural": "כמותיות",
+    "translation": "количественный",
+    "level": 19
+  },
+  {
+    "id": 378,
+    "masculine_singular": "איכותני",
+    "feminine_singular": "איכותנית",
+    "masculine_plural": "איכותניים",
+    "feminine_plural": "איכותניות",
+    "translation": "качественный (о методе исследования)",
+    "level": 19
+  },
+  {
+    "id": 379,
+    "masculine_singular": "אובייקטיבי",
+    "feminine_singular": "אובייקטיבית",
+    "masculine_plural": "אובייקטיביים",
+    "feminine_plural": "אובייקטיביות",
+    "translation": "объективный",
+    "level": 19
+  },
+  {
+    "id": 380,
+    "masculine_singular": "סובייקטיבי",
+    "feminine_singular": "סובייקטיבית",
+    "masculine_plural": "סובייקטיביים",
+    "feminine_plural": "סובייקטיביות",
+    "translation": "субъективный",
+    "level": 19
+  },
+  {
+    "id": 381,
+    "masculine_singular": "ביקורתי",
+    "feminine_singular": "ביקורתית",
+    "masculine_plural": "ביקורתיים",
+    "feminine_plural": "ביקורתיות",
+    "translation": "критический",
+    "level": 20
+  },
+  {
+    "id": 382,
+    "masculine_singular": "אנליטי",
+    "feminine_singular": "אנליטית",
+    "masculine_plural": "אנליטיים",
+    "feminine_plural": "אנליטיות",
+    "translation": "аналитический",
+    "level": 20
+  },
+  {
+    "id": 383,
+    "masculine_singular": "רציונלי",
+    "feminine_singular": "רציונלית",
+    "masculine_plural": "רציונליים",
+    "feminine_plural": "רציונליות",
+    "translation": "рациональный",
+    "level": 20
+  },
+  {
+    "id": 384,
+    "masculine_singular": "אינטואיטיבי",
+    "feminine_singular": "אינטואיטיבית",
+    "masculine_plural": "אינטואיטיביים",
+    "feminine_plural": "אינטואיטיביות",
+    "translation": "интуитивный",
+    "level": 20
+  },
+  {
+    "id": 385,
+    "masculine_singular": "מופשט",
+    "feminine_singular": "מופשטת",
+    "masculine_plural": "מופשטים",
+    "feminine_plural": "מופשטות",
+    "translation": "абстрактный",
+    "level": 20
+  },
+  {
+    "id": 386,
+    "masculine_singular": "מוחשי",
+    "feminine_singular": "מוחשית",
+    "masculine_plural": "מוחשיים",
+    "feminine_plural": "מוחשיות",
+    "translation": "осязаемый, конкретный",
+    "level": 20
+  },
+  {
+    "id": 387,
+    "masculine_singular": "סמלי",
+    "feminine_singular": "סמלית",
+    "masculine_plural": "סמליים",
+    "feminine_plural": "סמליות",
+    "translation": "символический",
+    "level": 20
+  },
+  {
+    "id": 388,
+    "masculine_singular": "לשוני",
+    "feminine_singular": "לשונית",
+    "masculine_plural": "לשוניים",
+    "feminine_plural": "לשוניות",
+    "translation": "языковой, лингвистический",
+    "level": 20
+  },
+  {
+    "id": 389,
+    "masculine_singular": "דקדוקי",
+    "feminine_singular": "דקדוקית",
+    "masculine_plural": "דקדוקיים",
+    "feminine_plural": "דקדוקיות",
+    "translation": "грамматический",
+    "level": 20
+  },
+  {
+    "id": 390,
+    "masculine_singular": "ספרותי",
+    "feminine_singular": "ספרותית",
+    "masculine_plural": "ספרותיים",
+    "feminine_plural": "ספרותיות",
+    "translation": "литературный",
+    "level": 20
+  },
+  {
+    "id": 391,
+    "masculine_singular": "אמפירי",
+    "feminine_singular": "אמפירית",
+    "masculine_plural": "אמפיריים",
+    "feminine_plural": "אמפיריות",
+    "translation": "эмпирический",
+    "level": 20
+  },
+  {
+    "id": 392,
+    "masculine_singular": "מודע",
+    "feminine_singular": "מודעת",
+    "masculine_plural": "מודעים",
+    "feminine_plural": "מודעות",
+    "translation": "осознающий, сознательный",
+    "level": 20
+  },
+  {
+    "id": 393,
+    "masculine_singular": "בוגר",
+    "feminine_singular": "בוגרת",
+    "masculine_plural": "בוגרים",
+    "feminine_plural": "בוגרות",
+    "translation": "зрелый, взрослый",
+    "level": 20
+  },
+  {
+    "id": 394,
+    "masculine_singular": "ילדותי",
+    "feminine_singular": "ילדותית",
+    "masculine_plural": "ילדותיים",
+    "feminine_plural": "ילדותיות",
+    "translation": "детский, ребяческий",
+    "level": 20
+  },
+  {
+    "id": 395,
+    "masculine_singular": "עקבי",
+    "feminine_singular": "עקבית",
+    "masculine_plural": "עקביים",
+    "feminine_plural": "עקביות",
+    "translation": "последовательный",
+    "level": 20
+  },
+  {
+    "id": 396,
+    "masculine_singular": "יסודי",
+    "feminine_singular": "יסודית",
+    "masculine_plural": "יסודיים",
+    "feminine_plural": "יסודיות",
+    "translation": "основательный, тщательный",
+    "level": 20
+  },
+  {
+    "id": 397,
+    "masculine_singular": "קפדני",
+    "feminine_singular": "קפדנית",
+    "masculine_plural": "קפדניים",
+    "feminine_plural": "קפדניות",
+    "translation": "строгий, педантичный",
+    "level": 20
+  },
+  {
+    "id": 398,
+    "masculine_singular": "מיומן",
+    "feminine_singular": "מיומנת",
+    "masculine_plural": "מיומנים",
+    "feminine_plural": "מיומנות",
+    "translation": "умелый, квалифицированный",
+    "level": 20
+  },
+  {
+    "id": 399,
+    "masculine_singular": "מנוסה",
+    "feminine_singular": "מנוסה",
+    "masculine_plural": "מנוסים",
+    "feminine_plural": "מנוסות",
+    "translation": "опытный",
+    "level": 20
+  },
+  {
+    "id": 400,
+    "masculine_singular": "מוכשר",
+    "feminine_singular": "מוכשרת",
+    "masculine_plural": "מוכשרים",
+    "feminine_plural": "מוכשרות",
+    "translation": "талантливый, способный",
+    "level": 20
+  },
+  {
+    "id": 401,
+    "masculine_singular": "בכיר",
+    "feminine_singular": "בכירה",
+    "masculine_plural": "בכירים",
+    "feminine_plural": "בכירות",
+    "translation": "старший, высокопоставленный",
+    "level": 21
+  },
+  {
+    "id": 402,
+    "masculine_singular": "ותיק",
+    "feminine_singular": "ותיקה",
+    "masculine_plural": "ותיקים",
+    "feminine_plural": "ותיקות",
+    "translation": "опытный, давний",
+    "level": 21
+  },
+  {
+    "id": 403,
+    "masculine_singular": "זוטר",
+    "feminine_singular": "זוטרה",
+    "masculine_plural": "זוטרים",
+    "feminine_plural": "זוטרות",
+    "translation": "младший по должности",
+    "level": 21
+  },
+  {
+    "id": 404,
+    "masculine_singular": "מוסמך",
+    "feminine_singular": "מוסמכת",
+    "masculine_plural": "מוסמכים",
+    "feminine_plural": "מוסמכות",
+    "translation": "квалифицированный, сертифицированный",
+    "level": 21
+  },
+  {
+    "id": 405,
+    "masculine_singular": "מורשה",
+    "feminine_singular": "מורשית",
+    "masculine_plural": "מורשים",
+    "feminine_plural": "מורשות",
+    "translation": "уполномоченный, авторизованный",
+    "level": 21
+  },
+  {
+    "id": 406,
+    "masculine_singular": "מומחה",
+    "feminine_singular": "מומחית",
+    "masculine_plural": "מומחים",
+    "feminine_plural": "מומחיות",
+    "translation": "экспертный; специалист",
+    "level": 21
+  },
+  {
+    "id": 407,
+    "masculine_singular": "בקיא",
+    "feminine_singular": "בקיאה",
+    "masculine_plural": "בקיאים",
+    "feminine_plural": "בקיאות",
+    "translation": "сведущий, хорошо разбирающийся",
+    "level": 21
+  },
+  {
+    "id": 408,
+    "masculine_singular": "מוכח",
+    "feminine_singular": "מוכחת",
+    "masculine_plural": "מוכחים",
+    "feminine_plural": "מוכחות",
+    "translation": "доказанный",
+    "level": 21
+  },
+  {
+    "id": 409,
+    "masculine_singular": "מבוסס",
+    "feminine_singular": "מבוססת",
+    "masculine_plural": "מבוססים",
+    "feminine_plural": "מבוססות",
+    "translation": "обоснованный; обеспеченный",
+    "level": 21
+  },
+  {
+    "id": 410,
+    "masculine_singular": "מחויב",
+    "feminine_singular": "מחויבת",
+    "masculine_plural": "מחויבים",
+    "feminine_plural": "מחויבות",
+    "translation": "приверженный, обязанный",
+    "level": 21
+  },
+  {
+    "id": 411,
+    "masculine_singular": "קשוב",
+    "feminine_singular": "קשובה",
+    "masculine_plural": "קשובים",
+    "feminine_plural": "קשובות",
+    "translation": "внимательный, восприимчивый",
+    "level": 21
+  },
+  {
+    "id": 412,
+    "masculine_singular": "אכפתי",
+    "feminine_singular": "אכפתית",
+    "masculine_plural": "אכפתיים",
+    "feminine_plural": "אכפתיות",
+    "translation": "заботливый, неравнодушный",
+    "level": 21
+  },
+  {
+    "id": 413,
+    "masculine_singular": "אמפתי",
+    "feminine_singular": "אמפתית",
+    "masculine_plural": "אמפתיים",
+    "feminine_plural": "אמפתיות",
+    "translation": "эмпатичный",
+    "level": 21
+  },
+  {
+    "id": 414,
+    "masculine_singular": "סובלני",
+    "feminine_singular": "סובלנית",
+    "masculine_plural": "סובלניים",
+    "feminine_plural": "סובלניות",
+    "translation": "терпимый, толерантный",
+    "level": 21
+  },
+  {
+    "id": 415,
+    "masculine_singular": "אנוכי",
+    "feminine_singular": "אנוכית",
+    "masculine_plural": "אנוכיים",
+    "feminine_plural": "אנוכיות",
+    "translation": "эгоистичный",
+    "level": 21
+  },
+  {
+    "id": 416,
+    "masculine_singular": "תוקפני",
+    "feminine_singular": "תוקפנית",
+    "masculine_plural": "תוקפניים",
+    "feminine_plural": "תוקפניות",
+    "translation": "агрессивный",
+    "level": 21
+  },
+  {
+    "id": 417,
+    "masculine_singular": "אלים",
+    "feminine_singular": "אלימה",
+    "masculine_plural": "אלימים",
+    "feminine_plural": "אלימות",
+    "translation": "насильственный, жестокий",
+    "level": 21
+  },
+  {
+    "id": 418,
+    "masculine_singular": "עוין",
+    "feminine_singular": "עוינת",
+    "masculine_plural": "עוינים",
+    "feminine_plural": "עוינות",
+    "translation": "враждебный",
+    "level": 21
+  },
+  {
+    "id": 419,
+    "masculine_singular": "חשדן",
+    "feminine_singular": "חשדנית",
+    "masculine_plural": "חשדנים",
+    "feminine_plural": "חשדניות",
+    "translation": "подозрительный, недоверчивый",
+    "level": 21
+  },
+  {
+    "id": 420,
+    "masculine_singular": "נאיבי",
+    "feminine_singular": "נאיבית",
+    "masculine_plural": "נאיביים",
+    "feminine_plural": "נאיביות",
+    "translation": "наивный",
+    "level": 21
+  },
+  {
+    "id": 421,
+    "masculine_singular": "בוטה",
+    "feminine_singular": "בוטה",
+    "masculine_plural": "בוטים",
+    "feminine_plural": "בוטות",
+    "translation": "резкий, грубый",
+    "level": 22
+  },
+  {
+    "id": 422,
+    "masculine_singular": "גס",
+    "feminine_singular": "גסה",
+    "masculine_plural": "גסים",
+    "feminine_plural": "גסות",
+    "translation": "грубый",
+    "level": 22
+  },
+  {
+    "id": 423,
+    "masculine_singular": "בררני",
+    "feminine_singular": "בררנית",
+    "masculine_plural": "בררנים",
+    "feminine_plural": "בררניות",
+    "translation": "разборчивый, привередливый",
+    "level": 22
+  },
+  {
+    "id": 424,
+    "masculine_singular": "מופנם",
+    "feminine_singular": "מופנמת",
+    "masculine_plural": "מופנמים",
+    "feminine_plural": "מופנמות",
+    "translation": "замкнутый, интровертный",
+    "level": 22
+  },
+  {
+    "id": 425,
+    "masculine_singular": "מוחצן",
+    "feminine_singular": "מוחצנת",
+    "masculine_plural": "מוחצנים",
+    "feminine_plural": "מוחצנות",
+    "translation": "экстравертный, демонстративный",
+    "level": 22
+  },
+  {
+    "id": 426,
+    "masculine_singular": "נוקשה",
+    "feminine_singular": "נוקשה",
+    "masculine_plural": "נוקשים",
+    "feminine_plural": "נוקשות",
+    "translation": "жёсткий, строгий",
+    "level": 22
+  },
+  {
+    "id": 427,
+    "masculine_singular": "ראוותני",
+    "feminine_singular": "ראוותנית",
+    "masculine_plural": "ראוותניים",
+    "feminine_plural": "ראוותניות",
+    "translation": "показной, демонстративный",
+    "level": 22
+  },
+  {
+    "id": 428,
+    "masculine_singular": "ראוי",
+    "feminine_singular": "ראויה",
+    "masculine_plural": "ראויים",
+    "feminine_plural": "ראויות",
+    "translation": "достойный, надлежащий",
+    "level": 22
+  },
+  {
+    "id": 429,
+    "masculine_singular": "מכריע",
+    "feminine_singular": "מכריעה",
+    "masculine_plural": "מכריעים",
+    "feminine_plural": "מכריעות",
+    "translation": "решающий",
+    "level": 22
+  },
+  {
+    "id": 430,
+    "masculine_singular": "מאתגר",
+    "feminine_singular": "מאתגרת",
+    "masculine_plural": "מאתגרים",
+    "feminine_plural": "מאתגרות",
+    "translation": "сложный, бросающий вызов",
+    "level": 22
+  },
+  {
+    "id": 431,
+    "masculine_singular": "מרשים",
+    "feminine_singular": "מרשימה",
+    "masculine_plural": "מרשימים",
+    "feminine_plural": "מרשימות",
+    "translation": "впечатляющий",
+    "level": 22
+  },
+  {
+    "id": 432,
+    "masculine_singular": "מושך",
+    "feminine_singular": "מושכת",
+    "masculine_plural": "מושכים",
+    "feminine_plural": "מושכות",
+    "translation": "привлекательный",
+    "level": 22
+  },
+  {
+    "id": 433,
+    "masculine_singular": "דוחה",
+    "feminine_singular": "דוחה",
+    "masculine_plural": "דוחים",
+    "feminine_plural": "דוחות",
+    "translation": "отталкивающий",
+    "level": 22
+  },
+  {
+    "id": 434,
+    "masculine_singular": "קיצוני",
+    "feminine_singular": "קיצונית",
+    "masculine_plural": "קיצוניים",
+    "feminine_plural": "קיצוניות",
+    "translation": "крайний, экстремальный",
+    "level": 22
+  },
+  {
+    "id": 435,
+    "masculine_singular": "מתון",
+    "feminine_singular": "מתונה",
+    "masculine_plural": "מתונים",
+    "feminine_plural": "מתונות",
+    "translation": "умеренный",
+    "level": 22
+  },
+  {
+    "id": 436,
+    "masculine_singular": "שמרני",
+    "feminine_singular": "שמרנית",
+    "masculine_plural": "שמרנים",
+    "feminine_plural": "שמרניות",
+    "translation": "консервативный",
+    "level": 22
+  },
+  {
+    "id": 437,
+    "masculine_singular": "ליברלי",
+    "feminine_singular": "ליברלית",
+    "masculine_plural": "ליברליים",
+    "feminine_plural": "ליברליות",
+    "translation": "либеральный",
+    "level": 22
+  },
+  {
+    "id": 438,
+    "masculine_singular": "דמוקרטי",
+    "feminine_singular": "דמוקרטית",
+    "masculine_plural": "דמוקרטיים",
+    "feminine_plural": "דמוקרטיות",
+    "translation": "демократический",
+    "level": 22
+  },
+  {
+    "id": 439,
+    "masculine_singular": "שוויוני",
+    "feminine_singular": "שוויונית",
+    "masculine_plural": "שוויוניים",
+    "feminine_plural": "שוויוניות",
+    "translation": "равноправный, эгалитарный",
+    "level": 22
+  },
+  {
+    "id": 440,
+    "masculine_singular": "גזעני",
+    "feminine_singular": "גזענית",
+    "masculine_plural": "גזעניים",
+    "feminine_plural": "גזעניות",
+    "translation": "расистский",
+    "level": 22
+  },
+  {
+    "id": 441,
+    "masculine_singular": "חוקתי",
+    "feminine_singular": "חוקתית",
+    "masculine_plural": "חוקתיים",
+    "feminine_plural": "חוקתיות",
+    "translation": "конституционный",
+    "level": 23
+  },
+  {
+    "id": 442,
+    "masculine_singular": "פלילי",
+    "feminine_singular": "פלילית",
+    "masculine_plural": "פליליים",
+    "feminine_plural": "פליליות",
+    "translation": "уголовный",
+    "level": 23
+  },
+  {
+    "id": 443,
+    "masculine_singular": "ביטחוני",
+    "feminine_singular": "ביטחונית",
+    "masculine_plural": "ביטחוניים",
+    "feminine_plural": "ביטחוניות",
+    "translation": "относящийся к безопасности, оборонный",
+    "level": 23
+  },
+  {
+    "id": 444,
+    "masculine_singular": "בטיחותי",
+    "feminine_singular": "בטיחותית",
+    "masculine_plural": "בטיחותיים",
+    "feminine_plural": "בטיחותיות",
+    "translation": "относящийся к безопасности",
+    "level": 23
+  },
+  {
+    "id": 445,
+    "masculine_singular": "הגנתי",
+    "feminine_singular": "הגנתית",
+    "masculine_plural": "הגנתיים",
+    "feminine_plural": "הגנתיות",
+    "translation": "защитный",
+    "level": 23
+  },
+  {
+    "id": 446,
+    "masculine_singular": "התקפי",
+    "feminine_singular": "התקפית",
+    "masculine_plural": "התקפיים",
+    "feminine_plural": "התקפיות",
+    "translation": "наступательный, атакующий",
+    "level": 23
+  },
+  {
+    "id": 447,
+    "masculine_singular": "חשאי",
+    "feminine_singular": "חשאית",
+    "masculine_plural": "חשאיים",
+    "feminine_plural": "חשאיות",
+    "translation": "тайный, секретный",
+    "level": 23
+  },
+  {
+    "id": 448,
+    "masculine_singular": "פומבי",
+    "feminine_singular": "פומבית",
+    "masculine_plural": "פומביים",
+    "feminine_plural": "פומביות",
+    "translation": "публичный, открытый",
+    "level": 23
+  },
+  {
+    "id": 449,
+    "masculine_singular": "פורמלי",
+    "feminine_singular": "פורמלית",
+    "masculine_plural": "פורמליים",
+    "feminine_plural": "פורמליות",
+    "translation": "формальный",
+    "level": 23
+  },
+  {
+    "id": 450,
+    "masculine_singular": "מוניציפלי",
+    "feminine_singular": "מוניציפלית",
+    "masculine_plural": "מוניציפליים",
+    "feminine_plural": "מוניציפליות",
+    "translation": "муниципальный",
+    "level": 23
+  },
+  {
+    "id": 451,
+    "masculine_singular": "אפקטיבי",
+    "feminine_singular": "אפקטיבית",
+    "masculine_plural": "אפקטיביים",
+    "feminine_plural": "אפקטיביות",
+    "translation": "эффективный",
+    "level": 23
+  },
+  {
+    "id": 452,
+    "masculine_singular": "מינימלי",
+    "feminine_singular": "מינימלית",
+    "masculine_plural": "מינימליים",
+    "feminine_plural": "מינימליות",
+    "translation": "минимальный",
+    "level": 23
+  },
+  {
+    "id": 453,
+    "masculine_singular": "רב־שלבי",
+    "feminine_singular": "רב־שלבית",
+    "masculine_plural": "רב־שלביים",
+    "feminine_plural": "רב־שלביות",
+    "translation": "многоэтапный",
+    "level": 23
+  },
+  {
+    "id": 454,
+    "masculine_singular": "עוצמתי",
+    "feminine_singular": "עוצמתית",
+    "masculine_plural": "עוצמתיים",
+    "feminine_plural": "עוצמתיות",
+    "translation": "мощный",
+    "level": 23
+  },
+  {
+    "id": 455,
+    "masculine_singular": "ייחודי",
+    "feminine_singular": "ייחודית",
+    "masculine_plural": "ייחודיים",
+    "feminine_plural": "ייחודיות",
+    "translation": "уникальный",
+    "level": 23
+  },
+  {
+    "id": 456,
+    "masculine_singular": "פורץ־דרך",
+    "feminine_singular": "פורצת־דרך",
+    "masculine_plural": "פורצי־דרך",
+    "feminine_plural": "פורצות־דרך",
+    "translation": "новаторский, революционный",
+    "level": 23
+  },
+  {
+    "id": 457,
+    "masculine_singular": "מיושן",
+    "feminine_singular": "מיושנת",
+    "masculine_plural": "מיושנים",
+    "feminine_plural": "מיושנות",
+    "translation": "устаревший",
+    "level": 23
+  },
+  {
+    "id": 458,
+    "masculine_singular": "מתמשך",
+    "feminine_singular": "מתמשכת",
+    "masculine_plural": "מתמשכים",
+    "feminine_plural": "מתמשכות",
+    "translation": "продолжающийся, длительный",
+    "level": 23
+  },
+  {
+    "id": 459,
+    "masculine_singular": "מאוחד",
+    "feminine_singular": "מאוחדת",
+    "masculine_plural": "מאוחדים",
+    "feminine_plural": "מאוחדות",
+    "translation": "объединённый",
+    "level": 23
+  },
+  {
+    "id": 460,
+    "masculine_singular": "בלתי־אפשרי",
+    "feminine_singular": "בלתי־אפשרית",
+    "masculine_plural": "בלתי־אפשריים",
+    "feminine_plural": "בלתי־אפשריות",
+    "translation": "невозможный",
+    "level": 23
+  },
+  {
+    "id": 461,
+    "masculine_singular": "בלתי־מוגבל",
+    "feminine_singular": "בלתי־מוגבלת",
+    "masculine_plural": "בלתי־מוגבלים",
+    "feminine_plural": "בלתי־מוגבלות",
+    "translation": "неограниченный",
+    "level": 24
+  },
+  {
+    "id": 462,
+    "masculine_singular": "בלתי־מודע",
+    "feminine_singular": "בלתי־מודעת",
+    "masculine_plural": "בלתי־מודעים",
+    "feminine_plural": "בלתי־מודעות",
+    "translation": "бессознательный, неосознанный",
+    "level": 24
+  },
+  {
+    "id": 463,
+    "masculine_singular": "בלתי־רשמי",
+    "feminine_singular": "בלתי־רשמית",
+    "masculine_plural": "בלתי־רשמיים",
+    "feminine_plural": "בלתי־רשמיות",
+    "translation": "неофициальный",
+    "level": 24
+  },
+  {
+    "id": 464,
+    "masculine_singular": "נוזלי",
+    "feminine_singular": "נוזלית",
+    "masculine_plural": "נוזליים",
+    "feminine_plural": "נוזליות",
+    "translation": "жидкий",
+    "level": 24
+  },
+  {
+    "id": 465,
+    "masculine_singular": "עמום",
+    "feminine_singular": "עמומה",
+    "masculine_plural": "עמומים",
+    "feminine_plural": "עמומות",
+    "translation": "тусклый, неясный",
+    "level": 24
+  },
+  {
+    "id": 466,
+    "masculine_singular": "זוהר",
+    "feminine_singular": "זוהרת",
+    "masculine_plural": "זוהרים",
+    "feminine_plural": "זוהרות",
+    "translation": "сияющий, яркий",
+    "level": 24
+  },
+  {
+    "id": 467,
+    "masculine_singular": "מבוית",
+    "feminine_singular": "מבויתת",
+    "masculine_plural": "מבויתים",
+    "feminine_plural": "מבויתות",
+    "translation": "одомашненный",
+    "level": 24
+  },
+  {
+    "id": 468,
+    "masculine_singular": "מנומנם",
+    "feminine_singular": "מנומנמת",
+    "masculine_plural": "מנומנמים",
+    "feminine_plural": "מנומנמות",
+    "translation": "сонный, дремлющий",
+    "level": 24
+  },
+  {
+    "id": 469,
+    "masculine_singular": "מבויש",
+    "feminine_singular": "מבוישת",
+    "masculine_plural": "מבוישים",
+    "feminine_plural": "מבוישות",
+    "translation": "смущённый, пристыженный",
+    "level": 24
+  },
+  {
+    "id": 470,
+    "masculine_singular": "חשוד",
+    "feminine_singular": "חשודה",
+    "masculine_plural": "חשודים",
+    "feminine_plural": "חשודות",
+    "translation": "подозрительный; подозреваемый",
+    "level": 24
+  },
+  {
+    "id": 471,
+    "masculine_singular": "אשם",
+    "feminine_singular": "אשמה",
+    "masculine_plural": "אשמים",
+    "feminine_plural": "אשמות",
+    "translation": "виновный",
+    "level": 24
+  },
+  {
+    "id": 472,
+    "masculine_singular": "חף",
+    "feminine_singular": "חפה",
+    "masculine_plural": "חפים",
+    "feminine_plural": "חפות",
+    "translation": "невиновный, непричастный",
+    "level": 24
+  },
+  {
+    "id": 473,
+    "masculine_singular": "שקרי",
+    "feminine_singular": "שקרית",
+    "masculine_plural": "שקריים",
+    "feminine_plural": "שקריות",
+    "translation": "ложный",
+    "level": 24
+  },
+  {
+    "id": 474,
+    "masculine_singular": "כוזב",
+    "feminine_singular": "כוזבת",
+    "masculine_plural": "כוזבים",
+    "feminine_plural": "כוזבות",
+    "translation": "ложный, недостоверный",
+    "level": 24
+  },
+  {
+    "id": 475,
+    "masculine_singular": "מהימן",
+    "feminine_singular": "מהימנה",
+    "masculine_plural": "מהימנים",
+    "feminine_plural": "מהימנות",
+    "translation": "надёжный, достоверный",
+    "level": 24
+  },
+  {
+    "id": 476,
+    "masculine_singular": "יצרני",
+    "feminine_singular": "יצרנית",
+    "masculine_plural": "יצרניים",
+    "feminine_plural": "יצרניות",
+    "translation": "производственный, продуктивный",
+    "level": 24
+  },
+  {
+    "id": 477,
+    "masculine_singular": "בזבזני",
+    "feminine_singular": "בזבזנית",
+    "masculine_plural": "בזבזניים",
+    "feminine_plural": "בזבזניות",
+    "translation": "расточительный",
+    "level": 24
+  },
+  {
+    "id": 478,
+    "masculine_singular": "אופייני",
+    "feminine_singular": "אופיינית",
+    "masculine_plural": "אופייניים",
+    "feminine_plural": "אופייניות",
+    "translation": "характерный, типичный",
+    "level": 24
+  },
+  {
+    "id": 479,
+    "masculine_singular": "שקרן",
+    "feminine_singular": "שקרנית",
+    "masculine_plural": "שקרנים",
+    "feminine_plural": "שקרניות",
+    "translation": "лживый; лжец",
+    "level": 24
+  },
+  {
+    "id": 480,
+    "masculine_singular": "רוחני",
+    "feminine_singular": "רוחנית",
+    "masculine_plural": "רוחניים",
+    "feminine_plural": "רוחניות",
+    "translation": "духовный",
+    "level": 24
+  },
+  {
+    "id": 481,
+    "masculine_singular": "חומרי",
+    "feminine_singular": "חומרית",
+    "masculine_plural": "חומריים",
+    "feminine_plural": "חומריות",
+    "translation": "материальный",
+    "level": 25
+  },
+  {
+    "id": 482,
+    "masculine_singular": "היסטורי",
+    "feminine_singular": "היסטורית",
+    "masculine_plural": "היסטוריים",
+    "feminine_plural": "היסטוריות",
+    "translation": "исторический",
+    "level": 25
+  },
+  {
+    "id": 483,
+    "masculine_singular": "גאוגרפי",
+    "feminine_singular": "גאוגרפית",
+    "masculine_plural": "גאוגרפיים",
+    "feminine_plural": "גאוגרפיות",
+    "translation": "географический",
+    "level": 25
+  },
+  {
+    "id": 484,
+    "masculine_singular": "ביולוגי",
+    "feminine_singular": "ביולוגית",
+    "masculine_plural": "ביולוגיים",
+    "feminine_plural": "ביולוגיות",
+    "translation": "биологический",
+    "level": 25
+  },
+  {
+    "id": 485,
+    "masculine_singular": "פסיכולוגי",
+    "feminine_singular": "פסיכולוגית",
+    "masculine_plural": "פסיכולוגיים",
+    "feminine_plural": "פסיכולוגיות",
+    "translation": "психологический",
+    "level": 25
+  },
+  {
+    "id": 486,
+    "masculine_singular": "מתמטי",
+    "feminine_singular": "מתמטית",
+    "masculine_plural": "מתמטיים",
+    "feminine_plural": "מתמטיות",
+    "translation": "математический",
+    "level": 25
+  },
+  {
+    "id": 487,
+    "masculine_singular": "סטטיסטי",
+    "feminine_singular": "סטטיסטית",
+    "masculine_plural": "סטטיסטיים",
+    "feminine_plural": "סטטיסטיות",
+    "translation": "статистический",
+    "level": 25
+  },
+  {
+    "id": 488,
+    "masculine_singular": "לוגי",
+    "feminine_singular": "לוגית",
+    "masculine_plural": "לוגיים",
+    "feminine_plural": "לוגיות",
+    "translation": "логический",
+    "level": 25
+  },
+  {
+    "id": 489,
+    "masculine_singular": "כרוני",
+    "feminine_singular": "כרונית",
+    "masculine_plural": "כרוניים",
+    "feminine_plural": "כרוניות",
+    "translation": "хронический",
+    "level": 25
+  },
+  {
+    "id": 490,
+    "masculine_singular": "זמיש",
+    "feminine_singular": "זמישה",
+    "masculine_plural": "זמישים",
+    "feminine_plural": "זמישות",
+    "translation": "адаптивный, гибкий",
+    "level": 25
+  },
+  {
+    "id": 491,
+    "masculine_singular": "שמיש",
+    "feminine_singular": "שמישה",
+    "masculine_plural": "שמישים",
+    "feminine_plural": "שמישות",
+    "translation": "пригодный к использованию",
+    "level": 25
+  },
+  {
+    "id": 492,
+    "masculine_singular": "חסין",
+    "feminine_singular": "חסינה",
+    "masculine_plural": "חסינים",
+    "feminine_plural": "חסינות",
+    "translation": "устойчивый, защищённый",
+    "level": 25
+  },
+  {
+    "id": 493,
+    "masculine_singular": "דליק",
+    "feminine_singular": "דליקה",
+    "masculine_plural": "דליקים",
+    "feminine_plural": "דליקות",
+    "translation": "легковоспламеняющийся",
+    "level": 25
+  },
+  {
+    "id": 494,
+    "masculine_singular": "מתכלה",
+    "feminine_singular": "מתכלה",
+    "masculine_plural": "מתכלים",
+    "feminine_plural": "מתכלות",
+    "translation": "разлагаемый, расходуемый",
+    "level": 25
+  },
+  {
+    "id": 495,
+    "masculine_singular": "נטול",
+    "feminine_singular": "נטולת",
+    "masculine_plural": "נטולי",
+    "feminine_plural": "נטולות",
+    "translation": "лишённый, не содержащий",
+    "level": 25
+  },
+  {
+    "id": 496,
+    "masculine_singular": "עמיד־למים",
+    "feminine_singular": "עמידה־למים",
+    "masculine_plural": "עמידים־למים",
+    "feminine_plural": "עמידות־למים",
+    "translation": "водостойкий",
+    "level": 25
+  },
+  {
+    "id": 497,
+    "masculine_singular": "דו־צדדי",
+    "feminine_singular": "דו־צדדית",
+    "masculine_plural": "דו־צדדיים",
+    "feminine_plural": "דו־צדדיות",
+    "translation": "двусторонний",
+    "level": 25
+  },
+  {
+    "id": 498,
+    "masculine_singular": "חד־פעמי",
+    "feminine_singular": "חד־פעמית",
+    "masculine_plural": "חד־פעמיים",
+    "feminine_plural": "חד־פעמיות",
+    "translation": "одноразовый; однократный",
+    "level": 25
+  },
+  {
+    "id": 499,
+    "masculine_singular": "רב־פעמי",
+    "feminine_singular": "רב־פעמית",
+    "masculine_plural": "רב־פעמיים",
+    "feminine_plural": "רב־פעמיות",
+    "translation": "многоразовый",
+    "level": 25
+  },
+  {
+    "id": 500,
+    "masculine_singular": "רב־לאומי",
+    "feminine_singular": "רב־לאומית",
+    "masculine_plural": "רב־לאומיים",
+    "feminine_plural": "רב־לאומיות",
+    "translation": "многонациональный",
+    "level": 25
+  }
+]

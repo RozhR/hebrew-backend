@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "adjective": "טוב",
+    "construction": "טוב ל־",
+    "meaning": "хороший / полезный для"
+  },
+  {
+    "id": 6,
+    "adjective": "חשוב",
+    "construction": "חשוב ל־",
+    "meaning": "важный для; важно кому-либо"
+  },
+  {
+    "id": 7,
+    "adjective": "נכון",
+    "construction": "נכון ל־",
+    "meaning": "верный / актуальный для"
+  },
+  {
+    "id": 19,
+    "adjective": "אפשרי",
+    "construction": "אפשרי ל־",
+    "meaning": "возможный для; кому-либо возможно"
+  },
+  {
+    "id": 20,
+    "adjective": "בטוח",
+    "construction": "בטוח ב־",
+    "meaning": "уверенный в ком-либо / чём-либо"
+  },
+  {
+    "id": 22,
+    "adjective": "קרוב",
+    "construction": "קרוב ל־",
+    "meaning": "близкий к"
+  },
+  {
+    "id": 23,
+    "adjective": "רחוק",
+    "construction": "רחוק מ־",
+    "meaning": "далёкий от"
+  },
+  {
+    "id": 34,
+    "adjective": "שמח",
+    "construction": "שמח ב־ / שמח ש־",
+    "meaning": "рад чему-либо / рад, что…"
+  },
+  {
+    "id": 38,
+    "adjective": "דומה",
+    "construction": "דומה ל־",
+    "meaning": "похожий на"
+  },
+  {
+    "id": 40,
+    "adjective": "אמיתי",
+    "construction": "אמיתי לגבי",
+    "meaning": "настоящий / правдивый относительно"
+  },
+  {
+    "id": 46,
+    "adjective": "נוח",
+    "construction": "נוח ל־",
+    "meaning": "удобный кому-либо / для"
+  },
+  {
+    "id": 47,
+    "adjective": "פנוי",
+    "construction": "פנוי ל־",
+    "meaning": "свободный для"
+  },
+  {
+    "id": 50,
+    "adjective": "רעב",
+    "construction": "רעב ל־",
+    "meaning": "жаждущий чего-либо (перен.)"
+  },
+  {
+    "id": 67,
+    "adjective": "נעים",
+    "construction": "נעים ל־",
+    "meaning": "приятный кому-либо"
+  },
+  {
+    "id": 69,
+    "adjective": "חופשי",
+    "construction": "חופשי מ־",
+    "meaning": "свободный от"
+  },
+  {
+    "id": 70,
+    "adjective": "זמין",
+    "construction": "זמין ל־",
+    "meaning": "доступный для"
+  },
+  {
+    "id": 71,
+    "adjective": "מתאים",
+    "construction": "מתאים ל־",
+    "meaning": "подходящий для / кому-либо"
+  },
+  {
+    "id": 74,
+    "adjective": "נוסף",
+    "construction": "נוסף ל־",
+    "meaning": "дополнительный к"
+  },
+  {
+    "id": 77,
+    "adjective": "מותר",
+    "construction": "מותר ל־",
+    "meaning": "кому-либо разрешено"
+  },
+  {
+    "id": 78,
+    "adjective": "אסור",
+    "construction": "אסור ל־",
+    "meaning": "кому-либо запрещено"
+  },
+  {
+    "id": 79,
+    "adjective": "מובן",
+    "construction": "מובן ל־",
+    "meaning": "понятный кому-либо"
+  },
+  {
+    "id": 80,
+    "adjective": "מוכר",
+    "construction": "מוכר ל־",
+    "meaning": "знакомый / известный кому-либо"
+  },
+  {
+    "id": 87,
+    "adjective": "מרוצה",
+    "construction": "מרוצה מ־",
+    "meaning": "довольный кем-либо / чем-либо"
+  },
+  {
+    "id": 88,
+    "adjective": "מופתע",
+    "construction": "מופתע מ־",
+    "meaning": "удивлён кем-либо / чем-либо"
+  },
+  {
+    "id": 89,
+    "adjective": "מודאג",
+    "construction": "מודאג מ־ / מודאג לגבי",
+    "meaning": "обеспокоен из-за / относительно"
+  },
+  {
+    "id": 93,
+    "adjective": "מסוכן",
+    "construction": "מסוכן ל־",
+    "meaning": "опасный для"
+  },
+  {
+    "id": 94,
+    "adjective": "אחראי",
+    "construction": "אחראי על",
+    "meaning": "ответственный за"
+  },
+  {
+    "id": 96,
+    "adjective": "יעיל",
+    "construction": "יעיל ל־ / יעיל ב־",
+    "meaning": "эффективный для / в"
+  },
+  {
+    "id": 98,
+    "adjective": "מוצלח",
+    "construction": "מוצלח ב־",
+    "meaning": "успешный в чём-либо"
+  },
+  {
+    "id": 107,
+    "adjective": "שווה",
+    "construction": "שווה ל־",
+    "meaning": "равный чему-либо"
+  },
+  {
+    "id": 109,
+    "adjective": "עצמאי",
+    "construction": "עצמאי מ־",
+    "meaning": "независимый от"
+  },
+  {
+    "id": 110,
+    "adjective": "תלוי",
+    "construction": "תלוי ב־",
+    "meaning": "зависимый от; зависит от"
+  },
+  {
+    "id": 147,
+    "adjective": "ישר",
+    "construction": "ישר עם",
+    "meaning": "честный / откровенный с"
+  },
+  {
+    "id": 175,
+    "adjective": "עשיר",
+    "construction": "עשיר ב־",
+    "meaning": "богат чем-либо"
+  },
+  {
+    "id": 176,
+    "adjective": "עני",
+    "construction": "עני ב־",
+    "meaning": "бедный чем-либо"
+  },
+  {
+    "id": 193,
+    "adjective": "רלוונטי",
+    "construction": "רלוונטי ל־",
+    "meaning": "релевантный для; относящийся к"
+  },
+  {
+    "id": 200,
+    "adjective": "הכרחי",
+    "construction": "הכרחי ל־",
+    "meaning": "необходимый для"
+  },
+  {
+    "id": 201,
+    "adjective": "חיוני",
+    "construction": "חיוני ל־",
+    "meaning": "жизненно необходимый для"
+  },
+  {
+    "id": 213,
+    "adjective": "רגיש",
+    "construction": "רגיש ל־",
+    "meaning": "чувствительный к"
+  },
+  {
+    "id": 214,
+    "adjective": "נדיב",
+    "construction": "נדיב ב־",
+    "meaning": "щедрый на / в"
+  },
+  {
+    "id": 216,
+    "adjective": "גאה",
+    "construction": "גאה ב־",
+    "meaning": "гордый кем-либо / чем-либо"
+  },
+  {
+    "id": 217,
+    "adjective": "נאמן",
+    "construction": "נאמן ל־",
+    "meaning": "верный, преданный"
+  },
+  {
+    "id": 221,
+    "adjective": "קנאי",
+    "construction": "קנאי ל־",
+    "meaning": "ревностный / ревнивый по отношению к"
+  },
+  {
+    "id": 223,
+    "adjective": "נרגש",
+    "construction": "נרגש מ־",
+    "meaning": "взволнованный чем-либо"
+  },
+  {
+    "id": 224,
+    "adjective": "נלהב",
+    "construction": "נלהב מ־",
+    "meaning": "в восторге от"
+  },
+  {
+    "id": 225,
+    "adjective": "מאושר",
+    "construction": "מאושר מ־ / מאושר ש־",
+    "meaning": "счастлив из-за / счастлив, что…"
+  },
+  {
+    "id": 226,
+    "adjective": "מאוכזב",
+    "construction": "מאוכזב מ־",
+    "meaning": "разочарованный кем-либо / чем-либо"
+  },
+  {
+    "id": 227,
+    "adjective": "מפוחד",
+    "construction": "מפוחד מ־",
+    "meaning": "испуганный чем-либо"
+  },
+  {
+    "id": 228,
+    "adjective": "לחוץ",
+    "construction": "לחוץ מ־",
+    "meaning": "испытывающий стресс из-за"
+  },
+  {
+    "id": 230,
+    "adjective": "מבולבל",
+    "construction": "מבולבל מ־",
+    "meaning": "сбитый с толку чем-либо"
+  },
+  {
+    "id": 231,
+    "adjective": "מרוכז",
+    "construction": "מרוכז ב־",
+    "meaning": "сосредоточенный на"
+  },
+  {
+    "id": 241,
+    "adjective": "הוגן",
+    "construction": "הוגן כלפי",
+    "meaning": "справедливый по отношению к"
+  },
+  {
+    "id": 242,
+    "adjective": "צודק",
+    "construction": "צודק ב־",
+    "meaning": "прав в чём-либо"
+  },
+  {
+    "id": 244,
+    "adjective": "זהיר",
+    "construction": "זהיר ב־",
+    "meaning": "осторожный в / с"
+  },
+  {
+    "id": 247,
+    "adjective": "מוגבל",
+    "construction": "מוגבל ל־",
+    "meaning": "ограниченный до / чем-либо"
+  },
+  {
+    "id": 248,
+    "adjective": "נגיש",
+    "construction": "נגיש ל־",
+    "meaning": "доступный кому-либо"
+  },
+  {
+    "id": 310,
+    "adjective": "מקובל",
+    "construction": "מקובל על",
+    "meaning": "приемлемый / принятый кем-либо"
+  },
+  {
+    "id": 314,
+    "adjective": "צפוי",
+    "construction": "צפוי ל־",
+    "meaning": "ожидается; вероятно, что произойдёт"
+  },
+  {
+    "id": 320,
+    "adjective": "משותף",
+    "construction": "משותף ל־",
+    "meaning": "общий для"
+  },
+  {
+    "id": 322,
+    "adjective": "קשור",
+    "construction": "קשור ל־",
+    "meaning": "связанный с"
+  },
+  {
+    "id": 327,
+    "adjective": "מכוון",
+    "construction": "מכוון ל־ / כלפי",
+    "meaning": "направленный на / по отношению к"
+  },
+  {
+    "id": 332,
+    "adjective": "מוגן",
+    "construction": "מוגן מ־ / מפני",
+    "meaning": "защищённый от"
+  },
+  {
+    "id": 333,
+    "adjective": "פגיע",
+    "construction": "פגיע ל־",
+    "meaning": "уязвимый для / к"
+  },
+  {
+    "id": 334,
+    "adjective": "עמיד",
+    "construction": "עמיד ב־ / בפני",
+    "meaning": "устойчивый к; выдерживающий"
+  },
+  {
+    "id": 335,
+    "adjective": "רעיל",
+    "construction": "רעיל ל־",
+    "meaning": "токсичный для"
+  },
+  {
+    "id": 336,
+    "adjective": "מזיק",
+    "construction": "מזיק ל־",
+    "meaning": "вредный для"
+  },
+  {
+    "id": 337,
+    "adjective": "מועיל",
+    "construction": "מועיל ל־",
+    "meaning": "полезный для"
+  },
+  {
+    "id": 338,
+    "adjective": "חסכוני",
+    "construction": "חסכוני ב־",
+    "meaning": "экономный в расходовании"
+  },
+  {
+    "id": 392,
+    "adjective": "מודע",
+    "construction": "מודע ל־",
+    "meaning": "осознающий что-либо"
+  },
+  {
+    "id": 395,
+    "adjective": "עקבי",
+    "construction": "עקבי ב־",
+    "meaning": "последовательный в"
+  },
+  {
+    "id": 397,
+    "adjective": "קפדני",
+    "construction": "קפדני ב־",
+    "meaning": "строгий / тщательный в"
+  },
+  {
+    "id": 398,
+    "adjective": "מיומן",
+    "construction": "מיומן ב־",
+    "meaning": "умелый, опытный в"
+  },
+  {
+    "id": 404,
+    "adjective": "מוסמך",
+    "construction": "מוסמך ל־",
+    "meaning": "уполномоченный / квалифицированный для"
+  },
+  {
+    "id": 405,
+    "adjective": "מורשה",
+    "construction": "מורשה ל־",
+    "meaning": "уполномоченный, имеющий разрешение на"
+  },
+  {
+    "id": 407,
+    "adjective": "בקיא",
+    "construction": "בקיא ב־",
+    "meaning": "хорошо разбирающийся в"
+  },
+  {
+    "id": 409,
+    "adjective": "מבוסס",
+    "construction": "מבוסס על",
+    "meaning": "основанный на"
+  },
+  {
+    "id": 410,
+    "adjective": "מחויב",
+    "construction": "מחויב ל־",
+    "meaning": "обязанный; приверженный чему-либо"
+  },
+  {
+    "id": 411,
+    "adjective": "קשוב",
+    "construction": "קשוב ל־",
+    "meaning": "внимательный к"
+  },
+  {
+    "id": 412,
+    "adjective": "אכפתי",
+    "construction": "אכפתי כלפי",
+    "meaning": "заботливый / неравнодушный по отношению к"
+  },
+  {
+    "id": 413,
+    "adjective": "אמפתי",
+    "construction": "אמפתי כלפי",
+    "meaning": "проявляющий эмпатию по отношению к"
+  },
+  {
+    "id": 414,
+    "adjective": "סובלני",
+    "construction": "סובלני כלפי",
+    "meaning": "терпимый по отношению к"
+  },
+  {
+    "id": 418,
+    "adjective": "עוין",
+    "construction": "עוין ל־ / כלפי",
+    "meaning": "враждебный по отношению к"
+  },
+  {
+    "id": 428,
+    "adjective": "ראוי",
+    "construction": "ראוי ל־",
+    "meaning": "достойный чего-либо"
+  },
+  {
+    "id": 470,
+    "adjective": "חשוד",
+    "construction": "חשוד ב־",
+    "meaning": "подозреваемый в"
+  },
+  {
+    "id": 471,
+    "adjective": "אשם",
+    "construction": "אשם ב־",
+    "meaning": "виновный в"
+  },
+  {
+    "id": 472,
+    "adjective": "חף",
+    "construction": "חף מ־",
+    "meaning": "свободный от; невиновный в"
+  },
+  {
+    "id": 492,
+    "adjective": "חסין",
+    "construction": "חסין בפני / מפני",
+    "meaning": "устойчивый, защищённый от"
+  },
+  {
+    "id": 495,
+    "adjective": "נטול",
+    "construction": "נטול + существительное",
+    "meaning": "лишённый / не содержащий чего-либо"
+  }
+]
