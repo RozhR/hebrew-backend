@@ -4,6 +4,8 @@ import authRouter from "./routes/authRoutes.js";
 import grammarRouter from "./routes/grammarRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 import vocabularyRouter from "./routes/vocabularyRoutes.js";
+import progressRouter from "./routes/progressRoutes.js";
+import statisticsRouter from "./routes/statisticsRoutes.js";
 
 const app = express();
 
@@ -18,6 +20,8 @@ app.get("/api/health", (request, response) => {
 
 app.use("/api/auth", authRouter);
 app.use("/api/users", userRouter);
+app.use("/api/progress", progressRouter);
+app.use("/api/statistics", statisticsRouter);
 
 app.use("/api", vocabularyRouter);
 app.use("/api/grammar", grammarRouter);
