@@ -15,7 +15,8 @@
     "seed:verb-grammar": "node scripts/seedVerbGrammar.js",
     "seed:adjective-grammar": "node scripts/seedAdjectiveGrammar.js",
     "seed:adverb-grammar": "node scripts/seedAdverbGrammar.js",
-    "content:reset": "node scripts/resetContent.js"
+    "content:reset": "node scripts/resetContent.js",
+    "content:rebuild": "npm run grammar:build && npm run content:reset"
   },
   "keywords": [
     "hebrew",
