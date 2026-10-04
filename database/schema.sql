@@ -301,4 +301,77 @@ CREATE INDEX IF NOT EXISTS idx_test_statistics_user_id
 CREATE INDEX IF NOT EXISTS idx_test_statistics_user_category_level
     ON app.test_statistics(user_id, category, level);
 
+-- =========================================================
+-- GRAMMAR TEST STATISTICS
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS app.grammar_test_statistics (
+                                                           id BIGSERIAL PRIMARY KEY,
+
+                                                           user_id BIGINT NOT NULL
+                                                           REFERENCES app.users(id)
+    ON DELETE CASCADE,
+
+    percent SMALLINT NOT NULL
+    CHECK (percent BETWEEN 0 AND 100),
+
+    correct SMALLINT NOT NULL
+    CHECK (correct >= 0),
+
+    total SMALLINT NOT NULL
+    CHECK (total > 0),
+
+    sections TEXT[] NOT NULL,
+
+    attempted_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+
+    CHECK (correct <= total),
+
+    CHECK (cardinality(sections) > 0),
+
+    CHECK (
+              sections <@ ARRAY[
+              'present',
+              'past',
+              'future',
+              'imperative'
+    ]::TEXT[]
+           )
+    );
+
+CREATE INDEX IF NOT EXISTS idx_grammar_test_statistics_user_id
+    ON app.grammar_test_statistics(user_id);
+
+-- =========================================================
+-- USER GRAMMAR WORDS
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS app.user_grammar_words (
+                                                      user_id BIGINT NOT NULL
+                                                      REFERENCES app.users(id)
+    ON DELETE CASCADE,
+
+    category TEXT NOT NULL
+    CHECK (
+              category IN (
+              'verbs',
+              'adjectives',
+              'adverbs'
+                          )
+    ),
+
+    word_id INTEGER NOT NULL,
+
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+
+    PRIMARY KEY (
+                    user_id,
+                    category,
+                    word_id
+                )
+    );
+
+CREATE INDEX IF NOT EXISTS idx_user_grammar_words_user_id
+    ON app.user_grammar_words(user_id);
+
 COMMIT;

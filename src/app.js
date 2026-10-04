@@ -6,6 +6,7 @@ import userRouter from "./routes/userRoutes.js";
 import vocabularyRouter from "./routes/vocabularyRoutes.js";
 import progressRouter from "./routes/progressRoutes.js";
 import statisticsRouter from "./routes/statisticsRoutes.js";
+import grammarWordsRouter from "./routes/grammarWordsRoutes.js";
 import cookieParser from "cookie-parser";
 
 const app = express();
@@ -24,6 +25,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/users", userRouter);
 app.use("/api/progress", progressRouter);
 app.use("/api/statistics", statisticsRouter);
+app.use("/api/grammar-words", grammarWordsRouter);
 
 app.use("/api", vocabularyRouter);
 app.use("/api/grammar", grammarRouter);

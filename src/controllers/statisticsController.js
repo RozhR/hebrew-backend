@@ -12,17 +12,17 @@ export async function getStatistics(request, response) {
     try {
         const result = await pool.query(
             `
-                SELECT
-                    category,
-                    level,
-                    percent,
-                    correct,
-                    total,
-                    attempted_at
-                FROM app.test_statistics
-                WHERE user_id = $1
-                ORDER BY attempted_at ASC
-            `,
+                    SELECT
+                        category,
+                        level,
+                        percent,
+                        correct,
+                        total,
+                        attempted_at
+                    FROM app.test_statistics
+                    WHERE user_id = $1
+                    ORDER BY attempted_at ASC
+                `,
             [request.userId],
         );
 
@@ -30,6 +30,7 @@ export async function getStatistics(request, response) {
 
         result.rows.forEach((row) => {
             statistics[row.category] ??= {};
+
             statistics[row.category][row.level] ??= [];
 
             statistics[row.category][row.level].push({
@@ -88,48 +89,117 @@ export async function addStatistic(request, response) {
 
         await client.query("BEGIN");
 
-        const statisticResult = await client.query(
+        /*
+         * На случай нового пользователя
+         * гарантируем наличие строки
+         * прогресса для этой категории.
+         */
+        await client.query(
             `
-                INSERT INTO app.test_statistics (
+                INSERT INTO app.user_progress (
                     user_id,
                     category,
-                    level,
-                    percent,
-                    correct,
-                    total
+                    unlocked_level
                 )
-                VALUES ($1, $2, $3, $4, $5, $6)
+                VALUES ($1, $2, 1)
 
-                RETURNING
-                    id,
-                    category,
-                    level,
-                    percent,
-                    correct,
-                    total,
-                    attempted_at
+                ON CONFLICT (
+                    user_id,
+                    category
+                )
+                DO NOTHING
             `,
+            [request.userId, category],
+        );
+
+        /*
+         * Блокируем строку прогресса
+         * на время транзакции.
+         */
+        const progressResult = await client.query(
+            `
+                    SELECT
+                        unlocked_level
+                    FROM app.user_progress
+                    WHERE
+                        user_id = $1
+                        AND category = $2
+                    FOR UPDATE
+                `,
+            [request.userId, category],
+        );
+
+        const unlockedLevel = progressResult.rows[0]?.unlocked_level;
+
+        if (!Number.isInteger(unlockedLevel)) {
+            throw new Error("User progress not found");
+        }
+
+        /*
+         * Нельзя отправить результат
+         * для ещё закрытого уровня.
+         */
+        if (level > unlockedLevel) {
+            await client.query("ROLLBACK");
+
+            return response.status(403).json({
+                message: "Level is locked",
+            });
+        }
+
+        const statisticResult = await client.query(
+            `
+                    INSERT INTO app.test_statistics (
+                        user_id,
+                        category,
+                        level,
+                        percent,
+                        correct,
+                        total
+                    )
+                    VALUES (
+                        $1,
+                        $2,
+                        $3,
+                        $4,
+                        $5,
+                        $6
+                    )
+
+                    RETURNING
+                        id,
+                        category,
+                        level,
+                        percent,
+                        correct,
+                        total,
+                        attempted_at
+                `,
             [request.userId, category, level, percent, correct, total],
         );
 
+        /*
+         * Только backend решает,
+         * открывать следующий уровень
+         * или нет.
+         */
         if (percent >= PASS_PERCENT && level < maxLevel) {
             await client.query(
                 `
-                    INSERT INTO app.user_progress (
-                        user_id,
-                        category,
-                        unlocked_level,
-                        updated_at
-                    )
-                    VALUES ($1, $2, $3, NOW())
+                    UPDATE app.user_progress
 
-                    ON CONFLICT (user_id, category)
-                    DO UPDATE SET
-                        unlocked_level = GREATEST(
-                            app.user_progress.unlocked_level,
-                            EXCLUDED.unlocked_level
-                        ),
-                        updated_at = NOW()
+                    SET
+                        unlocked_level =
+                            GREATEST(
+                                    unlocked_level,
+                                    $3
+                            ),
+                        updated_at =
+                            NOW()
+
+                    WHERE
+                        user_id = $1
+                      AND category = $2
                 `,
                 [request.userId, category, level + 1],
             );
@@ -151,7 +221,12 @@ export async function addStatistic(request, response) {
             },
         });
     } catch (error) {
-        await client.query("ROLLBACK");
+        try {
+            await client.query("ROLLBACK");
+        } catch {
+            // Транзакция могла быть
+            // уже завершена.
+        }
 
         console.error("Add statistic error:", error);
 
