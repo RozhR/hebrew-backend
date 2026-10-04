@@ -205,4 +205,100 @@ CREATE TABLE IF NOT EXISTS content.adverb_examples (
     translation3 TEXT NOT NULL
     );
 
+-- =========================================================
+-- USERS
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS app.users (
+                                         id BIGSERIAL PRIMARY KEY,
+                                         email TEXT NOT NULL UNIQUE,
+                                         password_hash TEXT NOT NULL,
+                                         first_name TEXT NOT NULL,
+                                         last_name TEXT NOT NULL,
+                                         created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    );
+
+-- =========================================================
+-- USER PROGRESS
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS app.user_progress (
+                                                 user_id BIGINT NOT NULL
+                                                 REFERENCES app.users(id)
+    ON DELETE CASCADE,
+
+    category TEXT NOT NULL
+    CHECK (category IN ('verbs', 'adjectives', 'adverbs')),
+
+    unlocked_level SMALLINT NOT NULL DEFAULT 1
+    CHECK (unlocked_level >= 1),
+
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+
+    PRIMARY KEY (user_id, category)
+    );
+
+INSERT INTO app.user_progress (
+    user_id,
+    category,
+    unlocked_level
+)
+SELECT
+    users.id,
+    categories.category,
+    1
+FROM app.users AS users
+         CROSS JOIN (
+    VALUES
+        ('verbs'),
+        ('adjectives'),
+        ('adverbs')
+) AS categories(category)
+    ON CONFLICT (user_id, category) DO NOTHING;
+
+-- =========================================================
+-- TEST STATISTICS
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS app.test_statistics (
+                                                   id BIGSERIAL PRIMARY KEY,
+
+                                                   user_id BIGINT NOT NULL
+                                                   REFERENCES app.users(id)
+    ON DELETE CASCADE,
+
+    category TEXT NOT NULL
+    CHECK (category IN ('verbs', 'adjectives', 'adverbs')),
+
+    level SMALLINT NOT NULL,
+
+    percent SMALLINT NOT NULL
+    CHECK (percent BETWEEN 0 AND 100),
+
+    correct SMALLINT NOT NULL
+    CHECK (correct >= 0),
+
+    total SMALLINT NOT NULL
+    CHECK (total > 0),
+
+    attempted_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+
+    CHECK (correct <= total),
+
+    CHECK (
+(category = 'verbs' AND level BETWEEN 1 AND 25)
+    OR
+(category = 'adjectives' AND level BETWEEN 1 AND 25)
+    OR
+(category = 'adverbs' AND level BETWEEN 1 AND 15)
+    )
+    );
+
+CREATE INDEX IF NOT EXISTS idx_test_statistics_user_id
+    ON app.test_statistics(user_id);
+
+CREATE INDEX IF NOT EXISTS idx_test_statistics_user_category_level
+    ON app.test_statistics(user_id, category, level);
+
 COMMIT;
