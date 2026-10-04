@@ -6,10 +6,12 @@ import userRouter from "./routes/userRoutes.js";
 import vocabularyRouter from "./routes/vocabularyRoutes.js";
 import progressRouter from "./routes/progressRoutes.js";
 import statisticsRouter from "./routes/statisticsRoutes.js";
+import cookieParser from "cookie-parser";
 
 const app = express();
 
 app.use(express.json());
+app.use(cookieParser());
 
 app.get("/api/health", (request, response) => {
     response.status(200).json({

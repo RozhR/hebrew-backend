@@ -144,6 +144,18 @@ export async function login(request, response) {
 
         const accessToken = createAccessToken(user.id);
 
+        const cookieName = process.env.AUTH_COOKIE_NAME || "hebrew_auth";
+
+        const cookieMaxAge = Number(process.env.AUTH_COOKIE_MAX_AGE_MS) || 60 * 60 * 1000;
+
+        response.cookie(cookieName, accessToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production",
+            sameSite: "lax",
+            maxAge: cookieMaxAge,
+            path: "/",
+        });
+
         return response.status(200).json({
             data: {
                 user: {
@@ -154,7 +166,6 @@ export async function login(request, response) {
                     created_at: user.created_at,
                     updated_at: user.updated_at,
                 },
-                accessToken,
             },
         });
     } catch (error) {
@@ -164,4 +175,19 @@ export async function login(request, response) {
             message: "Login failed",
         });
     }
+}
+
+export function logout(request, response) {
+    const cookieName = process.env.AUTH_COOKIE_NAME || "hebrew_auth";
+
+    response.clearCookie(cookieName, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
+        path: "/",
+    });
+
+    return response.status(200).json({
+        message: "Logged out",
+    });
 }

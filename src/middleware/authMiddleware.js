@@ -1,15 +1,9 @@
 import jwt from "jsonwebtoken";
 
 export function requireAuth(request, response, next) {
-    const authorization = request.get("Authorization");
+    const cookieName = process.env.AUTH_COOKIE_NAME || "hebrew_auth";
 
-    if (!authorization?.startsWith("Bearer ")) {
-        return response.status(401).json({
-            message: "Authentication required",
-        });
-    }
-
-    const token = authorization.slice("Bearer ".length).trim();
+    const token = request.cookies?.[cookieName];
 
     if (!token) {
         return response.status(401).json({
