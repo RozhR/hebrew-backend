@@ -1,34 +1,23 @@
-import "dotenv/config";
+import { createPool } from "./utils/createPool.js";
+import { readJson } from "./utils/readJson.js";
 
-import { readFile } from "node:fs/promises";
-
-import pg from "pg";
-
-const { Pool } = pg;
-
-const pool = new Pool({
-    host: process.env.DB_HOST,
-    port: Number(process.env.DB_PORT),
-    database: process.env.DB_NAME,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-});
-
-async function readJson(path) {
-    const file = await readFile(new URL(path, import.meta.url), "utf8");
-
-    return JSON.parse(file);
-}
+const pool = createPool();
 
 async function seedAdjectiveGrammar() {
     const client = await pool.connect();
 
     try {
-        const base = await readJson("../database/seed-data/adjectives/base.json");
+        const base = await readJson("../database/seed-data/adjectives/base.json", import.meta.url);
 
-        const constructions = await readJson("../database/seed-data/adjectives/constructions.json");
+        const constructions = await readJson(
+            "../database/seed-data/adjectives/constructions.json",
+            import.meta.url,
+        );
 
-        const examples = await readJson("../database/seed-data/adjectives/examples.json");
+        const examples = await readJson(
+            "../database/seed-data/adjectives/examples.json",
+            import.meta.url,
+        );
 
         await client.query("BEGIN");
 

@@ -1,34 +1,20 @@
-import "dotenv/config";
+import { createPool } from "./utils/createPool.js";
+import { readJson } from "./utils/readJson.js";
 
-import { readFile } from "node:fs/promises";
-
-import pg from "pg";
-
-const { Pool } = pg;
-
-const pool = new Pool({
-    host: process.env.DB_HOST,
-    port: Number(process.env.DB_PORT),
-    database: process.env.DB_NAME,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-});
-
-async function readJson(path) {
-    const file = await readFile(new URL(path, import.meta.url), "utf8");
-
-    return JSON.parse(file);
-}
+const pool = createPool();
 
 async function seedVocabulary() {
     const client = await pool.connect();
 
     try {
-        const verbs = await readJson("../database/seed-data/verbs/base.json");
+        const verbs = await readJson("../database/seed-data/verbs/base.json", import.meta.url);
 
-        const adjectives = await readJson("../database/seed-data/adjectives/base.json");
+        const adjectives = await readJson(
+            "../database/seed-data/adjectives/base.json",
+            import.meta.url,
+        );
 
-        const adverbs = await readJson("../database/seed-data/adverbs/base.json");
+        const adverbs = await readJson("../database/seed-data/adverbs/base.json", import.meta.url);
 
         await client.query("BEGIN");
 

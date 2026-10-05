@@ -6,7 +6,6 @@ function parseLevel(value) {
     }
 
     const level = Number(value);
-
     return Number.isInteger(level) ? level : NaN;
 }
 
@@ -15,39 +14,35 @@ async function getItems(request, response, table, maxLevel) {
         const level = parseLevel(request.query.level);
 
         if (Number.isNaN(level) || (level !== null && (level < 1 || level > maxLevel))) {
-            return response.status(400).json({
-                message: "Invalid level",
-            });
+            return response.status(400).json({ message: "Invalid level" });
         }
 
         const result =
             level === null
                 ? await pool.query(
                       `
-                        SELECT id, hebrew, translation, level
-                        FROM ${table}
-                        ORDER BY id
-                    `,
+                          SELECT id, hebrew, translation, level
+                          FROM ${table}
+                          ORDER BY id
+                      `,
                   )
                 : await pool.query(
                       `
-                        SELECT id, hebrew, translation, level
-                        FROM ${table}
-                        WHERE level = $1
-                        ORDER BY id
-                    `,
+                          SELECT id, hebrew, translation, level
+                          FROM ${table}
+                          WHERE level = $1
+                          ORDER BY id
+                      `,
                       [level],
                   );
 
-        response.status(200).json({
+        return response.status(200).json({
             count: result.rows.length,
             data: result.rows,
         });
     } catch (error) {
-        response.status(500).json({
-            message: "Database error",
-            error: error.message,
-        });
+        console.error("Vocabulary database error:", error);
+        return response.status(500).json({ message: "Failed to load vocabulary" });
     }
 }
 
@@ -56,9 +51,7 @@ async function getItemById(request, response, table, itemName) {
         const id = Number(request.params.id);
 
         if (!Number.isInteger(id) || id < 1) {
-            return response.status(400).json({
-                message: "Invalid id",
-            });
+            return response.status(400).json({ message: "Invalid id" });
         }
 
         const result = await pool.query(
@@ -71,19 +64,13 @@ async function getItemById(request, response, table, itemName) {
         );
 
         if (result.rows.length === 0) {
-            return response.status(404).json({
-                message: `${itemName} not found`,
-            });
+            return response.status(404).json({ message: `${itemName} not found` });
         }
 
-        response.status(200).json({
-            data: result.rows[0],
-        });
+        return response.status(200).json({ data: result.rows[0] });
     } catch (error) {
-        response.status(500).json({
-            message: "Database error",
-            error: error.message,
-        });
+        console.error("Vocabulary database error:", error);
+        return response.status(500).json({ message: "Failed to load vocabulary" });
     }
 }
 

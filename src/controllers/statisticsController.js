@@ -1,28 +1,18 @@
+import { CATEGORY_MAX_LEVELS } from "../config/categories.js";
 import pool from "../db.js";
 
 const PASS_PERCENT = 85;
-
-const CATEGORY_MAX_LEVELS = {
-    verbs: 25,
-    adjectives: 25,
-    adverbs: 15,
-};
+const VOCABULARY_TEST_TOTAL = 20;
 
 export async function getStatistics(request, response) {
     try {
         const result = await pool.query(
             `
-                    SELECT
-                        category,
-                        level,
-                        percent,
-                        correct,
-                        total,
-                        attempted_at
-                    FROM app.test_statistics
-                    WHERE user_id = $1
-                    ORDER BY attempted_at ASC
-                `,
+                SELECT category, level, percent, correct, total, attempted_at
+                FROM app.test_statistics
+                WHERE user_id = $1
+                ORDER BY attempted_at ASC
+            `,
             [request.userId],
         );
 
@@ -30,9 +20,7 @@ export async function getStatistics(request, response) {
 
         result.rows.forEach((row) => {
             statistics[row.category] ??= {};
-
             statistics[row.category][row.level] ??= [];
-
             statistics[row.category][row.level].push({
                 percent: row.percent,
                 correct: row.correct,
@@ -41,15 +29,10 @@ export async function getStatistics(request, response) {
             });
         });
 
-        return response.status(200).json({
-            data: statistics,
-        });
+        return response.status(200).json({ data: statistics });
     } catch (error) {
         console.error("Get statistics error:", error);
-
-        return response.status(500).json({
-            message: "Failed to load statistics",
-        });
+        return response.status(500).json({ message: "Failed to load statistics" });
     }
 }
 
@@ -58,74 +41,47 @@ export async function addStatistic(request, response) {
 
     try {
         const { category, level, correct, total } = request.body;
-
         const maxLevel = CATEGORY_MAX_LEVELS[category];
 
         if (!maxLevel) {
-            return response.status(400).json({
-                message: "Invalid category",
-            });
+            return response.status(400).json({ message: "Invalid category" });
         }
 
         if (!Number.isInteger(level) || level < 1 || level > maxLevel) {
-            return response.status(400).json({
-                message: "Invalid level",
-            });
+            return response.status(400).json({ message: "Invalid level" });
         }
 
         if (
             !Number.isInteger(correct) ||
             !Number.isInteger(total) ||
-            total < 1 ||
+            total !== VOCABULARY_TEST_TOTAL ||
             correct < 0 ||
             correct > total
         ) {
-            return response.status(400).json({
-                message: "Invalid test result",
-            });
+            return response.status(400).json({ message: "Invalid test result" });
         }
 
         const percent = Math.round((correct / total) * 100);
 
         await client.query("BEGIN");
 
-        /*
-         * На случай нового пользователя
-         * гарантируем наличие строки
-         * прогресса для этой категории.
-         */
         await client.query(
             `
-                INSERT INTO app.user_progress (
-                    user_id,
-                    category,
-                    unlocked_level
-                )
+                INSERT INTO app.user_progress (user_id, category, unlocked_level)
                 VALUES ($1, $2, 1)
-
-                ON CONFLICT (
-                    user_id,
-                    category
-                )
-                DO NOTHING
+                ON CONFLICT (user_id, category) DO NOTHING
             `,
             [request.userId, category],
         );
 
-        /*
-         * Блокируем строку прогресса
-         * на время транзакции.
-         */
+        // Lock progress until the result and possible level unlock are committed together.
         const progressResult = await client.query(
             `
-                    SELECT
-                        unlocked_level
-                    FROM app.user_progress
-                    WHERE
-                        user_id = $1
-                        AND category = $2
-                    FOR UPDATE
-                `,
+                SELECT unlocked_level
+                FROM app.user_progress
+                WHERE user_id = $1 AND category = $2
+                FOR UPDATE
+            `,
             [request.userId, category],
         );
 
@@ -135,71 +91,35 @@ export async function addStatistic(request, response) {
             throw new Error("User progress not found");
         }
 
-        /*
-         * Нельзя отправить результат
-         * для ещё закрытого уровня.
-         */
         if (level > unlockedLevel) {
             await client.query("ROLLBACK");
-
-            return response.status(403).json({
-                message: "Level is locked",
-            });
+            return response.status(403).json({ message: "Level is locked" });
         }
 
         const statisticResult = await client.query(
             `
-                    INSERT INTO app.test_statistics (
-                        user_id,
-                        category,
-                        level,
-                        percent,
-                        correct,
-                        total
-                    )
-                    VALUES (
-                        $1,
-                        $2,
-                        $3,
-                        $4,
-                        $5,
-                        $6
-                    )
-
-                    RETURNING
-                        id,
-                        category,
-                        level,
-                        percent,
-                        correct,
-                        total,
-                        attempted_at
-                `,
+                INSERT INTO app.test_statistics (
+                    user_id,
+                    category,
+                    level,
+                    percent,
+                    correct,
+                    total
+                )
+                VALUES ($1, $2, $3, $4, $5, $6)
+                RETURNING id, category, level, percent, correct, total, attempted_at
+            `,
             [request.userId, category, level, percent, correct, total],
         );
 
-        /*
-         * Только backend решает,
-         * открывать следующий уровень
-         * или нет.
-         */
         if (percent >= PASS_PERCENT && level < maxLevel) {
             await client.query(
                 `
                     UPDATE app.user_progress
-
                     SET
-                        unlocked_level =
-                            GREATEST(
-                                    unlocked_level,
-                                    $3
-                            ),
-                        updated_at =
-                            NOW()
-
-                    WHERE
-                        user_id = $1
-                      AND category = $2
+                        unlocked_level = GREATEST(unlocked_level, $3),
+                        updated_at = NOW()
+                    WHERE user_id = $1 AND category = $2
                 `,
                 [request.userId, category, level + 1],
             );
@@ -224,15 +144,11 @@ export async function addStatistic(request, response) {
         try {
             await client.query("ROLLBACK");
         } catch {
-            // Транзакция могла быть
-            // уже завершена.
+            // The transaction may already be closed.
         }
 
         console.error("Add statistic error:", error);
-
-        return response.status(500).json({
-            message: "Failed to save statistics",
-        });
+        return response.status(500).json({ message: "Failed to save statistics" });
     } finally {
         client.release();
     }
@@ -248,14 +164,9 @@ export async function clearStatistics(request, response) {
             [request.userId],
         );
 
-        return response.status(200).json({
-            message: "Statistics cleared",
-        });
+        return response.status(200).json({ message: "Statistics cleared" });
     } catch (error) {
         console.error("Clear statistics error:", error);
-
-        return response.status(500).json({
-            message: "Failed to clear statistics",
-        });
+        return response.status(500).json({ message: "Failed to clear statistics" });
     }
 }
