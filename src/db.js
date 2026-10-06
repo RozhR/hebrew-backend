@@ -11,4 +11,8 @@ const pool = new Pool({
     password: process.env.DB_PASSWORD,
 });
 
+pool.on("error", (error) => {
+    console.error("Unexpected PostgreSQL pool error:", error.message);
+});
+
 export default pool;
