@@ -2,7 +2,12 @@ import { CATEGORY_MAX_LEVELS } from "../config/categories.js";
 import pool from "../db.js";
 
 const PASS_PERCENT = 85;
-const VOCABULARY_TEST_TOTAL = 20;
+
+const CATEGORY_TABLES = {
+    verbs: "content.verbs",
+    adjectives: "content.adjectives",
+    adverbs: "content.adverbs",
+};
 
 export async function getStatistics(request, response) {
     try {
@@ -54,11 +59,30 @@ export async function addStatistic(request, response) {
         if (
             !Number.isInteger(correct) ||
             !Number.isInteger(total) ||
-            total !== VOCABULARY_TEST_TOTAL ||
+            total < 1 ||
             correct < 0 ||
             correct > total
         ) {
             return response.status(400).json({ message: "Invalid test result" });
+        }
+
+        const table = CATEGORY_TABLES[category];
+
+        const expectedTotalResult = await client.query(
+            `
+                SELECT COUNT(*)::INTEGER AS total
+                FROM ${table}
+                WHERE level = $1
+            `,
+            [level],
+        );
+
+        const expectedTotal = expectedTotalResult.rows[0]?.total;
+
+        if (!Number.isInteger(expectedTotal) || expectedTotal < 1 || total !== expectedTotal) {
+            return response.status(400).json({
+                message: "Test result does not match the current level content",
+            });
         }
 
         const percent = Math.round((correct / total) * 100);
