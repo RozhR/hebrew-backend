@@ -97,4 +97,22 @@ describe("Auth", () => {
             message: "Invalid or expired access token",
         });
     });
+
+    test("GET /api/statistics requires authentication", async () => {
+        const response = await request(app).get("/api/statistics");
+
+        expect(response.status).toBe(401);
+        expect(response.body).toEqual({
+            message: "Authentication required",
+        });
+    });
+
+    test("GET /api/progress requires authentication", async () => {
+        const response = await request(app).get("/api/progress");
+
+        expect(response.status).toBe(401);
+        expect(response.body).toEqual({
+            message: "Authentication required",
+        });
+    });
 });
