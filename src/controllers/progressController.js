@@ -6,10 +6,10 @@ async function ensureUserProgress(userId) {
         `
             INSERT INTO app.user_progress (user_id, category, unlocked_level)
             SELECT $1, category, 1
-            FROM (VALUES ('verbs'), ('adjectives'), ('adverbs')) AS categories(category)
+            FROM unnest($2::TEXT[]) AS categories(category)
             ON CONFLICT (user_id, category) DO NOTHING
         `,
-        [userId],
+        [userId, CATEGORIES],
     );
 }
 
@@ -27,11 +27,7 @@ export async function getProgress(request, response) {
             [request.userId],
         );
 
-        const progress = {
-            verbs: 1,
-            adjectives: 1,
-            adverbs: 1,
-        };
+        const progress = Object.fromEntries(CATEGORIES.map((category) => [category, 1]));
 
         result.rows.forEach((row) => {
             if (CATEGORIES.includes(row.category)) {

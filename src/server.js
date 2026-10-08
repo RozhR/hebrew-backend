@@ -76,10 +76,7 @@ async function startServer() {
             void shutdown("SIGTERM");
         });
     } catch (error) {
-        console.error(
-            "Unable to start server because PostgreSQL is unavailable:",
-            error.message,
-        );
+        console.error("Unable to start server because PostgreSQL is unavailable:", error.message);
 
         process.exitCode = 1;
     }

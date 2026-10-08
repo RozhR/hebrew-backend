@@ -9,7 +9,5 @@ dotenv.config({
 process.env.NODE_ENV = "test";
 
 if (process.env.DB_NAME !== "hebrew_learning_test") {
-    throw new Error(
-        "Tests must run only with the hebrew_learning_test database",
-    );
+    throw new Error("Tests must run only with the hebrew_learning_test database");
 }

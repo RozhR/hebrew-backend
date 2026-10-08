@@ -36,4 +36,21 @@ app.use((request, response) => {
     });
 });
 
+app.use((error, request, response, next) => {
+    if (response.headersSent) {
+        return next(error);
+    }
+
+    if (error.type === "entity.parse.failed") {
+        return response.status(400).json({ message: "Invalid JSON body" });
+    }
+
+    if (error.type === "entity.too.large") {
+        return response.status(413).json({ message: "Request body is too large" });
+    }
+
+    console.error("Unhandled API error:", error);
+    return response.status(500).json({ message: "Internal server error" });
+});
+
 export default app;

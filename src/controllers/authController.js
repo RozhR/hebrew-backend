@@ -28,7 +28,7 @@ function normalizeEmail(value) {
 
 export async function register(request, response) {
     try {
-        const { email, password, firstName, lastName } = request.body;
+        const { email, password, firstName, lastName } = request.body ?? {};
 
         const normalizedEmail = normalizeEmail(email);
 
@@ -41,6 +41,10 @@ export async function register(request, response) {
             return response.status(400).json({
                 message: "Invalid registration data",
             });
+        }
+
+        if (normalizedEmail.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
+            return response.status(400).json({ message: "Invalid email address" });
         }
 
         if (password.length < PASSWORD_MIN_LENGTH) {
@@ -56,6 +60,18 @@ export async function register(request, response) {
             return response.status(400).json({
                 message: "First name and last name are required",
             });
+        }
+
+        if (cleanFirstName.length > 100 || cleanLastName.length > 100) {
+            return response
+                .status(400)
+                .json({ message: "Names must contain at most 100 characters" });
+        }
+
+        if (Buffer.byteLength(password, "utf8") > 72) {
+            return response
+                .status(400)
+                .json({ message: "Password must contain at most 72 UTF-8 bytes" });
         }
 
         const passwordHash = await bcrypt.hash(password, SALT_ROUNDS);
@@ -100,7 +116,7 @@ export async function register(request, response) {
 
 export async function login(request, response) {
     try {
-        const { email, password } = request.body;
+        const { email, password } = request.body ?? {};
 
         const normalizedEmail = normalizeEmail(email);
 

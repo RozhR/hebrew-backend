@@ -5,9 +5,7 @@ import { createInterface } from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 import { fileURLToPath } from "node:url";
 
-import pg from "pg";
-
-const { Pool } = pg;
+import { createPool } from "./utils/createPool.js";
 
 function runNodeScript(filename) {
     return new Promise((resolve, reject) => {
@@ -30,13 +28,7 @@ function runNodeScript(filename) {
 }
 
 async function clearContent() {
-    const pool = new Pool({
-        host: process.env.DB_HOST,
-        port: Number(process.env.DB_PORT),
-        database: process.env.DB_NAME,
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-    });
+    const pool = createPool();
 
     const client = await pool.connect();
 

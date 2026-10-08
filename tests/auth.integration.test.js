@@ -34,9 +34,7 @@ describe("Auth integration", () => {
     });
 
     test("POST /api/auth/register creates user in database", async () => {
-        const response = await request(app)
-            .post("/api/auth/register")
-            .send(testUser);
+        const response = await request(app).post("/api/auth/register").send(testUser);
 
         expect(response.status).toBe(201);
 
@@ -71,18 +69,14 @@ describe("Auth integration", () => {
     });
 
     test("POST /api/auth/login sets cookie and allows access to /api/users/me", async () => {
-        await request(app)
-            .post("/api/auth/register")
-            .send(testUser);
+        await request(app).post("/api/auth/register").send(testUser);
 
         const agent = request.agent(app);
 
-        const loginResponse = await agent
-            .post("/api/auth/login")
-            .send({
-                email: testUser.email,
-                password: testUser.password,
-            });
+        const loginResponse = await agent.post("/api/auth/login").send({
+            email: testUser.email,
+            password: testUser.password,
+        });
 
         expect(loginResponse.status).toBe(200);
 
@@ -96,17 +90,9 @@ describe("Auth integration", () => {
 
         expect(cookies).toBeDefined();
 
-        expect(
-            cookies.some((cookie) =>
-                cookie.startsWith("hebrew_auth="),
-            ),
-        ).toBe(true);
+        expect(cookies.some((cookie) => cookie.startsWith("hebrew_auth="))).toBe(true);
 
-        expect(
-            cookies.some((cookie) =>
-                cookie.includes("HttpOnly"),
-            ),
-        ).toBe(true);
+        expect(cookies.some((cookie) => cookie.includes("HttpOnly"))).toBe(true);
 
         const meResponse = await agent.get("/api/users/me");
 
@@ -120,16 +106,12 @@ describe("Auth integration", () => {
     });
 
     test("POST /api/auth/login rejects wrong password", async () => {
-        await request(app)
-            .post("/api/auth/register")
-            .send(testUser);
+        await request(app).post("/api/auth/register").send(testUser);
 
-        const response = await request(app)
-            .post("/api/auth/login")
-            .send({
-                email: testUser.email,
-                password: "WrongPassword123!",
-            });
+        const response = await request(app).post("/api/auth/login").send({
+            email: testUser.email,
+            password: "WrongPassword123!",
+        });
 
         expect(response.status).toBe(401);
 

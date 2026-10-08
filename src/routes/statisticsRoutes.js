@@ -16,19 +16,11 @@ import { requireAuth } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
-/* =========================================================
-   VOCABULARY TEST STATISTICS
-   ========================================================= */
-
 router.get("/", requireAuth, getStatistics);
 
 router.post("/", requireAuth, addStatistic);
 
 router.delete("/", requireAuth, clearStatistics);
-
-/* =========================================================
-   GRAMMAR TEST STATISTICS
-   ========================================================= */
 
 router.get("/grammar", requireAuth, getGrammarStatistics);
 

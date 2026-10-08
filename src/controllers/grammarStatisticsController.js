@@ -53,7 +53,7 @@ export async function getGrammarStatistics(request, response) {
 
 export async function addGrammarStatistic(request, response) {
     try {
-        const { correct, total, sections } = request.body;
+        const { correct, total, sections } = request.body ?? {};
 
         if (
             !Number.isInteger(correct) ||

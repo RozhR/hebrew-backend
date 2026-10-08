@@ -1,3 +1,4 @@
+import { CATEGORY_CONFIG } from "../config/categories.js";
 import pool from "../db.js";
 
 function parseLevel(value) {
@@ -75,25 +76,50 @@ async function getItemById(request, response, table, itemName) {
 }
 
 export function getVerbs(request, response) {
-    return getItems(request, response, "content.verbs", 25);
+    return getItems(request, response, CATEGORY_CONFIG.verbs.table, CATEGORY_CONFIG.verbs.maxLevel);
 }
 
 export function getVerbById(request, response) {
-    return getItemById(request, response, "content.verbs", "Verb");
+    return getItemById(
+        request,
+        response,
+        CATEGORY_CONFIG.verbs.table,
+        CATEGORY_CONFIG.verbs.itemName,
+    );
 }
 
 export function getAdjectives(request, response) {
-    return getItems(request, response, "content.adjectives", 25);
+    return getItems(
+        request,
+        response,
+        CATEGORY_CONFIG.adjectives.table,
+        CATEGORY_CONFIG.adjectives.maxLevel,
+    );
 }
 
 export function getAdjectiveById(request, response) {
-    return getItemById(request, response, "content.adjectives", "Adjective");
+    return getItemById(
+        request,
+        response,
+        CATEGORY_CONFIG.adjectives.table,
+        CATEGORY_CONFIG.adjectives.itemName,
+    );
 }
 
 export function getAdverbs(request, response) {
-    return getItems(request, response, "content.adverbs", 15);
+    return getItems(
+        request,
+        response,
+        CATEGORY_CONFIG.adverbs.table,
+        CATEGORY_CONFIG.adverbs.maxLevel,
+    );
 }
 
 export function getAdverbById(request, response) {
-    return getItemById(request, response, "content.adverbs", "Adverb");
+    return getItemById(
+        request,
+        response,
+        CATEGORY_CONFIG.adverbs.table,
+        CATEGORY_CONFIG.adverbs.itemName,
+    );
 }

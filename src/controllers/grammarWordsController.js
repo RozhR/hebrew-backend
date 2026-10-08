@@ -1,13 +1,8 @@
+import { getCategoryConfig } from "../config/categories.js";
 import pool from "../db.js";
 
-const CATEGORY_TABLES = {
-    verbs: "content.verbs",
-    adjectives: "content.adjectives",
-    adverbs: "content.adverbs",
-};
-
 function getCategoryTable(category) {
-    return CATEGORY_TABLES[category] ?? null;
+    return getCategoryConfig(category)?.table ?? null;
 }
 
 export async function getGrammarWords(request, response) {
@@ -43,7 +38,7 @@ export async function getGrammarWords(request, response) {
 
 export async function addGrammarWord(request, response) {
     try {
-        const { category, id } = request.body;
+        const { category, id } = request.body ?? {};
 
         const table = getCategoryTable(category);
 
@@ -59,11 +54,6 @@ export async function addGrammarWord(request, response) {
             });
         }
 
-        /*
-         * table берётся только из нашего
-         * фиксированного объекта CATEGORY_TABLES,
-         * а не напрямую от пользователя.
-         */
         const wordResult = await pool.query(
             `
                     SELECT id

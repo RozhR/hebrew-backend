@@ -1,13 +1,7 @@
-import { CATEGORY_MAX_LEVELS } from "../config/categories.js";
+import { getCategoryConfig } from "../config/categories.js";
 import pool from "../db.js";
 
 const PASS_PERCENT = 85;
-
-const CATEGORY_TABLES = {
-    verbs: "content.verbs",
-    adjectives: "content.adjectives",
-    adverbs: "content.adverbs",
-};
 
 export async function getStatistics(request, response) {
     try {
@@ -42,13 +36,14 @@ export async function getStatistics(request, response) {
 }
 
 export async function addStatistic(request, response) {
-    const client = await pool.connect();
+    let client;
 
     try {
-        const { category, level, correct, total } = request.body;
-        const maxLevel = CATEGORY_MAX_LEVELS[category];
+        const { category, level, correct, total } = request.body ?? {};
+        const config = getCategoryConfig(category);
+        const maxLevel = config?.maxLevel;
 
-        if (!maxLevel) {
+        if (!config) {
             return response.status(400).json({ message: "Invalid category" });
         }
 
@@ -66,7 +61,8 @@ export async function addStatistic(request, response) {
             return response.status(400).json({ message: "Invalid test result" });
         }
 
-        const table = CATEGORY_TABLES[category];
+        client = await pool.connect();
+        const table = config.table;
 
         const expectedTotalResult = await client.query(
             `
@@ -97,8 +93,6 @@ export async function addStatistic(request, response) {
             `,
             [request.userId, category],
         );
-
-        // Lock progress until the result and possible level unlock are committed together.
         const progressResult = await client.query(
             `
                 SELECT unlocked_level
@@ -166,15 +160,15 @@ export async function addStatistic(request, response) {
         });
     } catch (error) {
         try {
-            await client.query("ROLLBACK");
-        } catch {
-            // The transaction may already be closed.
+            if (client) await client.query("ROLLBACK");
+        } catch (rollbackError) {
+            console.error("Statistics rollback error:", rollbackError);
         }
 
         console.error("Add statistic error:", error);
         return response.status(500).json({ message: "Failed to save statistics" });
     } finally {
-        client.release();
+        client?.release();
     }
 }
 

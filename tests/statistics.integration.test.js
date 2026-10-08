@@ -21,20 +21,16 @@ const verbLevel1Id = 900001;
 const verbLevel2Id = 900002;
 
 async function registerAndLogin(user) {
-    const registerResponse = await request(app)
-        .post("/api/auth/register")
-        .send(user);
+    const registerResponse = await request(app).post("/api/auth/register").send(user);
 
     expect(registerResponse.status).toBe(201);
 
     const agent = request.agent(app);
 
-    const loginResponse = await agent
-        .post("/api/auth/login")
-        .send({
-            email: user.email,
-            password: user.password,
-        });
+    const loginResponse = await agent.post("/api/auth/login").send({
+        email: user.email,
+        password: user.password,
+    });
 
     expect(loginResponse.status).toBe(200);
 
@@ -88,14 +84,12 @@ describe("Statistics integration", () => {
         const agentA = await registerAndLogin(userA);
         const agentB = await registerAndLogin(userB);
 
-        const saveResponse = await agentA
-            .post("/api/statistics")
-            .send({
-                category: "verbs",
-                level: 1,
-                correct: 1,
-                total: 1,
-            });
+        const saveResponse = await agentA.post("/api/statistics").send({
+            category: "verbs",
+            level: 1,
+            correct: 1,
+            total: 1,
+        });
 
         expect(saveResponse.status).toBe(201);
 
@@ -133,28 +127,24 @@ describe("Statistics integration", () => {
         expect(progressB.status).toBe(200);
         expect(progressB.body.data.verbs).toBe(1);
 
-        const lockedLevelResponse = await agentB
-            .post("/api/statistics")
-            .send({
-                category: "verbs",
-                level: 2,
-                correct: 1,
-                total: 1,
-            });
+        const lockedLevelResponse = await agentB.post("/api/statistics").send({
+            category: "verbs",
+            level: 2,
+            correct: 1,
+            total: 1,
+        });
 
         expect(lockedLevelResponse.status).toBe(403);
         expect(lockedLevelResponse.body).toEqual({
             message: "Level is locked",
         });
 
-        const unlockedLevelResponse = await agentA
-            .post("/api/statistics")
-            .send({
-                category: "verbs",
-                level: 2,
-                correct: 0,
-                total: 1,
-            });
+        const unlockedLevelResponse = await agentA.post("/api/statistics").send({
+            category: "verbs",
+            level: 2,
+            correct: 0,
+            total: 1,
+        });
 
         expect(unlockedLevelResponse.status).toBe(201);
         expect(unlockedLevelResponse.body.data.percent).toBe(0);
@@ -164,13 +154,11 @@ describe("Statistics integration", () => {
         const agentA = await registerAndLogin(userA);
         const agentB = await registerAndLogin(userB);
 
-        const saveResponse = await agentA
-            .post("/api/statistics/grammar")
-            .send({
-                correct: 3,
-                total: 4,
-                sections: ["present", "future", "present"],
-            });
+        const saveResponse = await agentA.post("/api/statistics/grammar").send({
+            correct: 3,
+            total: 4,
+            sections: ["present", "future", "present"],
+        });
 
         expect(saveResponse.status).toBe(201);
 
@@ -181,9 +169,7 @@ describe("Statistics integration", () => {
             sections: ["present", "future"],
         });
 
-        const statisticsA = await agentA.get(
-            "/api/statistics/grammar",
-        );
+        const statisticsA = await agentA.get("/api/statistics/grammar");
 
         expect(statisticsA.status).toBe(200);
         expect(statisticsA.body.data).toHaveLength(1);
@@ -195,25 +181,19 @@ describe("Statistics integration", () => {
             sections: ["present", "future"],
         });
 
-        const statisticsB = await agentB.get(
-            "/api/statistics/grammar",
-        );
+        const statisticsB = await agentB.get("/api/statistics/grammar");
 
         expect(statisticsB.status).toBe(200);
         expect(statisticsB.body.data).toEqual([]);
 
-        const clearResponse = await agentA.delete(
-            "/api/statistics/grammar",
-        );
+        const clearResponse = await agentA.delete("/api/statistics/grammar");
 
         expect(clearResponse.status).toBe(200);
         expect(clearResponse.body).toEqual({
             message: "Grammar statistics cleared",
         });
 
-        const afterClear = await agentA.get(
-            "/api/statistics/grammar",
-        );
+        const afterClear = await agentA.get("/api/statistics/grammar");
 
         expect(afterClear.status).toBe(200);
         expect(afterClear.body.data).toEqual([]);
@@ -222,14 +202,12 @@ describe("Statistics integration", () => {
     test("vocabulary statistics reject invalid category", async () => {
         const agent = await registerAndLogin(userA);
 
-        const response = await agent
-            .post("/api/statistics")
-            .send({
-                category: "unknown",
-                level: 1,
-                correct: 1,
-                total: 1,
-            });
+        const response = await agent.post("/api/statistics").send({
+            category: "unknown",
+            level: 1,
+            correct: 1,
+            total: 1,
+        });
 
         expect(response.status).toBe(400);
         expect(response.body).toEqual({
@@ -240,13 +218,11 @@ describe("Statistics integration", () => {
     test("grammar statistics reject invalid sections", async () => {
         const agent = await registerAndLogin(userA);
 
-        const response = await agent
-            .post("/api/statistics/grammar")
-            .send({
-                correct: 3,
-                total: 4,
-                sections: ["present", "unknown"],
-            });
+        const response = await agent.post("/api/statistics/grammar").send({
+            correct: 3,
+            total: 4,
+            sections: ["present", "unknown"],
+        });
 
         expect(response.status).toBe(400);
         expect(response.body).toEqual({
@@ -257,14 +233,12 @@ describe("Statistics integration", () => {
     test("vocabulary statistics can be cleared", async () => {
         const agent = await registerAndLogin(userA);
 
-        const saveResponse = await agent
-            .post("/api/statistics")
-            .send({
-                category: "verbs",
-                level: 1,
-                correct: 1,
-                total: 1,
-            });
+        const saveResponse = await agent.post("/api/statistics").send({
+            category: "verbs",
+            level: 1,
+            correct: 1,
+            total: 1,
+        });
 
         expect(saveResponse.status).toBe(201);
 
