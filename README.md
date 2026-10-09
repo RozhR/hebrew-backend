@@ -122,3 +122,93 @@ After editing Excel source files in `content/grammar`, run `npm run grammar:buil
 Production must use HTTPS and `NODE_ENV=production` so the authentication cookie is secure. The frontend and API currently assume a common origin; the Vite proxy provides this during development. Use `npm start` to run without file watching.
 
 The server recomputes percentages and validates vocabulary totals and unlocked levels. It still trusts the submitted correct-answer count. Rate limiting for login and registration, deployment automation and versioned database migrations remain future work.
+
+## Local Docker setup
+
+Requires Docker Desktop running Linux containers.
+
+Keep both repositories in sibling directories:
+
+- hebrew-backend
+- hebrew-redux-toolkit
+
+Run the following commands from hebrew-backend.
+
+### Environment
+
+Create .env.docker with two different randomly generated values:
+
+```dotenv
+DOCKER_DB_PASSWORD=your_random_password
+DOCKER_JWT_SECRET=your_random_secret
+```
+
+Generate each value separately:
+
+```powershell
+node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"
+```
+
+The .env.docker file is ignored by Git.
+
+### First launch
+
+Build the backend image and start PostgreSQL:
+
+```powershell
+docker compose --env-file .env.docker build backend
+docker compose --env-file .env.docker up -d db
+```
+
+Create the schema and import content. Run commands one at a time and stop if any command fails:
+
+```powershell
+docker compose --env-file .env.docker run --rm backend npm run db:schema
+docker compose --env-file .env.docker run --rm backend npm run seed:vocabulary
+docker compose --env-file .env.docker run --rm backend npm run seed:verb-grammar
+docker compose --env-file .env.docker run --rm backend npm run seed:adjective-grammar
+docker compose --env-file .env.docker run --rm backend npm run seed:adverb-grammar
+```
+
+Build and start the application:
+
+```powershell
+docker compose --env-file .env.docker up --build -d
+```
+
+Open http://localhost:8080.
+
+This setup uses a separate Docker database. Existing accounts in local PostgreSQL are not copied. Register a new account in the Docker instance.
+
+### Daily use
+
+Start:
+
+```powershell
+docker compose --env-file .env.docker up -d
+```
+
+Check status and logs:
+
+```powershell
+docker compose --env-file .env.docker ps
+docker compose --env-file .env.docker logs backend frontend
+```
+
+Stop while keeping database data:
+
+```powershell
+docker compose --env-file .env.docker down
+```
+
+Database data is stored in the postgres-data volume. Using down -v deletes that volume and its data.
+
+After changing application code, rebuild:
+
+```powershell
+docker compose --env-file .env.docker up --build -d
+```
+
+Schema creation and content import are manual setup steps, not automatic startup steps. Grammar seed commands replace their corresponding content tables.
+
+This configuration is intended for local HTTP use. Public deployment requires HTTPS and production authentication cookie settings.
