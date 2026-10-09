@@ -15,6 +15,7 @@ async function seedVerbGrammar() {
 
         const futureImperative = await readJson(
             "../database/seed-data/verbs/futureImperative.json",
+            import.meta.url
         );
 
         const examples = await readJson(
