@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 
 import authRouter from "./routes/authRoutes.js";
 import grammarRouter from "./routes/grammarRoutes.js";
@@ -10,6 +11,16 @@ import grammarWordsRouter from "./routes/grammarWordsRoutes.js";
 import cookieParser from "cookie-parser";
 
 const app = express();
+const frontendOrigin = process.env.FRONTEND_ORIGIN;
+
+if (frontendOrigin) {
+    app.use(
+        cors({
+            origin: frontendOrigin,
+            credentials: true,
+        }),
+    );
+}
 
 app.use(express.json());
 app.use(cookieParser());
