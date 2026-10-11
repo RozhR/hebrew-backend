@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors";
+import cookieParser from "cookie-parser";
 
 import authRouter from "./routes/authRoutes.js";
 import grammarRouter from "./routes/grammarRoutes.js";
@@ -8,19 +8,9 @@ import vocabularyRouter from "./routes/vocabularyRoutes.js";
 import progressRouter from "./routes/progressRoutes.js";
 import statisticsRouter from "./routes/statisticsRoutes.js";
 import grammarWordsRouter from "./routes/grammarWordsRoutes.js";
-import cookieParser from "cookie-parser";
+import adminRouter from "./routes/adminRoutes.js";
 
 const app = express();
-const frontendOrigin = process.env.FRONTEND_ORIGIN;
-
-if (frontendOrigin) {
-    app.use(
-        cors({
-            origin: frontendOrigin,
-            credentials: true,
-        }),
-    );
-}
 
 app.use(express.json());
 app.use(cookieParser());
@@ -38,6 +28,8 @@ app.use("/api/progress", progressRouter);
 app.use("/api/statistics", statisticsRouter);
 app.use("/api/grammar-words", grammarWordsRouter);
 
+app.use("/api/admin", adminRouter);
+
 app.use("/api", vocabularyRouter);
 app.use("/api/grammar", grammarRouter);
 
@@ -53,15 +45,22 @@ app.use((error, request, response, next) => {
     }
 
     if (error.type === "entity.parse.failed") {
-        return response.status(400).json({ message: "Invalid JSON body" });
+        return response.status(400).json({
+            message: "Invalid JSON body",
+        });
     }
 
     if (error.type === "entity.too.large") {
-        return response.status(413).json({ message: "Request body is too large" });
+        return response.status(413).json({
+            message: "Request body is too large",
+        });
     }
 
     console.error("Unhandled API error:", error);
-    return response.status(500).json({ message: "Internal server error" });
+
+    return response.status(500).json({
+        message: "Internal server error",
+    });
 });
 
 export default app;

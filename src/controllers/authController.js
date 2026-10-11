@@ -44,7 +44,9 @@ export async function register(request, response) {
         }
 
         if (normalizedEmail.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
-            return response.status(400).json({ message: "Invalid email address" });
+            return response.status(400).json({
+                message: "Invalid email address",
+            });
         }
 
         if (password.length < PASSWORD_MIN_LENGTH) {
@@ -63,15 +65,15 @@ export async function register(request, response) {
         }
 
         if (cleanFirstName.length > 100 || cleanLastName.length > 100) {
-            return response
-                .status(400)
-                .json({ message: "Names must contain at most 100 characters" });
+            return response.status(400).json({
+                message: "Names must contain at most 100 characters",
+            });
         }
 
         if (Buffer.byteLength(password, "utf8") > 72) {
-            return response
-                .status(400)
-                .json({ message: "Password must contain at most 72 UTF-8 bytes" });
+            return response.status(400).json({
+                message: "Password must contain at most 72 UTF-8 bytes",
+            });
         }
 
         const passwordHash = await bcrypt.hash(password, SALT_ROUNDS);
@@ -90,6 +92,7 @@ export async function register(request, response) {
                     email,
                     first_name,
                     last_name,
+                    role,
                     created_at,
                     updated_at
             `,
@@ -134,6 +137,7 @@ export async function login(request, response) {
                     password_hash,
                     first_name,
                     last_name,
+                    role,
                     created_at,
                     updated_at
                 FROM app.users
@@ -179,6 +183,7 @@ export async function login(request, response) {
                     email: user.email,
                     first_name: user.first_name,
                     last_name: user.last_name,
+                    role: user.role,
                     created_at: user.created_at,
                     updated_at: user.updated_at,
                 },

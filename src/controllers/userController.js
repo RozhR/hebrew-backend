@@ -9,6 +9,7 @@ export async function getCurrentUser(request, response) {
                     email,
                     first_name,
                     last_name,
+                    role,
                     created_at,
                     updated_at
                 FROM app.users

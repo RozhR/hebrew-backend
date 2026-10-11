@@ -215,6 +215,8 @@ CREATE TABLE IF NOT EXISTS app.users (
                                          password_hash TEXT NOT NULL,
                                          first_name TEXT NOT NULL,
                                          last_name TEXT NOT NULL,
+                                         role TEXT NOT NULL DEFAULT 'user'
+                                         CHECK (role IN ('admin', 'user')),
                                          created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     );
