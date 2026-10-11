@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import cookieParser from "cookie-parser";
 
 import authRouter from "./routes/authRoutes.js";
@@ -11,6 +12,17 @@ import grammarWordsRouter from "./routes/grammarWordsRoutes.js";
 import adminRouter from "./routes/adminRoutes.js";
 
 const app = express();
+
+const frontendOrigin = process.env.FRONTEND_ORIGIN;
+
+if (frontendOrigin) {
+    app.use(
+        cors({
+            origin: frontendOrigin,
+            credentials: true,
+        }),
+    );
+}
 
 app.use(express.json());
 app.use(cookieParser());
@@ -27,7 +39,6 @@ app.use("/api/users", userRouter);
 app.use("/api/progress", progressRouter);
 app.use("/api/statistics", statisticsRouter);
 app.use("/api/grammar-words", grammarWordsRouter);
-
 app.use("/api/admin", adminRouter);
 
 app.use("/api", vocabularyRouter);
